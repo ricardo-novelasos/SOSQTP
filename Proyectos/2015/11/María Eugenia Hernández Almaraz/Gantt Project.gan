@@ -1,18 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Instalación y Capacitación de los sistemas Administrativos y Contables" company="Gas Campanita" webLink="http://" view-date="2015-12-19" view-index="0" gantt-divider-location="521" resource-divider-location="300" version="2.7.1" locale="es_MX">
+<?xml version="1.0" encoding="UTF-8"?><project name="Instalación y Capacitación de los sistemas Administrativos y Contables" company="Gas Campanita" webLink="http://" view-date="2015-11-27" view-index="0" gantt-divider-location="315" resource-divider-location="300" version="2.7.1" locale="es">
     <description><![CDATA[Organización de tiempos de instalación, capacitación y entrega de 
 Easy Retail Admin 100 usuarios en red
 Contpaq i Contabilidad 10 usuarios en red
 Contpaq i Nóminas 4 usuarios en red
 Contpaq i Bancos 5 usuarios en red
 ]]></description>
-    <view zooming-state="default:0" id="gantt-chart">
-        <field id="tpd3" name="Nombre" width="49" order="0"/>
-        <field id="tpd4" name="Fecha de inicio" width="25" order="1"/>
-        <field id="tpd5" name="Fecha de fin" width="25" order="2"/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="25" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="14" order="1"/>
+        <field id="tpc0" name="Responsable" width="35" order="2"/>
+        <field id="tpd5" name="Fecha de fin" width="24" order="3"/>
+        <option id="taskLabelUp" value=""/>
+        <option id="taskLabelLeft" value=""/>
+        <option id="taskLabelRight" value="name"/>
+        <option id="color.recent"><![CDATA[#ccccff #9999ff #ff3333]]></option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nombre" width="70" order="0"/>
-        <field id="1" name="Función" width="29" order="1"/>
+        <field id="0" name="Nombre" width="50" order="0"/>
+        <field id="1" name="Función" width="50" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -37,25 +42,107 @@ Contpaq i Bancos 5 usuarios en red
             <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+            <taskproperty id="tpc0" name="Responsable" type="custom" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Instalación ERA UB" meeting="false" start="2015-12-21" duration="1" complete="0" expand="true"/>
-        <task id="1" name="Instalación CCON UB" color="#8cb6ce" meeting="false" start="2015-12-21" duration="1" complete="0" expand="true">
+        <task id="46" name="Desarrollos de Join Data (2)" meeting="false" start="2015-11-27" duration="18" complete="0" expand="true">
+            <depend id="70" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Desarrollo SOS"/>
+        </task>
+        <task id="44" name="Descarga de los sistemas Contpaq i" meeting="false" start="2015-11-28" duration="1" complete="0" expand="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+            <depend id="40" type="2" difference="0" hardness="Strong"/>
+            <depend id="80" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Gas Campanita"/>
+        </task>
+        <task id="80" name="Instalación CCON UB" color="#ccccff" meeting="false" start="2015-11-30" duration="1" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Soporte SOS"/>
+        </task>
+        <task id="2" name="Instalación CNOM UB" color="#8cb6ce" meeting="false" start="2015-11-30" duration="1" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Soporte SOS"/>
+        </task>
+        <task id="3" name="Instalación CBAN UB" color="#8cb6ce" meeting="false" start="2015-11-30" duration="1" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Soporte SOS"/>
+        </task>
+        <task id="40" name="Instalación XML+ UB" meeting="false" start="2015-11-30" duration="1" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Soporte SOS"/>
+        </task>
+        <task id="11" name="Instalación CCON 9UD" color="#8cb6ce" meeting="false" start="2015-11-30" duration="1" complete="0" expand="true">
+            <depend id="49" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Soporte SOS"/>
+        </task>
+        <task id="12" name="Instalación CNOM 3UD" color="#8cb6ce" meeting="false" start="2015-11-30" duration="1" complete="0" expand="true">
+            <depend id="51" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Soporte SOS"/>
+        </task>
+        <task id="13" name="Instalación CBAN 4UD" color="#8cb6ce" meeting="false" start="2015-11-30" duration="1" complete="0" expand="true">
+            <depend id="52" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Soporte SOS"/>
+        </task>
+        <task id="49" name="Precapacitación de Contabilidad" meeting="false" start="2015-12-01" duration="1" complete="0" expand="true">
+            <depend id="45" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Soporte SOS"/>
+        </task>
+        <task id="51" name="Precapacitación de Nóminas" meeting="false" start="2015-12-01" duration="1" complete="0" expand="true">
+            <depend id="45" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Soporte SOS"/>
+        </task>
+        <task id="52" name="Precapacitación de Bancos" meeting="false" start="2015-12-01" duration="1" complete="0" expand="true">
+            <depend id="45" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Soporte SOS"/>
+        </task>
+        <task id="45" name="Captura de la información" color="#8cb6ce" meeting="false" start="2015-12-02" duration="10" complete="0" expand="true">
             <depend id="9" type="2" difference="0" hardness="Strong"/>
             <depend id="10" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Gas Campanita"/>
         </task>
-        <task id="2" name="Instalación CNOM UB" color="#8cb6ce" meeting="false" start="2015-12-21" duration="1" complete="0" expand="true">
-            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        <task id="9" name="Interfaz CNOM -&gt; CCON" color="#8cb6ce" meeting="false" start="2015-12-14" duration="1" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Soporte SOS"/>
         </task>
-        <task id="3" name="Instalación CBAN UB" color="#8cb6ce" meeting="false" start="2015-12-21" duration="1" complete="0" expand="true">
-            <depend id="10" type="2" difference="0" hardness="Strong"/>
+        <task id="10" name="Interfaz CBAN -&gt; CCON" color="#8cb6ce" meeting="false" start="2015-12-14" duration="1" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Soporte SOS"/>
         </task>
-        <task id="7" name="Implementación de JD ERA-&gt;CCON" meeting="false" start="2015-12-21" duration="1" complete="0" expand="true"/>
-        <task id="8" name="Implementación de JD ERA-&gt;CBAN" meeting="false" start="2015-12-21" duration="1" complete="0" expand="true"/>
-        <task id="9" name="Interfaz CNOM -&gt; CCON" color="#8cb6ce" meeting="false" start="2015-12-22" duration="1" complete="0" expand="true">
-            <notes><![CDATA[Para hacer la inerfaz es necesario tener los catalógos cargados]]></notes>
+        <task id="70" name="Descarga de ERA" meeting="false" start="2015-12-18" duration="1" complete="0" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+            <depend id="21" type="2" difference="0" hardness="Strong"/>
+            <depend id="78" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Gas Campanita"/>
         </task>
-        <task id="10" name="Interfaz CBAN -&gt; CCON" color="#8cb6ce" meeting="false" start="2015-12-22" duration="1" complete="0" expand="true">
-            <notes><![CDATA[Para hacer la inerfaz es necesario tener los catalógos cargados]]></notes>
+        <task id="78" name="Instalación ERA UB" meeting="false" start="2015-12-19" duration="1" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Desarrollo SOS"/>
+        </task>
+        <task id="21" name="Instalación de ERA 99UD" color="#8cb6ce" meeting="false" start="2015-12-19" duration="1" complete="0" expand="true">
+            <depend id="29" type="2" difference="0" hardness="Strong"/>
+            <depend id="32" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Desarrollo SOS"/>
+        </task>
+        <task id="7" name="Implementación de JD ERA-&gt;CCON" meeting="false" start="2015-12-19" duration="1" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Desarrollo SOS"/>
+        </task>
+        <task id="8" name="Implementación de JD ERA-&gt;CBAN" meeting="false" start="2015-12-19" duration="1" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Desarrollo SOS"/>
+        </task>
+        <task id="29" name="Capacitación Global ERA" color="#8cb6ce" meeting="false" start="2015-12-21" duration="1" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Desarrollo SOS"/>
+        </task>
+        <task id="32" name="Capacitación CXC y CXP ERA" color="#8cb6ce" meeting="false" start="2015-12-21" duration="1" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Desarrollo SOS"/>
+        </task>
+        <task id="34" name="Capacitación Punto de Venta ERA" color="#8cb6ce" meeting="false" start="2015-12-22" duration="1" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Desarrollo SOS"/>
+        </task>
+        <task id="35" name="Capacitación Contabilidad" meeting="false" start="2015-12-23" duration="1" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Soporte SOS"/>
+        </task>
+        <task id="37" name="Capacitación Bancos" meeting="false" start="2015-12-23" duration="1" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Soporte SOS"/>
+        </task>
+        <task id="36" name="Capacitación Nóminas" meeting="false" start="2015-12-24" duration="1" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Soporte SOS"/>
+        </task>
+        <task id="41" name="Capacitación XML+" meeting="false" start="2015-12-24" duration="1" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Soporte SOS"/>
         </task>
     </tasks>
     <resources/>
@@ -67,9 +154,10 @@ Contpaq i Bancos 5 usuarios en red
         <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd12" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd6" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd3" order="0" width="256" visible="true"/>
-        <displaycolumn property-id="tpd4" order="1" width="131" visible="true"/>
-        <displaycolumn property-id="tpd5" order="2" width="130" visible="true"/>
+        <displaycolumn property-id="tpd3" order="0" width="74" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="44" visible="true"/>
+        <displaycolumn property-id="tpc0" order="2" width="106" visible="true"/>
+        <displaycolumn property-id="tpd5" order="3" width="72" visible="true"/>
         <displaycolumn property-id="tpd10" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd11" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
