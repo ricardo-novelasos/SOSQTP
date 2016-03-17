@@ -1,0 +1,240 @@
+Received: from mxfront7o.mail.yandex.net ([127.0.0.1])
+	by mxfront7o.mail.yandex.net with LMTP id 5hbbNYko
+	for <alma.garcia@sos-soft.com>; Tue, 15 Mar 2016 01:18:07 +0300
+Received: from nm47-vm1.bullet.mail.bf1.yahoo.com (nm47-vm1.bullet.mail.bf1.yahoo.com [216.109.115.124])
+	by mxfront7o.mail.yandex.net (nwsmtp/Yandex) with ESMTPS id wXe1OwkzN6-I6tiTsKY;
+	Tue, 15 Mar 2016 01:18:06 +0300
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(Client certificate not present)
+Return-Path: sid_p2003@yahoo.com.mx
+X-Yandex-Front: mxfront7o.mail.yandex.net
+X-Yandex-TimeMark: 1457993886
+Authentication-Results: mxfront7o.mail.yandex.net; spf=pass (mxfront7o.mail.yandex.net: domain of yahoo.com.mx designates 216.109.115.124 as permitted sender) smtp.mail=sid_p2003@yahoo.com.mx; dkim=pass header.i=@yahoo.com.mx
+X-Yandex-Spam: 1
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com.mx; s=s2048; t=1457993884; bh=lPojDfFnxIppWW+5r+JVTDTe3co31CbsdAIDi96aZTA=; h=Date:From:Reply-To:To:In-Reply-To:References:Subject:From:Subject; b=Q+9VjLa6V071XdKKu84JJYtmrBycdhXofGib8csPvkqwTHzbMmVng1SRD+ovBygZizNGRMQM/SX2JqjDeIacL9IxSIhHu0OQdL/Yix2yTkrKCTBU2VDt1XtXdQ0pLemtM+5AhfKtm1CYL5ciJwSMJNbV9F+0LSfZxFDBDvGz00sbyyJ5LIIuL72EZ2KiiOPcl01xV27OTSWMFuqkiTFfcEg8Ve3wDlbFDSBPyDBx+QGOka9YZWyCUTC+YeTprV/mzMdmDzS0m2HdOOhuD+wFYtxcyWfxNOYBVNBWJRFI3S0FLJGvA2gORIG+kU0HASzc8iOb9F8+RRXfDEs7CBTV5Q==
+Received: from [66.196.81.173] by nm47.bullet.mail.bf1.yahoo.com with NNFMP; 14 Mar 2016 22:18:04 -0000
+Received: from [98.139.212.233] by tm19.bullet.mail.bf1.yahoo.com with NNFMP; 14 Mar 2016 22:18:04 -0000
+Received: from [127.0.0.1] by omp1042.mail.bf1.yahoo.com with NNFMP; 14 Mar 2016 22:18:04 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 696702.7823.bm@omp1042.mail.bf1.yahoo.com
+X-YMail-OSG: cvORHtwVM1nczgZi6eX.Cpi9JzqW9l10G5wLi0OFTYCziBczLn351NhOsOtnqs5
+ t3vIxtwSGO7ljcfae4NaE6zTs_0N7MTgZrNTsViBlCHMFGLMb.j7GLqbKCXPW5e7hPDQY87iFB_T
+ cRGaqfm7u8x6GoCHhaP5ciW0iaEi311c6_VToTEU4KPn_qsP3tZXAzctsrIJyfYK3CSiyfkuzAbp
+ v14_MqkbcpKnycYG0AADZ5OOkMFBtTU0sBsGsA4XHzloXyK_YDeJ2RIVpMMEAFegzXkw5iXSBRX6
+ zzRXf1.mmYQAmibBi9zEJd25DPJ1IcTlrvdczC4kN6_Lhr8zLF0oXrcYg62P.elrbTr.yG7qsUDf
+ 19c0zWIRsWK7fTCWfzr4oJUXarTLOKu7wPK6ZE62UVa.TUrvLqY7rQ.KB8qtAIw1FduSyeptCwRB
+ TWXjW3bkyZhfrh102tF_HkmB3rC.CE_7QWLrRvqnx7.GbLf3zxgPsjCq_pYM5Zrsy0ZvuB6yJ267
+ j9j0MjdeyBxk-
+Received: by 66.196.80.117; Mon, 14 Mar 2016 22:18:04 +0000 
+Date: Mon, 14 Mar 2016 22:18:03 +0000 (UTC)
+From: Edgar Alejandro de Luna <sid_p2003@yahoo.com.mx>
+Reply-To: Edgar Alejandro de Luna <sid_p2003@yahoo.com.mx>
+To: "alma.garcia@sos-soft.com" <alma.garcia@sos-soft.com>
+Message-ID: <1377928266.1555462.1457993883820.JavaMail.yahoo@mail.yahoo.com>
+In-Reply-To: <NBXISMTP1uYc66FPFDc003edba0@nbxismtp>
+References: <NBXISMTP1uYc66FPFDc003edba0@nbxismtp>
+Subject: Comprobante de pago
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1555461_1254457143.1457993883813"
+Content-Length: 12168
+X-Yandex-Forward: 3f3ca835f0ec994b3f591f12a1e7ff3e
+
+------=_Part_1555461_1254457143.1457993883813
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Buenas tardes:
+Env=C3=ADo el comprobante de pago.
+Saludos=C2=A0Rosario Gallegos LemusSERVICIOS INDUSTRIALES D=C2=B4P=C2=A0REV=
+OLUCI=C3=93N #101=C2=A0LA LOMA, =C2=A0LORETO, ZAC.=C2=A0TEL / FAX. 01-496-8=
+51-3034
+http://serviciosidp.com/
+
+     El Lunes, 14 de marzo, 2016 13:19:39, Banorte por Internet <banortepor=
+internet@banorte.com> escribi=C3=B3:
+=20
+
+ #yiv7686303911 .yiv7686303911dTablaf{position:relative;border-top:solid 1p=
+x #CCC;border-bottom:dashed 1px #CCC;padding:10px 0 15px 0;margin-bottom:10=
+px;}#yiv7686303911 .yiv7686303911dTablaf select{background:repeat-x;width:1=
+00%;border-left:solid 1px #666;border-top:solid 1px #666;border-bottom:soli=
+d 1px #CCC;border-right:none;font-size:11px;line-height:13px;font-family:Ve=
+rdana, Arial, Helvetica, sans-serif;}#yiv7686303911 .yiv7686303911dTablaf t=
+d{font-size:12px;padding:6px 0 7px 5px;color:#000;line-height:14px;font-fam=
+ily:Verdana, Arial;}#yiv7686303911 .yiv7686303911dTablaf td a{color:#000;}
+|  |
+
+
+|  |
+| Estimado(a): EDGAR ALEJANDRO/DE LUNA PRIETO=20
+
+ La siguiente operaci=C3=B3n ha sido registrada en Banorte por Internet.  |
+|  Operaci=C3=B3n:  | Transferencias a Cuentas de Terceros Banorte / Ixe |
+|  Fecha de Operaci=C3=B3n:  | 14/Mar/2016 |
+|  Hora de Operaci=C3=B3n:  | 13:19:50 horas |
+|  Cuenta Origen:  | Enlace Global - *******0250 |
+| Cuenta Destino: | SOS software - *******1716 |
+|  Nombre del Beneficiario:  | SOS software S.A. de C.V. |
+|  RFC del Beneficiario:  | SOF1406233F5 |
+|  E-mail del Beneficiario:  | No capturado |
+|  Banco Destino:  | Banorte |
+|  Importe:  | $3,932.40 MN |
+|  IVA:  | $0.00 MN |
+|  N=C3=BAmero de Referencia:  | 4786 |
+|  Concepto de Pago:  | pago cot. Edgar A De Luna |
+|  Comisi=C3=B3n:  | $0.00 MN |
+|  IVA Comisi=C3=B3n:  | $0.00 MN |
+|  Fecha de Aplicaci=C3=B3n:  | 14/Mar/2016 |
+| Clave de Rastreo Cuenta Origen:  | 18627 |
+| Clave de Rastreo Cuenta Destino:  | 1906 |
+|  |
+|  |
+|  |
+| Gracias por utilizar Banorte por Internet  |
+| Nota: La fecha y hora de este mensaje ("Enviado el") podr=C3=A1 variar re=
+specto a la fecha/hora real de operaci=C3=B3n de su transacci=C3=B3n  ("Ope=
+rado el"). Esto depender=C3=A1 de la configuraci=C3=B3n de sus servicios de=
+ correo y/o computadora en cuanto a su zona horaria.  |
+
+
+|  |
+
+
+|=20
+Este correo electronico es confidencial y/o puede contener informacion priv=
+ilegiada.
+ Si usted no es su destinatario o no es alguna persona autorizada por este =
+para recibir sus correos electronicos, NO debera usted utilizar, copiar, re=
+velar, o tomar ninguna accion basada en este correo electronico o cualquier=
+ otra informacion incluida en el, favor de notificar al remitente de inmedi=
+ato mediante el reenvio de este correo electronico y borrar a continuacion =
+totalmente este correo electronico y sus anexos.
+Nota: Los acentos y caracteres especiales fueron omitidos para su correcta =
+lectura en cualquier medio electronico.This e-mail is confidential and/or m=
+ay contain privileged information.
+If you are not the addressee or authorized to receive this for the addresse=
+e, you must not use, copy, disclose, or take any action based on this messa=
+ge or any other information herein, please advise the sender immediately by=
+ reply this e-mail and delete this e-mail and its attachments.  |
+
+
+
+  
+------=_Part_1555461_1254457143.1457993883813
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head><body><div style=3D"color:#000; background-color:#fff; f=
+ont-family:HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helve=
+tica, Arial, Lucida Grande, sans-serif;font-size:16px"><div id=3D"yui_3_16_=
+0_1_1457988322652_12762"><span>Buenas tardes:</span></div><div id=3D"yui_3_=
+16_0_1_1457988322652_12762"><span><br></span></div><div id=3D"yui_3_16_0_1_=
+1457988322652_12762"><span id=3D"yui_3_16_0_1_1457988322652_12967">Env=C3=
+=ADo el comprobante de pago.</span></div><div id=3D"yui_3_16_0_1_1457988322=
+652_12762"><span><br></span></div><div id=3D"yui_3_16_0_1_1457988322652_127=
+62"><span id=3D"yui_3_16_0_1_1457988322652_12968">Saludos</span></div><div>=
+</div><div id=3D"yui_3_16_0_1_1457988322652_12814">&nbsp;</div><div id=3D"y=
+ui_3_16_0_1_1457988322652_12814">Rosario Gallegos Lemus</div><div class=3D"=
+signature" id=3D"yui_3_16_0_1_1457988322652_12987">SERVICIOS INDUSTRIALES D=
+=C2=B4P<span style=3D"color:rgb(68, 0, 98);">&nbsp;</span><div>REVOLUCI=C3=
+=93N #101&nbsp;</div><div>LA LOMA, &nbsp;LORETO, ZAC.&nbsp;</div><div id=3D=
+"yui_3_16_0_1_1457988322652_12988">TEL / FAX. 01-496-851-3034</div><div id=
+=3D"yui_3_16_0_1_1457988322652_12986"><br></div><div><a rel=3D"nofollow" ta=
+rget=3D"_blank" href=3D"http://serviciosidp.com/">http://serviciosidp.com/<=
+/a></div></div><div class=3D"qtdSeparateBR"><br><br></div>  <div class=3D"y=
+ahoo_quoted" id=3D"yui_3_16_0_1_1457988322652_12992" style=3D"display: bloc=
+k;"> <div style=3D"font-family: HelveticaNeue-Light, Helvetica Neue Light, =
+Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif; font-size: 16p=
+x;" id=3D"yui_3_16_0_1_1457988322652_12991"> <div style=3D"font-family: Hel=
+veticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif; fo=
+nt-size: 16px;" id=3D"yui_3_16_0_1_1457988322652_12990"> <div dir=3D"ltr"><=
+font size=3D"2" face=3D"Arial"> El Lunes, 14 de marzo, 2016 13:19:39, Banor=
+te por Internet &lt;banorteporinternet@banorte.com&gt; escribi=C3=B3:<br></=
+font></div>  <br><br> <div class=3D"y_msg_container" id=3D"yui_3_16_0_1_145=
+7988322652_12998"><div id=3D"yiv7686303911"><style type=3D"text/css">#yiv76=
+86303911 .yiv7686303911dTablaf{position:relative;border-top:solid 1px #CCC;=
+border-bottom:dashed 1px #CCC;padding:10px 0 15px 0;margin-bottom:10px;}#yi=
+v7686303911 .yiv7686303911dTablaf select{background:repeat-x;width:100%;bor=
+der-left:solid 1px #666;border-top:solid 1px #666;border-bottom:solid 1px #=
+CCC;border-right:none;font-size:11px;line-height:13px;font-family:Verdana, =
+Arial, Helvetica, sans-serif;}#yiv7686303911 .yiv7686303911dTablaf td{font-=
+size:12px;padding:6px 0 7px 5px;color:#000;line-height:14px;font-family:Ver=
+dana, Arial;}#yiv7686303911 .yiv7686303911dTablaf td a{color:#000;}</style>=
+<div id=3D"yui_3_16_0_1_1457988322652_12997"><table border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" style=3D"width:800px;"><tbody><tr><td colspan=3D"=
+3"><img name=3D"header_logo" src=3D"https://nbxi.banorte.com/nbxi/images/He=
+aderNotificacionesv1.png" width=3D"604" height=3D"68" border=3D"0" alt=3D""=
+ data-id=3D"32be2a04-6ae0-ef01-d5d5-cc743b105051"></td></tr></tbody></table=
+><table class=3D"yiv7686303911dTablaf" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"width:800px;" id=3D"yui_3_16_0_1_1457988322652_12996"=
+><tbody id=3D"yui_3_16_0_1_1457988322652_12995"><tr><td colspan=3D"3"></td>=
+</tr><tr><td colspan=3D"3"><span style=3D"font-family:Arial;">Estimado(a): =
+<strong>EDGAR ALEJANDRO/DE LUNA PRIETO                    </strong><br><br>=
+                              La siguiente operaci=C3=B3n ha sido registrad=
+a en Banorte por Internet. </span></td></tr><tr><td width=3D"34%" align=3D"=
+right">                          Operaci=C3=B3n:                      </td>=
+<td align=3D"left">Transferencias a Cuentas de Terceros Banorte / Ixe</td><=
+/tr><tr id=3D"yui_3_16_0_1_1457988322652_12994"><td align=3D"right" id=3D"y=
+ui_3_16_0_1_1457988322652_12993">                          Fecha de Operaci=
+=C3=B3n:                      </td><td>14/Mar/2016</td></tr><tr><td align=
+=3D"right">                          Hora de Operaci=C3=B3n:               =
+       </td><td>13:19:50 horas</td></tr><tr><td align=3D"right">           =
+               Cuenta Origen:                      </td><td>Enlace Global -=
+ *******0250</td></tr><tr><td align=3D"right">Cuenta Destino:</td><td>SOS s=
+oftware - *******1716</td></tr><tr><td align=3D"right">                    =
+      Nombre del Beneficiario:                      </td><td>SOS software S=
+.A. de C.V.</td></tr><tr><td align=3D"right">                          RFC =
+del Beneficiario:                      </td><td>SOF1406233F5</td></tr><tr><=
+td align=3D"right">                          E-mail del Beneficiario:      =
+                </td><td>No capturado</td></tr><tr id=3D"yui_3_16_0_1_14579=
+88322652_13000"><td align=3D"right" id=3D"yui_3_16_0_1_1457988322652_12999"=
+>                          Banco Destino:                      </td><td>Ban=
+orte</td></tr><tr id=3D"yui_3_16_0_1_1457988322652_13002"><td align=3D"righ=
+t" id=3D"yui_3_16_0_1_1457988322652_13001">                          Import=
+e:                      </td><td>$3,932.40 MN</td></tr><tr><td align=3D"rig=
+ht">                          IVA:                      </td><td>$0.00 MN</=
+td></tr><tr><td align=3D"right">                          N=C3=BAmero de Re=
+ferencia:                      </td><td>4786</td></tr><tr><td align=3D"righ=
+t">                          Concepto de Pago:                      </td><t=
+d>pago cot. Edgar A De Luna</td></tr><tr><td align=3D"right">              =
+            Comisi=C3=B3n:                      </td><td>$0.00 MN</td></tr>=
+<tr><td align=3D"right">                          IVA Comisi=C3=B3n:       =
+               </td><td>$0.00 MN</td></tr><tr><td align=3D"right">         =
+                 Fecha de Aplicaci=C3=B3n:                      </td><td>14=
+/Mar/2016</td></tr><tr><td align=3D"right" nowrap=3D"">Clave de Rastreo Cue=
+nta Origen: </td><td>18627</td></tr><tr><td align=3D"right" nowrap=3D"">Cla=
+ve de Rastreo Cuenta Destino: </td><td>1906</td></tr><tr><td colspan=3D"3">=
+</td></tr><tr><td colspan=3D"3"></td></tr><tr><td colspan=3D"3"></td></tr><=
+tr><td colspan=3D"3" align=3D"center"><span style=3D"font-size:8pt;font-fam=
+ily:Arial;">Gracias por utilizar Banorte por Internet                      =
+    </span></td></tr><tr><td colspan=3D"3"><span style=3D"font-size:8pt;fon=
+t-family:Arial;">Nota: La fecha y hora de este mensaje                     =
+         ("Enviado el") podr=C3=A1 variar respecto a la fecha/hora real de =
+operaci=C3=B3n de su transacci=C3=B3n                              ("Operad=
+o el"). Esto depender=C3=A1 de la configuraci=C3=B3n de sus servicios de co=
+rreo y/o                              computadora en cuanto a su zona horar=
+ia. </span></td></tr></tbody></table><table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"width:800px;"><tbody><tr><td colspan=3D"3"><img =
+height=3D"68px" src=3D"https://nbxi.banorte.com/nbxi/images/BottomNotificac=
+ionesv1.png" style=3D"vertical-align:middle;" width=3D"604px" data-id=3D"8d=
+e05526-ca2a-dfdd-6dc6-3b0fefd7cbd8"></td></tr></tbody></table><table border=
+=3D"0" width=3D"622" style=3D"width:466.5pt;"><tbody><tr><td><div><span sty=
+le=3D"font-size:8.0pt;font-family:Arial;color:black;"><br>Este correo elect=
+ronico es confidencial y/o puede contener informacion privilegiada.<br> Si =
+usted no es su destinatario o no es alguna persona autorizada por este para=
+ recibir sus correos electronicos, NO debera usted utilizar, copiar, revela=
+r, o tomar ninguna accion basada en este correo electronico o cualquier otr=
+a informacion incluida en el, favor de notificar al remitente de inmediato =
+mediante el reenvio de este correo electronico y borrar a continuacion tota=
+lmente este correo electronico y sus anexos.<br>Nota: Los acentos y caracte=
+res especiales fueron omitidos para su correcta lectura en cualquier medio =
+electronico.</span></div><div><span style=3D"font-size:8.0pt;font-family:Ar=
+ial;color:black;">This e-mail is confidential and/or may contain privileged=
+ information.<br>If you are not the addressee or authorized to receive this=
+ for the addressee, you must not use, copy, disclose, or take any action ba=
+sed on this message or any other information herein, please advise the send=
+er immediately by reply this e-mail and delete this e-mail and its attachme=
+nts.</span></div> </td></tr></tbody></table></div></div><br><br></div>  </d=
+iv> </div>  </div></div></body></html>
+------=_Part_1555461_1254457143.1457993883813--
