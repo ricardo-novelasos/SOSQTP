@@ -1,0 +1,222 @@
+Received: from mxfront3j.mail.yandex.net ([127.0.0.1])
+	by mxfront3j.mail.yandex.net with LMTP id ZZxqk0XB
+	for <alma.garcia@sos-soft.com>; Fri, 13 May 2016 22:12:51 +0300
+Received: from mail-vk0-x22c.google.com (mail-vk0-x22c.google.com [2607:f8b0:400c:c05::22c])
+	by mxfront3j.mail.yandex.net (nwsmtp/Yandex) with ESMTPS id lG5bumQUcz-Ck6GbilW;
+	Fri, 13 May 2016 22:12:46 +0300
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(Client certificate not present)
+Return-Path: marisol.ornelasc@gmail.com
+X-Yandex-Front: mxfront3j.mail.yandex.net
+X-Yandex-TimeMark: 1463166766
+Authentication-Results: mxfront3j.mail.yandex.net; spf=pass (mxfront3j.mail.yandex.net: domain of gmail.com designates 2607:f8b0:400c:c05::22c as permitted sender) smtp.mail=marisol.ornelasc@gmail.com; dkim=pass header.i=@gmail.com
+X-Yandex-Spam: 1
+Received: by mail-vk0-x22c.google.com with SMTP id s184so148699624vkb.3
+        for <alma.garcia@sos-soft.com>; Fri, 13 May 2016 12:12:46 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to;
+        bh=JMwea6VaupRUtfxEuPXJH7bTsLcrZiifoErkSNpNsBY=;
+        b=U0GvUyeVzEY4xKv3OAMhc8Xuhu4j+ZVfijk52GtC1RYhQu/x5urFRTIk5EmrkVoGBu
+         tRXHlt9kg6V4HMuU1OcZ8i5G9GHNJ9IPLgFqQhfCxvD+xEMMg7J7E0fQmqSkACCr+e50
+         aR0J1EWAQD5oZvtjkPdReUPowLJ9FWDRyANaAE+80sS0eZanZt1ANfZaw0pSuMXW6bkK
+         zBUL1YUCDKSSFGSIGL1fRLZPcIIcCQ0Uj2tUt+JZ/VKtAk0XGVFBKzME1dLMgO6YHbZK
+         8eTcmx/Gd73iznhwRIlI9kLL3AnRZwNrWy8OJl2z/OrgMo2CuGxIyai0x4oomoMYvyl/
+         vhYw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to;
+        bh=JMwea6VaupRUtfxEuPXJH7bTsLcrZiifoErkSNpNsBY=;
+        b=E3bg8iEPBffnjyfyco3FSlWn/XM0LNDVrXjAdoCxpXeC4GmEnaSxfDwoAhIdFCdvjR
+         5yiZ3UzYEt1pW96vgDFMLR277ZUTG1RBD4ary8N3uqnGODB3PQSGdkQOm/StaFkfRpMy
+         LDPOOYQvuwU8n27oz6YhSTTDgEVaTINy7fUACqDZCR/FYHf6RC7Mal2G1eS+BL7kfyJF
+         388p5s5OETh5uIjxJvFMOAmfEM2Mgs7X9Qh2rLis0Jhb28QJ4sDTwYdv8WhE8HRmZ6zE
+         Ou+lTiuBIsgoB061VhEpUS5CW30aLel4JCIu9W9NnJEhow/5Llpw1RN8Zvl2PwsLVy0H
+         IKSg==
+X-Gm-Message-State: AOPr4FXhkBp+GCKGfemK7xu7+X2k4yV1mGi7wBA0Nn07IhQID14/nPr3w1RDSbZgyf4+87yF3Tq7Ow0pMw1WnA==
+MIME-Version: 1.0
+X-Received: by 10.159.35.12 with SMTP id 12mr7421260uae.119.1463166764630;
+ Fri, 13 May 2016 12:12:44 -0700 (PDT)
+Received: by 10.176.3.241 with HTTP; Fri, 13 May 2016 12:12:44 -0700 (PDT)
+In-Reply-To: <BLU182-W93DBD9F2FDA25094606BDDD740@phx.gbl>
+References: <25240057.22849.1463164802986.JavaMail.inttech@asexnfamp2>
+	<BLU182-W289A0BE41DC16E9EB77AD1DD740@phx.gbl>
+	<BLU182-W93DBD9F2FDA25094606BDDD740@phx.gbl>
+Date: Fri, 13 May 2016 14:12:44 -0500
+Message-ID: <CAD4hDceZ8T1D69nM_crvhtJwThP3wNdAXSYLZ8AQ++=rVMt_5A@mail.gmail.com>
+Subject: Fwd: FW: TRASPASO INTERBANCARIO
+From: Marisol Ornelas Casillas <marisol.ornelasc@gmail.com>
+To: alma.garcia@sos-soft.com
+Content-Type: multipart/alternative; boundary=001a113e45d240ce310532be0f0a
+X-Yandex-Forward: 3f3ca835f0ec994b3f591f12a1e7ff3e
+
+--001a113e45d240ce310532be0f0a
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+---------- Mensaje reenviado ----------
+De: alfredo farfan <alfarfan30@hotmail.com>
+Fecha: 13 de mayo de 2016, 14:09
+Asunto: FW: TRASPASO INTERBANCARIO
+Para: "marisol.ornelasc@gmail.com" <marisol.ornelasc@gmail.com>
+
+
+afg
+
+------------------------------
+From: alfarfan30@hotmail.com
+To: alma.garcia@sos.soft.com
+Subject: FW: TRASPASO INTERBANCARIO
+Date: Fri, 13 May 2016 11:41:17 -0700
+
+ENVIO COMPROBANTE.
+AFG
+
+------------------------------
+Date: Fri, 13 May 2016 13:40:02 -0500
+From: notificacionbcom@serviciobancomer.com
+To: alfarfan30@hotmail.com
+Subject: TRASPASO INTERBANCARIO
+
+
+
+
+FARFAN GUZMAN JOSE ALFREDO
+
+*TRASPASO INTERBANCARIO*
+
+*Notificaci=C3=B3n Banca en L=C3=ADnea*
+
+Banco destino:   BANORTE
+Cuenta CLABE / TDD de dep=C3=B3sito:   ************7160
+Importe de la operaci=C3=B3n:   $1,276.00
+Fecha de la operaci=C3=B3n:   13 DE MAYO DE 2016
+Hora de la operaci=C3=B3n:   13:39:54 hrs.
+Folio de Internet:   8993335227
+Folio Interbancario:   0002140434
+
+En caso de no reconocer esta operaci=C3=B3n favor de comunicarse al:
+Cd. de M=C3=A9xico 5624 1199
+Del Interior de la Republica (Lada 800): 01800 1122 999
+Este correo electr=C3=B3nico constituye una notificaci=C3=B3n de los t=C3=
+=A9rminos en que
+se realiz=C3=B3 la operaci=C3=B3n, el =C3=BAnico comprobante oficial es el =
+estado de
+cuenta que emite BBVA Bancomer.
+
+--001a113e45d240ce310532be0f0a
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br><div class=3D"gmail_quote">---------- Mensaje reenviad=
+o ----------<br>De: <b class=3D"gmail_sendername">alfredo farfan</b> <span =
+dir=3D"ltr">&lt;<a href=3D"mailto:alfarfan30@hotmail.com">alfarfan30@hotmai=
+l.com</a>&gt;</span><br>Fecha: 13 de mayo de 2016, 14:09<br>Asunto: FW: TRA=
+SPASO INTERBANCARIO<br>Para: &quot;<a href=3D"mailto:marisol.ornelasc@gmail=
+.com">marisol.ornelasc@gmail.com</a>&quot; &lt;<a href=3D"mailto:marisol.or=
+nelasc@gmail.com">marisol.ornelasc@gmail.com</a>&gt;<br><br><br>
+
+
+<div><div dir=3D"ltr">afg<br><br><div><hr>From: <a href=3D"mailto:alfarfan3=
+0@hotmail.com" target=3D"_blank">alfarfan30@hotmail.com</a><br>To: <a href=
+=3D"mailto:alma.garcia@sos.soft.com" target=3D"_blank">alma.garcia@sos.soft=
+.com</a><br>Subject: FW: TRASPASO INTERBANCARIO<br>Date: Fri, 13 May 2016 1=
+1:41:17 -0700<br><br>
+
+
+<div dir=3D"ltr">ENVIO COMPROBANTE.<div>AFG<br><br><div><hr>Date: Fri, 13 M=
+ay 2016 13:40:02 -0500<br>From: <a href=3D"mailto:notificacionbcom@servicio=
+bancomer.com" target=3D"_blank">notificacionbcom@serviciobancomer.com</a><b=
+r>To: <a href=3D"mailto:alfarfan30@hotmail.com" target=3D"_blank">alfarfan3=
+0@hotmail.com</a><br>Subject: TRASPASO INTERBANCARIO<br><br>
+
+
+
+
+
+   =20
+
+
+
+
+
+
+<p>=C2=A0 </p>
+
+<table width=3D"61%" align=3D"center">
+<tbody><tr>
+  <td width=3D"55%"><img src=3D"http://www.bancomer.com.mx/comun/img/comun_=
+logo.gif"></td>
+</tr>
+<tr><td>=C2=A0</td></tr>
+<tr>
+  <td><div align=3D"right">  FARFAN GUZMAN JOSE ALFREDO  </div></td>
+</tr>
+<tr><td>=C2=A0</td></tr>
+<tr>
+  <td><b><font color=3D"#30c0f3" size=3D"3">TRASPASO INTERBANCARIO</font></=
+b></td>
+</tr>=20
+<tr><td>=C2=A0</td></tr>
+<tr>
+  <td><strong>Notificaci=C3=B3n Banca en L=C3=ADnea</strong></td>
+</tr>
+</tbody></table>
+<font style=3D"font-size:12.0pt;color:#006ec1"> </font><table width=3D"699"=
+ border=3D"0" align=3D"center" cellpadding=3D"0" cellspacing=3D"0">
+<tbody><tr><td>=C2=A0</td></tr>
+<tr><td>
+
+</td></tr><tr><td width=3D"50%" align=3D"right"><font style=3D"font-size:12=
+.0pt;color:#666666">Banco destino: </font>=C2=A0</td><td width=3D"50%"><fon=
+t style=3D"font-size:12.0pt;color:#363636">BANORTE</font></td></tr>
+<tr><td width=3D"50%" align=3D"right"><font style=3D"font-size:12.0pt;color=
+:#666666">Cuenta CLABE / TDD de dep=C3=B3sito: </font>=C2=A0</td><td width=
+=3D"50%"><font style=3D"font-size:12.0pt;color:#363636">************7160</f=
+ont></td></tr>
+
+<tr><td width=3D"50%" align=3D"right"><font style=3D"font-size:12.0pt;color=
+:#666666">Importe de la operaci=C3=B3n: </font>=C2=A0</td><td width=3D"50%"=
+><font style=3D"font-size:12.0pt;color:#006ec1">$1,276.00</font></td></tr>
+</tbody></table>
+<table width=3D"699" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0">
+<tbody><tr>
+  <td width=3D"50%" align=3D"right"><font style=3D"font-size:12.0pt;color:#=
+666666">Fecha de la operaci=C3=B3n: </font>=C2=A0</td>
+  <td width=3D"50%"><font style=3D"font-size:12.0pt;color:#363636">13 DE MA=
+YO DE 2016=C2=A0</font></td></tr>
+<tr><td width=3D"50%" align=3D"right"><font style=3D"font-size:12.0pt;color=
+:#666666">Hora de la operaci=C3=B3n: </font>=C2=A0</td><td width=3D"50%"><f=
+ont style=3D"font-size:12.0pt;color:#363636">13:39:54 hrs.=C2=A0</font></td=
+></tr>
+</tbody></table>
+<table width=3D"699" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0">
+<tbody><tr><td>
+</td></tr><tr><td width=3D"50%" align=3D"right"><font style=3D"font-size:12=
+.0pt;color:#666666">Folio de Internet: </font>=C2=A0</td><td width=3D"50%">=
+<font style=3D"font-size:12.0pt;color:#363636">8993335227</font></td></tr>
+<tr><td width=3D"50%" align=3D"right"><font style=3D"font-size:12.0pt;color=
+:#666666">Folio Interbancario: </font>=C2=A0</td><td width=3D"50%"><font st=
+yle=3D"font-size:12.0pt;color:#363636">0002140434</font></td></tr>
+=20
+
+</tbody></table>
+<table width=3D"61%" align=3D"center">
+  <tbody><tr><td>=C2=A0</td> </tr>
+  <tr bgcolor=3D"#f0f9fe">
+ <td align=3D"center">En caso de no reconocer esta operaci=C3=B3n favor de =
+comunicarse al: <br>Cd. de M=C3=A9xico  5624 1199<br>Del Interior de la Rep=
+ublica (Lada 800): 01800 1122 999<br>
+ Este correo electr=C3=B3nico constituye una notificaci=C3=B3n de los t=C3=
+=A9rminos en que se realiz=C3=B3
+					la operaci=C3=B3n, el =C3=BAnico comprobante oficial es el estado de c=
+uenta que emite BBVA Bancomer.</td></tr>
+    <tr><td>=C2=A0</td></tr>
+    </tbody></table></div></div> 		 	   		  </div></div> 		 	   		  </div><=
+/div>
+</div><br></div>
+
+--001a113e45d240ce310532be0f0a--
