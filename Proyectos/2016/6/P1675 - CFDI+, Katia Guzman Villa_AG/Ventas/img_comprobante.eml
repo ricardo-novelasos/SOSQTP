@@ -1,0 +1,285 @@
+Received: from mxfront2g.mail.yandex.net ([127.0.0.1])
+	by mxfront2g.mail.yandex.net with LMTP id O7ZxITmk
+	for <alma.garcia@sos-soft.com>; Fri, 3 Jun 2016 21:48:24 +0300
+Received: from snt004-omc4s33.hotmail.com (snt004-omc4s33.hotmail.com [65.55.90.236])
+	by mxfront2g.mail.yandex.net (nwsmtp/Yandex) with ESMTPS id Ogr8w8iASL-mM4ek1kl;
+	Fri, 03 Jun 2016 21:48:23 +0300
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-SHA256 (128/128 bits))
+	(Client certificate not present)
+Return-Path: gerardorojasrg@hotmail.com
+X-Yandex-Front: mxfront2g.mail.yandex.net
+X-Yandex-TimeMark: 1464979703
+Authentication-Results: mxfront2g.mail.yandex.net; spf=pass (mxfront2g.mail.yandex.net: domain of hotmail.com designates 65.55.90.236 as permitted sender) smtp.mail=gerardorojasrg@hotmail.com; dkim=pass header.i=@hotmail.com
+X-Yandex-Spam: 1
+Received: from NAM02-CY1-obe.outbound.protection.outlook.com ([65.55.90.200]) by SNT004-OMC4S33.hotmail.com over TLS secured channel with Microsoft SMTPSVC(7.5.7601.23008);
+	 Fri, 3 Jun 2016 11:48:22 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1; h=From:To:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=B3oIpEIgTWyFsNJsuwx+2SquuYBzmQvWPjHajmg+zAg=;
+ b=sJ/M3ZWXubDb81zZ/egccHBRHc4K3raoNcI6BPem8mOFPfwRfnWRSPZFdCLGPYia8W7mBJ3TGJWZWTjIGlT4BuxgfqTPlIBZrpF1BnY+pdkV0uuUStRPGxjaJyDiN0qJx1tAGnhWSclj5BbBTaAWBhW7Ydr2QXpjBd56a2fw0QZPENcFBV7jn9JcgNaZrY5WRSGkT/5WOO4MAA2OplUTk2JM1by+aRYqlukGoUeiqQidiWz/x7H8kZ81s/iJlfGbWqGc0jtUdvt3v3zp0mejQaYhEZnhoVyurdYBtOlI014qsoMwPmwt6LmBYlJs+ID1jDMnBUeD7P7KWmrDNZKUng==
+Received: from SN1NAM02FT022.eop-nam02.prod.protection.outlook.com
+ (10.152.72.59) by SN1NAM02HT097.eop-nam02.prod.protection.outlook.com
+ (10.152.73.63) with Microsoft SMTP Server (TLS) id 15.1.497.8; Fri, 3 Jun
+ 2016 18:48:20 +0000
+Received: from BN3PR14MB0833.namprd14.prod.outlook.com (10.152.72.58) by
+ SN1NAM02FT022.mail.protection.outlook.com (10.152.72.148) with Microsoft SMTP
+ Server (TLS) id 15.1.497.8 via Frontend Transport; Fri, 3 Jun 2016 18:48:20
+ +0000
+Received: from BN3PR14MB0833.namprd14.prod.outlook.com ([10.165.79.21]) by
+ BN3PR14MB0833.namprd14.prod.outlook.com ([10.165.79.21]) with mapi id
+ 15.01.0506.013; Fri, 3 Jun 2016 18:48:19 +0000
+From: Gerardo Rojas Elizondo <gerardorojasrg@hotmail.com>
+To: "alma.garcia@sos-soft.com" <alma.garcia@sos-soft.com>
+Subject: RV: TRASPASO INTERBANCARIO
+Thread-Topic: TRASPASO INTERBANCARIO
+Thread-Index: AQHRvbURYnMHdsVPKE+LaRn9LtPYmJ/YFQOr
+Date: Fri, 3 Jun 2016 18:48:19 +0000
+Message-ID: <BN3PR14MB0833E25FF2D9CA07742781F5D7590@BN3PR14MB0833.namprd14.prod.outlook.com>
+References: <21032379.14832.1464971351178.JavaMail.inttech@asexnfamp2>
+In-Reply-To: <21032379.14832.1464971351178.JavaMail.inttech@asexnfamp2>
+Accept-Language: es-MX, en-US
+Content-Language: es-MX
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+received-spf: SoftFail (protection.outlook.com: domain of transitioning
+ hotmail.com discourages use of 25.152.72.58 as permitted sender)
+x-ms-exchange-messagesentrepresentingtype: 1
+x-tmn: [SB9RtJqJGFW3LoF2SEeE4julSWoVSW6B]
+x-eopattributedmessage: 0
+x-forefront-antispam-report: CIP:25.152.72.58;IPV:NLI;CTRY:GB;EFV:NLI;SFV:NSPM;SFS:(10019020)(98900003);DIR:OUT;SFP:1102;SCL:1;SRVR:SN1NAM02HT097;H:BN3PR14MB0833.namprd14.prod.outlook.com;FPR:;SPF:SoftFail;MLV:ovrnspm;MX:1;A:1;LANG:es;
+x-ms-office365-filtering-correlation-id: 344eaea9-ab53-4dd5-0db4-08d38bdfa19f
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(1601124038)(5061506196)(5061507196)(1603103041)(1603101137)(1601125047);SRVR:SN1NAM02HT097;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(432015012)(82015046);SRVR:SN1NAM02HT097;BCL:0;PCL:0;RULEID:;SRVR:SN1NAM02HT097;
+x-forefront-prvs: 0962D394D2
+Content-Type: multipart/alternative;
+	boundary="_000_BN3PR14MB0833E25FF2D9CA07742781F5D7590BN3PR14MB0833namp_"
+MIME-Version: 1.0
+X-OriginatorOrg: hotmail.com
+X-MS-Exchange-CrossTenant-originalarrivaltime: 03 Jun 2016 18:48:19.3645
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Internet
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN1NAM02HT097
+X-OriginalArrivalTime: 03 Jun 2016 18:48:22.0007 (UTC) FILETIME=[80A83070:01D1BDC8]
+X-Yandex-Forward: 3f3ca835f0ec994b3f591f12a1e7ff3e
+
+--_000_BN3PR14MB0833E25FF2D9CA07742781F5D7590BN3PR14MB0833namp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+Hola buenas tardes.
+
+Env=EDo comprobante de transferencia por la licencia de contpaqi.
+
+Quedo en espera de su respuesta.
+
+Gracias
+
+________________________________
+De: Notificaci?n Bancomer.com <notificacionbcom@serviciobancomer.com>
+Enviado: viernes, 3 de junio de 2016 11:29 a. m.
+Para: gerardorojasrg@hotmail.com
+Asunto: TRASPASO INTERBANCARIO
+
+
+
+
+[http://www.bancomer.com.mx/comun/img/comun_logo.gif]
+
+ROJAS ELIZONDO GERARDO
+
+
+TRASPASO INTERBANCARIO
+
+Notificaci=F3n Banca en L=EDnea
+
+
+Banco destino:          BANORTE
+Cuenta CLABE / TDD de dep=F3sito:         ************7160
+Importe de la operaci=F3n:        $1,148.40
+Fecha de la operaci=F3n:          03 DE JUNIO DE 2016
+Hora de la operaci=F3n:   11:29:04 hrs.
+
+Folio de Internet:      7898960323
+Folio Interbancario:    0002043508
+
+En caso de no reconocer esta operaci=F3n favor de comunicarse al:
+Cd. de M=E9xico 5624 1199
+Del Interior de la Republica (Lada 800): 01800 1122 999
+Este correo electr=F3nico constituye una notificaci=F3n de los t=E9rminos e=
+n que se realiz=F3 la operaci=F3n, el =FAnico comprobante oficial es el est=
+ado de cuenta que emite BBVA Bancomer.
+
+
+--_000_BN3PR14MB0833E25FF2D9CA07742781F5D7590BN3PR14MB0833namp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"><!-- P {margin-top:0;margi=
+n-bottom:0;} --></style>
+</head>
+<body dir=3D"ltr">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size:12pt;color:#000000;back=
+ground-color:#FFFFFF;font-family:Calibri,Arial,Helvetica,sans-serif;">
+<p><br>
+</p>
+Hola buenas tardes.
+<div><br>
+</div>
+<div>Env=EDo comprobante de transferencia por la licencia de contpaqi.</div=
+>
+<div><br>
+</div>
+<div>Quedo en espera de su respuesta.</div>
+<div><br>
+</div>
+<div>Gracias</div>
+<div><br>
+<div style=3D"color: rgb(0, 0, 0);">
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" co=
+lor=3D"#000000" style=3D"font-size:11pt"><b>De:</b> Notificaci?n Bancomer.c=
+om &lt;notificacionbcom@serviciobancomer.com&gt;<br>
+<b>Enviado:</b> viernes, 3 de junio de 2016 11:29 a. m.<br>
+<b>Para:</b> gerardorojasrg@hotmail.com<br>
+<b>Asunto:</b> TRASPASO INTERBANCARIO</font>
+<div>&nbsp;</div>
+</div>
+<div>
+<p style=3D"color: rgb(0, 0, 0);">&nbsp; </p>
+<table width=3D"61%" align=3D"center">
+<tbody>
+<tr>
+<td width=3D"55%"><img style=3D"-webkit-user-select: none;" src=3D"http://w=
+ww.bancomer.com.mx/comun/img/comun_logo.gif"></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<div align=3D"right">ROJAS ELIZONDO GERARDO </div>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td><b><font color=3D"#30c0f3" size=3D"3">TRASPASO INTERBANCARIO</font></b>=
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td><strong>Notificaci=F3n Banca en L=EDnea</strong></td>
+</tr>
+</tbody>
+</table>
+<font style=3D"font-size:12.0pt; color:#006EC1"></font>
+<table width=3D"699" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" style=3D"margin-left:30">
+<tbody>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td width=3D"50%" align=3D"right"><font style=3D"font-size:12.0pt; color:#6=
+66666">Banco destino:
+</font>&nbsp;</td>
+<td width=3D"50%"><font style=3D"font-size:12.0pt; color:#363636">BANORTE</=
+font></td>
+</tr>
+<tr>
+<td width=3D"50%" align=3D"right"><font style=3D"font-size:12.0pt; color:#6=
+66666">Cuenta CLABE / TDD de dep=F3sito:
+</font>&nbsp;</td>
+<td width=3D"50%"><font style=3D"font-size:12.0pt; color:#363636">*********=
+***7160</font></td>
+</tr>
+<tr>
+<td width=3D"50%" align=3D"right"><font style=3D"font-size:12.0pt; color:#6=
+66666">Importe de la operaci=F3n:
+</font>&nbsp;</td>
+<td width=3D"50%"><font style=3D"font-size:12.0pt; color:#006EC1">$1,148.40=
+</font></td>
+</tr>
+</tbody>
+</table>
+<table width=3D"699" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" style=3D"margin-left:30">
+<tbody>
+<tr>
+<td width=3D"50%" align=3D"right"><font style=3D"font-size:12.0pt; color:#6=
+66666">Fecha de la operaci=F3n:
+</font>&nbsp;</td>
+<td width=3D"50%"><font style=3D"font-size:12.0pt; color:#363636">03 DE JUN=
+IO DE 2016&nbsp;</font></td>
+</tr>
+<tr>
+<td width=3D"50%" align=3D"right"><font style=3D"font-size:12.0pt; color:#6=
+66666">Hora de la operaci=F3n:
+</font>&nbsp;</td>
+<td width=3D"50%"><font style=3D"font-size:12.0pt; color:#363636">11:29:04 =
+hrs.&nbsp;</font></td>
+</tr>
+</tbody>
+</table>
+<table width=3D"699" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" style=3D"margin-left:30">
+<tbody>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td width=3D"50%" align=3D"right"><font style=3D"font-size:12.0pt; color:#6=
+66666">Folio de Internet:
+</font>&nbsp;</td>
+<td width=3D"50%"><font style=3D"font-size:12.0pt; color:#363636">789896032=
+3</font></td>
+</tr>
+<tr>
+<td width=3D"50%" align=3D"right"><font style=3D"font-size:12.0pt; color:#6=
+66666">Folio Interbancario:
+</font>&nbsp;</td>
+<td width=3D"50%"><font style=3D"font-size:12.0pt; color:#363636">000204350=
+8</font></td>
+</tr>
+</tbody>
+</table>
+<table width=3D"61%" align=3D"center">
+<tbody>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr bgcolor=3D"#f0f9fe">
+<td align=3D"center">En caso de no reconocer esta operaci=F3n favor de comu=
+nicarse al:
+<br>
+Cd. de M=E9xico 5624 1199<br>
+Del Interior de la Republica (Lada 800): 01800 1122 999<br>
+Este correo electr=F3nico constituye una notificaci=F3n de los t=E9rminos e=
+n que se realiz=F3 la operaci=F3n, el =FAnico comprobante oficial es el est=
+ado de cuenta que emite BBVA Bancomer.</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_BN3PR14MB0833E25FF2D9CA07742781F5D7590BN3PR14MB0833namp_--
