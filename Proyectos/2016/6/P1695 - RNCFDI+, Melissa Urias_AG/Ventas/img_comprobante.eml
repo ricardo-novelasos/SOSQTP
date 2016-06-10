@@ -1,0 +1,318 @@
+Received: from mxfront8j.mail.yandex.net ([127.0.0.1])
+	by mxfront8j.mail.yandex.net with LMTP id noqg08GB
+	for <alma.garcia@sos-soft.com>; Fri, 10 Jun 2016 21:05:55 +0300
+Received: from mail-vk0-x230.google.com (mail-vk0-x230.google.com [2607:f8b0:400c:c05::230])
+	by mxfront8j.mail.yandex.net (nwsmtp/Yandex) with ESMTPS id 7lfym4KflZ-5t44JE1A;
+	Fri, 10 Jun 2016 21:05:55 +0300
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(Client certificate not present)
+Return-Path: factjavierlopezmunoz@gmail.com
+X-Yandex-Front: mxfront8j.mail.yandex.net
+X-Yandex-TimeMark: 1465581955
+Authentication-Results: mxfront8j.mail.yandex.net; spf=pass (mxfront8j.mail.yandex.net: domain of gmail.com designates 2607:f8b0:400c:c05::230 as permitted sender) smtp.mail=factjavierlopezmunoz@gmail.com; dkim=pass header.i=@gmail.com
+X-Yandex-Spam: 1
+Received: by mail-vk0-x230.google.com with SMTP id e4so107776015vkb.1
+        for <alma.garcia@sos-soft.com>; Fri, 10 Jun 2016 11:05:54 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to;
+        bh=KNv67svronfYUDzweiMMGyJXIgrF5K6Cperg0ITiHtE=;
+        b=jtSFS61AMsiXEROGnyFJTMP/kHy3uvXCzE3WTtrAZIKRUG6YtO3chwYYJwgY1iMkfd
+         dOuMvwftGP3t7tYUbwncxCMWVRrex0sXylQ8k/ywsmXM/hQpKUZ9I5hxboZ3CUuwejkh
+         /QwQNsMaf91XuAkrsLxpvwVOPGGNxckgvHzpC0L0mrWnJuhzj6r4VqkoQRSnwccbaOXU
+         IGWkUNIlhr3wSeUOsqqtQtCb0Fl1yGjf0uWIdTX7aLOCDzT6824FSHJCDSW86Qgf2i0L
+         qSNkecXLdZyy7fq7vewXAMcsQX+/jFmg0iuyoRR0aNQ7WFMrBwKy853b6xYgC8iUfARV
+         dtWw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to;
+        bh=KNv67svronfYUDzweiMMGyJXIgrF5K6Cperg0ITiHtE=;
+        b=TdNZZiHNqkGGLkq7g8EhnlZpign+U/4kaO73OkUACunrsyoAjJ95qtQtBjO5WCDzua
+         +aat6D2IR519z8NrtYCadu78rD7E38Pc+Ir0F6u8lg11Oo+NrhFjbZLL4nQwk1a+mjvv
+         h5gA3ViIPIkYU6NKOKrY+50pVB5dZnQBrfpXteRY0BAeXuBWuNYftLxOqj00EZzqU5Kj
+         yVAYUu/h0izpl6gbAYCyJetKXz/V2oF//7U5FzlHy5Knz2szoWjRBuHqJCdtyJ1SK534
+         KWuilc56GB6Ar0WRrVym2mDifk7R5O0xVTdjcl60bzVCzvX2wrYRDFZ0jsP0EwJg8FkM
+         oxRw==
+X-Gm-Message-State: ALyK8tJRUgG3sEb3xcCarhVwR1cd/OMpS07NG7D1ZRgeUlyLuTQ+K/BpLENJwlpGcIDDw3+/BukDQVvm1cvPPA==
+X-Received: by 10.31.94.201 with SMTP id s192mr1369226vkb.89.1465581953634;
+ Fri, 10 Jun 2016 11:05:53 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.103.74.220 with HTTP; Fri, 10 Jun 2016 11:05:53 -0700 (PDT)
+In-Reply-To: <CY1PR0301MB124449C16A978991CF0BF4F7DE500@CY1PR0301MB1244.namprd03.prod.outlook.com>
+References: <NBXISMTPpYBBr6Gr3nY00d1db79@nbxismtp> <BLU174-W393C8E760677E5797C0BD482500@phx.gbl>
+ <CY1PR0301MB124449C16A978991CF0BF4F7DE500@CY1PR0301MB1244.namprd03.prod.outlook.com>
+From: =?UTF-8?Q?Facturacion_Javier_Lopez_Mu=C3=B1oz?= <factjavierlopezmunoz@gmail.com>
+Date: Fri, 10 Jun 2016 13:05:53 -0500
+Message-ID: <CAC3FSk0+gkjdj0G0c+xnQ097M6xhW3VHZD3-RViAML=DXSf7JA@mail.gmail.com>
+Subject: Fwd: RV: Transferencia a Cuentas Banorte / Ixe
+To: alma.garcia@sos-soft.com
+Content-Type: multipart/alternative; boundary=001a114e513cbc577b0534f063c3
+X-Yandex-Forward: 3f3ca835f0ec994b3f591f12a1e7ff3e
+
+--001a114e513cbc577b0534f063c3
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hola Alma muy buenas tardes te envio el comprobante de la renovacion del
+Sr. Antonio Jauregui (facturacion de CFDI en linea)
+
+
+me avisas en cuanto quede ya listo para avisarle al cliente por favor.
+
+
+gracias y seguimos en contacto, saludos
+
+
+
+
+
+---------- Mensaje reenviado ----------
+De: MARTHA GABRIELA GARCIA BECERRA <martucha40@hotmail.com>
+Fecha: 10 de junio de 2016, 13:03
+Asunto: RV: Transferencia a Cuentas Banorte / Ixe
+Para: Javier lopez <factjavierlopezmunoz@gmail.com>
+
+
+
+
+
+------------------------------
+*De:* Melissa Urias <melissa_urias2000@hotmail.com>
+*Enviado:* viernes, 10 de junio de 2016 05:54 p. m.
+*Para:* Gabriela Garcia
+*Asunto:* FW: Transferencia a Cuentas Banorte / Ixe
+
+
+
+------------------------------
+From: BanorteMovil@banorte.com
+To: MELISSA_URIAS2000@HOTMAIL.COM
+Date: Fri, 10 Jun 2016 12:50:40 -0500
+Subject: Transferencia a Cuentas Banorte / Ixe
+
+Estimado(a): *MELISSA SARAHI URIAS MEZA*
+
+La siguiente operaci=C3=B3n ha sido registrada en Banorte M=C3=B3vil.
+Operaci=C3=B3n: Transferencia a Cuentas de Terceros Banorte / Ixe
+Fecha de Operaci=C3=B3n: 10/Jun/2016
+Hora de Operaci=C3=B3n: 12:50:32 horas
+Cuenta Origen: ************8456
+Cuenta Destino: ******1716
+Banco Destino: Banorte
+Importe: $1,148.40 MN
+Comisi=C3=B3n: $0.00 MN
+IVA Comisi=C3=B3n: $0.00 MN
+Concepto de Pago: Contpaq i CFDI en Linea
+Fecha de Aplicaci=C3=B3n: 10/Jun/2016
+Clave de Rastreo Cuenta Origen: 557
+Clave de Rastreo Cuenta Destino: 2144
+Gracias por utilizar Banorte M=C3=B3vil
+Nota: La fecha y hora de este mensaje ("Enviado el") podr=C3=A1 variar resp=
+ecto
+a la fecha/hora real de operaci=C3=B3n de su transacci=C3=B3n ("Operado el"=
+). Esto
+depender=C3=A1 de la configuraci=C3=B3n de sus servicios de correo y/o comp=
+utadora en
+cuanto a su zona horaria.
+
+Este correo electronico es confidencial y/o puede contener informacion
+privilegiada.
+Si usted no es su destinatario o no es alguna persona autorizada por este
+para recibir sus correos electronicos, NO debera usted utilizar, copiar,
+revelar, o tomar ninguna accion basada en este correo electronico o
+cualquier otra informacion incluida en el, favor de notificar al remitente
+de inmediato mediante el reenvio de este correo electronico y borrar a
+continuacion totalmente este correo electronico y sus anexos.
+Nota: Los acentos y caracteres especiales fueron omitidos para su correcta
+lectura en cualquier medio electronico.
+This e-mail is confidential and/or may contain privileged information.
+If you are not the addressee or authorized to receive this for the
+addressee, you must not use, copy, disclose, or take any action based on
+this message or any other information herein, please advise the sender
+immediately by reply this e-mail and delete this e-mail and its attachments=
+.
+
+--001a114e513cbc577b0534f063c3
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>Hola Alma muy buenas tardes te envio el comprobante d=
+e la renovacion del Sr. Antonio Jauregui (facturacion de CFDI en linea)</di=
+v><div><br></div><div><br></div><div>me avisas en cuanto quede ya listo par=
+a avisarle al cliente por favor.=C2=A0</div><div><br></div><div><br></div><=
+div>gracias y seguimos en contacto, saludos</div><div><br></div><div><br></=
+div><div><br></div><div><br></div><br><div class=3D"gmail_quote">----------=
+ Mensaje reenviado ----------<br>De: <b class=3D"gmail_sendername">MARTHA G=
+ABRIELA GARCIA BECERRA</b> <span dir=3D"ltr">&lt;<a href=3D"mailto:martucha=
+40@hotmail.com">martucha40@hotmail.com</a>&gt;</span><br>Fecha: 10 de junio=
+ de 2016, 13:03<br>Asunto: RV: Transferencia a Cuentas Banorte / Ixe<br>Par=
+a: Javier lopez &lt;<a href=3D"mailto:factjavierlopezmunoz@gmail.com">factj=
+avierlopezmunoz@gmail.com</a>&gt;<br><br><br>
+
+
+
+
+<div dir=3D"ltr">
+<div style=3D"font-size:12pt;color:#000000;background-color:#ffffff;font-fa=
+mily:Calibri,Arial,Helvetica,sans-serif">
+<p><br>
+</p>
+<br>
+<br>
+<div style=3D"color:rgb(0,0,0)">
+<hr style=3D"display:inline-block;width:98%">
+<div dir=3D"ltr"><font face=3D"Calibri, sans-serif" color=3D"#000000" style=
+=3D"font-size:11pt"><b>De:</b> Melissa Urias &lt;<a href=3D"mailto:melissa_=
+urias2000@hotmail.com" target=3D"_blank">melissa_urias2000@hotmail.com</a>&=
+gt;<br>
+<b>Enviado:</b> viernes, 10 de junio de 2016 05:54 p. m.<br>
+<b>Para:</b> Gabriela Garcia<br>
+<b>Asunto:</b> FW: Transferencia a Cuentas Banorte / Ixe</font>
+<div>=C2=A0</div>
+</div>
+<div>
+<div dir=3D"ltr"><br>
+<br>
+<div>
+<hr>
+From: <a href=3D"mailto:BanorteMovil@banorte.com" target=3D"_blank">Banorte=
+Movil@banorte.com</a><br>
+To: <a href=3D"mailto:MELISSA_URIAS2000@HOTMAIL.COM" target=3D"_blank">MELI=
+SSA_URIAS2000@HOTMAIL.COM</a><br>
+Date: Fri, 10 Jun 2016 12:50:40 -0500<br>
+Subject: Transferencia a Cuentas Banorte / Ixe<br>
+<br>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:823p=
+x">
+<tbody>
+<tr>
+<td colspan=3D"3"></td>
+</tr>
+<tr>
+<td colspan=3D"3"><span style=3D"font-family:Arial">Estimado(a): <strong>ME=
+LISSA SARAHI URIAS MEZA</strong><br>
+<br>
+La siguiente operaci=C3=B3n ha sido registrada en Banorte M=C3=B3vil. </spa=
+n></td>
+</tr>
+<tr>
+<td align=3D"right" width=3D"34%">Operaci=C3=B3n: </td>
+<td align=3D"left">Transferencia a Cuentas de Terceros Banorte / Ixe</td>
+</tr>
+<tr>
+<td align=3D"right">Fecha de Operaci=C3=B3n: </td>
+<td>10/Jun/2016</td>
+</tr>
+<tr>
+<td align=3D"right">Hora de Operaci=C3=B3n: </td>
+<td>12:50:32 horas</td>
+</tr>
+<tr>
+<td align=3D"right">Cuenta Origen: </td>
+<td>************8456</td>
+</tr>
+<tr>
+<td align=3D"right">Cuenta Destino: </td>
+<td>******1716</td>
+</tr>
+<tr>
+<td align=3D"right">Banco Destino: </td>
+<td>Banorte</td>
+</tr>
+<tr>
+<td align=3D"right">Importe: </td>
+<td>$1,148.40 MN</td>
+</tr>
+<tr>
+<td align=3D"right">Comisi=C3=B3n: </td>
+<td>$0.00 MN</td>
+</tr>
+<tr>
+<td align=3D"right">IVA Comisi=C3=B3n: </td>
+<td>$0.00 MN</td>
+</tr>
+<tr>
+<td align=3D"right">Concepto de Pago: </td>
+<td>Contpaq i CFDI en Linea</td>
+</tr>
+<tr>
+<td align=3D"right">Fecha de Aplicaci=C3=B3n: </td>
+<td>10/Jun/2016</td>
+</tr>
+<tr>
+<td align=3D"right" nowrap>Clave de Rastreo Cuenta Origen: </td>
+<td>557</td>
+</tr>
+<tr>
+<td align=3D"right" nowrap>Clave de Rastreo Cuenta Destino: </td>
+<td>2144</td>
+</tr>
+<tr>
+<td colspan=3D"3"></td>
+</tr>
+<tr>
+<td colspan=3D"3"></td>
+</tr>
+<tr>
+<td colspan=3D"3"></td>
+</tr>
+<tr>
+<td colspan=3D"3" align=3D"center"><span style=3D"font-size:8pt;font-family=
+:Arial">Gracias por utilizar Banorte M=C3=B3vil
+</span></td>
+</tr>
+<tr>
+<td colspan=3D"3"><span style=3D"font-size:8pt;font-family:Arial">Nota: La =
+fecha y hora de este mensaje (&quot;Enviado el&quot;) podr=C3=A1 variar res=
+pecto a la fecha/hora real de operaci=C3=B3n de su transacci=C3=B3n (&quot;=
+Operado el&quot;). Esto depender=C3=A1 de la configuraci=C3=B3n de sus serv=
+icios
+ de correo y/o computadora en cuanto a su zona horaria. </span></td>
+</tr>
+</tbody>
+</table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:800p=
+x">
+<tbody>
+<tr>
+<td colspan=3D"3"></td>
+</tr>
+</tbody>
+</table>
+<table border=3D"0" width=3D"622" style=3D"width:466.5pt">
+<tbody>
+<tr>
+<td><span style=3D"font-size:8.0pt;font-family:Arial;color:black"><br>
+Este correo electronico es confidencial y/o puede contener informacion priv=
+ilegiada.<br>
+Si usted no es su destinatario o no es alguna persona autorizada por este p=
+ara recibir sus correos electronicos, NO debera usted utilizar, copiar, rev=
+elar, o tomar ninguna accion basada en este correo electronico o cualquier =
+otra informacion incluida en el,
+ favor de notificar al remitente de inmediato mediante el reenvio de este c=
+orreo electronico y borrar a continuacion totalmente este correo electronic=
+o y sus anexos.<br>
+Nota: Los acentos y caracteres especiales fueron omitidos para su correcta =
+lectura en cualquier medio electronico.</span><br>
+<span style=3D"font-size:8.0pt;font-family:Arial;color:black">This e-mail i=
+s confidential and/or may contain privileged information.<br>
+If you are not the addressee or authorized to receive this for the addresse=
+e, you must not use, copy, disclose, or take any action based on this messa=
+ge or any other information herein, please advise the sender immediately by=
+ reply this e-mail and delete this
+ e-mail and its attachments.</span><br>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><br></div>
+
+--001a114e513cbc577b0534f063c3--
