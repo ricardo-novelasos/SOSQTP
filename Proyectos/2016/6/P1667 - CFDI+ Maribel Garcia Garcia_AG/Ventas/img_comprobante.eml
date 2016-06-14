@@ -1,0 +1,379 @@
+Received: from mxfront15h.mail.yandex.net ([127.0.0.1])
+	by mxfront15h.mail.yandex.net with LMTP id KKCnQpI9
+	for <alma.garcia@sos-soft.com>; Fri, 10 Jun 2016 23:51:37 +0300
+Received: from mail-by2on0081.outbound.protection.outlook.com (mail-by2on0081.outbound.protection.outlook.com [207.46.100.81])
+	by mxfront15h.mail.yandex.net (nwsmtp/Yandex) with ESMTPS id tJbj9BTiVZ-pZpGwlEX;
+	Fri, 10 Jun 2016 23:51:36 +0300
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-SHA256 (128/128 bits))
+	(Client certificate not present)
+Return-Path: jgomez@panding.mx
+X-Yandex-Front: mxfront15h.mail.yandex.net
+X-Yandex-TimeMark: 1465591896
+Authentication-Results: mxfront15h.mail.yandex.net; spf=pass (mxfront15h.mail.yandex.net: domain of panding.mx designates 207.46.100.81 as permitted sender) smtp.mail=jgomez@panding.mx; dkim=pass header.i=@netorgft776630.onmicrosoft.com
+X-Yandex-Spam: 1
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=netorgft776630.onmicrosoft.com; s=selector1-panding-mx;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=7gYH2KmNfIPA6dK0tYJ4ojzzQycG9pSBKNT78a0roQs=;
+ b=a5ymkuIwHCQFKib7TmaCVBYr/l9kipCe1+caJ7s4XoEhZ3GrD9Lc62bFfO+eH1J+3YIDNBllgCRpJn0MGIKha00E/Odwxti1bNGQaIKU8urdHfAsZGUs0PRBYc9XdOpaDIox+P3cs4dTTHzJlVmDeoBI7f3pMNNWTwwHhyDGEF8=
+Received: from CO1PR19MB0823.namprd19.prod.outlook.com (10.166.34.153) by
+ CO1PR19MB0886.namprd19.prod.outlook.com (10.166.35.18) with Microsoft SMTP
+ Server (TLS) id 15.1.517.8; Fri, 10 Jun 2016 20:51:31 +0000
+Received: from CO1PR19MB0823.namprd19.prod.outlook.com ([10.166.34.153]) by
+ CO1PR19MB0823.namprd19.prod.outlook.com ([10.166.34.153]) with mapi id
+ 15.01.0517.009; Fri, 10 Jun 2016 20:51:31 +0000
+From: JAIME GOMEZ RIVERA <jgomez@panding.mx>
+To: "alma.garcia@sos-soft.com" <alma.garcia@sos-soft.com>
+CC: Maribel Garcia Garcia <mgarcia@panding.mx>
+Subject: =?iso-8859-1?Q?Fwd:_Transferencia_Banca_en_L=EDnea?=
+Thread-Topic: =?iso-8859-1?Q?Transferencia_Banca_en_L=EDnea?=
+Thread-Index: AQHRw1hZfRM/v879xk+e8j+49qPu6p/jLQt7
+Date: Fri, 10 Jun 2016 20:51:31 +0000
+Message-ID: <BC68C8BE-E977-484A-A4EB-1BF23ED5D4D0@panding.mx>
+References: <4397736.36765.1465591236393.JavaMail.root@netm3>
+In-Reply-To: <4397736.36765.1465591236393.JavaMail.root@netm3>
+Accept-Language: es-MX, en-US
+Content-Language: es-MX
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [189.217.127.0]
+x-ms-office365-filtering-correlation-id: c2cf1b34-67ea-44b2-53d5-08d3917100a3
+x-microsoft-exchange-diagnostics: 1;CO1PR19MB0886;6:X4N6pFRtF59/DjEW+rnEbmt2yW0H3uQY8dTcexr/d93Fk1HzSSDP7ho8b9bRLEfGXc4QgERsmPZqE+Ssy9twHmYrw/m7lsrJ4oW1SivVMSoAqPa7dhADOOeUhSLqpUipCtefe/eu2aX3lvGLybYvGVK4q+r8tX24dgiMKqkBd2dM3MUheNScEx1hpVkYATnC9/6BJzbHeyaaVO/cduZ4M7+/ScCDsTvDdwd7TVErC2BpSrnQrI+rUlxhJ1qQ8o23WXp80c6VfUZBoj3Ri2Wbwcp/WleyVOckUPwRjpYRSwk=;5:iXYbSNfUhrgDR1RMEE74SuWD6gER9CbrFSiOwXxy5CyHCTg7z+GfzSDMPz3z1IFXmjxjDpWj98I/cdAj4czcOuWakWOZrifFLU8LdfXILcJtVAmjTE7ihaF6SCGocIjsyrNJD1BW3833foFEdb/YBw==;24:XkjN0nRkfdZXQP+E6WVKjaadPl/pODvUoBMcBPOwkLYeYLZm+aZw0sMwkmnUnjRPnjN9TEbVp6Lh1bWfUhNgk4rRLoVc/RF5uJEvGgwiT40=;7:DTJRQP59gwUxN6P9OxGZy/pBd57qeoQ4xHpG4CS/ZO3+uZopsWacDYW/Uxi1X6hidA7lJWeXV97eMW2WRdZHdYG4c2WUymeNJjES7qcO65b4dcfgFxWiUl1DP5r0o0EYJ/IAY2AbeJru+qvMUBb1NjZvYlm4Qrh0YFticqobzGjrQmyirDyBb6LOK2vdMCtSlFUzIiCrvN6Jd81vIenJJw==
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:CO1PR19MB0886;
+x-microsoft-antispam-prvs: <CO1PR19MB0886510803CBF03B6058B4F8AA500@CO1PR19MB0886.namprd19.prod.outlook.com>
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(6040130)(601004)(2401047)(5005006)(8121501046)(3002001)(10201501046)(6041072)(6043046);SRVR:CO1PR19MB0886;BCL:0;PCL:0;RULEID:;SRVR:CO1PR19MB0886;
+x-forefront-prvs: 096943F07A
+x-forefront-antispam-report: SFV:NSPM;SFS:(10009020)(979002)(7916002)(189002)(2473001)(199003)(377454003)(54356999)(99286002)(189998001)(76176999)(11100500001)(224313004)(77096005)(81166006)(3660700001)(74482002)(2351001)(122556002)(81156014)(50986999)(82746002)(19580395003)(8936002)(2906002)(2950100001)(4326007)(106356001)(2900100001)(87936001)(7906002)(97736004)(16601075003)(3280700002)(86362001)(83716003)(15975445007)(110136002)(107886002)(101416001)(5008740100001)(217423001)(19617315012)(4001430100002)(3846002)(586003)(105586002)(5640700001)(68736007)(5002640100001)(92566002)(450100001)(10400500002)(19580405001)(6116002)(102836003)(18206015028)(5004730100002)(36756003)(2501003)(224303003)(19273905006)(66066001)(19300405004)(16236675004)(106116001)(33656002)(7099028)(11686003)(7756004)(104396002)(9078065003)(969003)(989001)(999001)(1009001)(1019001);DIR:OUT;SFP:1101;SCL:1;SRVR:CO1PR19MB0886;H:CO1PR19MB0823.namprd19.prod.outlook.com;FPR:;SPF:None;PTR:InfoNoRecords;MX:1;A:1;CAT:NONE;LANG:es;CAT:NONE;
+received-spf: None (protection.outlook.com: panding.mx does not designate
+ permitted sender hosts)
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative;
+	boundary="_000_BC68C8BEE977484AA4EB1BF23ED5D4D0pandingmx_"
+MIME-Version: 1.0
+X-OriginatorOrg: panding.mx
+X-MS-Exchange-CrossTenant-originalarrivaltime: 10 Jun 2016 20:51:31.5063
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 5689da73-ce6d-46bc-90d7-eba3f9236542
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO1PR19MB0886
+X-Yandex-Forward: 3f3ca835f0ec994b3f591f12a1e7ff3e
+
+--_000_BC68C8BEE977484AA4EB1BF23ED5D4D0pandingmx_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hola Alma, enviamos dep=F3sito del CFDI en l=EDnea, que procede? Favor de e=
+nviar la factura.
+
+Saludos
+
+Jaime G=F3mez
+Director General
+Panding Inmobiliaria
+
+Inicio del mensaje reenviado:
+
+De: Bancomer.com<http://bancomer.com> Otros Bancos1 <alertair@serviciobanco=
+mer.com<mailto:alertair@serviciobancomer.com>>
+Fecha: 10 de junio de 2016, 3:40:36 p.m. GMT-5
+Para: <jgomez@panding.mx<mailto:jgomez@panding.mx>>
+Asunto: Transferencia Banca en L=EDnea
+Responder a: Bancomer.com<http://bancomer.com> Otros Bancos1 <alertair@serv=
+iciobancomer.com<mailto:alertair@serviciobancomer.com>>
+
+
+
+
+
+Titular de la cuenta de retiro
+
+
+PANDING INMOBILIARIA SA DE CV
+
+
+Banco Destino
+
+
+BANORTE/ IXE
+
+
+Cuenta de dep=F3sito
+
+
+**************7160
+
+
+Nombre del beneficiario
+
+
+SOS SOFTWARE S.A. DE C.V.
+
+
+Importe
+
+
+$ 2,424.40
+
+
+Fecha de operaci=F3n
+
+
+10 de Junio de 2016, 3:39:57 PM
+
+
+Forma de dep=F3sito
+
+
+MISMO D=CDA (SPEI)
+
+
+Concepto de pago
+
+
+CFDI EN LINEA
+
+
+Folio Internet
+
+
+2846165527
+
+
+
+MENSAJE:
+
+
+CFDI EN LINEA
+
+
+
+
+
+
+[http://www.bancomer.com.mx/minisitios/alertas/solucionalo.gif]
+
+
+
+
+Este correo constituye s=F3lo una referencia de los t=E9rminos en que se re=
+aliz=F3 la operaci=F3n, el =FAnico comprobante oficial es el estado de cuen=
+ta de cheques que emite el GFBBVA Bancomer, S.A.
+
+
+--_000_BC68C8BEE977484AA4EB1BF23ED5D4D0pandingmx_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+</head>
+<body dir=3D"auto">
+<div>Hola Alma, enviamos dep=F3sito del CFDI en l=EDnea, que procede? Favor=
+ de enviar la factura.<br>
+<br>
+<div><span style=3D"font-size: 13pt;">Saludos</span></div>
+<div>
+<div><br>
+<div>Jaime G=F3mez</div>
+<div>Director General</div>
+<div>Panding Inmobiliaria</div>
+</div>
+</div>
+</div>
+<div><br>
+Inicio del mensaje reenviado:<br>
+<br>
+</div>
+<blockquote type=3D"cite">
+<div><b>De:</b> <a href=3D"http://bancomer.com">Bancomer.com</a> Otros Banc=
+os1 &lt;<a href=3D"mailto:alertair@serviciobancomer.com">alertair@serviciob=
+ancomer.com</a>&gt;<br>
+<b>Fecha:</b> 10 de junio de 2016, 3:40:36 p.m. GMT-5<br>
+<b>Para:</b> &lt;<a href=3D"mailto:jgomez@panding.mx">jgomez@panding.mx</a>=
+&gt;<br>
+<b>Asunto:</b> <b>Transferencia Banca en L=EDnea</b><br>
+<b>Responder a:</b> <a href=3D"http://bancomer.com">Bancomer.com</a> Otros =
+Bancos1 &lt;<a href=3D"mailto:alertair@serviciobancomer.com">alertair@servi=
+ciobancomer.com</a>&gt;<br>
+<br>
+</div>
+</blockquote>
+<blockquote type=3D"cite">
+<div>
+<title>Mail BBVANet</title>
+<style>
+	p {
+		font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	}
+	body {
+		background-color:#FFFFFF;
+		margin-top:0;
+		margin-bottom:0;
+		margin-left:0;
+		margin.right:0;
+	}
+</style><script type=3D"text/javascript">
+<!--
+	function abreVentana() {
+		var ventana =3D window.open('http://www.bancomer.com.mx','','menubar=3Dno=
+,toolbar=3Dno,location=3Dno,directories=3Dno,status=3Dno,scrollbars=3Dno,re=
+sizable=3Dno,dependent=3Dno,width=3D700,height=3D500');
+	}
+//-->
+</script>
+<table cellpadding=3D"2" cellspacing=3D"0" width=3D"550" style=3D"backgroun=
+d:url('http://www.bancomer.com.mx/minisitios/alertas/logo.jpg') no-repeat;"=
+>
+<tbody>
+<tr>
+<td colspan=3D"2" height=3D"85"></td>
+</tr>
+<tr>
+<td colspan=3D"2">
+<p style=3D"font-size: 12px;color:#000099"></p>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" height=3D"10"></td>
+</tr>
+<tr>
+<td width=3D"40%">
+<p style=3D"font-size: 9px;">Titular de la cuenta de retiro</p>
+</td>
+<td width=3D"60%">
+<p style=3D"font-size: 9px;font-weight:bold">PANDING INMOBILIARIA SA DE CV<=
+/p>
+</td>
+</tr>
+<tr>
+<td width=3D"40%">
+<p style=3D"font-size: 9px;">Banco Destino</p>
+</td>
+<td width=3D"60%">
+<p style=3D"font-size: 9px;font-weight:bold">BANORTE/ IXE</p>
+</td>
+</tr>
+<tr>
+<td width=3D"40%">
+<p style=3D"font-size: 9px;">Cuenta de dep=F3sito</p>
+</td>
+<td width=3D"60%">
+<p style=3D"font-size: 9px;font-weight:bold">**************7160</p>
+</td>
+</tr>
+<tr>
+<td width=3D"40%">
+<p style=3D"font-size: 9px;">Nombre del beneficiario</p>
+</td>
+<td width=3D"60%">
+<p style=3D"font-size: 9px;font-weight:bold">SOS SOFTWARE S.A. DE C.V.</p>
+</td>
+</tr>
+<tr>
+<td width=3D"40%">
+<p style=3D"font-size: 9px;">Importe</p>
+</td>
+<td width=3D"60%">
+<p style=3D"font-size: 9px;font-weight:bold">$ 2,424.40</p>
+</td>
+</tr>
+<tr>
+<td width=3D"40%">
+<p style=3D"font-size: 9px;">Fecha de operaci=F3n</p>
+</td>
+<td width=3D"60%">
+<p style=3D"font-size: 9px;font-weight:bold">10 de Junio de 2016, 3:39:57 P=
+M</p>
+</td>
+</tr>
+<tr>
+<td width=3D"40%">
+<p style=3D"font-size: 9px;">Forma de dep=F3sito</p>
+</td>
+<td width=3D"60%">
+<p style=3D"font-size: 9px;font-weight:bold">MISMO D=CDA (SPEI)</p>
+</td>
+</tr>
+<tr>
+<td width=3D"40%">
+<p style=3D"font-size: 9px;">Concepto de pago</p>
+</td>
+<td width=3D"60%">
+<p style=3D"font-size: 9px;font-weight:bold">CFDI EN LINEA</p>
+</td>
+</tr>
+<tr>
+<td width=3D"40%">
+<p style=3D"font-size: 9px;">Folio Internet</p>
+</td>
+<td width=3D"60%">
+<p style=3D"font-size: 9px;font-weight:bold">2846165527</p>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" height=3D"10"></td>
+</tr>
+<tr>
+<td valign=3D"top" width=3D"40%">
+<p style=3D"font-size: 9px;font-weight:bold">MENSAJE:</p>
+</td>
+<td width=3D"60%">
+<table border=3D"0" rules=3D"groups" cellspacing=3D"0" width=3D"100%" nobor=
+der=3D"">
+<tbody>
+<tr>
+<td width=3D"100%">
+<p style=3D"font-size: 9px;">CFDI EN LINEA</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" height=3D"10"></td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"center"><input type=3D"image" src=3D"http://www.=
+bancomer.com.mx/minisitios/alertas/inter/emisor/crediton06.gif" onclick=3D"=
+javascript:abreVentana()">
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" height=3D"10"></td>
+</tr>
+<tr>
+<td colspan=3D"2" align=3D"right"><img src=3D"http://www.bancomer.com.mx/mi=
+nisitios/alertas/solucionalo.gif">
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" height=3D"10"></td>
+</tr>
+<tr>
+<td colspan=3D"2" height=3D"1" bgcolor=3D"#7E7E7E"></td>
+</tr>
+<tr>
+<td colspan=3D"2" height=3D"10"></td>
+</tr>
+<tr>
+<td colspan=3D"2">
+<p style=3D"font-size: 9px;color:#7E7E7E;text-align : justify;">Este correo=
+ constituye s=F3lo una referencia de los t=E9rminos en que se realiz=F3 la =
+operaci=F3n, el =FAnico comprobante oficial es el estado de cuenta de chequ=
+es que emite el GFBBVA Bancomer, S.A.
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</blockquote>
+</body>
+</html>
+
+--_000_BC68C8BEE977484AA4EB1BF23ED5D4D0pandingmx_--
