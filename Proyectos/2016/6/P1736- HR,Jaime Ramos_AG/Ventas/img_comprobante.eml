@@ -1,0 +1,342 @@
+Received: from mxfront3m.mail.yandex.net ([127.0.0.1])
+	by mxfront3m.mail.yandex.net with LMTP id 8EINCxr7
+	for <alma.garcia@sos-soft.com>; Thu, 30 Jun 2016 20:59:56 +0300
+Received: from mail-oi0-x233.google.com (mail-oi0-x233.google.com [2607:f8b0:4003:c06::233])
+	by mxfront3m.mail.yandex.net (nwsmtp/Yandex) with ESMTPS id 4Sb0C1FxJ4-xtCOIamc;
+	Thu, 30 Jun 2016 20:59:55 +0300
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(Client certificate not present)
+Return-Path: jrcpcontacto@gmail.com
+X-Yandex-Front: mxfront3m.mail.yandex.net
+X-Yandex-TimeMark: 1467309595
+Authentication-Results: mxfront3m.mail.yandex.net; spf=pass (mxfront3m.mail.yandex.net: domain of gmail.com designates 2607:f8b0:4003:c06::233 as permitted sender) smtp.mail=jrcpcontacto@gmail.com; dkim=pass header.i=@gmail.com
+X-Yandex-Spam: 1
+Received: by mail-oi0-x233.google.com with SMTP id u201so76441588oie.0
+        for <alma.garcia@sos-soft.com>; Thu, 30 Jun 2016 10:59:55 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to;
+        bh=ztzOJdbnLJgzdpW/u6pmsPYKZRs7xb7+rfYz1dFDHnU=;
+        b=x7lV/kAP9Lh1h+6VEzhwYFry8wqP9WK4ikKlHjaAjF9PjMyzF/EULTfSE90/SYMiHl
+         N7NK/MW9ZQvxkn+77p8R3g4RvblDeyy/HLMmXRt+tpwPGu3rChDCZW5Dw7XhUeShvohP
+         ABJl/B84KlLOuaeJ4IH/jvwHlFwzGZO+BHPr4Lvh87XLfMgODjxdq1PFbRQ2R/Wl7dJs
+         pDXC/ieuNDWTlg/qiPCnvmg2H5wQhl46q8t1ZzovHnhs4BuJemDhLXRsRDNo3LcD6/yb
+         27Tu6OKGd+qPNPTZ1CUwBaR47ebxlLDl3oZymWdFdMW6nE7HpflQsMbPSaJwPEVBQqgK
+         k2UA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to;
+        bh=ztzOJdbnLJgzdpW/u6pmsPYKZRs7xb7+rfYz1dFDHnU=;
+        b=Ew2f41DponGh6j32JLekkoZmbgvH3m9n+9z3rmMPzCtdKm4wv4nFhvCEaH0i8h6QpL
+         4qfOUiaLUF6VzAxAksyHWmq7grhoVdNLtJ+OlcsbXy7G5Bwm8l/Ht9/D+pAz+XlWyXij
+         WZy/1cWofchRUHgx1P/ovr4uQmU7I6QLp0qr+Pz4mBJvB/78TlLHbVwjJ+8kPGX2SoFD
+         weAuEPZlMhrs1HPMwlWAX7SW+62Y/3cwWncVUiY0MqlbjfDFVQt9bb2w0IUvbaNEgA66
+         wYpx5mdAlTSFOinObnARDD0nf0BdHod7wngCb1ALViRp/+HTMRamaAr5tb7UlP/h9Oqs
+         X+QQ==
+X-Gm-Message-State: ALyK8tKCBl2Fz4odXPWlhM4dXskPq+uddft1DWzuIW2oL4gWLzkGre8VCZfuVr1CuIXmehTmbpuZmZbV06Bu4Q==
+X-Received: by 10.202.192.214 with SMTP id q205mr10427850oif.176.1467309593631;
+ Thu, 30 Jun 2016 10:59:53 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.157.15.7 with HTTP; Thu, 30 Jun 2016 10:59:53 -0700 (PDT)
+In-Reply-To: <003801d1d2f8$f6506000$e2f12000$@reimse.com>
+References: <003801d1d2f8$f6506000$e2f12000$@reimse.com>
+From: JAIME RAMOS <jrcpcontacto@gmail.com>
+Date: Thu, 30 Jun 2016 12:59:53 -0500
+Message-ID: <CAKTbLS08PT-NMxvhy1GjEZChgicSWsct5bTxLJhnzdBGWMR7iA@mail.gmail.com>
+Subject: =?UTF-8?Q?Fwd=3A_Pago_SOS_SOFTWARE_soporte_t=C3=A9cnico_30JUN16?=
+To: =?UTF-8?Q?Alma_Yesenia_Garc=C3=AD?= <alma.garcia@sos-soft.com>
+Content-Type: multipart/alternative; boundary=001a113ddff21aa3cd053682a3eb
+X-Yandex-Forward: 3f3ca835f0ec994b3f591f12a1e7ff3e
+
+--001a113ddff21aa3cd053682a3eb
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+---------- Mensaje enviado ----------
+De: Francisco Galindo <info@reimse.com>
+Fecha: 30 de junio de 2016, 12:58
+Asunto: Pago SOS SOFTWARE soporte t=C3=A9cnico 30JUN16
+Para: JAIME RAMOS <jrcpcontacto@gmail.com>, contable@reimse.com,
+contable2@reimse.com, alma.garcia@sos-soft.com
+
+
+
+
+Traspasos a otros bancos - Realizar una operaci=C3=B3n - Cuentas con / sin
+chequera
+
+RENOVACION DE IMAGEN Y SERVICOMPLEMENTOS SA DE CV
+
+30/06/2016
+
+
+
+Resultado del traspaso
+
+Cuenta de retiro
+
+0195843138
+
+Tipo de operaci=C3=B3n
+
+INTERBANCARIO CON / SIN CHEQUERA
+
+Banco destino
+
+BANORTE/ IXE
+
+Cuenta de dep=C3=B3sito
+
+072320002394317160
+
+Nombre corto
+
+SOSSOTWARE
+
+Importe
+
+$638.00
+
+Fecha de operaci=C3=B3n
+
+30/06/2016
+
+Forma de dep=C3=B3sito
+
+MISMO DIA (SPEI)
+
+Concepto de pago
+
+SOS SOFTWARE ASESORIA CONTAPQ
+
+Referencia num=C3=A9rica
+
+300616
+
+Clave de rastreo
+
+BNET01001606300002112598
+
+Hora de Operaci=C3=B3n
+
+12:57:06
+
+Folio de internet
+
+0868993411
+
+
+
+
+
+*De:* JAIME RAMOS [mailto:jrcpcontacto@gmail.com]
+*Enviado el:* jueves, 30 de junio de 2016 11:41 a. m.
+*Para:* Francisco Galindo <info@reimse.com>
+*Asunto:* Fwd: Cotizaci=C3=B3n soporte t=C3=A9cnico
+
+
+
+
+
+---------- Mensaje enviado ----------
+De: *Alma Yesenia Garc=C3=AD* <alma.garcia@sos-soft.com>
+Fecha: 29 de junio de 2016, 14:05
+Asunto: Cotizaci=C3=B3n soporte t=C3=A9cnico
+Para: jrcpcontacto@gmail.com
+
+
+Hola buen d=C3=ADa Jaime
+
+Le mando la cotizaci=C3=B3n para el servicio de soporte t=C3=A9cnico
+
+Para cualquier duda o aclaraci=C3=B3n quedo a sus ordenes, que tenga un
+excelente d=C3=ADa
+
+
+Alma Garc=C3=ADa
+SOS Software - Atendemos nacionalmente
+(0133) 3617 29 68
+
+Sent by bitrix24.com <http://www.bitrix24.com>
+[msg:84956-6ic6ti]
+
+--001a113ddff21aa3cd053682a3eb
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br><div class=3D"gmail_quote">---------- Mensaje enviado =
+----------<br>De: <b class=3D"gmail_sendername">Francisco Galindo</b> <span=
+ dir=3D"ltr">&lt;<a href=3D"mailto:info@reimse.com">info@reimse.com</a>&gt;=
+</span><br>Fecha: 30 de junio de 2016, 12:58<br>Asunto: Pago SOS SOFTWARE s=
+oporte t=C3=A9cnico 30JUN16<br>Para: JAIME RAMOS &lt;<a href=3D"mailto:jrcp=
+contacto@gmail.com">jrcpcontacto@gmail.com</a>&gt;, <a href=3D"mailto:conta=
+ble@reimse.com">contable@reimse.com</a>, <a href=3D"mailto:contable2@reimse=
+.com">contable2@reimse.com</a>, <a href=3D"mailto:alma.garcia@sos-soft.com"=
+>alma.garcia@sos-soft.com</a><br><br><br><div link=3D"blue" vlink=3D"purple=
+" lang=3D"ES-MX"><div><p class=3D"MsoNormal"><span style=3D"font-size:11.0p=
+t;font-family:&quot;Calibri&quot;,sans-serif"><u></u>=C2=A0<u></u></span></=
+p><table style=3D"width:457.5pt;border-collapse:collapse" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" width=3D"610"><tbody><tr style=3D"height:18=
+.75pt"><td style=3D"background:white;padding:.75pt .75pt .75pt .75pt;height=
+:18.75pt"><p class=3D"MsoNormal"><span style=3D"font-size:15.0pt;font-famil=
+y:&quot;Arial&quot;,sans-serif;color:#009ee5">Traspasos a otros bancos - Re=
+alizar una operaci=C3=B3n - Cuentas con / sin chequera<u></u><u></u></span>=
+</p></td></tr><tr style=3D"height:5.0pt"><td style=3D"padding:.75pt .75pt .=
+75pt .75pt;height:5.0pt"></td></tr><tr style=3D"height:18.75pt"><td style=
+=3D"border:none;border-bottom:solid #d8d8d8 1.0pt;background:white;padding:=
+.75pt .75pt .75pt 3.75pt;height:18.75pt"><p class=3D"MsoNormal"><span style=
+=3D"font-family:&quot;Arial&quot;,sans-serif;color:#094fa4">RENOVACION DE I=
+MAGEN Y SERVICOMPLEMENTOS SA DE CV<u></u><u></u></span></p></td></tr><tr st=
+yle=3D"height:18.75pt"><td style=3D"background:white;padding:.75pt .75pt .7=
+5pt 3.75pt;height:18.75pt"><p class=3D"MsoNormal"><span style=3D"font-size:=
+11.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#363636">30/06/2016<u=
+></u><u></u></span></p></td></tr><tr style=3D"height:5.0pt"><td style=3D"pa=
+dding:.75pt .75pt .75pt .75pt;height:5.0pt"></td></tr></tbody></table><p cl=
+ass=3D"MsoNormal"><span><u></u>=C2=A0<u></u></span></p><table style=3D"widt=
+h:457.5pt;border-collapse:collapse;border:none" border=3D"1" cellpadding=3D=
+"0" cellspacing=3D"0" width=3D"610"><tbody><tr style=3D"height:30.0pt"><td =
+colspan=3D"2" style=3D"border:solid windowtext 1.0pt;border-bottom:none;bac=
+kground:#f2f2f2;padding:.75pt .75pt .75pt 3.75pt;height:30.0pt"><p class=3D=
+"MsoNormal"><span style=3D"font-size:13.0pt;font-family:&quot;Arial&quot;,s=
+ans-serif;color:#094fa4">Resultado del traspaso<u></u><u></u></span></p></t=
+d></tr><tr style=3D"height:33.75pt"><td style=3D"width:40.0%;border-top:non=
+e;border-left:solid windowtext 1.0pt;border-bottom:none;border-right:solid =
+#d8d8d8 1.0pt;padding:.75pt .75pt .75pt 3.75pt;height:33.75pt" width=3D"40%=
+"><p class=3D"MsoNormal"><span style=3D"font-size:11.5pt;font-family:&quot;=
+Arial&quot;,sans-serif;color:#666666">Cuenta de retiro<u></u><u></u></span>=
+</p></td><td style=3D"border:none;border-right:solid windowtext 1.0pt;backg=
+round:white;padding:.75pt .75pt .75pt 3.75pt;height:33.75pt"><p class=3D"Ms=
+oNormal"><span style=3D"font-size:11.5pt;font-family:&quot;Arial&quot;,sans=
+-serif;color:#363636">0195843138<u></u><u></u></span></p></td></tr><tr styl=
+e=3D"height:33.75pt"><td style=3D"border-top:none;border-left:solid windowt=
+ext 1.0pt;border-bottom:none;border-right:solid #d8d8d8 1.0pt;padding:.75pt=
+ .75pt .75pt 3.75pt;height:33.75pt"><p class=3D"MsoNormal"><span style=3D"f=
+ont-size:11.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#666666">Tip=
+o de operaci=C3=B3n<u></u><u></u></span></p></td><td style=3D"border:none;b=
+order-right:solid windowtext 1.0pt;background:white;padding:.75pt .75pt .75=
+pt 3.75pt;height:33.75pt"><p class=3D"MsoNormal"><span style=3D"font-size:1=
+1.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#363636">INTERBANCARIO=
+ CON / SIN CHEQUERA<u></u><u></u></span></p></td></tr><tr style=3D"height:3=
+3.75pt"><td style=3D"border-top:none;border-left:solid windowtext 1.0pt;bor=
+der-bottom:none;border-right:solid #d8d8d8 1.0pt;padding:.75pt .75pt .75pt =
+3.75pt;height:33.75pt"><p class=3D"MsoNormal"><span style=3D"font-size:11.5=
+pt;font-family:&quot;Arial&quot;,sans-serif;color:#666666">Banco destino<u>=
+</u><u></u></span></p></td><td style=3D"border:none;border-right:solid wind=
+owtext 1.0pt;background:white;padding:.75pt .75pt .75pt 3.75pt;height:33.75=
+pt"><p class=3D"MsoNormal"><span style=3D"font-size:11.5pt;font-family:&quo=
+t;Arial&quot;,sans-serif;color:#363636">BANORTE/ IXE<u></u><u></u></span></=
+p></td></tr><tr style=3D"height:33.75pt"><td style=3D"border-top:none;borde=
+r-left:solid windowtext 1.0pt;border-bottom:none;border-right:solid #d8d8d8=
+ 1.0pt;padding:.75pt .75pt .75pt 3.75pt;height:33.75pt"><p class=3D"MsoNorm=
+al"><span style=3D"font-size:11.5pt;font-family:&quot;Arial&quot;,sans-seri=
+f;color:#666666">Cuenta de dep=C3=B3sito<u></u><u></u></span></p></td><td s=
+tyle=3D"border:none;border-right:solid windowtext 1.0pt;background:white;pa=
+dding:.75pt .75pt .75pt 3.75pt;height:33.75pt"><p class=3D"MsoNormal"><span=
+ style=3D"font-size:11.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#=
+363636">072320002394317160<u></u><u></u></span></p></td></tr><tr style=3D"h=
+eight:33.75pt"><td style=3D"border-top:none;border-left:solid windowtext 1.=
+0pt;border-bottom:none;border-right:solid #d8d8d8 1.0pt;padding:.75pt .75pt=
+ .75pt 3.75pt;height:33.75pt"><p class=3D"MsoNormal"><span style=3D"font-si=
+ze:11.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#666666">Nombre co=
+rto<u></u><u></u></span></p></td><td style=3D"border:none;border-right:soli=
+d windowtext 1.0pt;background:white;padding:.75pt .75pt .75pt 3.75pt;height=
+:33.75pt"><p class=3D"MsoNormal"><span style=3D"font-size:11.5pt;font-famil=
+y:&quot;Arial&quot;,sans-serif;color:#363636">SOSSOTWARE<u></u><u></u></spa=
+n></p></td></tr><tr style=3D"height:33.75pt"><td style=3D"border-top:none;b=
+order-left:solid windowtext 1.0pt;border-bottom:none;border-right:solid #d8=
+d8d8 1.0pt;padding:.75pt .75pt .75pt 3.75pt;height:33.75pt"><p class=3D"Mso=
+Normal"><span style=3D"font-size:11.5pt;font-family:&quot;Arial&quot;,sans-=
+serif;color:#666666">Importe<u></u><u></u></span></p></td><td style=3D"bord=
+er:none;border-right:solid windowtext 1.0pt;background:white;padding:.75pt =
+.75pt .75pt 3.75pt;height:33.75pt"><p class=3D"MsoNormal" style=3D"word-bre=
+ak:break-all"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;=
+,sans-serif;color:#006ec1">$638.00<u></u><u></u></span></p></td></tr><tr st=
+yle=3D"height:33.75pt"><td style=3D"border-top:none;border-left:solid windo=
+wtext 1.0pt;border-bottom:none;border-right:solid #d8d8d8 1.0pt;padding:.75=
+pt .75pt .75pt 3.75pt;height:33.75pt"><p class=3D"MsoNormal"><span style=3D=
+"font-size:11.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#666666">F=
+echa de operaci=C3=B3n<u></u><u></u></span></p></td><td style=3D"border:non=
+e;border-right:solid windowtext 1.0pt;background:white;padding:.75pt .75pt =
+.75pt 3.75pt;height:33.75pt"><p class=3D"MsoNormal"><span style=3D"font-siz=
+e:11.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#363636">30/06/2016=
+<u></u><u></u></span></p></td></tr><tr style=3D"height:33.75pt"><td style=
+=3D"border-top:none;border-left:solid windowtext 1.0pt;border-bottom:none;b=
+order-right:solid #d8d8d8 1.0pt;padding:.75pt .75pt .75pt 3.75pt;height:33.=
+75pt"><p class=3D"MsoNormal"><span style=3D"font-size:11.5pt;font-family:&q=
+uot;Arial&quot;,sans-serif;color:#666666">Forma de dep=C3=B3sito<u></u><u><=
+/u></span></p></td><td style=3D"border:none;border-right:solid windowtext 1=
+.0pt;background:white;padding:.75pt .75pt .75pt 3.75pt;height:33.75pt"><p c=
+lass=3D"MsoNormal"><span style=3D"font-size:11.5pt;font-family:&quot;Arial&=
+quot;,sans-serif;color:#363636">MISMO DIA (SPEI)<u></u><u></u></span></p></=
+td></tr><tr style=3D"height:33.75pt"><td style=3D"border-top:none;border-le=
+ft:solid windowtext 1.0pt;border-bottom:none;border-right:solid #d8d8d8 1.0=
+pt;padding:.75pt .75pt .75pt 3.75pt;height:33.75pt"><p class=3D"MsoNormal">=
+<span style=3D"font-size:11.5pt;font-family:&quot;Arial&quot;,sans-serif;co=
+lor:#666666">Concepto de pago<u></u><u></u></span></p></td><td style=3D"bor=
+der:none;border-right:solid windowtext 1.0pt;background:white;padding:.75pt=
+ .75pt .75pt 3.75pt;height:33.75pt"><p class=3D"MsoNormal"><span style=3D"f=
+ont-size:11.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#363636">SOS=
+ SOFTWARE ASESORIA CONTAPQ<u></u><u></u></span></p></td></tr><tr style=3D"h=
+eight:33.75pt"><td style=3D"border-top:none;border-left:solid windowtext 1.=
+0pt;border-bottom:none;border-right:solid #d8d8d8 1.0pt;padding:.75pt .75pt=
+ .75pt 3.75pt;height:33.75pt"><p class=3D"MsoNormal"><span style=3D"font-si=
+ze:11.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#666666">Referenci=
+a num=C3=A9rica<u></u><u></u></span></p></td><td style=3D"border:none;borde=
+r-right:solid windowtext 1.0pt;background:white;padding:.75pt .75pt .75pt 3=
+.75pt;height:33.75pt"><p class=3D"MsoNormal"><span style=3D"font-size:11.5p=
+t;font-family:&quot;Arial&quot;,sans-serif;color:#363636">300616<u></u><u><=
+/u></span></p></td></tr><tr style=3D"height:33.75pt"><td style=3D"border-to=
+p:none;border-left:solid windowtext 1.0pt;border-bottom:none;border-right:s=
+olid #d8d8d8 1.0pt;padding:.75pt .75pt .75pt 3.75pt;height:33.75pt"><p clas=
+s=3D"MsoNormal"><span style=3D"font-size:11.5pt;font-family:&quot;Arial&quo=
+t;,sans-serif;color:#666666">Clave de rastreo<u></u><u></u></span></p></td>=
+<td style=3D"border:none;border-right:solid windowtext 1.0pt;background:whi=
+te;padding:.75pt .75pt .75pt 3.75pt;height:33.75pt"><p class=3D"MsoNormal">=
+<span style=3D"font-size:11.5pt;font-family:&quot;Arial&quot;,sans-serif;co=
+lor:#363636">BNET01001606300002112598<u></u><u></u></span></p></td></tr><tr=
+ style=3D"height:33.75pt"><td style=3D"border-top:none;border-left:solid wi=
+ndowtext 1.0pt;border-bottom:none;border-right:solid #d8d8d8 1.0pt;padding:=
+.75pt .75pt .75pt 3.75pt;height:33.75pt"><p class=3D"MsoNormal"><span style=
+=3D"font-size:11.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#666666=
+">Hora de Operaci=C3=B3n<u></u><u></u></span></p></td><td style=3D"border:n=
+one;border-right:solid windowtext 1.0pt;background:white;padding:.75pt .75p=
+t .75pt 3.75pt;height:33.75pt"><p class=3D"MsoNormal"><span style=3D"font-s=
+ize:11.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#363636">12:57:06=
+<u></u><u></u></span></p></td></tr><tr style=3D"height:33.75pt"><td style=
+=3D"border-top:none;border-left:solid windowtext 1.0pt;border-bottom:solid =
+windowtext 1.0pt;border-right:solid #d8d8d8 1.0pt;padding:.75pt .75pt .75pt=
+ 3.75pt;height:33.75pt"><p class=3D"MsoNormal"><span style=3D"font-size:11.=
+5pt;font-family:&quot;Arial&quot;,sans-serif;color:#666666">Folio de intern=
+et<u></u><u></u></span></p></td><td style=3D"border-top:none;border-left:no=
+ne;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt=
+;background:white;padding:.75pt .75pt .75pt 3.75pt;height:33.75pt"><p class=
+=3D"MsoNormal"><span style=3D"font-size:11.5pt;font-family:&quot;Arial&quot=
+;,sans-serif;color:#363636">0868993411<u></u><u></u></span></p></td></tr></=
+tbody></table><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-f=
+amily:&quot;Calibri&quot;,sans-serif"><u></u>=C2=A0<u></u></span></p><p cla=
+ss=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&=
+quot;,sans-serif"><u></u>=C2=A0<u></u></span></p><p class=3D"MsoNormal"><b>=
+<span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif"=
+ lang=3D"ES">De:</span></b><span style=3D"font-size:11.0pt;font-family:&quo=
+t;Calibri&quot;,sans-serif" lang=3D"ES"> JAIME RAMOS [mailto:<a href=3D"mai=
+lto:jrcpcontacto@gmail.com" target=3D"_blank">jrcpcontacto@gmail.com</a>] <=
+br><b>Enviado el:</b> jueves, 30 de junio de 2016 11:41 a. m.<br><b>Para:</=
+b> Francisco Galindo &lt;<a href=3D"mailto:info@reimse.com" target=3D"_blan=
+k">info@reimse.com</a>&gt;<br><b>Asunto:</b> Fwd: Cotizaci=C3=B3n soporte t=
+=C3=A9cnico<u></u><u></u></span></p><p class=3D"MsoNormal"><u></u>=C2=A0<u>=
+</u></p><div><p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p><div><p class=
+=3D"MsoNormal">---------- Mensaje enviado ----------<br>De: <b>Alma Yesenia=
+ Garc=C3=AD</b> &lt;<a href=3D"mailto:alma.garcia@sos-soft.com" target=3D"_=
+blank">alma.garcia@sos-soft.com</a>&gt;<br>Fecha: 29 de junio de 2016, 14:0=
+5<br>Asunto: Cotizaci=C3=B3n soporte t=C3=A9cnico<br>Para: <a href=3D"mailt=
+o:jrcpcontacto@gmail.com" target=3D"_blank">jrcpcontacto@gmail.com</a><br><=
+br><br>Hola buen d=C3=ADa Jaime<br><br>Le mando la cotizaci=C3=B3n para el =
+servicio de soporte t=C3=A9cnico<br><br>Para cualquier duda o aclaraci=C3=
+=B3n quedo a sus ordenes, que tenga un excelente d=C3=ADa<br><br><br>Alma G=
+arc=C3=ADa<br>SOS Software - Atendemos nacionalmente<br>(0133) 3617 29 68<b=
+r><br>Sent by <a href=3D"http://www.bitrix24.com" target=3D"_blank">bitrix2=
+4.com</a><br>[msg:84956-6ic6ti] <u></u><u></u></p></div><p class=3D"MsoNorm=
+al"><u></u>=C2=A0<u></u></p></div></div></div></div><br></div>
+
+--001a113ddff21aa3cd053682a3eb--
