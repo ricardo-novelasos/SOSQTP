@@ -1,0 +1,24 @@
+LCPF Ilse Ponce-Contpaq i- to Ricardo, LCPF
+Show more
+Apr 14
+Buen día Ricardo:
+¿Cómo estás? Espero y se que mejor, mejor y mejor! ??????????
+
+Mando por este medio los datos del correo que estaríamos utilizando para si quieren ir haciendo pruebas en lo que tenemos listo lo demás ??
+Cualquier duda o di falta algún dato me dices:
+
+cursos@enfoquein.com.mx
+
+mira los servidores de entrada y salida son (POP)
+mail.enfoquein.com.mx
+
+puerto de salida SMTP 587
+puerto de entrada POP 110
+sin SSL
+
+Contraseña: cr834x
+
+
+Bonito día! Saludos
+…
+0 New
