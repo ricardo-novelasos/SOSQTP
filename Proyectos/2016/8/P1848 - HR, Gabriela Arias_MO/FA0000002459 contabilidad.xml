@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:compac="http://www.cfdi.com.mx/ContpaqiSchemas/addendas/1" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cfdi.com.mx/ContpaqiSchemas/addendas/1 http://www.cfdi.com.mx/ContpaqiSchemas/addendas/1/Compac.xsd http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" serie="A" folio="2459" fecha="2015-01-31T12:17:30" sello="YcyjbaZE0woVywNrhrjv6iIYQcygFgREslNHt9BNCKUsINiY7QPOJ67XJFw2t0RQS+Dslx7M5xnQpGuA3Rp8P9CIzXuiUw3WeXgb5wZbzHWLyYDC2HPI5Fl9onBxti0glimhp3VT607+BhuwVK87RsXlWIISeEF98MPxMQ1HDo0=" formaDePago="PAGO EN UNA SOLA EXHIBICION" noCertificado="00001000000302926414" certificado="MIIEeDCCA2CgAwIBAgIUMDAwMDEwMDAwMDAzMDI5MjY0MTQwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xNDAyMTMxODUzMDJaFw0xODAyMTMxODUzMDJaMIHEMSIwIAYDVQQDExlJU0dFIE1FWElDTyBTIERFIFJMIERFIENWMSIwIAYDVQQpExlJU0dFIE1FWElDTyBTIERFIFJMIERFIENWMSIwIAYDVQQKExlJU0dFIE1FWElDTyBTIERFIFJMIERFIENWMSUwIwYDVQQtExxJTUUxNDAxMjcxVDUgLyBDQVJBODgxMTA2SzIzMR4wHAYDVQQFExUgLyBDQVJBODgxMTA2SFNQTFlSMDkxDzANBgNVBAsTBlVOSURBRDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAmUQAU+/w3uoLx70FIwMYDUhLJH7un51NkBow0CkRDqct91vHcq3FXeicuWI5nhe/6DEWyoISj5BnD1nR39qwfW5pNEgJIY5cy5Z5rG4H9+CXun5vo3C7MWWfybVjR24cuaj9F/pdD5z6y7dLaxroVS5TQv0ASisYG8gE0Tyh5D0CAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBABzL7O+A2096xEjfBhI3lK1n+hfbX9koIL+onMhwo4rbaJ6WXRw8oaxN5Q8+bAxVnZNCemdUnP4+UZb2BhnMSlz2BID7E5xJ+qPQsQCRi7QxtGLUE0h5hAlq3RHhhAdxXpOJ1mE+UTop/PgNrMsoi+YqBsjwLZ1Zga0igrbcBgEeigqkJs3Sx1pUC4dPfU1HrDuVF7ICFz41wzBpeZ65LmZ35M/rephFCDooj12dsBbcj8GoS2/4iKCZdf1qsjslwSIiDw7z7SuXef0S0S/pulnyX6f9OFLqfPlHCrd/vJBM+8QoO7p+Gv/pkV9cNOQH/6fMSDVDjscAjj1FD5bIVeQ=" subTotal="5290.00" TipoCambio="1.00" Moneda="Peso Mexicano" total="6136.40" tipoDeComprobante="ingreso" metodoDePago="No identificado" LugarExpedicion="BEIRUT 326 , OBISPADO, 78396, SAN LUIS POTOSI, SAN LUIS POTOSI, MEXICO">
+	<cfdi:Emisor rfc="IME1401271T5" nombre="ISGE MEXICO, S. DE R.L. DE C.V.">
+		<cfdi:DomicilioFiscal calle="BEIRUT" noExterior="326" colonia="OBISPADO" municipio="SAN LUIS POTOSI" estado="SAN LUIS POTOSI" pais="MEXICO" codigoPostal="78396"/><cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONA MORAL"/></cfdi:Emisor>
+	<cfdi:Receptor rfc="TIM88101113A" nombre="TRABAJOS INDUSTRIALES DE MANTENIMIENTO S DE RL DE CV">
+		<cfdi:Domicilio calle="REPUBLICA DE HAITI" noExterior="169" noInterior="A" colonia="SATELITE" localidad="SAN LUIS POTOSI" estado="SAN LUIS POTOSI" pais="MEXICO" codigoPostal="78380"/></cfdi:Receptor>
+	<cfdi:Conceptos>
+		<cfdi:Concepto cantidad="1.00" unidad="PIEZA" noIdentificacion="PDCIPM" descripcion="CONTPAQ I CONTABILIDAD MONOUSUARIO" valorUnitario="5290.00" importe="5290.00"/></cfdi:Conceptos><cfdi:Impuestos totalImpuestosTrasladados="846.40">
+		<cfdi:Traslados><cfdi:Traslado impuesto="IVA" tasa="16.00" importe="846.40"/></cfdi:Traslados></cfdi:Impuestos><cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" selloCFD="YcyjbaZE0woVywNrhrjv6iIYQcygFgREslNHt9BNCKUsINiY7QPOJ67XJFw2t0RQS+Dslx7M5xnQpGuA3Rp8P9CIzXuiUw3WeXgb5wZbzHWLyYDC2HPI5Fl9onBxti0glimhp3VT607+BhuwVK87RsXlWIISeEF98MPxMQ1HDo0=" FechaTimbrado="2015-01-31T12:17:38" UUID="55DF244C-6C73-4088-A0EB-BCF9D0EEC4C2" noCertificadoSAT="00001000000202864883" version="1.0" selloSAT="HcsNoUeH0sEDRrQwwKWm9SK8bOkQseSKBcpiocjiEqJdinmV4eLiN6GDwr9V82eqJcYLS3cpXQaBuG+CFW8Duih3RAM2iO6m+Diuk1vF8u/lxA7MY31awC1rfUaoER8HVWFf8dadff+/7rlEpVW7ZAFU8O7ruT6RrUkYwNCA7H4="/></cfdi:Complemento><cfdi:Addenda><compac:Compac>
+			<compac:Encabezado>
+				<compac:MGW10008 cSerieDo01="A" cFolio="2459" cReferen01="" cFechaVencimiento="Enero 31 2015" cObserva01="" cTextoEx01="" cTextoEx02="" cTextoEx03="" cFechaEx01="Diciembre 30 1899" cImporte01="0.00" cImporte02="0.00" cImporte03="0.00" cImporte04="0.00" cTotalUn01="1.00" cTipoCam01="1.0000" cPendiente="6,136.40" cDescuen01="0.00" cDescuen04="0.00" cFechaEn01="31/01/2015" cDestina01="TRABAJOS INDUSTRIALES DE MANTENIMIENTO S DE RL DE CV" cNumerog01="0" cMensaje01="" cNumeroc01="0.00" cCuentam01="" cPeso="0.00" cImpuesto1="846.40" cImpuesto2="0.00" cImpuesto3="0.00" cRetenci01="0.00" cRetenci02="0.00" cMetodoPag="No identificado" cCondiPago="" cNumCtaPag="" cLugarExpe="BEIRUT 326 , OBISPADO, 78396, SAN LUIS POTOSI, SAN LUIS POTOSI, MEXICO">
+					<compac:MGW10045 cEsTrad="3">
+					</compac:MGW10045>
+					<compac:MGW10007 cDescrip01="Factura">
+					</compac:MGW10007>
+					<compac:MGW10034 cNombreM01="Peso Mexicano">
+					</compac:MGW10034>
+					<compac:MGW10002 cCodigoC01="TIM13A" cDiasCre01="0" cCurp="" cTextoExtra1="" cTextoExtra2="" cTextoExtra3="" cTextoExtra4="" cTextoExtra5="" cFechaExtra="Diciembre 30 1899" cImporteExtra1="0.00" cImporteExtra2="0.00" cImporteExtra3="0.00" cImporteExtra4="0.00" cImporteExtra5="0.00" cLimiteC01="0.00" cInteres01="0.00" CDenCome01="">
+					</compac:MGW10002>
+					<compac:MGW10001 cCodigoA01="014" cNombreA01="DISTRIBUIDORES" cTextoEx01="" cTextoEx02="" cTextoEx03="" cFechaEx01="30/12/1899" cImporte01="0.00" cImporte02="0.00" cImporte03="0.00" cImporte04="0.00">
+					</compac:MGW10001>
+					<compac:MGW10000 cCurpEmp01="" cReprese01="" cNumDonat="" cFecDonat="30 de Diciembre de 1899">
+					</compac:MGW10000>
+					<compac:DirCteEnv cNombreC01="REPUBLICA DE HAITI" cNumeroE01="169" cNumeroI01="A" cColonia="SATELITE" cCodigoP01="78380" cTelefono1="(444) 1126335" cTelefono2="" cTelefono3="" cTelefono4="" cEmail="" cDireccI01="" cPais="MEXICO" cEstado="SAN LUIS POTOSI" cCiudad="SAN LUIS POTOSI" cTextoEx01="" cMunicipio="">
+					</compac:DirCteEnv>
+					<compac:DirCteFis cNombreC01="REPUBLICA DE HAITI" cNumeroE01="169" cNumeroI01="A" cTelefono1="(444) 1126335" cTelefono2="" cTelefono3="" cTelefono4="" cEmail="trainma@prodigy.net.mx" cDireccI01="" cTextoEx01="">
+					</compac:DirCteFis>
+					<compac:DirEmp cNombreC01="BEIRUT" cNumeroE01="326" cNumeroI01="" cTelefono1="(444)813-63-57" cTelefono2="833-56-03" cTelefono3="" cTelefono4="" cEmail="" cDireccI01="www.soaddi.com" cTextoEx01="">
+					</compac:DirEmp>
+					<compac:Funciones f_DoctoOrigen="Pedidos Distribuidores 1377" f_NETOCONDESC="5,290.00" f_TOTALLETRA="SEIS MIL CIENTO TREINTA Y SEIS PESOS 40/100 M.N." f_TOTALIMPMILLARLETRA1="CINCO MIL DOSCIENTOS NOVENTA PESOS 00/100 M.N." f_TOTALIMPMILLARLETRA2="SEIS MIL CIENTO TREINTA Y SEIS PESOS 40/100 M.N." f_TOTALIMPMILLARLETRA3="SEIS MIL CIENTO TREINTA Y SEIS PESOS 40/100 M.N." f_TOTALIMPMILLARLETRA4="SEIS MIL CIENTO TREINTA Y SEIS PESOS 40/100 M.N." f_TOTALIMPMILLARLETRA5="SEIS MIL CIENTO TREINTA Y SEIS PESOS 40/100 M.N." f_TOTALLETRAING="SIX THOUSAND ONE HUNDRED THIRTY SIX PESOS 40/100 M.N." f_TOTALDESC1MOVTOS="0.00" f_TOTALDESC2MOVTOS="0.00" f_TOTALDESC3MOVTOS="0.00" f_TOTALDESC4MOVTOS="0.00" f_REGIMENFISCAL="REGIMEN GENERAL DE LEY PERSONA MORAL" f_EFECTOPAGO="0.00" f_TOTALEFECTOPAGO="6,136.40" f_TOTALEFECTOPAGOLETRA="SEIS MIL CIENTO TREINTA Y SEIS PESOS 40/100 M.N." f_NETOSEIMPUESTOSDOC="6,136.40" f_NETODESCIVADOC0="0.00" f_NETODESCIVADOCEX="0.00" f_NETODESCIVADOC11="0.00" f_NETODESCIVADOC16="5,290.00" f_NOMBRECONCEPTO="Factura CFDi" f_CLASIFCLIENTE1="USUARIO FINAL" f_CLASIFCLIENTE2="SAN LUIS POTOSI" f_CLASIFCLIENTE3=" " f_CLASIFCLIENTE4=" " f_CLASIFCLIENTE5=" " f_CLASIFCLIENTE6=" " f_SUBTOTALIEPS="6,136.40" f_SUBTOTALSINRETCONDESC="6,136.40" f_SUBTOTALSINRETSINDESC="6,136.40" f_NETODOCTOIEPSSINDESC="5,290.00" f_DESCTODOCTOPUNITARIOIEPS="0.00">
+					</compac:Funciones>
+					<compac:Imagenes e_ADMINPAQ=".jpg" i_ADMINPAQ="IMG_ADMINPAQ" e_LOGOEMPRESA=".jpg" i_LOGOEMPRESA="IMG_LOGOEMPRESA" e_CEDULAEMPRESA=".jpg" i_CEDULAEMPRESA="IMG_CEDULAEMPRESA" e_CBB=".bmp" i_CBB="IMG_CBB">
+					</compac:Imagenes>
+				</compac:MGW10008>
+			</compac:Encabezado>
+			<compac:Detalle>
+				<compac:MGW10010 cNumeroM01="100" cSCMovto="" cImpuesto1="846.40" cPorcent01="16.00" cImpuesto2="0.00" cPorcent02="0.00" cImpuesto3="0.00" cPorcent03="0.00" cRetenci01="0.00" cPorcent04="0.00" cRetenci02="0.00" cPorcent05="0.00" cNeto="5,290.00" cTotal="6,136.40" cImporte01="0.00" cImporte02="0.00" cImporte03="0.00" cImporte04="0.00" cFechaEx01="30/12/1899" cUnidade02="1.00" cDescuen01="0.00" cPorcent06="0.00" cDescuen02="0.00" cPorcent07="0.00" cDescuen03="0.00" cPorcent08="0.00" cDescuen04="0.00" cPorcent09="0.00" cDescuen05="0.00" cPorcent10="0.00" cReferen01="" cObserva01="" cTextoEx01="" cTextoEx02="" cTextoEx03="">
+					<compac:MGW10005 cCodigoP01="PDCIPM" cDescrip01="" cCodAltern="" cCtaPred="" cNomAltern="" cDescCorta="" cTextoEx01="" cTextoEx02="" cTextoEx03="" cImporte01="0.00" cImporte02="0.00" cImporte03="0.00" cImporte04="0.00" cFechaEx01="28/06/2013">
+					</compac:MGW10005>
+					<compac:MGW10003 cCodigoA01="1" cNombreA01="Almacen Uno">
+					</compac:MGW10003>
+					<compac:Funciones f_CLASIFPRODUCTOMOVTO1="PRODUCTO" f_CLASIFPRODUCTOMOVTO2=" " f_CLASIFPRODUCTOMOVTO3=" " f_CLASIFPRODUCTOMOVTO4=" " f_CLASIFPRODUCTOMOVTO5=" " f_CLASIFPRODUCTOMOVTO6=" " f_NETOCONDESC="5,290.00" f_LOTESHORIZ="150130-98-0948 &#xA;" f_NETOMOVTO="5,290.00" f_NETOMOVTOIEPS="5,290.00" f_IVANETOMOVTO="846.40" f_PRECIOIVAMOVTO="6,136.40" f_ABREVIATURAUNIDADNC=" " f_CANTIDADUNIDADNC=" " f_NETODESCIVA16="6,136.40" f_NUMPARTIDA="1" f_PRECIOUNITCONDESC="5,290.00" f_PRECIOUNITCONIMPUESTOS="6136.39990234375" f_TOTALPRECIOUNIT="5,290.00" f_TOTALENTREUNIDSMOVTO="6,136.40" f_PRECIOUNITARIOCONIEPS="5,290.00" f_PRECIOUNITCONDESCIEPS="5,290.00" f_DESCTOPUNITARIOIEPS="0.00" f_IVAMOVTODESCTOIEPS="846.40" f_NETOMOVTOIEPSSINDESC="5,290.00" f_PRECIOUNITARIOCONIEPSSINDESC="5,290.00">
+					</compac:Funciones>
+					<compac:MGW10000 cPrecios01="0">
+					</compac:MGW10000>
+					<compac:Lote f_NUMERO_LOTE="150130-98-0948 &#xA;" f_FECHAFAB_LOTE="30/01/2015" f_FECHACAD_LOTE="30/01/2015">
+					</compac:Lote>
+				</compac:MGW10010>
+			</compac:Detalle>
+		</compac:Compac>
+	</cfdi:Addenda>
+</cfdi:Comprobante>
+ 
