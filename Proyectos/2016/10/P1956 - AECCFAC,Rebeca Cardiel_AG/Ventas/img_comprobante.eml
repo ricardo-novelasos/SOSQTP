@@ -1,0 +1,524 @@
+Received: from mxfront3h.mail.yandex.net ([127.0.0.1])
+	by mxfront3h.mail.yandex.net with LMTP id kB4dbIiM
+	for <alma.garcia@sos-soft.com>; Fri, 21 Oct 2016 02:18:43 +0300
+Received: from snt004-omc4s36.hotmail.com (snt004-omc4s36.hotmail.com [65.55.90.239])
+	by mxfront3h.mail.yandex.net (nwsmtp/Yandex) with ESMTPS id jUP3SalLiP-IfaebR3l;
+	Fri, 21 Oct 2016 02:18:41 +0300
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-SHA256 (128/128 bits))
+	(Client certificate not present)
+Return-Path: ElLinderoTampico@hotmail.com
+X-Yandex-Front: mxfront3h.mail.yandex.net
+X-Yandex-TimeMark: 1477005521
+Authentication-Results: mxfront3h.mail.yandex.net; spf=pass (mxfront3h.mail.yandex.net: domain of hotmail.com designates 65.55.90.239 as permitted sender) smtp.mail=ElLinderoTampico@hotmail.com; dkim=pass header.i=@hotmail.com
+X-Yandex-Spam: 1
+Received: from NAM03-BY2-obe.outbound.protection.outlook.com ([65.55.90.199]) by SNT004-OMC4S36.hotmail.com over TLS secured channel with Microsoft SMTPSVC(7.5.7601.23008);
+	 Thu, 20 Oct 2016 16:18:40 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=PgF9NEZkElLh0GKbDNBaFvW8IhjFC0Dvb+yYX/xz1n0=;
+ b=CcG9OEYeFDOvpJzirCinkIVzqHrnmwef9Z4+jpuQC8LrjWG2cJ0qfUYDAyUk4/uMWy3f6HSLGL0666268CWgNqyt++aVOTxcE5Hs8PhKC0joyabUMxsduVWvzn0Ec7O5gZRMbf5iVfN82o+EtHo2iaUXsvwX1kTAzOuf9Xpa/6vnaDu/Y04zMKAe0jsW7IANHh7cLfOZEdIa4uQ3Z0nOAB8Obsg0LRFK3rWUVXIckDiPoV7/+06h5UZ5J+4hIn8vNcVTZR5vo1P0wE6X2j8zC4yXrZrtVPejy5uKf/QS6B/vyT971kfJpvecmCI5SuXpQbVaeDWXow3J/2NxTmZx0Q==
+Received: from BY2NAM03FT021.eop-NAM03.prod.protection.outlook.com
+ (10.152.84.56) by BY2NAM03HT038.eop-NAM03.prod.protection.outlook.com
+ (10.152.85.82) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.1.679.5; Thu, 20 Oct
+ 2016 23:18:39 +0000
+Received: from CY4PR17MB1653.namprd17.prod.outlook.com (10.152.84.51) by
+ BY2NAM03FT021.mail.protection.outlook.com (10.152.84.222) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.679.5 via Frontend Transport; Thu, 20 Oct 2016 23:18:39 +0000
+Received: from CY4PR17MB1653.namprd17.prod.outlook.com ([10.173.64.14]) by
+ CY4PR17MB1653.namprd17.prod.outlook.com ([10.173.64.14]) with mapi id
+ 15.01.0669.018; Thu, 20 Oct 2016 23:18:39 +0000
+From: El Lindero Tampico Av Hidalgo <ElLinderoTampico@hotmail.com>
+To: =?iso-8859-1?Q?Alma_Garc=EDa?= <alma.garcia@sos-soft.com>
+Subject: =?iso-8859-1?Q?Re:_Cotizaci=F3n_renovaci=F3n?=
+Thread-Topic: =?iso-8859-1?Q?Cotizaci=F3n_renovaci=F3n?=
+Thread-Index: AQHSKxtUWOHH4f4Ji0WN6K0lYVS1fqCx6TctgAAP4oCAAAE8Tg==
+Date: Thu, 20 Oct 2016 23:18:39 +0000
+Message-ID: <CY4PR17MB1653AFF491DFD12D36FD5195DCD50@CY4PR17MB1653.namprd17.prod.outlook.com>
+References: <crm.activity.91636-6RCZJU@contpaqi911.bitrix24.com>
+ <c2a6c36d-4e44-457b-1693-fd7b35ad057c@sos-soft.com>
+ <CY4PR17MB16534ACBEC10564B75251BAADCD50@CY4PR17MB1653.namprd17.prod.outlook.com>,<2ced4e3b-75bb-a8a8-2ba8-f6924bc61454@sos-soft.com>
+In-Reply-To: <2ced4e3b-75bb-a8a8-2ba8-f6924bc61454@sos-soft.com>
+Accept-Language: es-MX, en-US
+Content-Language: es-MX
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-incomingtopheadermarker: OriginalChecksum:A5BC322F2DADF9036D5B3B5490BF80E12FE62FAC3AC109589754E3510CD097D4;UpperCasedChecksum:254798536D42224FE215F0146FABF609078252B1C185C7286511985C7D8C3373;SizeAsReceived:7498;Count:38
+x-tmn: [Rrb2tMDHojFE40/nR8h+MH5O1A35cJtw]
+x-incomingheadercount: 38
+x-eopattributedmessage: 0
+x-microsoft-exchange-diagnostics: 1;BY2NAM03HT038;6:nK6d1H8j/2rEdjY+vQCVqvousESXbBm28ZeXJApe9Pz8zCgdzTZI2u/gnqCPaNOajZ8Kp78y6HOgEESFQcuIVoAl86VCcEi2Y/MT+u5jV6nvwZthVnemYNRH2LV1xoPfubRLIco82gi5SArrr5Vfg1DSlMyM2t4hMgVUI5wuE0I0OzCZLySDY7kUmVYYgPh0ZBw+583g9Ixcpj7k5y5u8eJjXH315RLXqit1blJVxudML9F+VfkONoDb+M42KzU4FqtjXYOdgSpwmrodF75BEn1DNpNU/RHxmXvh90d4gUBqXrea/vZVUjcxMuVaiMt3;5:zlUUqPepROOcXxIry9pNOc/Gi6uV5X2MnC9mimSNWcpfEtQLCeiVwnoj/LEdskcmi7w+fwEAnTkknALBlSmgoceOR+atsmylb4ZON/0V5SnXxlgp+ats2qeAoSYfCYgzzHGH0SN+RrhXcvKy3/STaQ==;24:WtpAqlukZPsYKCXVWlEjI2IZsL0t7wgVyGC5c7PaAXCSyz19gug4i2x7JlzWQFryeGz6ld9dT8mq31DXh7j6CpapzBY8BwFYEOPz2D9UvyM=;7:fv+RW7Bph7e80PtS/6cwgYNf6z5WD1OengaFryDb34w4ntnoM8Ed7VU0kA36y3na1yguP61gHcNg8l+EMtofQoFD5WyUdcgY1t3WNz/N2Xl2z8CjKSchIoZ49h6LVKwQyb/MC3e2q8Ld1iCtFssrLneHS14hEo59arbuuWAC3DiC68xDYgecT7bS+iGokGF25J5vG9bfZU351KY/WXdSm1y8Ymjh2V7hlpuD6Vsnn9q7m8mZrWZtNCjQ/3+ks6KMVN3ssmVjo5Od95i+Kv9cfvzoVCwbXwr723vkY+Yv5qHKiNI27pF94rCOkDIsJQGcLsJbPtEkQoGa+aL1WdfFsd7JRCLRvdiaSlcZOUviKzI=
+x-forefront-antispam-report: EFV:NLI;SFV:NSPM;SFS:(10019020)(98900003);DIR:OUT;SFP:1102;SCL:1;SRVR:BY2NAM03HT038;H:CY4PR17MB1653.namprd17.prod.outlook.com;FPR:;SPF:None;LANG:es;
+x-ms-office365-filtering-correlation-id: 7df28ac9-5134-40a1-1c75-08d3f93f6cc8
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(1601124038)(1603103081)(1601125047)(1603101337);SRVR:BY2NAM03HT038;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(432015012)(82015046);SRVR:BY2NAM03HT038;BCL:0;PCL:0;RULEID:;SRVR:BY2NAM03HT038;
+x-forefront-prvs: 01018CB5B3
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative;
+	boundary="_000_CY4PR17MB1653AFF491DFD12D36FD5195DCD50CY4PR17MB1653namp_"
+MIME-Version: 1.0
+X-OriginatorOrg: hotmail.com
+X-MS-Exchange-CrossTenant-originalarrivaltime: 20 Oct 2016 23:18:39.1960
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Internet
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2NAM03HT038
+X-OriginalArrivalTime: 20 Oct 2016 23:18:40.0583 (UTC) FILETIME=[4B19BD70:01D22B28]
+X-Yandex-Forward: 3f3ca835f0ec994b3f591f12a1e7ff3e
+
+--_000_CY4PR17MB1653AFF491DFD12D36FD5195DCD50CY4PR17MB1653namp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+[http://www.bancomer.com.mx/comun/img/comun_logo.gif]
+
+DEL ANGEL CRUZ HILDA
+
+
+TRASPASO INTERBANCARIO
+
+Notificaci=F3n Banca en L=EDnea
+
+
+Banco destino:          BANORTE
+Cuenta CLABE / TDD de dep=F3sito:         ************7160
+Importe de la operaci=F3n:        $3,758.40
+Fecha de la operaci=F3n:          20 DE OCTUBRE DE 2016
+Hora de la operaci=F3n:   17:18:34 hrs.
+
+Folio de Internet:      2471864312
+Folio Interbancario:    0002118202
+
+
+________________________________
+De: Alma Garc=EDa <alma.garcia@sos-soft.com>
+Enviado: jueves, 20 de octubre de 2016 06:14 p. m.
+Para: El Lindero Tampico Av Hidalgo
+Asunto: Re: Cotizaci=F3n renovaci=F3n
+
+
+Buen d=EDa Rebeca
+
+me podrias mandar el formato donde aparece el numero de cuenta y la cantida=
+d que estas haciendo transferencia
+
+Gracias
+
+El 20/10/2016 a las 05:18 p.m., El Lindero Tampico Av Hidalgo escribi=F3:
+
+Aviso de registro de cuenta de terceros en tu servicio de Banca en L=EDnea
+
+
+
+
+Titular de la cuenta
+
+
+DEL ANGEL CRUZ HILDA
+
+
+Nombre de cuenta registrada
+
+
+SOS SOFTWARE SEA DE CV
+
+
+N=FAmero de cuenta registrada
+
+
+**************7160
+
+
+Nombre del Banco
+
+
+BANORTE/ IXE
+
+
+Fecha y hora de registro
+
+
+20 de Octubre de 2016, 5:13 PM
+
+
+Folio de registro
+
+
+0018643004
+
+
+
+
+
+
+
+hilda del angel cruz
+AECH55092912A
+AV. HIDALGO NO.3606
+COL. FLORES
+C.P.89220
+TAMPICO,TAMPS
+
+________________________________
+De: Alma Garc=EDa <alma.garcia@sos-soft.com><mailto:alma.garcia@sos-soft.co=
+m>
+Enviado: jueves, 20 de octubre de 2016 04:45 p. m.
+Para: ellinderotampico@hotmail.com<mailto:ellinderotampico@hotmail.com>
+Asunto: Fwd: Cotizaci=F3n renovaci=F3n
+
+
+
+
+-------- Mensaje reenviado --------
+Asunto:         Cotizaci=F3n renovaci=F3n
+Fecha:  Thu, 20 Oct 2016 23:58:19 +0300 (MSK)
+De:     Alma Yesenia Garc=ED a Enriquez <alma.garcia@sos-soft.com><mailto:a=
+lma.garcia@sos-soft.com>
+Responder a:    alma.garcia@sos-soft.com<mailto:alma.garcia@sos-soft.com>, =
+info@sos-soft.com<mailto:info@sos-soft.com>
+Para:   Alma Yesenia Garc=ED a Enriquez <alma.garcia@sos-soft.com><mailto:a=
+lma.garcia@sos-soft.com>
+
+
+Hola buen d=EDa Gabriela
+
+Te mando la cotizaci=F3n para la renovaci=F3n de su licencia y servicio de =
+soporte t=E9cnico para la actualizaci=F3n de sus sistema de factura electro=
+nica
+
+Para cualquier duda o aclaraci=F3n quedo a sus ordenes, que tenga un excele=
+nte d=EDa
+
+
+
+Alma Yesenia Garc=EDa Enriquez [AG]
+Ventas SOS Software - Atendemos nacionalmente
+(0133) 3617 2968
+
+Sent by bitrix24.com<http://www.bitrix24.com>
+[msg:91636-6rczju]
+
+
+--_000_CY4PR17MB1653AFF491DFD12D36FD5195DCD50CY4PR17MB1653namp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"><!-- P {margin-top:0;margi=
+n-bottom:0;} --></style>
+</head>
+<body dir=3D"ltr">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size:12pt;color:#000000;font=
+-family:Calibri,Arial,Helvetica,sans-serif;">
+<p><br>
+</p>
+<table width=3D"61%" align=3D"center" style=3D"color: rgb(33, 33, 33); font=
+-size: 15px;">
+<tbody>
+<tr>
+<td width=3D"55%"><img style=3D"user-select: none;" src=3D"http://www.banco=
+mer.com.mx/comun/img/comun_logo.gif"></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<div align=3D"right">DEL ANGEL CRUZ HILDA</div>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td><b><font color=3D"#30c0f3" size=3D"3">TRASPASO INTERBANCARIO</font></b>=
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td><strong>Notificaci=F3n Banca en L=EDnea</strong></td>
+</tr>
+</tbody>
+</table>
+<font style=3D"font-size: 12pt; color: rgb(0, 110, 193);"></font>
+<table width=3D"699" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" style=3D"color: rgb(33, 33, 33); font-size: 15px;">
+<tbody>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td width=3D"50%" align=3D"right"><font style=3D"font-size: 12pt; color: rg=
+b(102, 102, 102);">Banco destino:&nbsp;</font>&nbsp;</td>
+<td width=3D"50%"><font style=3D"font-size: 12pt; color: rgb(54, 54, 54);">=
+BANORTE</font></td>
+</tr>
+<tr>
+<td width=3D"50%" align=3D"right"><font style=3D"font-size: 12pt; color: rg=
+b(102, 102, 102);">Cuenta CLABE / TDD de dep=F3sito:&nbsp;</font>&nbsp;</td=
+>
+<td width=3D"50%"><font style=3D"font-size: 12pt; color: rgb(54, 54, 54);">=
+************7160</font></td>
+</tr>
+<tr>
+<td width=3D"50%" align=3D"right"><font style=3D"font-size: 12pt; color: rg=
+b(102, 102, 102);">Importe de la operaci=F3n:&nbsp;</font>&nbsp;</td>
+<td width=3D"50%"><font style=3D"font-size: 12pt; color: rgb(0, 110, 193);"=
+>$3,758.40</font></td>
+</tr>
+</tbody>
+</table>
+<table width=3D"699" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" style=3D"color: rgb(33, 33, 33); font-size: 15px;">
+<tbody>
+<tr>
+<td width=3D"50%" align=3D"right"><font style=3D"font-size: 12pt; color: rg=
+b(102, 102, 102);">Fecha de la operaci=F3n:&nbsp;</font>&nbsp;</td>
+<td width=3D"50%"><font style=3D"font-size: 12pt; color: rgb(54, 54, 54);">=
+20 DE OCTUBRE DE 2016&nbsp;</font></td>
+</tr>
+<tr>
+<td width=3D"50%" align=3D"right"><font style=3D"font-size: 12pt; color: rg=
+b(102, 102, 102);">Hora de la operaci=F3n:&nbsp;</font>&nbsp;</td>
+<td width=3D"50%"><font style=3D"font-size: 12pt; color: rgb(54, 54, 54);">=
+17:18:34 hrs.&nbsp;</font></td>
+</tr>
+</tbody>
+</table>
+<table width=3D"699" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" style=3D"color: rgb(33, 33, 33); font-size: 15px;">
+<tbody>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td width=3D"50%" align=3D"right"><font style=3D"font-size: 12pt; color: rg=
+b(102, 102, 102);">Folio de Internet:&nbsp;</font>&nbsp;</td>
+<td width=3D"50%"><font style=3D"font-size: 12pt; color: rgb(54, 54, 54);">=
+2471864312</font></td>
+</tr>
+<tr>
+<td width=3D"50%" align=3D"right"><font style=3D"font-size: 12pt; color: rg=
+b(102, 102, 102);">Folio Interbancario:&nbsp;</font>&nbsp;</td>
+<td width=3D"50%"><font style=3D"font-size: 12pt; color: rgb(54, 54, 54);">=
+0002118202</font></td>
+</tr>
+</tbody>
+</table>
+<br>
+<br>
+<div style=3D"color: rgb(0, 0, 0);">
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" co=
+lor=3D"#000000" style=3D"font-size:11pt"><b>De:</b> Alma Garc=EDa &lt;alma.=
+garcia@sos-soft.com&gt;<br>
+<b>Enviado:</b> jueves, 20 de octubre de 2016 06:14 p. m.<br>
+<b>Para:</b> El Lindero Tampico Av Hidalgo<br>
+<b>Asunto:</b> Re: Cotizaci=F3n renovaci=F3n</font>
+<div>&nbsp;</div>
+</div>
+<div>
+<p>Buen d=EDa Rebeca</p>
+<p>me podrias mandar el formato donde aparece el numero de cuenta y la cant=
+idad que estas haciendo transferencia</p>
+<p>Gracias<br>
+</p>
+<br>
+<div class=3D"moz-cite-prefix">El 20/10/2016 a las 05:18 p.m., El Lindero T=
+ampico Av Hidalgo escribi=F3:<br>
+</div>
+<blockquote type=3D"cite">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size:12pt; color:#000000; fo=
+nt-family:Calibri,Arial,Helvetica,sans-serif">
+<p></p>
+<table background=3D"http://www.bancomer.com.mx/minisitios/alertas/logo.jpg=
+" cellpadding=3D"2" cellspacing=3D"0" width=3D"550" style=3D"color:rgb(33,3=
+3,33); font-size:15px">
+<tbody>
+<tr>
+<td colspan=3D"2">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:12px; color:rgb(0,0,153)">
+Aviso de registro de cuenta de terceros en tu servicio de Banca en L=EDnea<=
+/p>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2">&nbsp;</td>
+</tr>
+<tr>
+<td width=3D"40%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px">Titular de la cuenta</p>
+</td>
+<td width=3D"60%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px"><b>DEL ANGEL CRUZ HILDA</b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"40%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px">Nombre de cuenta registrada</p>
+</td>
+<td width=3D"60%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px"><b>SOS SOFTWARE SEA DE CV</b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"40%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px">N=FAmero de cuenta registrada</p>
+</td>
+<td width=3D"60%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px"><b>**************7160</b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"40%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px">Nombre del Banco</p>
+</td>
+<td width=3D"60%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px"><strong>BANORTE/ IXE</strong></p>
+</td>
+</tr>
+<tr>
+<td width=3D"40%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px">Fecha y hora de registro</p>
+</td>
+<td width=3D"60%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px"><b>20 de Octubre de 2016, 5:13 PM</b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"40%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px">Folio de registro</p>
+</td>
+<td width=3D"60%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px"><b>0018643004</b></p>
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px"><b><br>
+</b></p>
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px"><b><br>
+</b></p>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<br>
+<p></p>
+hilda del angel cruz
+<div>AECH55092912A</div>
+<div>AV. HIDALGO NO.3606</div>
+<div>COL. FLORES</div>
+<div>C.P.89220</div>
+<div>TAMPICO,TAMPS<br>
+<br>
+<div style=3D"color:rgb(0,0,0)">
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" co=
+lor=3D"#000000" style=3D"font-size:11pt"><b>De:</b> Alma Garc=EDa
+<a class=3D"moz-txt-link-rfc2396E" href=3D"mailto:alma.garcia@sos-soft.com"=
+>&lt;alma.garcia@sos-soft.com&gt;</a><br>
+<b>Enviado:</b> jueves, 20 de octubre de 2016 04:45 p. m.<br>
+<b>Para:</b> <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:ellindero=
+tampico@hotmail.com">
+ellinderotampico@hotmail.com</a><br>
+<b>Asunto:</b> Fwd: Cotizaci=F3n renovaci=F3n</font>
+<div>&nbsp;</div>
+</div>
+<div>
+<p><br>
+</p>
+<div class=3D"moz-forward-container"><br>
+<br>
+-------- Mensaje reenviado --------
+<table class=3D"moz-email-headers-table" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0">
+<tbody>
+<tr>
+<th align=3D"RIGHT" nowrap=3D"nowrap" valign=3D"BASELINE">Asunto: </th>
+<td>Cotizaci=F3n renovaci=F3n</td>
+</tr>
+<tr>
+<th align=3D"RIGHT" nowrap=3D"nowrap" valign=3D"BASELINE">Fecha: </th>
+<td>Thu, 20 Oct 2016 23:58:19 &#43;0300 (MSK)</td>
+</tr>
+<tr>
+<th align=3D"RIGHT" nowrap=3D"nowrap" valign=3D"BASELINE">De: </th>
+<td>Alma Yesenia Garc=ED a Enriquez <a class=3D"moz-txt-link-rfc2396E" href=
+=3D"mailto:alma.garcia@sos-soft.com">
+&lt;alma.garcia@sos-soft.com&gt;</a></td>
+</tr>
+<tr>
+<th align=3D"RIGHT" nowrap=3D"nowrap" valign=3D"BASELINE">Responder a: </th=
+>
+<td><a class=3D"moz-txt-link-abbreviated" href=3D"mailto:alma.garcia@sos-so=
+ft.com">alma.garcia@sos-soft.com</a>,
+<a class=3D"moz-txt-link-abbreviated" href=3D"mailto:info@sos-soft.com">inf=
+o@sos-soft.com</a></td>
+</tr>
+<tr>
+<th align=3D"RIGHT" nowrap=3D"nowrap" valign=3D"BASELINE">Para: </th>
+<td>Alma Yesenia Garc=ED a Enriquez <a class=3D"moz-txt-link-rfc2396E" href=
+=3D"mailto:alma.garcia@sos-soft.com">
+&lt;alma.garcia@sos-soft.com&gt;</a></td>
+</tr>
+</tbody>
+</table>
+<br>
+<br>
+Hola buen d=EDa Gabriela<br>
+<br>
+Te mando la cotizaci=F3n para la renovaci=F3n de su licencia y servicio de =
+soporte t=E9cnico para la actualizaci=F3n de sus sistema de factura electro=
+nica<br>
+<br>
+Para cualquier duda o aclaraci=F3n quedo a sus ordenes, que tenga un excele=
+nte d=EDa<br>
+<br>
+<br>
+<br>
+Alma Yesenia Garc=EDa Enriquez [AG]<br>
+Ventas SOS Software - Atendemos nacionalmente<br>
+(0133) 3617 2968<br>
+<br>
+Sent by <a href=3D"http://www.bitrix24.com" target=3D"_blank">bitrix24.com<=
+/a><br>
+[msg:91636-6rczju] </div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+<br>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_CY4PR17MB1653AFF491DFD12D36FD5195DCD50CY4PR17MB1653namp_--
