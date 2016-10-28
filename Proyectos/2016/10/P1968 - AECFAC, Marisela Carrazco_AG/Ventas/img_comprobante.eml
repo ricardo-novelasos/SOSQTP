@@ -1,0 +1,461 @@
+Received: from mxfront4o.mail.yandex.net ([127.0.0.1])
+	by mxfront4o.mail.yandex.net with LMTP id QRaY3bxB;
+	Fri, 28 Oct 2016 20:47:57 +0300
+Received: from col004-omc4s10.hotmail.com (col004-omc4s10.hotmail.com [65.55.34.212])
+	by mxfront4o.mail.yandex.net (nwsmtp/Yandex) with ESMTPS id gLyaFXAI3u-luimassU;
+	Fri, 28 Oct 2016 20:47:56 +0300
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-SHA256 (128/128 bits))
+	(Client certificate not present)
+Return-Path: mariselacarrasco29@hotmail.com
+X-Yandex-Front: mxfront4o.mail.yandex.net
+X-Yandex-TimeMark: 1477676876
+Authentication-Results: mxfront4o.mail.yandex.net; spf=pass (mxfront4o.mail.yandex.net: domain of hotmail.com designates 65.55.34.212 as permitted sender) smtp.mail=mariselacarrasco29@hotmail.com; dkim=pass header.i=@hotmail.com
+X-Yandex-Spam: 1
+Received: from NAM02-SN1-obe.outbound.protection.outlook.com ([65.55.34.201]) by COL004-OMC4S10.hotmail.com over TLS secured channel with Microsoft SMTPSVC(7.5.7601.23008);
+	 Fri, 28 Oct 2016 10:47:54 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=tdSSNyUgnBhhVFnRtZTKNaBiE4DoRx8nkCCTt8ZLXK4=;
+ b=MPAR5XZzuQZzU9KYfnhRqPpsHi1wkGKzz2uxENSpLtigsKwW5897q2wrVqqNaq9Hlas7igxQMuugGh3XD6AIPSXrlt0UQqPs4acwlz6delxOnsVEVmwmNQAkLNxpc0Q06aGFBCd5q6q/wVdTPVg0gGyPcL52YxR/gQmUxdXr65nhvv3bHtraw+6sptZzqFYs6ELQWJkGes8q9YASdAEKbt4wBpAZXGfph5HN4ZUMe7v0uvsjQGWqEcZzM0pGx5aF64GdILQdaOY79k6TCESCObhdszKRuimDYh2hvvRbW5RyJEOc99su1etrgkvwrUp5Hcxmc0bpmMYAxnl7APwa/g==
+Received: from BL2NAM02FT037.eop-nam02.prod.protection.outlook.com
+ (10.152.76.58) by BL2NAM02HT066.eop-nam02.prod.protection.outlook.com
+ (10.152.77.131) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.1.693.6; Fri, 28 Oct
+ 2016 17:47:53 +0000
+Received: from BY2PR06MB249.namprd06.prod.outlook.com (10.152.76.52) by
+ BL2NAM02FT037.mail.protection.outlook.com (10.152.77.11) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.693.6 via Frontend Transport; Fri, 28 Oct 2016 17:47:53 +0000
+Received: from BY2PR06MB249.namprd06.prod.outlook.com ([169.254.10.96]) by
+ BY2PR06MB249.namprd06.prod.outlook.com ([169.254.10.96]) with mapi id
+ 15.01.0679.015; Fri, 28 Oct 2016 17:47:52 +0000
+From: Marisela Carrasco <mariselacarrasco29@hotmail.com>
+To: "alma.garcia@sos-soft.com" <alma.garcia@sos-soft.com>
+CC: "info@sos-soft.com" <info@sos-soft.com>
+Subject: Comprobante de pago (actualizacion CONTPAQ)
+Thread-Topic: Comprobante de pago (actualizacion CONTPAQ)
+Thread-Index: AQHSMUNomrdYnPq38kWA0ROihrJuYQ==
+Date: Fri, 28 Oct 2016 17:47:52 +0000
+Message-ID: <BY2PR06MB249F9DB244D62E66C799D78D4AD0@BY2PR06MB249.namprd06.prod.outlook.com>
+References: <10771562.20729.1477675567578.JavaMail.root@netm3>,<DM5PR19MB1225CA33276C66EC52DE882BBCAD0@DM5PR19MB1225.namprd19.prod.outlook.com>
+In-Reply-To: <DM5PR19MB1225CA33276C66EC52DE882BBCAD0@DM5PR19MB1225.namprd19.prod.outlook.com>
+Accept-Language: es-MX, en-US
+Content-Language: es-MX
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-ms-exchange-messagesentrepresentingtype: 1
+x-tmn: [p8hfQs+O/XmwqZFEnVud24qqbf4qO1tQ]
+x-eopattributedmessage: 0
+x-microsoft-exchange-diagnostics: 1;BL2NAM02HT066;5:PA3lNAjhEiTiG37v+qFZKW8dNuUSDouku0S5+wKMmKhV/lw0f21B2J0ZxgT/utVx8cMShtXf93B9ZYetRza5VCawzIj4tlz2ts0XtrY3KZiQjLWrpEgzH2OwXMOTtKHRW9ta2QAogDAdBUimPM0Y4A==;24:UALklenOysPX3hsWUmd5TTOF2DalW32cX5sD4z0xw63MzrBtC4K5oeAOCTDb2UeZxOS9LImUCuN/DLejHXP+fidVFXp2vs2ZDrB5iqk8IRA=;7:jwe6qqDGG8Nsfajt2lvCPpq6+TBPEtcrYo4LOS10JHhDjvAN+3Rmvlje/Y4Iwe3Kvh44/dgBcnwNOfELQpLYC90qCpfo5rX5AXSwcST9/QZdEr7toeHdmpLQf9uKzwSziwT8mcwdhU7NJnU6W+VhSI8P8ndKqCmmWIkUDp7+G8nh3XLDrEXg/+yKeuGHS3GHEp4Gs3vngYbVZIU09iS2u8KxQpzTdmOmdEWCRWdx+ur1+4iC0zZjYmtLGSxQql75tiTrBp+NsbSYWDjvHb2fbBEfd+bgWP3likGrXIsylwOzoeb92qoHno80JHgAHRBEBsDB86Fy0sWcJf2buHiImilPE93Xia1SzqDTFFiCc0A=
+x-forefront-antispam-report: EFV:NLI;SFV:NSPM;SFS:(10019020)(98900003);DIR:OUT;SFP:1102;SCL:1;SRVR:BL2NAM02HT066;H:BY2PR06MB249.namprd06.prod.outlook.com;FPR:;SPF:None;LANG:es;
+x-ms-office365-filtering-correlation-id: 081c462b-db06-42ea-6140-08d3ff5a8aa5
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(1601124038)(1603103081)(1603101340)(1601125047);SRVR:BL2NAM02HT066;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(432015012)(82015046);SRVR:BL2NAM02HT066;BCL:0;PCL:0;RULEID:;SRVR:BL2NAM02HT066;
+x-forefront-prvs: 0109D382B0
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative;
+	boundary="_000_BY2PR06MB249F9DB244D62E66C799D78D4AD0BY2PR06MB249namprd_"
+MIME-Version: 1.0
+X-OriginatorOrg: hotmail.com
+X-MS-Exchange-CrossTenant-originalarrivaltime: 28 Oct 2016 17:47:52.6825
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Internet
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BL2NAM02HT066
+X-OriginalArrivalTime: 28 Oct 2016 17:47:54.0527 (UTC) FILETIME=[693BEAF0:01D23143]
+X-Yandex-Forward: 83afa2c3c1d93a33e3d70994d19e645e
+X-Yandex-Forward: 3f3ca835f0ec994b3f591f12a1e7ff3e
+
+--_000_BY2PR06MB249F9DB244D62E66C799D78D4AD0BY2PR06MB249namprd_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+Buen dia,
+
+Anexo envio comprobante de pago actualizaci=F3n CONTPAQ
+
+Quedo para cualquier comentario,
+
+Saludos
+Marisela Carrasco
+
+________________________________
+
+
+
+________________________________
+De: Bancomer.com Otros Bancos2 <alertaid@serviciobancomer.com>
+Enviado: viernes, 28 de octubre de 2016 10:26 a. m.
+Para: denisse.hdz-equs@hotmail.es
+Asunto: Interbancaria Banca en L=EDnea
+
+
+
+Le informamos que le fue enviada una Transferencia interbancaria a cuenta d=
+e cheques/ahorro, bajo las siguientes condiciones.
+
+
+
+
+Titular de la cuenta de retiro
+
+
+PROTECCION INTEGRAL DEL NORTE S DE RL DE CV
+
+
+Banco destino
+
+
+BANORTE/ IXE
+
+
+Cuenta de dep=F3sito
+
+
+**************7160
+
+
+Nombre del beneficiario
+
+
+SOS SOFTWARE SA DE CV
+
+
+Importe
+
+
+$4,396.40
+
+
+Fecha de operaci=F3n
+
+
+28/10/2016
+
+
+Forma de dep=F3sito
+
+
+MISMO D=CDA (SPEI)
+
+
+Concepto de pago
+
+
+CONTPAQ
+
+
+Referencia Num=E9rica
+
+
+281016
+
+
+Folio Internet
+
+
+0417921814
+
+
+
+
+MENSAJE
+
+
+PAGO ACTUALIZACION CONTPAQ
+
+
+
+
+[http://www.bancomer.com.mx/minisitios/alertas/inter/receptor/crediton06.gi=
+f]<http://www.bancomer.com.mx>
+Dale poder a tu quincena<http://www.bancomer.com.mx/>
+www.bancomer.com.mx
+Cambia tu N=F3mina con nosotros y dale poder a tu quincena con BBVA Bancome=
+r. Hazlo aqu=ED mismo =A1sin costo!
+
+
+
+
+Este correo constituye s=F3lo una referencia de los t=E9rminos en que se re=
+aliz=F3 la operaci=F3n, el =FAnico comprobante oficial es el estado de cuen=
+ta de cheques que emite el GFBBVA Bancomer, S.A.
+
+--_000_BY2PR06MB249F9DB244D62E66C799D78D4AD0BY2PR06MB249namprd_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"><!-- P {margin-top:0;margi=
+n-bottom:0;} --></style>
+</head>
+<body dir=3D"ltr">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size:12pt;color:#000000;font=
+-family:Calibri,Arial,Helvetica,sans-serif;">
+<p><br>
+</p>
+<div>Buen dia,</div>
+<div><br>
+</div>
+<div>Anexo envio comprobante de pago actualizaci=F3n CONTPAQ</div>
+<div><br>
+</div>
+<div>Quedo para cualquier comentario,</div>
+<div><br>
+</div>
+<div>Saludos</div>
+<div>Marisela Carrasco<br>
+<br>
+</div>
+<div style=3D"color: rgb(0, 0, 0);">
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><br>
+</div>
+<div>
+<div id=3D"divtagdefaultwrapper" style=3D"font-size:12pt; color:#000000; fo=
+nt-family:Calibri,Arial,Helvetica,sans-serif">
+<br>
+<br>
+<div style=3D"color:rgb(0,0,0)">
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font color=3D"#000000" face=3D"Calib=
+ri, sans-serif" style=3D"font-size:11pt"><b>De:</b> Bancomer.com Otros Banc=
+os2 &lt;alertaid@serviciobancomer.com&gt;<br>
+<b>Enviado:</b> viernes, 28 de octubre de 2016 10:26 a. m.<br>
+<b>Para:</b> denisse.hdz-equs@hotmail.es<br>
+<b>Asunto:</b> Interbancaria Banca en L=EDnea</font>
+<div>&nbsp;</div>
+</div>
+<div>
+<div id=3D"LPBorder_GT_14776759840130.49291427690600376" style=3D"margin-bo=
+ttom:20px; overflow:auto; width:100%; text-indent:0px">
+</div>
+<table width=3D"550" background=3D"http://www.bancomer.com.mx/minisitios/al=
+ertas/logo.jpg" cellspacing=3D"0" cellpadding=3D"2">
+<tbody>
+<tr>
+<td height=3D"85" colspan=3D"2"></td>
+</tr>
+<tr>
+<td colspan=3D"2">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:12px">
+<font color=3D"#000099">Le informamos que le fue enviada una <b>Transferenc=
+ia interbancaria a cuenta de cheques/ahorro</b>, bajo las siguientes condic=
+iones.
+</font></p>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2">&nbsp;</td>
+</tr>
+<tr>
+<td width=3D"40%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px">Titular de la cuenta de retiro
+</p>
+</td>
+<td width=3D"60%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px"><b>PROTECCION INTEGRAL DEL NORTE S DE RL DE CV</b>
+</p>
+</td>
+</tr>
+<tr>
+<td width=3D"40%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px">Banco destino
+</p>
+</td>
+<td width=3D"60%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px"><b>BANORTE/ IXE</b>
+</p>
+</td>
+</tr>
+<tr>
+<td width=3D"40%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px">Cuenta de dep=F3sito
+</p>
+</td>
+<td width=3D"60%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px"><b>**************7160</b>
+</p>
+</td>
+</tr>
+<tr>
+<td width=3D"40%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px">Nombre del beneficiario
+</p>
+</td>
+<td width=3D"60%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px"><b>SOS SOFTWARE SA DE CV</b>
+</p>
+</td>
+</tr>
+<tr>
+<td width=3D"40%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px">Importe
+</p>
+</td>
+<td width=3D"60%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px"><b>$4,396.40</b>
+</p>
+</td>
+</tr>
+<tr>
+<td width=3D"40%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px">Fecha de operaci=F3n
+</p>
+</td>
+<td width=3D"60%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px"><b>28/10/2016</b>
+</p>
+</td>
+</tr>
+<tr>
+<td width=3D"40%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px">Forma de dep=F3sito
+</p>
+</td>
+<td width=3D"60%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px"><b>MISMO D=CDA (SPEI)</b>
+</p>
+</td>
+</tr>
+<tr>
+<td width=3D"40%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px">Concepto de pago
+</p>
+</td>
+<td width=3D"60%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px"><b>CONTPAQ</b>
+</p>
+</td>
+</tr>
+<tr>
+<td width=3D"40%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px">Referencia Num=E9rica
+</p>
+</td>
+<td width=3D"60%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px"><b>281016</b>
+</p>
+</td>
+</tr>
+<tr>
+<td width=3D"40%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px">Folio Internet
+</p>
+</td>
+<td width=3D"60%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px"><b>0417921814</b>
+</p>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2">&nbsp;</td>
+</tr>
+<tr>
+<td width=3D"40%" valign=3D"top">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px"><b>MENSAJE</b>
+</p>
+</td>
+<td width=3D"60%">
+<table width=3D"100%" border=3D"0" rules=3D"groups" cellspacing=3D"0">
+<tbody>
+<tr>
+<td width=3D"100%">
+<p style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-siz=
+e:9px">PAGO ACTUALIZACION CONTPAQ
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"10" colspan=3D"2">&nbsp;</td>
+</tr>
+<tr>
+<td align=3D"center" colspan=3D"2"><a id=3D"LPlnk395189" href=3D"http://www=
+.bancomer.com.mx" previewremoved=3D"true"><img style=3D"-ms-user-select: no=
+ne;" src=3D"http://www.bancomer.com.mx/minisitios/alertas/inter/receptor/cr=
+editon06.gif"></a>
+</td>
+</tr>
+</tbody>
+</table>
+<table id=3D"LPContainer_14776759840080.1211151175933165" style=3D"width:90=
+%; background-color:rgb(255,255,255); overflow:auto; padding-top:20px; padd=
+ing-bottom:20px; margin-top:20px; border-top:1px dotted rgb(200,200,200); b=
+order-bottom:1px dotted rgb(200,200,200)" cellspacing=3D"0">
+<tbody>
+<tr valign=3D"top" style=3D"border-spacing:0px">
+<td id=3D"TextCell_14776759840100.5045187809147551" style=3D"vertical-align=
+:top; padding:0px; display:table-cell" colspan=3D"2">
+<div id=3D"LPRemovePreviewContainer_14776759840100.5991762659050093"></div>
+<div id=3D"LPTitle_14776759840110.520740912840679" style=3D"top:0px; color:=
+rgb(0,120,215); font-weight:normal; font-size:21px; font-family:wf_segoe-ui=
+_light,&quot;Segoe UI Light&quot;,&quot;Segoe WP Light&quot;,&quot;Segoe UI=
+&quot;,&quot;Segoe WP&quot;,Tahoma,Arial,sans-serif; line-height:21px">
+<a id=3D"LPUrlAnchor_14776759840110.8317306151578774" style=3D"text-decorat=
+ion:none" href=3D"http://www.bancomer.com.mx/" target=3D"_blank">Dale poder=
+ a tu quincena</a></div>
+<div id=3D"LPMetadata_14776759840120.7284885170846329" style=3D"margin:10px=
+ 0px 16px; color:rgb(102,102,102); font-weight:normal; font-family:wf_segoe=
+-ui_normal,&quot;Segoe UI&quot;,&quot;Segoe WP&quot;,Tahoma,Arial,sans-seri=
+f; font-size:14px; line-height:14px">
+www.bancomer.com.mx</div>
+<div id=3D"LPDescription_14776759840120.8551901533866859" style=3D"display:=
+block; color:rgb(102,102,102); font-weight:normal; font-family:wf_segoe-ui_=
+normal,&quot;Segoe UI&quot;,&quot;Segoe WP&quot;,Tahoma,Arial,sans-serif; f=
+ont-size:14px; line-height:20px; max-height:100px; overflow:hidden">
+Cambia tu N=F3mina con nosotros y dale poder a tu quincena con BBVA Bancome=
+r. Hazlo aqu=ED mismo =A1sin costo!</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br>
+&nbsp; &nbsp; &nbsp;
+<p align=3D"justify" style=3D"font-family:Verdana,Geneva,Arial,Helvetica,sa=
+ns-serif; font-size:9px">
+<font color=3D"#7e7e7e">Este correo constituye s=F3lo una referencia de los=
+ t=E9rminos en que se realiz=F3 la operaci=F3n, el =FAnico comprobante ofic=
+ial es el estado de cuenta de cheques que emite el GFBBVA Bancomer, S.A.
+</font></p>
+</div>
+</div>
+<div></div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_BY2PR06MB249F9DB244D62E66C799D78D4AD0BY2PR06MB249namprd_--
