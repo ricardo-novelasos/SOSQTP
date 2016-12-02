@@ -1,0 +1,277 @@
+Received: from mxfront2j.mail.yandex.net ([127.0.0.1])
+	by mxfront2j.mail.yandex.net with LMTP id zQlM144p
+	for <alma.garcia@sos-soft.com>; Tue, 8 Nov 2016 22:46:41 +0300
+Received: from col004-omc2s2.hotmail.com (col004-omc2s2.hotmail.com [65.55.34.76])
+	by mxfront2j.mail.yandex.net (nwsmtp/Yandex) with ESMTPS id BtcMwfsDPu-kdR4XDZF;
+	Tue, 08 Nov 2016 22:46:40 +0300
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-SHA256 (128/128 bits))
+	(Client certificate not present)
+Return-Path: ing.benigno@hotmail.com
+X-Yandex-Front: mxfront2j.mail.yandex.net
+X-Yandex-TimeMark: 1478634400
+Authentication-Results: mxfront2j.mail.yandex.net; spf=pass (mxfront2j.mail.yandex.net: domain of hotmail.com designates 65.55.34.76 as permitted sender) smtp.mail=ing.benigno@hotmail.com; dkim=pass header.i=@hotmail.com
+X-Yandex-Spam: 4
+Received: from NAM01-SN1-obe.outbound.protection.outlook.com ([65.55.34.71]) by COL004-OMC2S2.hotmail.com over TLS secured channel with Microsoft SMTPSVC(7.5.7601.23008);
+	 Tue, 8 Nov 2016 11:46:38 -0800
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=ATwqIvhQYKKy5uw0PbA0cPJiw4xT+QY5BLlxgDcY4Ds=;
+ b=hIfn+AzMBFfU5CetLU0Q93XNjQZ5WMNs48d1JVuatBYNA3D02QdjDbeZACd6xuHOnHjso33z3TDzGNbbZAdGeSZe7/wKmMWfXDSxQYqE/me9c6HaJToxLhxqmS0GiBewd9w/X4c/7b3Nq/AzJNyWhxtia8hLoaHPW1r7V8ER1zOjNXuo5bqhudTap2qCyzdS2sEvyomgfB0zNkijBOwMdZgy11Fy1CzgQWKWPi1pL3VyAzirT0K8jEFFNYFhtJYiX8USIXQTM9Ikb+QT7+YNyqbrs6EYMURvKPRnXQr+wAKmKpURYmmphN9CXtFmH+mOVqEaMAY7/MyxjwSB1R8VDA==
+Received: from SN1NAM01FT019.eop-nam01.prod.protection.outlook.com
+ (10.152.64.53) by SN1NAM01HT058.eop-nam01.prod.protection.outlook.com
+ (10.152.65.140) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.1.693.6; Tue, 8 Nov
+ 2016 19:46:36 +0000
+Received: from BLUPR18MB0385.namprd18.prod.outlook.com (10.152.64.56) by
+ SN1NAM01FT019.mail.protection.outlook.com (10.152.64.179) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.707.3 via Frontend Transport; Tue, 8 Nov 2016 19:46:36 +0000
+Received: from BLUPR18MB0385.namprd18.prod.outlook.com ([10.164.18.23]) by
+ BLUPR18MB0385.namprd18.prod.outlook.com ([10.164.18.23]) with mapi id
+ 15.01.0707.006; Tue, 8 Nov 2016 19:46:36 +0000
+From: =?iso-8859-1?Q?BENIGNO_MU=D1IZ?= <ing.benigno@hotmail.com>
+To: "alma.garcia@sos-soft.com" <alma.garcia@sos-soft.com>
+Subject: TRANSFERENCIA Y DATOS FACTURACION
+Thread-Topic: TRANSFERENCIA Y DATOS FACTURACION
+Thread-Index: AQHSOfjQ/fpnYGU99kyMIYZRaKsQqQ==
+Date: Tue, 8 Nov 2016 19:46:36 +0000
+Message-ID: <BLUPR18MB038572C0725D8437921EC6F7E7A60@BLUPR18MB0385.namprd18.prod.outlook.com>
+References: <NBXISMTPv1udxgSwhlF0088e005@nbxismtp>,<BLUPR18MB03852A6E6FC2FDC57373D77CE7A60@BLUPR18MB0385.namprd18.prod.outlook.com>
+In-Reply-To: <BLUPR18MB03852A6E6FC2FDC57373D77CE7A60@BLUPR18MB0385.namprd18.prod.outlook.com>
+Accept-Language: es-MX, en-US
+Content-Language: es-MX
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-incomingtopheadermarker: OriginalChecksum:;UpperCasedChecksum:;SizeAsReceived:2484;Count:38
+x-ms-exchange-messagesentrepresentingtype: 1
+x-tmn: [CGMASanh96e/LhDK0efhslAVNbZ7aBT3g1Y/rh0rYsA=]
+x-incomingheadercount: 38
+x-eopattributedmessage: 0
+x-microsoft-exchange-diagnostics: 1;SN1NAM01HT058;7:qbVW6hoOGskS7OiMTFOL1hTXfcTokiDhKvCfMCEcTCPJGhs2XMKxVWtl2YP2IzcaNhrI3X1iqudKfr+hv1kaEYYWjhX1p6l3F3h8lkpNHEK2cf36nNNpoSILZTHm74HfI/6DwertityErRrhzDWeHJO4YQOiqf/6ErYPaScSy/jmLO1+hCTIyAjaT+/hoSYIqzuMGupUESp0dbH0Mukef/yX2Q3eH3013lc5+Tsoi6eG+tMyU2f3VPKlvK32mfGNe+T0wUlRHV0IKNjEgX4qto9Qk30VKQD9MbJDkjxbUMNYbtqd1TUVUof+HeJHdLpiIvAk9TY2lknJGtZGeFIS/BWz/73bSn6q40LUhPdjoIY=
+x-forefront-antispam-report: EFV:NLI;SFV:NSPM;SFS:(10019020)(98900003);DIR:OUT;SFP:1102;SCL:1;SRVR:SN1NAM01HT058;H:BLUPR18MB0385.namprd18.prod.outlook.com;FPR:;SPF:None;LANG:es;
+x-ms-office365-filtering-correlation-id: d14ee017-911a-4c2d-148f-08d4080ff341
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:SN1NAM01HT058;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(432015012)(82015046);SRVR:SN1NAM01HT058;BCL:0;PCL:0;RULEID:;SRVR:SN1NAM01HT058;
+x-forefront-prvs: 01208B1E18
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative;
+	boundary="_000_BLUPR18MB038572C0725D8437921EC6F7E7A60BLUPR18MB0385namp_"
+MIME-Version: 1.0
+X-OriginatorOrg: hotmail.com
+X-MS-Exchange-CrossTenant-originalarrivaltime: 08 Nov 2016 19:46:36.2941
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Internet
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN1NAM01HT058
+X-OriginalArrivalTime: 08 Nov 2016 19:46:38.0364 (UTC) FILETIME=[D1EA6DC0:01D239F8]
+X-Yandex-Forward: 3f3ca835f0ec994b3f591f12a1e7ff3e
+
+--_000_BLUPR18MB038572C0725D8437921EC6F7E7A60BLUPR18MB0385namp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+DATOS FACTURACI=D3N
+
+
+BENIGNO MU=D1IZ ORTEGA
+
+DOMICILIO  JAVIER MINA # 2145 COL. MARIANO OTERO, C.P 45067
+
+ZAPOPAN, JALISCO.
+
+RFC. MUOB590213PJ4
+
+
+
+
+
+
+Estimado(a): SOS SOFTWARE S.A. DE C.V.
+
+Te notificamos que se ha registrado la instrucci=F3n para realizar un dep=
+=F3sito a tu cuenta *******1716 a trav=E9s de Banorte por Internet.
+Operaci=F3n:      Instrucci=F3n de Dep=F3sito
+Fecha de Instrucci=F3n:   08/Nov/2016
+Hora de Instrucci=F3n:    13:28:51 horas
+Nombre del Remitente:   BENIGNO/MU IZ ORTEGA
+Cuenta Dep=F3sito:        *******1716
+Banco:  Banorte
+Importe:        $4,396.40 MN
+
+
+
+Nota: La fecha y hora de este mensaje ("Enviado el") podr=E1 variar respect=
+o a la fecha/hora real de operaci=F3n de su transacci=F3n ("Operado el"). E=
+sto depender=E1 de la configuraci=F3n de sus servicios de correo y/o comput=
+adora en cuanto a su zona horaria.
+
+Este correo electronico es confidencial y/o puede contener informacion priv=
+ilegiada.
+Si usted no es su destinatario o no es alguna persona autorizada por este p=
+ara recibir sus correos electronicos, NO debera usted utilizar, copiar, rev=
+elar, o tomar ninguna accion basada en este correo electronico o cualquier =
+otra informacion incluida en el, favor de notificar al remitente de inmedia=
+to mediante el reenvio de este correo electronico y borrar a continuacion t=
+otalmente este correo electronico y sus anexos.
+Nota: Los acentos y caracteres especiales fueron omitidos para su correcta =
+lectura en cualquier medio electronico.
+
+This e-mail is confidential and/or may contain privileged information.
+If you are not the addressee or authorized to receive this for the addresse=
+e, you must not use, copy, disclose, or take any action based on this messa=
+ge or any other information herein, please advise the sender immediately by=
+ reply this e-mail and delete this e-mail and its attachments.
+
+
+--_000_BLUPR18MB038572C0725D8437921EC6F7E7A60BLUPR18MB0385namp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"><!-- P {margin-top:0;margi=
+n-bottom:0;} --></style>
+</head>
+<body dir=3D"ltr">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size:12pt;color:#000000;font=
+-family:Calibri,Arial,Helvetica,sans-serif;" dir=3D"ltr">
+<p>DATOS FACTURACI=D3N</p>
+<p><br>
+</p>
+<p></p>
+<p style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size: =
+16px;">BENIGNO MU=D1IZ ORTEGA</p>
+<p style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size: =
+16px;">DOMICILIO&nbsp; JAVIER MINA # 2145 COL. MARIANO OTERO, C.P 45067</p>
+<p style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size: =
+16px;">ZAPOPAN, JALISCO.</p>
+<p style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size: =
+16px;">RFC. MUOB590213PJ4</p>
+<div><br>
+</div>
+<br>
+<p></p>
+<div style=3D"color: rgb(0, 0, 0);">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr">
+<div></div>
+</div>
+<div>
+<div id=3D"divtagdefaultwrapper" dir=3D"ltr" style=3D"font-size:12pt; color=
+:#000000; font-family:Calibri,Arial,Helvetica,sans-serif">
+<p><br>
+</p>
+<div style=3D"color:rgb(0,0,0)">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr">
+<div></div>
+</div>
+<div>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:622p=
+x">
+<tbody>
+<tr>
+<td colspan=3D"3"></td>
+</tr>
+</tbody>
+</table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:622p=
+x; border-top:1px solid rgb(204,204,204); border-bottom:1px dashed rgb(204,=
+204,204); padding:10px 0px 15px; margin-bottom:10px">
+<tbody>
+<tr>
+<td colspan=3D"3"></td>
+</tr>
+<tr>
+<td colspan=3D"3"><span style=3D"font-family:Arial">Estimado(a): <strong>SO=
+S SOFTWARE S.A. DE C.V.</strong><br>
+<br>
+Te notificamos que se ha registrado la instrucci=F3n para realizar un dep=
+=F3sito a tu cuenta
+<strong>*******1716</strong> a trav=E9s de Banorte por Internet. </span></t=
+d>
+</tr>
+<tr>
+<td width=3D"25%" align=3D"right">Operaci=F3n: </td>
+<td align=3D"left">Instrucci=F3n de Dep=F3sito </td>
+</tr>
+<tr>
+<td width=3D"25%" align=3D"right">Fecha de Instrucci=F3n: </td>
+<td>08/Nov/2016</td>
+</tr>
+<tr>
+<td width=3D"25%" align=3D"right">Hora de Instrucci=F3n: </td>
+<td>13:28:51 horas</td>
+</tr>
+<tr>
+<td width=3D"25%" align=3D"right">Nombre del Remitente: </td>
+<td>BENIGNO/MU&nbsp;IZ ORTEGA </td>
+</tr>
+<tr>
+<td width=3D"25%" align=3D"right">Cuenta Dep=F3sito:</td>
+<td>*******1716</td>
+</tr>
+<tr>
+<td width=3D"25%" align=3D"right">Banco: </td>
+<td>Banorte</td>
+</tr>
+<tr>
+<td width=3D"25%" align=3D"right">Importe: </td>
+<td>$4,396.40 MN</td>
+</tr>
+<tr>
+<td colspan=3D"3"></td>
+</tr>
+<tr>
+<td colspan=3D"3"></td>
+</tr>
+<tr>
+<td colspan=3D"3"></td>
+</tr>
+<tr>
+<td colspan=3D"3"><span style=3D"font-size:8pt; font-family:Arial">Nota: La=
+ fecha y hora de este mensaje (&quot;Enviado el&quot;) podr=E1 variar respe=
+cto a la fecha/hora real de operaci=F3n de su transacci=F3n (&quot;Operado =
+el&quot;). Esto depender=E1 de la configuraci=F3n de sus servicios
+ de correo y/o computadora en cuanto a su zona horaria. </span></td>
+</tr>
+</tbody>
+</table>
+<table border=3D"0" width=3D"622" style=3D"width:466.5pt">
+<tbody>
+<tr>
+<td>
+<p><span style=3D"font-size:8.0pt; font-family:Arial; color:black"><br>
+Este correo electronico es confidencial y/o puede contener informacion priv=
+ilegiada.<br>
+Si usted no es su destinatario o no es alguna persona autorizada por este p=
+ara recibir sus correos electronicos, NO debera usted utilizar, copiar, rev=
+elar, o tomar ninguna accion basada en este correo electronico o cualquier =
+otra informacion incluida en el,
+ favor de notificar al remitente de inmediato mediante el reenvio de este c=
+orreo electronico y borrar a continuacion totalmente este correo electronic=
+o y sus anexos.<br>
+Nota: Los acentos y caracteres especiales fueron omitidos para su correcta =
+lectura en cualquier medio electronico.</span></p>
+<p><span style=3D"font-size:8.0pt; font-family:Arial; color:black">This e-m=
+ail is confidential and/or may contain privileged information.<br>
+If you are not the addressee or authorized to receive this for the addresse=
+e, you must not use, copy, disclose, or take any action based on this messa=
+ge or any other information herein, please advise the sender immediately by=
+ reply this e-mail and delete this
+ e-mail and its attachments.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_BLUPR18MB038572C0725D8437921EC6F7E7A60BLUPR18MB0385namp_--
