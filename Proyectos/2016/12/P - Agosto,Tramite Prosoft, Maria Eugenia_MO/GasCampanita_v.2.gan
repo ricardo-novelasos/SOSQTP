@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Implementación de los sistemas Easy Retail y Contpaq i" company="Gas Campanita SA de CV" webLink="http://" view-date="2014-07-01" view-index="0" gantt-divider-location="704" resource-divider-location="300" version="2.8.1" locale="es">
+<?xml version="1.0" encoding="UTF-8"?><project name="Implementación de los sistemas Easy Retail y Contpaq i" company="Gas Campanita SA de CV" webLink="http://" view-date="2014-10-01" view-index="0" gantt-divider-location="963" resource-divider-location="300" version="2.8.1" locale="es">
     <description/>
     <view zooming-state="default:11" id="gantt-chart">
-        <field id="tpd3" name="Nombre" width="339" order="0"/>
+        <field id="tpd3" name="Nombre" width="769" order="0"/>
         <field id="tpd4" name="Fecha de inicio" width="78" order="1"/>
-        <field id="tpd5" name="Fecha de fin" width="90" order="2"/>
-        <field id="tpc0" name="" width="108" order="3"/>
-        <field id="tpd7" name="Progreso" width="70" order="4"/>
+        <field id="tpd5" name="Fecha de fin" width="97" order="2"/>
     </view>
     <view id="resource-table">
         <field id="0" name="Nombre" width="210" order="0"/>
@@ -46,81 +44,70 @@
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
             <taskproperty id="tpc0" name="" type="custom" valuetype="text"/>
         </taskproperties>
-        <task id="148" name="Desarrollos de Join Data" color="#8cb6ce" meeting="false" start="2015-11-27" duration="20" complete="100" expand="true"/>
-        <task id="5" name="Descarga de los sistemas Contpaq i" meeting="false" start="2015-11-30" duration="1" complete="100" expand="true"/>
-        <task id="10" name="Instalación Contpaq i Contabilidad" meeting="false" start="2015-12-08" duration="5" complete="100" expand="true"/>
-        <task id="6" name="Instalación Contpaq i Bancos" color="#8cb6ce" meeting="false" start="2015-12-08" duration="5" complete="100" expand="true"/>
-        <task id="7" name="Instalación Contpaq i Nominas" color="#8cb6ce" meeting="false" start="2015-12-08" duration="5" complete="100" expand="true"/>
-        <task id="35" name="Instalación Contpaq i XML en linea" color="#8cb6ce" meeting="false" start="2015-12-08" duration="5" complete="100" expand="true"/>
-        <task id="20" name="Instalación Easy Retail Admin" meeting="false" start="2015-12-09" duration="1" complete="100" expand="true"/>
-        <task id="37" name="Activación de sistemas de Contpaq i" meeting="false" start="2015-12-16" duration="1" complete="100" expand="true"/>
-        <task id="136" name="Carga de la información de Contpaq i Nomina" meeting="false" start="2015-12-17" duration="17" complete="100" expand="true"/>
-        <task id="24" name="Capacitación Presencial Contabilidad" meeting="false" start="2015-12-18" duration="1" complete="100" expand="true"/>
-        <task id="27" name="Capacitación Presencial Bancos" meeting="false" start="2015-12-18" duration="1" complete="100" expand="true"/>
-        <task id="28" name="Capacitación Presencial Nomina" meeting="false" start="2015-12-19" duration="1" complete="100" expand="true"/>
-        <task id="29" name="Capacitación Presencial XML en linea" meeting="false" start="2015-12-19" duration="1" complete="100" expand="true"/>
-        <task id="30" name="Capacitación Presencial Easy Retail Admin" color="#8cb6ce" meeting="false" start="2015-12-21" duration="3" complete="100" expand="true"/>
-        <task id="21" name="Implementación de JD entre ERA - Contabilidad" meeting="false" start="2015-12-07" duration="1" complete="100" expand="true"/>
-        <task id="22" name="Implementación de JD entre ERA - Bancos" meeting="false" start="2015-12-07" duration="1" complete="100" expand="true"/>
-        <task id="67" name="Desarrollo personalizado ERA" meeting="false" start="2016-01-04" duration="15" complete="100" expand="true"/>
-        <task id="77" name="Activos seleccionados por partida en los documentos (Compras, Ventas, Entradas y salidas de inventario)." meeting="false" start="2016-01-04" duration="15" complete="100" expand="true"/>
-        <task id="78" name="Filtros en reporte de Clientes y Activos por serie." meeting="false" start="2016-01-04" duration="22" complete="100" expand="true"/>
-        <task id="79" name="Cuenta contable asignable por activo y por partida, que se muestre el catálogo de cuentas en compras y ventas." meeting="false" start="2016-01-04" duration="22" complete="100" expand="true"/>
-        <task id="80" name="Permitir aplicar un pago por concepto a varios documentos." meeting="false" start="2016-01-04" duration="1" complete="100" expand="true"/>
-        <task id="81" name="Permitir aplicar varios impuestos y retenciones por partida." meeting="false" start="2016-01-04" duration="15" complete="100" expand="true"/>
-        <task id="82" name="Permitir aplicar impuestos y retenciones porcentual o por un factor." meeting="false" start="2016-01-04" duration="15" complete="100" expand="true"/>
-        <task id="83" name="Reporte de CXC y CXP por folio de banco." meeting="false" start="2016-01-04" duration="22" complete="100" expand="true"/>
-        <task id="84" name="Permisos en CXC y CXP por usuario (visualizar, abonar)" meeting="false" start="2016-01-04" duration="22" complete="100" expand="true"/>
-        <task id="85" name="Personalización en la frecuencia de las pólizas en el JD de ERA-CCON." meeting="false" start="2016-01-04" duration="15" complete="100" expand="true"/>
-        <task id="129" name="Importación de ventas diarias de Excel a ERA" meeting="false" start="2016-01-04" duration="15" complete="100" expand="true"/>
-        <task id="130" name="Carga de información a Contpaq i Contabilidad" meeting="false" start="2016-01-04" duration="15" complete="100" expand="true"/>
-        <task id="131" name="Configuración de Layout para dispersión de nomina" meeting="false" start="2016-01-10" duration="4" complete="100" expand="true"/>
-        <task id="18" name="Interfaz CNOM -&gt; CCON" meeting="false" start="2016-02-12" duration="8" complete="100" expand="true"/>
-        <task id="139" name="Desarrollo e implementación para 4 decimales en ERA" meeting="false" start="2016-04-04" duration="63" complete="100" expand="true"/>
-        <task id="90" name="Falta poner el logo en las órdenes de compra para distinguir de qué empresa son" meeting="false" start="2016-05-02" duration="3" complete="100" expand="true"/>
-        <task id="91" name="En la impresión de la compra, poner cuenta y activo al que se asignó" meeting="false" start="2016-05-02" duration="3" complete="100" expand="true"/>
-        <task id="92" name="En la parte de pagos de nota, para revisar los abonos pone todos y no los del cliente que se requiere pagar." meeting="false" start="2016-05-03" duration="2" complete="100" expand="true"/>
-        <task id="93" name="Crear un reporte de pagos para CXC donde muestre los pagos realizados por cada documento, filtrado por los mismo que CXC excepto estado y folio banco (Usar tablas documentos_pagos y movimientos_pagos)" meeting="false" start="2016-05-03" duration="3" complete="100" expand="true"/>
-        <task id="94" name="En los reportes solo muestra el encabezado en la primera página." meeting="false" start="2016-05-16" duration="3" complete="100" expand="true"/>
-        <task id="96" name="Corrección en la forma de pago PAGO EN UNA SOLA EXHIBICIÓN - Que sea solo en mayúsculas - Sin acentos" meeting="false" start="2016-05-19" duration="1" complete="100" expand="true"/>
-        <task id="88" name="Agregar fecha y hora de creación a los reportes." meeting="false" start="2016-05-21" duration="3" complete="100" expand="true"/>
-        <task id="95" name="Agregar el campo de observaciones al PDF de las notas de crédito" color="#8cb6ce" meeting="false" start="2016-05-23" duration="3" complete="100" expand="true"/>
-        <task id="97" name="En la ventana de pagos no hay una relación para saber que pago corresponde a un documento." meeting="false" start="2016-05-23" duration="5" complete="100" expand="true"/>
-        <task id="102" name="Ventana de tickets facturados." meeting="false" start="2016-05-23" duration="5" complete="100" expand="true"/>
-        <task id="103" name="Integrar a la versión el nuevo catalogo de metodoPago" meeting="false" start="2016-05-30" duration="11" complete="100" expand="true"/>
-        <task id="112" name="Que al momento de hacer una factura de crédito seleccionando ticket, te pueda permitir poner observaciones en la factura, ya que actualmente no lo permite." meeting="false" start="2016-06-02" duration="5" complete="100" expand="true"/>
-        <task id="111" name="Que aparezca el logo de la empresa en la compra." meeting="false" start="2016-06-04" duration="3" complete="100" expand="true"/>
-        <task id="105" name="Los totales en el pdf de la factura no cuentan con espacio suficiente por lo que no se ven las cantidades." meeting="false" start="2016-06-13" duration="2" complete="100" expand="true"/>
-        <task id="107" name="Eliminar la opción de Catálogo de Pagos Módulos&gt;Ventas&gt;Tipos de Pago" meeting="false" start="2016-06-14" duration="3" complete="100" expand="true"/>
-        <task id="106" name="No está generando el pdf de la factura cuando le da el boton de timbrar." meeting="false" start="2016-06-15" duration="2" complete="100" expand="true"/>
-        <task id="108" name="Aumentar el paginado de ventas a 100 para que se puedan facturar un rango más amplio de tickets." meeting="false" start="2016-06-27" duration="3" complete="100" expand="true"/>
-        <task id="109" name="Enviar al pdf de la factura la descripción del método de pago y el código al xml" meeting="false" start="2016-06-28" duration="2" complete="100" expand="true"/>
-        <task id="110" name="En el reporte de ventas incrementar el espacio para mostrar los totales en el resumen del reporte ya que no se ve la cantidad cuando es muy grande (millones)" meeting="false" start="2016-08-02" duration="4" complete="100" expand="true"/>
-        <task id="166" name="Error numero de columnas no coincide con el numero de valores a insertar" meeting="false" start="2016-07-13" duration="1" complete="0" expand="true"/>
-        <task id="17" name="Captura de la información" color="#8cb6ce" meeting="false" start="2016-07-26" duration="1" complete="100" expand="true"/>
-        <task id="115" name="Mostrar en el PDF de la factura el descuento. (PDF 1,2,3,5 decimales)" meeting="false" start="2016-07-24" duration="3" complete="100" expand="true"/>
-        <task id="119" name="Agregar en el xml en el domicilio del Receptor el Codigo Postal" meeting="false" start="2016-07-22" duration="5" complete="100" expand="true"/>
-        <task id="113" name="Que al momento de obtener un reporte de encabezados o en un reporte nuevo, nos diga los ticket que ya están facturados y con qué número y que se pueda obtener detallado o totalizado por documento" meeting="false" start="2016-07-27" duration="2" complete="100" expand="true"/>
-        <task id="156" name="Que al momento de seleccionar ticket para facturar te dé un total previo para validar con lo que se quiere facturar." meeting="false" start="2016-08-02" duration="4" complete="100" expand="true"/>
-        <task id="114" name="Mostrar en el PDF de la factura el descuento. (PDF 0,4,6 decimales)" meeting="false" start="2016-07-01" duration="23" complete="100" expand="true"/>
-        <task id="122" name="Que al momento de obtener un reporte de encabezados o en un reporte nuevo, nos diga los ticket que ya están facturados y con qué número y que se pueda obtener detallado o totalizado por documento" meeting="false" start="2016-08-02" duration="4" complete="100" expand="true"/>
-        <task id="39" name="Desarrollo personalizado ERA" color="#000000" meeting="false" start="2016-08-04" duration="3" complete="100" thirdDate="2016-08-04" thirdDate-constraint="1" expand="true"/>
-        <task id="58" name="Habilitar en el reporte de antigüedad de saldos el filtro por serie-documento" meeting="false" start="2016-08-08" duration="3" complete="100" expand="true"/>
-        <task id="59" name="En compras cuando se genere el JD, nos indique en la poliza el número de proveedor ademas de el número de la orden de compra" meeting="false" start="2016-08-13" duration="3" complete="100" expand="true"/>
-        <task id="62" name="Agregar configuración para hacer obligatorio el campo de Activo y Cuenta Contable en los Pagos" meeting="false" start="2016-08-04" duration="2" complete="100" expand="true"/>
-        <task id="63" name="Agregar el &quot;Nombre de cliente&quot;, ademas del codigo, en los reportes de ventas" meeting="false" start="2016-08-10" duration="10" complete="50" expand="true"/>
-        <task id="159" name="Revisar que al generar las pólizas no se generen con cuenta de cuadre" meeting="false" start="2016-09-13" duration="1" complete="0" expand="true"/>
-        <task id="157" name="Revisar que se calcule correctamente el IVA cuando se facturan tickets" meeting="false" start="2016-09-27" duration="1" complete="0" expand="true"/>
-        <task id="158" name="Crear un Query para que los tickets cancelados con anterioridad no se dupliquen" meeting="false" start="2016-09-27" duration="1" complete="0" expand="true"/>
-        <task id="161" name="Reportes de antigüedad de saldos, debe filtrar por fechas para que permita ver el historial" meeting="false" start="2016-09-13" duration="1" complete="0" expand="true"/>
-        <task id="162" name="Pruebas, crear un query para corregir las cxc que tienen doble registro en la tabla de cxc" meeting="false" start="2016-09-13" duration="1" complete="0" expand="true"/>
-        <task id="163" name="se necesita un concepto de descuento esto para identificar los pagos de cartera" meeting="false" start="2016-09-13" duration="1" complete="0" expand="true"/>
-        <task id="164" name="validar que al agregar mas de dos partidas no se calcule mal el importe" meeting="false" start="2016-09-13" duration="1" complete="0" expand="true"/>
-        <task id="165" name="validar, al momento de capturar una compra respete la fecha que se captura en el registro, ocea la fecha de la factura1" meeting="false" start="2016-09-13" duration="1" complete="0" expand="true"/>
-        <task id="167" name="Crear mas de un asiento contable por serie para que permita la creación de una segunda poliza por evento," meeting="false" start="2016-09-13" duration="1" complete="0" expand="true"/>
-        <task id="168" name="validación, al agregar productos de un documento de compra a un factura que si baje los importes correctos," meeting="false" start="2016-11-11" duration="1" complete="0" expand="true"/>
-        <task id="169" name="Envio de correos al hacer las facturas de los tickets" meeting="false" start="2016-11-16" duration="1" complete="0" expand="true"/>
-        <task id="171" name="el botón de timbrado debe hacer su función" meeting="false" start="2014-08-01" duration="1" complete="0" expand="true"/>
+        <task id="172" name="Implementación de 5 empresas" meeting="false" start="2016-09-06" duration="4" complete="0" expand="true"/>
+        <task id="181" name="Capacitación a usuarios" meeting="false" start="2016-09-12" duration="4" complete="0" expand="true"/>
+        <task id="67" name="Primera Etapa de desarrollo personalizado para base de Easy Retail Admin" meeting="false" start="2016-09-05" duration="132" complete="99" expand="true">
+            <task id="77" name="Activos seleccionados por partida en los documentos (Compras, Ventas, Entradas y salidas de inventario)." meeting="false" start="2016-09-12" duration="11" complete="100" expand="true"/>
+            <task id="78" name="Filtros en reporte de Clientes y Activos por serie." meeting="false" start="2016-09-12" duration="22" complete="100" expand="true"/>
+            <task id="79" name="Cuenta contable asignable por activo y por partida, que se muestre el catálogo de cuentas en compras y ventas." meeting="false" start="2016-09-12" duration="22" complete="100" expand="true"/>
+            <task id="80" name="Permitir aplicar un pago por concepto a varios documentos." meeting="false" start="2016-09-13" duration="1" complete="100" expand="true"/>
+            <task id="81" name="Permitir aplicar varios impuestos y retenciones por partida." meeting="false" start="2016-09-12" duration="15" complete="100" expand="true"/>
+            <task id="82" name="Permitir aplicar impuestos y retenciones porcentual o por un factor." meeting="false" start="2016-09-12" duration="15" complete="100" expand="true"/>
+            <task id="83" name="Reporte de CXC y CXP por folio de banco." meeting="false" start="2016-09-12" duration="22" complete="100" expand="true"/>
+            <task id="84" name="Permisos en CXC y CXP por usuario (visualizar, abonar)" meeting="false" start="2016-09-12" duration="22" complete="100" expand="true"/>
+            <task id="85" name="Personalización en la frecuencia de las pólizas en el JD de ERA-CCON." meeting="false" start="2016-09-12" duration="15" complete="100" expand="true"/>
+            <task id="129" name="Importación de ventas diarias de Excel a ERA" meeting="false" start="2016-09-12" duration="15" complete="100" expand="true"/>
+            <task id="139" name="Desarrollo para el manejo de 4 decimales en cantidades, totales, precio y reportes" meeting="false" start="2016-09-12" duration="63" complete="100" expand="true"/>
+            <task id="90" name="Diseño de ordenes de compra, incluir logo para distinguir de qué empresa son" meeting="false" start="2016-09-12" duration="3" complete="100" expand="true"/>
+            <task id="91" name="En la impresión de la compra, poner cuenta y activo al que se asignó" meeting="false" start="2016-09-14" duration="3" complete="100" expand="true"/>
+            <task id="92" name="Apartado de pagos de nota, aplicar el filtro para que se puedan visualizar solo los que se necesitan pagar" meeting="false" start="2016-09-15" duration="2" complete="100" expand="true"/>
+            <task id="93" name="Crear un reporte de pagos para CXC donde muestre los pagos realizados por cada documento, filtrado por los mismo que CXC excepto estado y folio banco (Usar tablas documentos_pagos y movimientos_pagos)" meeting="false" start="2016-09-19" duration="3" complete="100" expand="true"/>
+            <task id="94" name="diseño de reportes, se debe de mostrar el encabezado en todas las paginas" meeting="false" start="2016-10-03" duration="3" complete="100" expand="true"/>
+            <task id="96" name="Agregar los metodos de pago autorizados por el anexo 24 del SAT" meeting="false" start="2016-10-04" duration="1" complete="100" expand="true"/>
+            <task id="88" name="Agregar fecha y hora de creación a los reportes." meeting="false" start="2016-10-10" duration="3" complete="100" expand="true"/>
+            <task id="95" name="Agregar el campo de observaciones al PDF de las notas de crédito" color="#8cb6ce" meeting="false" start="2016-10-13" duration="3" complete="100" expand="true"/>
+            <task id="97" name="En la ventana de pagos generar una relación entre el documento y sus pagos" meeting="false" start="2016-10-17" duration="5" complete="100" expand="true"/>
+            <task id="102" name="Diseñar una ventana de tickets facturados." meeting="false" start="2016-10-24" duration="5" complete="100" expand="true"/>
+            <task id="112" name="Que al momento de hacer una factura de crédito seleccionando ticket, te pueda permitir poner observaciones en la factura, ya que actualmente no lo permite." meeting="false" start="2016-10-31" duration="5" complete="100" expand="true"/>
+            <task id="111" name="Que aparezca el logo de la empresa en la compra." meeting="false" start="2016-09-05" duration="1" complete="100" expand="true">
+                <task id="187" name="Implementación de base Easy Retail Admin" meeting="false" start="2016-09-05" duration="1" complete="100" expand="true"/>
+            </task>
+            <task id="105" name="Los totales en el pdf de la factura no cuentan con espacio suficiente por lo que no se ven las cantidades, hay que rediseñar" meeting="false" start="2016-11-09" duration="2" complete="100" expand="true"/>
+            <task id="107" name="Eliminar la opción de Catálogo de Pagos Módulos&gt;Ventas&gt;Tipos de Pago" meeting="false" start="2016-11-11" duration="3" complete="100" expand="true"/>
+            <task id="106" name="habiliar la generación del pdf de la factura cuando se presione el boton de Timbrar." meeting="false" start="2016-11-13" duration="2" complete="100" expand="true"/>
+            <task id="108" name="Aumentar el paginado de ventas a 100 para que se puedan facturar un rango más amplio de tickets." meeting="false" start="2016-11-14" duration="3" complete="100" expand="true"/>
+            <task id="109" name="Enviar al pdf de la factura la descripción del método de pago y el código al xml" meeting="false" start="2016-11-17" duration="2" complete="100" expand="true"/>
+            <task id="110" name="En el reporte de ventas incrementar el espacio para mostrar los totales en el resumen del reporte ya que no se ve la cantidad cuando es muy grande (millones)" meeting="false" start="2016-11-22" duration="4" complete="100" expand="true"/>
+            <task id="166" name="Error numero de columnas no coincide con el numero de valores a insertar" meeting="false" start="2016-11-28" duration="1" complete="0" expand="true"/>
+            <task id="115" name="Mostrar en el PDF de la factura el descuento. (PDF 1,2,3,5 decimales)" meeting="false" start="2016-11-29" duration="3" complete="100" expand="true"/>
+            <task id="119" name="Agregar en el xml en el domicilio del Receptor el Codigo Postal" meeting="false" start="2016-12-05" duration="5" complete="100" expand="true"/>
+            <task id="113" name="Que al momento de obtener un reporte de encabezados o en un reporte nuevo, nos diga los ticket que ya están facturados y con qué número y que se pueda obtener detallado o totalizado por documento" meeting="false" start="2016-12-09" duration="2" complete="100" expand="true"/>
+            <task id="156" name="Que al momento de seleccionar ticket para facturar te dé un total previo para validar con lo que se quiere facturar." meeting="false" start="2016-12-13" duration="4" complete="100" expand="true"/>
+            <task id="114" name="Mostrar en el PDF de la factura el descuento. (PDF 0,4,6 decimales)" meeting="false" start="2016-12-19" duration="23" complete="100" expand="true"/>
+            <task id="122" name="Que al momento de obtener un reporte de encabezados o en un reporte nuevo, nos diga los ticket que ya están facturados y con qué número y que se pueda obtener detallado o totalizado por documento" meeting="false" start="2017-01-16" duration="4" complete="100" expand="true"/>
+        </task>
+        <task id="148" name="Desarrollos de interfaces para bases de datos de Contpaqi Contabilidad" color="#8cb6ce" meeting="false" start="2016-11-07" duration="28" complete="100" expand="true"/>
+        <task id="21" name="Implementación de JD entre ERA - Contabilidad" meeting="false" start="2015-12-06" duration="4" complete="100" expand="true"/>
+        <task id="183" name="Desarrollos de interfaces para bases de datos de Contpaqi Bancos" meeting="false" start="2016-12-13" duration="26" complete="0" expand="true"/>
+        <task id="185" name="Implementación de JD entre ERA - Bancos" meeting="false" start="2017-01-10" duration="7" complete="0" expand="true"/>
+        <task id="39" name="Segunda Etapa de desarrollo personalizado para base Easy Retail Admin" color="#000000" meeting="false" start="2017-01-19" duration="91" complete="38" thirdDate="2016-08-04" thirdDate-constraint="1" expand="true">
+            <task id="58" name="Habilitar en el reporte de antigüedad de saldos el filtro por serie-documento" meeting="false" start="2017-01-19" duration="3" complete="100" expand="true"/>
+            <task id="59" name="En compras cuando se genere el JD, nos indique en la poliza el número de proveedor ademas de el número de la orden de compra" meeting="false" start="2017-01-24" duration="3" complete="100" expand="true"/>
+            <task id="62" name="Agregar configuración para hacer obligatorio el campo de Activo y Cuenta Contable en los Pagos" meeting="false" start="2017-01-30" duration="2" complete="100" expand="true"/>
+            <task id="63" name="Agregar el &quot;Nombre de cliente&quot;, ademas del codigo, en los reportes de ventas" meeting="false" start="2017-02-01" duration="10" complete="50" expand="true"/>
+            <task id="159" name="Revisar que al generar las pólizas no se generen con cuenta de cuadre" meeting="false" start="2017-02-13" duration="1" complete="0" expand="true"/>
+            <task id="157" name="Revisar que se calcule correctamente el IVA cuando se facturan tickets" meeting="false" start="2017-02-13" duration="1" complete="0" expand="true"/>
+            <task id="158" name="Crear un Query para que los tickets cancelados con anterioridad no se dupliquen" meeting="false" start="2017-02-14" duration="1" complete="0" expand="true"/>
+            <task id="161" name="Reportes de antigüedad de saldos, debe filtrar por fechas para que permita ver el historial" meeting="false" start="2017-02-15" duration="1" complete="0" expand="true"/>
+            <task id="162" name="Pruebas, crear un query para corregir las cxc que tienen doble registro en la tabla de cxc" meeting="false" start="2017-02-20" duration="1" complete="0" expand="true"/>
+            <task id="163" name="se necesita un concepto de descuento esto para identificar los pagos de cartera" meeting="false" start="2017-03-20" duration="1" complete="0" expand="true"/>
+            <task id="164" name="validar que al agregar mas de dos partidas no se calcule mal el importe" meeting="false" start="2017-03-27" duration="1" complete="0" expand="true"/>
+            <task id="165" name="validar, al momento de capturar una compra respete la fecha que se captura en el registro, ocea la fecha de la factura1" meeting="false" start="2017-03-29" duration="1" complete="0" expand="true"/>
+            <task id="167" name="Crear mas de un asiento contable por serie para que permita la creación de una segunda poliza por evento," meeting="false" start="2017-04-03" duration="1" complete="0" expand="true"/>
+            <task id="168" name="validación, al agregar productos de un documento de compra a un factura que si baje los importes correctos," meeting="false" start="2017-04-05" duration="1" complete="0" expand="true"/>
+            <task id="169" name="Envio de correos al hacer las facturas de los tickets" meeting="false" start="2017-04-10" duration="3" complete="0" expand="true"/>
+            <task id="171" name="el botón de timbrado debe hacer su función" meeting="false" start="2017-04-17" duration="3" complete="0" expand="true"/>
+        </task>
     </tasks>
     <resources/>
     <allocations/>
