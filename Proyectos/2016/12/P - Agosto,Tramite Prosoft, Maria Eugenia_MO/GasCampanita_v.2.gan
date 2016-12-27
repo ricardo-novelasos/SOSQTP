@@ -87,7 +87,7 @@
             <task id="122" name="Que al momento de obtener un reporte de encabezados o en un reporte nuevo, nos diga los ticket que ya están facturados y con qué número y que se pueda obtener detallado o totalizado por documento" meeting="false" start="2017-01-16" duration="4" complete="100" expand="true"/>
         </task>
         <task id="148" name="Desarrollos de interfaces para bases de datos de Contpaqi Contabilidad" color="#8cb6ce" meeting="false" start="2016-11-07" duration="28" complete="100" expand="true"/>
-        <task id="21" name="Implementación de JD entre ERA - Contabilidad" meeting="false" start="2015-12-06" duration="4" complete="100" expand="true"/>
+        <task id="21" name="Implementación de JD entre ERA - Contabilidad" meeting="false" start="2016-12-06" duration="4" complete="100" expand="true"/>
         <task id="183" name="Desarrollos de interfaces para bases de datos de Contpaqi Bancos" meeting="false" start="2016-12-13" duration="26" complete="0" expand="true"/>
         <task id="185" name="Implementación de JD entre ERA - Bancos" meeting="false" start="2017-01-10" duration="7" complete="0" expand="true"/>
         <task id="39" name="Segunda Etapa de desarrollo personalizado para base Easy Retail Admin" color="#000000" meeting="false" start="2017-01-19" duration="91" complete="38" thirdDate="2016-08-04" thirdDate-constraint="1" expand="true">
