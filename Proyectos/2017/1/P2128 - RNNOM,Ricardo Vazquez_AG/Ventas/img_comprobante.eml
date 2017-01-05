@@ -1,0 +1,267 @@
+Received: from mxfront7j.mail.yandex.net ([127.0.0.1])
+	by mxfront7j.mail.yandex.net with LMTP id YTtpArYE
+	for <alma.garcia@sos-soft.com>; Thu, 5 Jan 2017 22:33:24 +0300
+Received: from mail-it0-x236.google.com (mail-it0-x236.google.com [2607:f8b0:4001:c0b::236])
+	by mxfront7j.mail.yandex.net (nwsmtp/Yandex) with ESMTPS id DPyyoQiZyu-XNPGXOaX;
+	Thu, 05 Jan 2017 22:33:23 +0300
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(Client certificate not present)
+X-Yandex-Front: mxfront7j.mail.yandex.net
+X-Yandex-TimeMark: 1483644803
+Authentication-Results: mxfront7j.mail.yandex.net; dkim=pass header.i=@laminasyperfilesdejalisco-com.20150623.gappssmtp.com
+X-Yandex-Spam: 1
+Received: by mail-it0-x236.google.com with SMTP id 192so14211537itl.0
+        for <alma.garcia@sos-soft.com>; Thu, 05 Jan 2017 11:33:23 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=laminasyperfilesdejalisco-com.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to;
+        bh=u/qGGjPgQf2L5YAjmwZ99sOK74+RgC9Qois8B1ZqbVQ=;
+        b=REQIt4WnOu3QC/0CEZpZ2f1itM81/Tltqjfvrkx630a8+/3kYOJtWTHue+aKKTLcaw
+         hki4/jXO23BoeE7DXbRa3NOXEpKZrYS4J71K3WxsaA20AOhlPXWqQxkXedqIFqUo/B80
+         Fu/DCbTMw2rNkGhg/v10c4ufibKqlWxzXWFVNGamifE9XM3Bp7bOEVVtWOoYvaPoheDi
+         psgCwpGryNswMt/CZwtd9vzlhbQkh3YE4nF9K/WKK5CZvubjItiTeZBKnbJgkngIZx2D
+         1DDz4DBpQabxMuEw5ngL1taxbxPI2gCJegkguXOcwRl4QNYdR8WoiT8Cb1ECiPlkTL/h
+         8wyw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to;
+        bh=u/qGGjPgQf2L5YAjmwZ99sOK74+RgC9Qois8B1ZqbVQ=;
+        b=MTISRYZSI+6VnbpRwpSHyBCpvqPuGTimBgmjYeFIi7lVMeKKH5PLp3nen20+z8zzZz
+         yxunw5oUnpnsu2QMs50airMfwPX+CsBT0U5E8Ff3cWTUIoFkcYeoOEQLvJP6a++ht7tk
+         SWQ3+kAen1ivcsudR8jye4CKTmtM2hYeXiLIpkS8NnuWCq7EJ9wUBGyqf0QSh98sG2zj
+         V+ewOGyr2VSDgPDoKZmCmkIbbNhq8uAda9viq6iL6p9Cd8QF+2WONuJxEaeHPecaYW32
+         Ci45tG6phTsITjO2a7LCRUc50hA1uhDXT5E/7gXvdS2YDH1mJeMeba++KlPxnZuesU9g
+         7ZYA==
+X-Gm-Message-State: AIkVDXLHDRUxgXu6K5k+C5X19XB2qWcK7xKLhBDQIWnn8aiiAaV/3CgNRRsPNbd52Q+4o8L3El0JaeSNM279sQ==
+X-Received: by 10.36.227.198 with SMTP id d189mr48022190ith.36.1483644801821;
+ Thu, 05 Jan 2017 11:33:21 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.79.152.148 with HTTP; Thu, 5 Jan 2017 11:33:21 -0800 (PST)
+In-Reply-To: <CA+-euTNzcqEaGhbPAo-7i5t_9h_fOq=LwTFrj+YR5yoBjwcBrw@mail.gmail.com>
+References: <7165631.215193.1483642387239.JavaMail.root@netm4> <CA+-euTNzcqEaGhbPAo-7i5t_9h_fOq=LwTFrj+YR5yoBjwcBrw@mail.gmail.com>
+From: Ricardo Vazquez Hernandez <rvazquez@laminasyperfilesdejalisco.com>
+Date: Thu, 5 Jan 2017 13:33:21 -0600
+Message-ID: <CAKg4f5x+xM+U4kXX6iMoh8AwGGbwejLLyDP=eB0p5Yav5Z8gJQ@mail.gmail.com>
+Subject: =?UTF-8?Q?Fwd=3A_Interbancaria_Banca_en_L=C3=ADnea?=
+To: alma.garcia@sos-soft.com
+Content-Type: multipart/alternative; boundary=94eb2c047ac662c44b05455df949
+Return-Path: rvazquez@laminasyperfilesdejalisco.com
+X-Yandex-Forward: 3f3ca835f0ec994b3f591f12a1e7ff3e
+
+--94eb2c047ac662c44b05455df949
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Buenas tardes Alma, te envio la transferencia bancaria de la licencia anual
+de nominas. Te encargo la factura porfavor.
+
+Gracias.
+
+
+---------- Mensaje enviado ----------
+De: Ilda Arana Coldivar <iarana@laminasyperfilesdejalisco.com>
+Fecha: 5 de enero de 2017, 12:57
+Asunto: Fwd: Interbancaria Banca en L=C3=ADnea
+Para: Ricardo Vazquez Hernandez <rvazquez@laminasyperfilesdejalisco.com>
+
+
+
+---------- Mensaje reenviado ----------
+De: Bancomer.com Otros Bancos2 <alertaid@serviciobancomer.com>
+Fecha: 5 de enero de 2017, 12:53
+Asunto: Interbancaria Banca en L=C3=ADnea
+Para: iarana@laminasyperfilesdejalisco.com
+
+
+Le informamos que le fue enviada una *Transferencia interbancaria a cuenta
+de cheques/ahorro*, bajo las siguientes condiciones.
+
+Titular de la cuenta de retiro
+
+LAMINAS Y PERFILES DE JALISCO SA DE CV
+
+Banco Destino
+
+BANORTE/ IXE
+
+Cuenta de dep=C3=B3sito
+
+**************7160
+
+Nombre del beneficiario
+
+SOS SOFTWARE S.A DE C.V.
+
+Importe
+
+$ 3,932.40
+
+Fecha de operaci=C3=B3n
+
+05 de Enero de 2017, 12:52:57 PM
+
+Forma de dep=C3=B3sito
+
+MISMO D=C3=8DA (SPEI)
+
+Concepto de pago
+
+PAGO
+
+Folio Internet
+
+1800721922
+
+MENSAJE:
+
+pago
+
+Este correo constituye s=C3=B3lo una referencia de los t=C3=A9rminos en que=
+ se
+realiz=C3=B3 la operaci=C3=B3n, el =C3=BAnico comprobante oficial es el est=
+ado de cuenta
+de cheques que emite el GFBBVA Bancomer, S.A.
+
+
+
+--=20
+ILDA ARANA COLDIVAR
+LAMINAS Y PERFILES DE JALISCO  S.A. DE C.V.
+EJECUTIVO DE VENTAS
+iarana@laminasyperfilesdejalisco.com
+36-66-23-81 y 36-66-23-87
+33-30-07-97 Y 33-30-07-38
+
+
+
+
+
+--=20
+C.P. Ricardo V=C3=A1zquez Hern=C3=A1ndez
+Laminas y Perfiles de Jalisco, S.A. de C.V.
+Tel. 36662381 y 36662387
+
+--94eb2c047ac662c44b05455df949
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"color:#000000">Buena=
+s tardes Alma, te envio la transferencia bancaria de la licencia anual de n=
+ominas. Te encargo la factura porfavor.</div><div class=3D"gmail_default" s=
+tyle=3D"color:#000000"><br></div><div class=3D"gmail_default" style=3D"colo=
+r:#000000">Gracias.=C2=A0</div><div class=3D"gmail_default" style=3D"color:=
+#000000"><br></div><div class=3D"gmail_default" style=3D"color:#000000"><br=
+></div><div class=3D"gmail_quote">---------- Mensaje enviado ----------<br>=
+De: <b class=3D"gmail_sendername">Ilda Arana Coldivar</b> <span dir=3D"ltr"=
+>&lt;<a href=3D"mailto:iarana@laminasyperfilesdejalisco.com">iarana@laminas=
+yperfilesdejalisco.com</a>&gt;</span><br>Fecha: 5 de enero de 2017, 12:57<b=
+r>Asunto: Fwd: Interbancaria Banca en L=C3=ADnea<br>Para: Ricardo Vazquez H=
+ernandez &lt;<a href=3D"mailto:rvazquez@laminasyperfilesdejalisco.com">rvaz=
+quez@laminasyperfilesdejalisco.com</a>&gt;<br><br><br><div dir=3D"ltr"><br>=
+<div class=3D"gmail_quote">---------- Mensaje reenviado ----------<br>De: <=
+b class=3D"gmail_sendername">Bancomer.com Otros Bancos2</b> <span dir=3D"lt=
+r">&lt;<a href=3D"mailto:alertaid@serviciobancomer.com" target=3D"_blank">a=
+lertaid@serviciobancomer.com</a><wbr>&gt;</span><br>Fecha: 5 de enero de 20=
+17, 12:53<br>Asunto: Interbancaria Banca en L=C3=ADnea<br>Para: <a href=3D"=
+mailto:iarana@laminasyperfilesdejalisco.com" target=3D"_blank">iarana@<wbr>=
+laminasyperfilesdejalisco.com</a><br><br><br><u></u>
+
+
+
+
+
+
+
+<div alink=3D"ffffff" text=3D"#000000" link=3D"ffffff" vlink=3D"ffffff">
+<span class=3D"HOEnZb"><font color=3D"#888888">
+	</font></span><span class=3D"HOEnZb"><font color=3D"#888888">
+</font></span><table cellpadding=3D"2" cellspacing=3D"0" width=3D"550" styl=
+e=3D"background:url(&#39;http://www.bancomer.com.mx/minisitios/alertas/logo=
+.jpg&#39;) no-repeat">
+	<tbody><tr><td colspan=3D"2" height=3D"85"></td></tr>
+	<tr>
+		<td colspan=3D"2">
+			<p style=3D"font-size:12px;color:#000099">
+				Le informamos que le fue enviada una <b>Transferencia interbancaria a c=
+uenta de cheques/ahorro</b>, bajo las siguientes condiciones.
+			</p>
+		</td>
+	</tr>
+	<tr><td colspan=3D"2" height=3D"10"></td></tr>
+	<tr><td width=3D"40%"><p style=3D"font-size:9px">Titular de la cuenta de r=
+etiro</p></td><td width=3D"60%"><p style=3D"font-size:9px;font-weight:bold"=
+>LAMINAS Y PERFILES DE JALISCO SA DE CV</p></td></tr><tr><td width=3D"40%">=
+<p style=3D"font-size:9px">Banco Destino</p></td><td width=3D"60%"><p style=
+=3D"font-size:9px;font-weight:bold">BANORTE/ IXE</p></td></tr><tr><td width=
+=3D"40%"><p style=3D"font-size:9px">Cuenta de dep=C3=B3sito</p></td><td wid=
+th=3D"60%"><p style=3D"font-size:9px;font-weight:bold">**************7160</=
+p></td></tr><tr><td width=3D"40%"><p style=3D"font-size:9px">Nombre del ben=
+eficiario</p></td><td width=3D"60%"><p style=3D"font-size:9px;font-weight:b=
+old">SOS SOFTWARE S.A DE C.V.</p></td></tr><tr><td width=3D"40%"><p style=
+=3D"font-size:9px">Importe</p></td><td width=3D"60%"><p style=3D"font-size:=
+9px;font-weight:bold">$ 3,932.40</p></td></tr><tr><td width=3D"40%"><p styl=
+e=3D"font-size:9px">Fecha de operaci=C3=B3n</p></td><td width=3D"60%"><p st=
+yle=3D"font-size:9px;font-weight:bold">05 de Enero de 2017, 12:52:57 PM</p>=
+</td></tr><tr><td width=3D"40%"><p style=3D"font-size:9px">Forma de dep=C3=
+=B3sito</p></td><td width=3D"60%"><p style=3D"font-size:9px;font-weight:bol=
+d">MISMO D=C3=8DA (SPEI)</p></td></tr><tr><td width=3D"40%"><p style=3D"fon=
+t-size:9px">Concepto de pago</p></td><td width=3D"60%"><p style=3D"font-siz=
+e:9px;font-weight:bold">PAGO</p></td></tr><tr><td width=3D"40%"><p style=3D=
+"font-size:9px">Folio Internet</p></td><td width=3D"60%"><p style=3D"font-s=
+ize:9px;font-weight:bold">1800721922</p></td></tr>
+	<tr><td colspan=3D"2" height=3D"10"></td></tr>
+	<tr><td valign=3D"top" width=3D"40%"><p style=3D"font-size:9px;font-weight=
+:bold">MENSAJE:</p></td><td width=3D"60%"><table border=3D"0" rules=3D"grou=
+ps" cellspacing=3D"0" width=3D"100%"><tbody><tr><td width=3D"100%"><p style=
+=3D"font-size:9px">pago</p></td></tr></tbody></table></td></tr>
+	<tr><td colspan=3D"2" height=3D"10"></td></tr>
+	<tr>
+		<td colspan=3D"2" align=3D"center">
+			<input type=3D"image" src=3D"https://ci3.googleusercontent.com/proxy/uUM=
+cu_geFiHFXqVPOLoSX4_sS2WTQ_fr5Ckd6IXsSRQtO--MTu4OW6o-83W4iJTztywbCdis4xism8=
+0ZElP9yQiiQy1Yu0AZrmv8M5yVDn96zUEdjszQkdsxRL38zs221w=3Ds0-d-e1-ft#http://ww=
+w.bancomer.com.mx/minisitios/alertas/inter/receptor/crediton06.gif">
+		</td>
+	</tr>
+	<tr><td colspan=3D"2" height=3D"10"></td></tr>
+	<tr>
+		<td colspan=3D"2" align=3D"right">
+			<img src=3D"http://www.bancomer.com.mx/minisitios/alertas/solucionalo.gi=
+f">
+		</td>
+	</tr>
+	<tr><td colspan=3D"2" height=3D"10"></td></tr>
+	<tr><td colspan=3D"2" height=3D"1" bgcolor=3D"#7E7E7E"></td></tr>
+	<tr><td colspan=3D"2" height=3D"10"></td></tr>
+	<tr>
+		<td colspan=3D"2">
+			<p style=3D"font-size:9px;color:#7e7e7e;text-align:justify">
+				Este correo constituye s=C3=B3lo una referencia de los t=C3=A9rminos en=
+ que se realiz=C3=B3 la operaci=C3=B3n, el =C3=BAnico comprobante oficial e=
+s el estado de cuenta de cheques que emite el GFBBVA Bancomer, S.A.
+			</p><span class=3D"HOEnZb"><font color=3D"#888888">
+		</font></span></td></tr></tbody></table><span class=3D"HOEnZb"><font colo=
+r=3D"#888888">
+
+</font></span></div><span class=3D"HOEnZb"><font color=3D"#888888">
+
+</font></span></div><span class=3D"HOEnZb"><font color=3D"#888888"><br><br =
+clear=3D"all"><div><br></div>-- <br><div class=3D"m_6410886274774628904gmai=
+l_signature" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><div><div =
+dir=3D"ltr"><div><div dir=3D"ltr">ILDA ARANA COLDIVAR<br>LAMINAS Y PERFILES=
+ DE JALISCO=C2=A0 S.A. DE C.V.<br>EJECUTIVO DE VENTAS<br><a href=3D"mailto:=
+iarana@laminasyperfilesdejalisco.com" target=3D"_blank">iarana@<wbr>laminas=
+yperfilesdejalisco.com</a><br>36-66-23-81 y 36-66-23-87<br>33-30-07-97 Y 33=
+-30-07-38<br><br><br></div></div></div></div></div></div>
+</font></span></div>
+</div><br><br clear=3D"all"><div><br></div>-- <br><div class=3D"gmail_signa=
+ture" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"=
+ltr"><div><div><font color=3D"#0000ff">C.P. Ricardo V=C3=A1zquez Hern</font=
+><span style=3D"color:rgb(0,0,255)">=C3=A1ndez</span></div><div><span style=
+=3D"color:rgb(0,0,255)">Laminas y Perfiles de Jalisco, S.A. de C.V.</span><=
+/div><div><span style=3D"color:rgb(0,0,255)">Tel. 36662381 y 36662387</span=
+></div></div></div></div></div></div>
+</div>
+
+--94eb2c047ac662c44b05455df949--
