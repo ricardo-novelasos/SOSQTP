@@ -1,0 +1,123 @@
+Received: from mxfront10m.mail.yandex.net ([127.0.0.1])
+	by mxfront10m.mail.yandex.net with LMTP id A7OnSeEE
+	for <alma.garcia@sos-soft.com>; Mon, 9 Jan 2017 20:20:53 +0300
+Received: from nov-007-i631.relay.mailchannels.net (nov-007-i631.relay.mailchannels.net [46.232.183.185])
+	by mxfront10m.mail.yandex.net (nwsmtp/Yandex) with SMTP id ftsSoMhbB3-KoZK4P7R;
+	Mon, 09 Jan 2017 20:20:51 +0300
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(Client certificate not present)
+X-Yandex-Front: mxfront10m.mail.yandex.net
+X-Yandex-TimeMark: 1483982451
+X-Yandex-Spam: 1
+X-Sender-Id: digitalserver|x-authuser|iliana.rendon@grupodemejoracontinua.com.mx
+Received: from relay.mailchannels.net (localhost [127.0.0.1])
+	by relay.mailchannels.net (Postfix) with ESMTP id 3340121174
+	for <alma.garcia@sos-soft.com>; Mon,  9 Jan 2017 17:20:47 +0000 (UTC)
+Received: from c11.iservidorweb.com (ip-10-220-3-24.us-west-2.compute.internal [10.220.3.24])
+	by relay.mailchannels.net (Postfix) with ESMTPA id 88A9822389
+	for <alma.garcia@sos-soft.com>; Mon,  9 Jan 2017 17:20:39 +0000 (UTC)
+X-Sender-Id: digitalserver|x-authuser|iliana.rendon@grupodemejoracontinua.com.mx
+Received: from c11.iservidorweb.com (c11.iservidorweb.com [10.16.27.41])
+	(using TLSv1.2 with cipher DHE-RSA-AES256-GCM-SHA384)
+	by 0.0.0.0:2500 (trex/5.7.8);
+	Mon, 09 Jan 2017 17:20:46 +0000
+X-MC-Relay: Neutral
+X-MailChannels-SenderId: digitalserver|x-authuser|iliana.rendon@grupodemejoracontinua.com.mx
+X-MailChannels-Auth-Id: DigitalServer
+X-MC-Loop-Signature: 1483982439950:488686500
+X-MC-Ingress-Time: 1483982439950
+Received: from [::1] (port=58032 helo=c11.iservidorweb.com)
+	by c11.iservidorweb.com with esmtpa (Exim 4.87)
+	(envelope-from <iliana.rendon@grupodemejoracontinua.com.mx>)
+	id 1cQdcK-0005Jh-BW
+	for alma.garcia@sos-soft.com; Mon, 09 Jan 2017 11:20:25 -0600
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8;
+ format=flowed
+Date: Mon, 09 Jan 2017 11:20:20 -0600
+From: iliana.rendon@grupodemejoracontinua.com.mx
+To: alma.garcia@sos-soft.com
+Subject: COMPROBANTE DE PAGO DE CONTPAQi
+In-Reply-To: <BN6PR19MB08994957B07B8E330E5159CEA7640@BN6PR19MB0899.namprd19.prod.outlook.com>
+References: <BN6PR19MB08994957B07B8E330E5159CEA7640@BN6PR19MB0899.namprd19.prod.outlook.com>
+Message-ID: <291d748e86f0b7079e1757508a7d40f6@grupodemejoracontinua.com.mx>
+X-Sender: iliana.rendon@grupodemejoracontinua.com.mx
+User-Agent: Roundcube Webmail/1.1.4
+X-OutGoing-Spam-Status: No, score=-2.9
+X-AuthUser: iliana.rendon@grupodemejoracontinua.com.mx
+Content-Transfer-Encoding: quoted-printable
+Return-Path: iliana.rendon@grupodemejoracontinua.com.mx
+X-Yandex-Forward: 3f3ca835f0ec994b3f591f12a1e7ff3e
+
+
+Buenos d=C3=ADas Alma,
+
+
+Te env=C3=ADo el comprobante de pago de la Cotizaci=C3=B3n #7246
+-------- Mensaje Original --------
+Asunto: COMPROBANTE DE PAGO DE CONTPAQi
+Fecha: 2017-01-09 10:53
+De: factura mejora <facturamejora@hotmail.com>
+Destinatario: "iliana.rendon@grupodemejoracontinua.com.mx"=20
+<iliana.rendon@grupodemejoracontinua.com.mx>
+
+
+
+Buen d=C3=ADa
+
+Anexo comprobante de pago de la cotizaci=C3=B3n #7246
+
+Gracias
+
+  		Su transferencia ha sido Aplicado con n=C3=BAmero de autorizaci=C3=B3=
+n
+046813.
+
+  		 Autorizadores
+
+  		 Usuario 01
+  		   JUAN MANUEL GARCIA X
+
+  		 Usuario
+
+  		 Cuentas
+
+Cuenta retiro
+
+  		GRUPO DE MEJORA CONTINUA I - 867/5849510
+
+Cuenta de dep=C3=B3sito o beneficiario
+
+  		BANORTE/IXE - MXN 072320002394317160
+  		Nombre: SOS SOFTWARE S.A. DE C.V.
+
+  Datos de la
+transferencia
+
+  		Importe MXN
+  		$ 3,062.40
+
+  		N=C3=BAmero de referencia
+  		7246
+
+  		Concepto del pago
+  		CONTPAQi
+
+  		Clave de rastreo
+  		085900468134300971
+
+  		Tipo de cuenta
+  		CLABE
+
+  		Tipo de beneficiario
+  		Persona Moral
+
+  		Fecha de aplicaci=C3=B3n
+  		Mismo D=C3=ADa
+
+  		Fecha valor
+  		09/01/2017
+
+"Este documento es s=C3=B3lo de car=C3=A1cter informativo, no tiene valid=
+ez
+oficial como comprobante legal o fiscal"
