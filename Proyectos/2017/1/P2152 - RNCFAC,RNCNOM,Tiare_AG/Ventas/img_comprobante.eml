@@ -1,0 +1,364 @@
+Received: from mxfront9h.mail.yandex.net ([127.0.0.1])
+	by mxfront9h.mail.yandex.net with LMTP id ke01kDD6
+	for <alma.garcia@sos-soft.com>; Mon, 16 Jan 2017 21:39:42 +0300
+Received: from snt004-omc1s29.hotmail.com (snt004-omc1s29.hotmail.com [65.55.90.40])
+	by mxfront9h.mail.yandex.net (nwsmtp/Yandex) with ESMTPS id t1Ufx60Djo-derGKorT;
+	Mon, 16 Jan 2017 21:39:41 +0300
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-SHA256 (128/128 bits))
+	(Client certificate not present)
+X-Yandex-Front: mxfront9h.mail.yandex.net
+X-Yandex-TimeMark: 1484591981
+Authentication-Results: mxfront9h.mail.yandex.net; spf=pass (mxfront9h.mail.yandex.net: domain of hotmail.com designates 65.55.90.40 as permitted sender) smtp.mail=consulcont49@hotmail.com; dkim=pass header.i=@hotmail.com
+X-Yandex-Spam: 1
+Received: from NAM02-CY1-obe.outbound.protection.outlook.com ([65.55.90.7]) by SNT004-OMC1S29.hotmail.com over TLS secured channel with Microsoft SMTPSVC(7.5.7601.23008);
+	 Mon, 16 Jan 2017 10:39:39 -0800
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=2V3vNCaRCOtrKQR2F2jq9h5OncKzry76fJl1HbrLjwg=;
+ b=aHi56K7KXwnF62GsE+EgNb2XOhvMXM9eTW3wWoLb8UAHChie3XHxDtJamMzGreG0DVOlFSwjPunu0OXRY7e0Mf/Y1J7eYAw0nTUAKPpMNyHFtOM9a7WzXMmwVKCr2bgyMiLoUptb+VhAnus+kgfmp/S0LAp7J6qMQNmBa7VUoYcPsUNhD12yprtH2ewfXkUUqBB5k4TAKdenqQ17NO9GwrtkrhVRtdhJ4q5H/JOGWkvtjg4ms+AWdwE6VkHefOEE9Btk9+wUWAQZwqn6/0AGOheDUXa9tePTafdHFnV1XSFu0dLXsPzXzd8zv58VzPp+xQTI6gwxsP8IFoJlVb2Cxg==
+Received: from BL2NAM02FT043.eop-nam02.prod.protection.outlook.com
+ (10.152.76.52) by BL2NAM02HT025.eop-nam02.prod.protection.outlook.com
+ (10.152.77.42) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.1.803.8; Mon, 16 Jan
+ 2017 18:39:38 +0000
+Received: from DM2PR0601MB713.namprd06.prod.outlook.com (10.152.76.56) by
+ BL2NAM02FT043.mail.protection.outlook.com (10.152.77.95) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.803.8 via Frontend Transport; Mon, 16 Jan 2017 18:39:38 +0000
+Received: from DM2PR0601MB713.namprd06.prod.outlook.com ([10.242.115.155]) by
+ DM2PR0601MB713.namprd06.prod.outlook.com ([10.242.115.155]) with mapi id
+ 15.01.0845.013; Mon, 16 Jan 2017 18:39:38 +0000
+From: Magnoplasticos S de RL de CV <consulcont49@hotmail.com>
+To: "alma.garcia@sos-soft.com" <alma.garcia@sos-soft.com>
+Subject: RV: TRASPASO INTERBANCARIO
+Thread-Topic: TRASPASO INTERBANCARIO
+Thread-Index: AQHScCQAdddXAP5KxEyxy5+5PwjmlKE7bmWx
+Date: Mon, 16 Jan 2017 18:39:37 +0000
+Message-ID: <DM2PR0601MB7139469A1EF7E349A4549EFDC7D0@DM2PR0601MB713.namprd06.prod.outlook.com>
+References: <12550526.4223.1484590304221.JavaMail.inttech@asexnfamp2>
+In-Reply-To: <12550526.4223.1484590304221.JavaMail.inttech@asexnfamp2>
+Accept-Language: es-MX, en-US
+Content-Language: es-MX
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-incomingtopheadermarker: OriginalChecksum:D63A2BD6324645407A4DB0F53027A7050774CE8B24D1531D829A15ABB1EC41BE;UpperCasedChecksum:89B7A0EACA4ECDA237602B4FAF5125387031A06D1E77B9E0F612953E51C36938;SizeAsReceived:7652;Count:39
+x-ms-exchange-messagesentrepresentingtype: 1
+x-tmn: [axyO0mQFmFwZnEyp+ClPD23F+CtXescu]
+x-incomingheadercount: 39
+x-eopattributedmessage: 0
+x-microsoft-exchange-diagnostics: 1;BL2NAM02HT025;7:CvNMVJ+gPA0MBhU3Or1AUGj22rANJOr2VGWauAjJvwf1JFiBi1QH+4/8dU1MLipC22ycwLdTkqgCZnQaKj/OkPoFtCPEaWAkv9ZjItBfrww0HDhcJY8OJclF2EtfivVbeT4x4aA6xn371qXf5PUjHvtPbivYzOYlyrcqX61rH6si0/L084UzeKeIoFNCrzCTr1eWXf2OfLp3VcqiFocTBK+1PwzIz0bHuoUsx8xqSnHkryfKItRNaWvL25iajZTXRgzUxEV1evo9rs2k+HSirgKjEs/mCLd1WBlDYeocR2rSzrkV+VUV+AEsP+XWuRuibeokVLgsmfvN4oDFurd9NfCYXyY6t3xeC/KkIjSnh9J/mhhXMsqG4Zw68NOli6wvzIlPym0m9ugfe1COqS20FgVsqMajWmQojXMc9qD3Cp56xLRZt4n85L7Y03lyx9tDHC4jWyz3E9jCmnlc0TI72Q==
+x-forefront-antispam-report: EFV:NLI;SFV:NSPM;SFS:(10019020)(98900003);DIR:OUT;SFP:1102;SCL:1;SRVR:BL2NAM02HT025;H:DM2PR0601MB713.namprd06.prod.outlook.com;FPR:;SPF:None;LANG:es;
+x-ms-office365-filtering-correlation-id: 4bca9e9b-37e8-4371-2db6-08d43e3f069b
+x-microsoft-antispam: UriScan:;BCL:0;PCL:0;RULEID:(22001)(1601124038)(5061506344)(5061507293)(1603103113)(1603101340)(1601125047)(1701031023);SRVR:BL2NAM02HT025;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:(444111334)(444112120)(432015012)(82015046);SRVR:BL2NAM02HT025;BCL:0;PCL:0;RULEID:;SRVR:BL2NAM02HT025;
+x-forefront-prvs: 01894AD3B8
+spamdiagnosticoutput: 1:99
+spamdiagnosticmetadata: NSPM
+Content-Type: multipart/alternative;
+	boundary="_000_DM2PR0601MB7139469A1EF7E349A4549EFDC7D0DM2PR0601MB713na_"
+MIME-Version: 1.0
+X-OriginatorOrg: hotmail.com
+X-MS-Exchange-CrossTenant-originalarrivaltime: 16 Jan 2017 18:39:37.9866
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Internet
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BL2NAM02HT025
+X-OriginalArrivalTime: 16 Jan 2017 18:39:39.0373 (UTC) FILETIME=[E4E9D1D0:01D27027]
+Return-Path: consulcont49@hotmail.com
+X-Yandex-Forward: 3f3ca835f0ec994b3f591f12a1e7ff3e
+
+--_000_DM2PR0601MB7139469A1EF7E349A4549EFDC7D0DM2PR0601MB713na_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Alma:
+
+
+
+Buen d=EDa, te env=EDo el pago correspondiente a la cotizaci=F3n 7322, de e=
+sta manera para reactivar los sistemas.
+
+
+
+Quedo al pendiente de tus comentarios.
+
+
+
+Saludos.
+
+
+
+
+Tiare Kaima D.Torres
+
+0133 3811 0726
+
+Aviso de Confidencialidad.
+Este correo electr=F3nico y/o el material adjunto es para uso exclusivo de =
+la persona o entidad a la que expresamente se le ha enviado, y puede conten=
+er informaci=F3n confidencial o material privilegiado.
+
+Si usted no es el destinatario leg=EDtimo del mismo, por favor rep=F3rtelo =
+inmediatamente al remitente del correo y b=F3rrelo. Cualquier revisi=F3n, r=
+etransmisi=F3n, difusi=F3n o cualquier otro uso de este correo, por persona=
+s o entidades distintas a las del destinatario leg=EDtimo, queda expresamen=
+te prohibido. Este correo electr=F3nico no pretende ni debe ser considerado=
+ como constitutivo de ninguna relaci=F3n legal, contractual o de otra =EDnd=
+ole similar.
+
+
+
+________________________________
+De: Notificaci?n Bancomer.com <notificacionbcom@serviciobancomer.com>
+Enviado: lunes, 16 de enero de 2017 12:11 p. m.
+Para: consulcont49@hotmail.com
+Asunto: TRASPASO INTERBANCARIO
+
+
+
+
+[http://www.bancomer.com.mx/comun/img/comun_logo.gif]
+
+MAGNOPLASTICOS S DE RL DE CV
+
+
+TRASPASO INTERBANCARIO
+
+Notificaci=F3n Banca en L=EDnea
+
+
+Banco destino:          BANORTE
+Cuenta CLABE / TDD de dep=F3sito:         ************7160
+Importe de la operaci=F3n:        $5,945.58
+Fecha de la operaci=F3n:          16 DE ENERO DE 2017
+Hora de la operaci=F3n:   12:11:30 hrs.
+
+Folio de Internet:      6555473614
+Folio Interbancario:    0002052297
+
+En caso de no reconocer esta operaci=F3n favor de comunicarse al:
+Cd. de M=E9xico 5624 1199
+Del Interior de la Republica (Lada 800): 01800 1122 999
+Este correo electr=F3nico constituye una notificaci=F3n de los t=E9rminos e=
+n que se realiz=F3 la operaci=F3n, el =FAnico comprobante oficial es el est=
+ado de cuenta que emite BBVA Bancomer.
+
+
+--_000_DM2PR0601MB7139469A1EF7E349A4549EFDC7D0DM2PR0601MB713na_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"><!-- P {margin-top:0;margi=
+n-bottom:0;} --></style>
+</head>
+<body dir=3D"ltr">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size:12pt;color:#000000;font=
+-family:Calibri,Arial,Helvetica,sans-serif;" dir=3D"ltr">
+<p>Alma:</p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p>Buen d=EDa, te env=EDo el pago correspondiente a la cotizaci=F3n 7322, d=
+e esta manera para reactivar los sistemas.</p>
+<p><span style=3D"font-size: 12pt;"><br>
+</span></p>
+<p><span style=3D"font-size: 12pt;"><br>
+</span></p>
+<p><span style=3D"font-size: 12pt;">Quedo al pendiente de tus comentarios. =
+&nbsp;</span></p>
+<p><span style=3D"font-size: 12pt;"><br>
+</span></p>
+<p><span style=3D"font-size: 12pt;"><br>
+</span></p>
+<p><span style=3D"font-size: 12pt;">Saludos.</span></p>
+<p><span style=3D"font-size: 12pt;"><br>
+</span></p>
+<p><span style=3D"font-size: 12pt;"><br>
+</span></p>
+<p><span style=3D"font-size: 12pt;"><br>
+</span></p>
+<p><span style=3D"font-size: 12pt;">Tiare Kaima D.Torres</span></p>
+<p>0133 3811 0726</p>
+<div id=3D"Signature">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size:12pt; color:#000000; ba=
+ckground-color:#FFFFFF; font-family:Calibri,Arial,Helvetica,sans-serif">
+<p></p>
+<p class=3D"x_ecxMsoNormal"><font color=3D"#666666"><font size=3D"2"><span =
+style=3D"line-height:115%"><span id=3D"ms-rterangepaste-start"></span></spa=
+n></font></font></p>
+<font color=3D"#666666"><font size=3D"2">
+<p class=3D"xecxmsonormal" style=3D"margin:0cm 0cm 0.0001pt"><span style=3D=
+"font-size:10.0pt; font-family:&quot;Calibri&quot;,sans-serif; color:#66666=
+6">Aviso de Confidencialidad.<span class=3D"xecxapple-converted-space">&nbs=
+p;</span><br>
+Este correo electr=F3nico y/o el material adjunto es para uso exclusivo de =
+la&nbsp;persona o entidad a la que expresamente se le ha enviado, y puede c=
+ontener&nbsp;informaci=F3n confidencial o material privilegiado.&nbsp;</spa=
+n><span style=3D"font-family:Calibri,sans-serif"></span></p>
+<p class=3D"xecxmsonormal" style=3D"margin:0cm 0cm 0.0001pt"><span style=3D=
+"font-size:10.0pt; font-family:&quot;Calibri&quot;,sans-serif; color:#66666=
+6">Si usted no es el&nbsp;destinatario leg=EDtimo del mismo, por favor rep=
+=F3rtelo inmediatamente al&nbsp;remitente del correo y b=F3rrelo.
+ Cualquier revisi=F3n, retransmisi=F3n, difusi=F3n&nbsp;o cualquier otro us=
+o de este correo, por personas o entidades distintas a&nbsp;las del destina=
+tario leg=EDtimo, queda expresamente prohibido.&nbsp;Este correo&nbsp;elect=
+r=F3nico no pretende ni debe ser considerado como constitutivo
+ de ninguna&nbsp;relaci=F3n legal, contractual o de otra =EDndole similar.<=
+/span><span style=3D"font-family:Calibri,sans-serif"></span></p>
+</font></font>
+<p></p>
+<p class=3D"x_ecxMsoNormal"><font size=3D"2" style=3D"color:rgb(102,102,102=
+); line-height:115%"><span id=3D"ms-rterangepaste-end"></span></font></p>
+<br>
+<p></p>
+</div>
+</div>
+<br>
+<br>
+<div style=3D"color: rgb(0, 0, 0);">
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" co=
+lor=3D"#000000" style=3D"font-size:11pt"><b>De:</b> Notificaci?n Bancomer.c=
+om &lt;notificacionbcom@serviciobancomer.com&gt;<br>
+<b>Enviado:</b> lunes, 16 de enero de 2017 12:11 p. m.<br>
+<b>Para:</b> consulcont49@hotmail.com<br>
+<b>Asunto:</b> TRASPASO INTERBANCARIO</font>
+<div>&nbsp;</div>
+</div>
+<div>
+<p style=3D"color: rgb(0, 0, 0);">&nbsp; </p>
+<table width=3D"61%" align=3D"center">
+<tbody>
+<tr>
+<td width=3D"55%"><img style=3D"user-select: none;" src=3D"http://www.banco=
+mer.com.mx/comun/img/comun_logo.gif"></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<div align=3D"right">MAGNOPLASTICOS S DE RL DE CV </div>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td><b><font color=3D"#30c0f3" size=3D"3">TRASPASO INTERBANCARIO</font></b>=
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td><strong>Notificaci=F3n Banca en L=EDnea</strong></td>
+</tr>
+</tbody>
+</table>
+<font style=3D"font-size:12.0pt; color:#006EC1"></font>
+<table width=3D"699" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" style=3D"margin-left:30">
+<tbody>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td width=3D"50%" align=3D"right"><font style=3D"font-size:12.0pt; color:#6=
+66666">Banco destino:
+</font>&nbsp;</td>
+<td width=3D"50%"><font style=3D"font-size:12.0pt; color:#363636">BANORTE</=
+font></td>
+</tr>
+<tr>
+<td width=3D"50%" align=3D"right"><font style=3D"font-size:12.0pt; color:#6=
+66666">Cuenta CLABE / TDD de dep=F3sito:
+</font>&nbsp;</td>
+<td width=3D"50%"><font style=3D"font-size:12.0pt; color:#363636">*********=
+***7160</font></td>
+</tr>
+<tr>
+<td width=3D"50%" align=3D"right"><font style=3D"font-size:12.0pt; color:#6=
+66666">Importe de la operaci=F3n:
+</font>&nbsp;</td>
+<td width=3D"50%"><font style=3D"font-size:12.0pt; color:#006EC1">$5,945.58=
+</font></td>
+</tr>
+</tbody>
+</table>
+<table width=3D"699" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" style=3D"margin-left:30">
+<tbody>
+<tr>
+<td width=3D"50%" align=3D"right"><font style=3D"font-size:12.0pt; color:#6=
+66666">Fecha de la operaci=F3n:
+</font>&nbsp;</td>
+<td width=3D"50%"><font style=3D"font-size:12.0pt; color:#363636">16 DE ENE=
+RO DE 2017&nbsp;</font></td>
+</tr>
+<tr>
+<td width=3D"50%" align=3D"right"><font style=3D"font-size:12.0pt; color:#6=
+66666">Hora de la operaci=F3n:
+</font>&nbsp;</td>
+<td width=3D"50%"><font style=3D"font-size:12.0pt; color:#363636">12:11:30 =
+hrs.&nbsp;</font></td>
+</tr>
+</tbody>
+</table>
+<table width=3D"699" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" style=3D"margin-left:30">
+<tbody>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td width=3D"50%" align=3D"right"><font style=3D"font-size:12.0pt; color:#6=
+66666">Folio de Internet:
+</font>&nbsp;</td>
+<td width=3D"50%"><font style=3D"font-size:12.0pt; color:#363636">655547361=
+4</font></td>
+</tr>
+<tr>
+<td width=3D"50%" align=3D"right"><font style=3D"font-size:12.0pt; color:#6=
+66666">Folio Interbancario:
+</font>&nbsp;</td>
+<td width=3D"50%"><font style=3D"font-size:12.0pt; color:#363636">000205229=
+7</font></td>
+</tr>
+</tbody>
+</table>
+<table width=3D"61%" align=3D"center">
+<tbody>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr bgcolor=3D"#f0f9fe">
+<td align=3D"center">En caso de no reconocer esta operaci=F3n favor de comu=
+nicarse al:
+<br>
+Cd. de M=E9xico 5624 1199<br>
+Del Interior de la Republica (Lada 800): 01800 1122 999<br>
+Este correo electr=F3nico constituye una notificaci=F3n de los t=E9rminos e=
+n que se realiz=F3 la operaci=F3n, el =FAnico comprobante oficial es el est=
+ado de cuenta que emite BBVA Bancomer.</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_DM2PR0601MB7139469A1EF7E349A4549EFDC7D0DM2PR0601MB713na_--
