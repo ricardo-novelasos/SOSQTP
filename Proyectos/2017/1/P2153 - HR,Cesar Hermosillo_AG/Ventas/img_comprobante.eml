@@ -1,0 +1,423 @@
+Received: from mxfront6m.mail.yandex.net ([127.0.0.1])
+	by mxfront6m.mail.yandex.net with LMTP id 5Ot5dHxX
+	for <alma.garcia@sos-soft.com>; Mon, 16 Jan 2017 21:40:55 +0300
+Received: from mail-ot0-x22d.google.com (mail-ot0-x22d.google.com [2607:f8b0:4003:c0f::22d])
+	by mxfront6m.mail.yandex.net (nwsmtp/Yandex) with ESMTPS id ILzmSpKK1Y-esx87cCA;
+	Mon, 16 Jan 2017 21:40:54 +0300
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(Client certificate not present)
+X-Yandex-Front: mxfront6m.mail.yandex.net
+X-Yandex-TimeMark: 1484592054
+Authentication-Results: mxfront6m.mail.yandex.net; spf=pass (mxfront6m.mail.yandex.net: domain of gmail.com designates 2607:f8b0:4003:c0f::22d as permitted sender) smtp.mail=etradecogdl@gmail.com; dkim=pass header.i=@gmail.com
+X-Yandex-Spam: 1
+Received: by mail-ot0-x22d.google.com with SMTP id 104so48428242otd.3
+        for <alma.garcia@sos-soft.com>; Mon, 16 Jan 2017 10:40:54 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=from:to:references:in-reply-to:subject:date:message-id:mime-version
+         :thread-index:content-language;
+        bh=315LIYjlC5Dl1wt98UNnJXy8T9fZHfpJ5a165x6L8I8=;
+        b=QCmBcCGeyyIsRmtsGVWXB/UMEic+Qgi5ARm4/osh+QzQ6c4r/NDqM+CD61/OS0xx0T
+         B7OqsT811DyXxsXHfajK/5XMSJucB9FDkyZZqtHLVmWALl+2TNouDV67oArvz1LGhIHm
+         EAVKoQNCn14ONH4XA158vzE+UICcDIIoDRITmSABIvaf/fLlgSjvtoZfYp92FQos0Cvm
+         Cbsut/URdz4w8+vneSULX9X6/JZTRumRuzucsl4Nc18AQslNpexvF0WvYDhqigQ1k5uG
+         HatT33PMBE8jafKXTrTeNt5kYoT+YxjxsaWyH0Z/yL3QT5DDcFo70KTE91EBmMAfoj9X
+         XoKg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:to:references:in-reply-to:subject:date
+         :message-id:mime-version:thread-index:content-language;
+        bh=315LIYjlC5Dl1wt98UNnJXy8T9fZHfpJ5a165x6L8I8=;
+        b=dvH5SmiCxS3T4aXiXxx3We6lzkxzT7+fgP06BZ4G3Pz9QZHhQ/EWQy9OA8LwoMymtz
+         i3aUX1/LGT/odWxkhRfr+mpG7QQRSw/pqPzIK1n5eRhZhUV65LJvEgOSg/ZdfjuI7w+A
+         Q9izZaavhHtD8cvY2W3Bj8SgevGP0Oq149KuBkOTL2GvVArEqK8EDQmQLsikbFWzz+Gu
+         N+gEr4nhFyrbL7zImbc1Utec0K5hFub81w9volkmrmmCYfKLOY67DRCvRNfnLolpz4sv
+         AXDarflynX3QyiSPHCkqtx6CK2M9XPplOHbyI41qosBs75VBRwrW2f82KclRD+U/iEMY
+         Rx/A==
+X-Gm-Message-State: AIkVDXJzxbhz6crJKqSb/utyoRLli/I+6qvc69uixDiVoeeOEEyzwILxq6ANYcSGz8Bk7g==
+X-Received: by 10.157.52.66 with SMTP id v60mr16311570otb.61.1484592052888;
+        Mon, 16 Jan 2017 10:40:52 -0800 (PST)
+Received: from eTradeCoPC (177-249-205-215-cable.cybercable.net.mx. [177.249.205.215])
+        by smtp.gmail.com with ESMTPSA id m33sm11185376otd.11.2017.01.16.10.40.50
+        for <alma.garcia@sos-soft.com>
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Mon, 16 Jan 2017 10:40:52 -0800 (PST)
+From: "e-Trade.Co" <etradecogdl@gmail.com>
+To: "'alma.garcia'" <alma.garcia@sos-soft.com>
+References: <9881561.10457.1484588747122.JavaMail.root@netm2> <93001128-0ED0-43AD-960D-CAC6DF05E205@gmail.com>
+In-Reply-To: <93001128-0ED0-43AD-960D-CAC6DF05E205@gmail.com>
+Subject: =?UTF-8?Q?Interbancaria_Banca_en_L=C3=ADnea?=
+Date: Mon, 16 Jan 2017 12:40:46 -0600
+Message-ID: <00c101d27028$0f9c25e0$2ed471a0$@gmail.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_00C2_01D26FF5.C5058670"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AQHtLj1Z6rDWEHYhXh7A2fB/aBduJAC1Elb6oQBJ9kA=
+Content-Language: es-mx
+X-Antivirus: avast! (VPS 170116-0, 16/01/2017), Outbound message
+X-Antivirus-Status: Clean
+Return-Path: etradecogdl@gmail.com
+X-Yandex-Forward: 3f3ca835f0ec994b3f591f12a1e7ff3e
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_00C2_01D26FF5.C5058670
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Buenas tardes Alma, le comparto la informaci=C3=B3n de la transferencia par=
+a la capacitaci=C3=B3n de ma=C3=B1ana, tambi=C3=A9n molest=C3=A1ndola para =
+ver si tiene oportunidad el ingeniero de conectarse de nuevo con el equipo =
+que tiene el nomina, a=C3=BAn tiene problemas, me podr=C3=ADas apoyar con e=
+so?
+
+ 
+
+Saludos.
+
+ 
+
+	
+
+Le informamos que le fue enviada una Transferencia interbancaria a cuenta d=
+e cheques/ahorro, bajo las siguientes condiciones. 
+
+
+ 
+
+
+Titular de la cuenta de retiro 
+
+DEVIBELL SA DE CV 
+
+
+Banco destino 
+
+BANORTE/ IXE 
+
+
+Cuenta de dep=C3=B3sito 
+
+**************7160 
+
+
+Nombre del beneficiario 
+
+SOS SOFTWARE SA DE CV 
+
+
+Importe 
+
+$3,596.00 
+
+
+Fecha de operaci=C3=B3n 
+
+16/01/2017 
+
+
+Forma de dep=C3=B3sito 
+
+MISMO D=C3=8DA (SPEI) 
+
+
+Concepto de pago 
+
+CAPACITACION ADMINP 
+
+
+Referencia Num=C3=A9rica 
+
+160117 
+
+
+Folio Internet 
+
+3480800022 
+
+
+Clave de rastreo 
+
+BNET01001701160002044378 
+
+
+ 
+
+
+MENSAJE 
+
+
+CAPACITACION ADMINPACK 
+
+
+ 
+
+
+ <http://www.bancomer.com.mx/> 
+
+
+ 
+
+
+ 
+
+	
+
+ 
+
+
+Este correo constituye s=C3=B3lo una referencia de los t=C3=A9rminos en que=
+ se realiz=C3=B3 la operaci=C3=B3n, el =C3=BAnico comprobante oficial es el=
+ estado de cuenta de cheques que emite el GFBBVA Bancomer, S.A. 
+
+ 
+
+
+
+---
+El software de antivirus Avast ha analizado este correo electr=C3=B3nico en=
+ busca de virus.
+https://www.avast.com/antivirus
+
+------=_NextPart_000_00C2_01D26FF5.C5058670
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head><meta http-equiv=3DContent-Type content=
+=3D"text/html; charset=3Dutf-8"><meta name=3DGenerator content=3D"Microsoft=
+ Word 15 (filtered medium)"><!--[if !mso]><style>v\:* {behavior:url(#defaul=
+t#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+=2Eshape {behavior:url(#default#VML);}
+</style><![endif]--><title>Mail BBVANet</title><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;}
+@font-face
+	{font-family:Verdana;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.EstiloCorreo18
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+=2EMsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DES-MX link=3Dblue vli=
+nk=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal style=3D'text-in=
+dent:35.4pt'><span style=3D'color:#1F497D'>Buenas tardes Alma, le comparto =
+la informaci=C3=B3n de la transferencia para la capacitaci=C3=B3n de ma=C3=
+=B1ana, tambi=C3=A9n molest=C3=A1ndola para ver si tiene oportunidad el ing=
+eniero de conectarse de nuevo con el equipo que tiene el nomina, a=C3=BAn t=
+iene problemas, me podr=C3=ADas apoyar con eso?<o:p></o:p></span></p><p cla=
+ss=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",sans-s=
+erif;color:#1F497D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;color:#1F497D'>S=
+aludos.<o:p></o:p></span></p><blockquote style=3D'margin-top:5.0pt;margin-b=
+ottom:5.0pt'><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><div><div><table cla=
+ss=3DMsoNormalTable border=3D0 cellspacing=3D0 cellpadding=3D0 width=3D550 =
+style=3D'width:412.5pt'><tr style=3D'height:63.75pt'><td colspan=3D2 style=
+=3D'padding:1.5pt 1.5pt 1.5pt 1.5pt;height:63.75pt'></td></tr><tr><td colsp=
+an=3D2 style=3D'padding:1.5pt 1.5pt 1.5pt 1.5pt'><p class=3DMsoNormal style=
+=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span style=3D'font=
+-size:9.0pt;font-family:"Verdana",sans-serif;color:#000099'>Le informamos q=
+ue le fue enviada una <b>Transferencia interbancaria a cuenta de cheques/ah=
+orro</b>, bajo las siguientes condiciones. </span><span style=3D'font-size:=
+9.0pt;font-family:"Verdana",sans-serif'><o:p></o:p></span></p></td></tr><tr=
+><td colspan=3D2 style=3D'padding:1.5pt 1.5pt 1.5pt 1.5pt'><p class=3DMsoNo=
+rmal>&nbsp;<o:p></o:p></p></td></tr><tr><td width=3D"40%" style=3D'width:40=
+=2E0%;padding:1.5pt 1.5pt 1.5pt 1.5pt'><p class=3DMsoNormal style=3D'mso-ma=
+rgin-top-alt:auto;mso-margin-bottom-alt:auto'><span style=3D'font-size:7.0p=
+t;font-family:"Verdana",sans-serif'>Titular de la cuenta de retiro <o:p></o=
+:p></span></p></td><td width=3D"60%" style=3D'width:60.0%;padding:1.5pt 1.5=
+pt 1.5pt 1.5pt'><p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-m=
+argin-bottom-alt:auto'><b><span style=3D'font-size:7.0pt;font-family:"Verda=
+na",sans-serif'>DEVIBELL SA DE CV</span></b><span style=3D'font-size:7.0pt;=
+font-family:"Verdana",sans-serif'> <o:p></o:p></span></p></td></tr><tr><td =
+width=3D"40%" style=3D'width:40.0%;padding:1.5pt 1.5pt 1.5pt 1.5pt'><p clas=
+s=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>=
+<span style=3D'font-size:7.0pt;font-family:"Verdana",sans-serif'>Banco dest=
+ino <o:p></o:p></span></p></td><td width=3D"60%" style=3D'width:60.0%;paddi=
+ng:1.5pt 1.5pt 1.5pt 1.5pt'><p class=3DMsoNormal style=3D'mso-margin-top-al=
+t:auto;mso-margin-bottom-alt:auto'><b><span style=3D'font-size:7.0pt;font-f=
+amily:"Verdana",sans-serif'>BANORTE/ IXE</span></b><span style=3D'font-size=
+:7.0pt;font-family:"Verdana",sans-serif'> <o:p></o:p></span></p></td></tr><=
+tr><td width=3D"40%" style=3D'width:40.0%;padding:1.5pt 1.5pt 1.5pt 1.5pt'>=
+<p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt=
+:auto'><span style=3D'font-size:7.0pt;font-family:"Verdana",sans-serif'>Cue=
+nta de dep=C3=B3sito <o:p></o:p></span></p></td><td width=3D"60%" style=3D'=
+width:60.0%;padding:1.5pt 1.5pt 1.5pt 1.5pt'><p class=3DMsoNormal style=3D'=
+mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b><span style=3D'font-=
+size:7.0pt;font-family:"Verdana",sans-serif'>**************7160</span></b><=
+span style=3D'font-size:7.0pt;font-family:"Verdana",sans-serif'> <o:p></o:p=
+></span></p></td></tr><tr><td width=3D"40%" style=3D'width:40.0%;padding:1.=
+5pt 1.5pt 1.5pt 1.5pt'><p class=3DMsoNormal style=3D'mso-margin-top-alt:aut=
+o;mso-margin-bottom-alt:auto'><span style=3D'font-size:7.0pt;font-family:"V=
+erdana",sans-serif'>Nombre del beneficiario <o:p></o:p></span></p></td><td =
+width=3D"60%" style=3D'width:60.0%;padding:1.5pt 1.5pt 1.5pt 1.5pt'><p clas=
+s=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>=
+<b><span style=3D'font-size:7.0pt;font-family:"Verdana",sans-serif'>SOS SOF=
+TWARE SA DE CV</span></b><span style=3D'font-size:7.0pt;font-family:"Verdan=
+a",sans-serif'> <o:p></o:p></span></p></td></tr><tr><td width=3D"40%" style=
+=3D'width:40.0%;padding:1.5pt 1.5pt 1.5pt 1.5pt'><p class=3DMsoNormal style=
+=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span style=3D'font=
+-size:7.0pt;font-family:"Verdana",sans-serif'>Importe <o:p></o:p></span></p=
+></td><td width=3D"60%" style=3D'width:60.0%;padding:1.5pt 1.5pt 1.5pt 1.5p=
+t'><p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-=
+alt:auto'><b><span style=3D'font-size:7.0pt;font-family:"Verdana",sans-seri=
+f'>$3,596.00</span></b><span style=3D'font-size:7.0pt;font-family:"Verdana"=
+,sans-serif'> <o:p></o:p></span></p></td></tr><tr><td width=3D"40%" style=
+=3D'width:40.0%;padding:1.5pt 1.5pt 1.5pt 1.5pt'><p class=3DMsoNormal style=
+=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span style=3D'font=
+-size:7.0pt;font-family:"Verdana",sans-serif'>Fecha de operaci=C3=B3n <o:p>=
+</o:p></span></p></td><td width=3D"60%" style=3D'width:60.0%;padding:1.5pt =
+1.5pt 1.5pt 1.5pt'><p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;ms=
+o-margin-bottom-alt:auto'><b><span style=3D'font-size:7.0pt;font-family:"Ve=
+rdana",sans-serif'>16/01/2017</span></b><span style=3D'font-size:7.0pt;font=
+-family:"Verdana",sans-serif'> <o:p></o:p></span></p></td></tr><tr><td widt=
+h=3D"40%" style=3D'width:40.0%;padding:1.5pt 1.5pt 1.5pt 1.5pt'><p class=3D=
+MsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><spa=
+n style=3D'font-size:7.0pt;font-family:"Verdana",sans-serif'>Forma de dep=
+=C3=B3sito <o:p></o:p></span></p></td><td width=3D"60%" style=3D'width:60.0=
+%;padding:1.5pt 1.5pt 1.5pt 1.5pt'><p class=3DMsoNormal style=3D'mso-margin=
+-top-alt:auto;mso-margin-bottom-alt:auto'><b><span style=3D'font-size:7.0pt=
+;font-family:"Verdana",sans-serif'>MISMO D=C3=8DA (SPEI)</span></b><span st=
+yle=3D'font-size:7.0pt;font-family:"Verdana",sans-serif'> <o:p></o:p></span=
+></p></td></tr><tr><td width=3D"40%" style=3D'width:40.0%;padding:1.5pt 1.5=
+pt 1.5pt 1.5pt'><p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-m=
+argin-bottom-alt:auto'><span style=3D'font-size:7.0pt;font-family:"Verdana"=
+,sans-serif'>Concepto de pago <o:p></o:p></span></p></td><td width=3D"60%" =
+style=3D'width:60.0%;padding:1.5pt 1.5pt 1.5pt 1.5pt'><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b><span style=
+=3D'font-size:7.0pt;font-family:"Verdana",sans-serif'>CAPACITACION ADMINP</=
+span></b><span style=3D'font-size:7.0pt;font-family:"Verdana",sans-serif'> =
+<o:p></o:p></span></p></td></tr><tr><td width=3D"40%" style=3D'width:40.0%;=
+padding:1.5pt 1.5pt 1.5pt 1.5pt'><p class=3DMsoNormal style=3D'mso-margin-t=
+op-alt:auto;mso-margin-bottom-alt:auto'><span style=3D'font-size:7.0pt;font=
+-family:"Verdana",sans-serif'>Referencia Num=C3=A9rica <o:p></o:p></span></=
+p></td><td width=3D"60%" style=3D'width:60.0%;padding:1.5pt 1.5pt 1.5pt 1.5=
+pt'><p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bottom=
+-alt:auto'><b><span style=3D'font-size:7.0pt;font-family:"Verdana",sans-ser=
+if'>160117</span></b><span style=3D'font-size:7.0pt;font-family:"Verdana",s=
+ans-serif'> <o:p></o:p></span></p></td></tr><tr><td width=3D"40%" style=3D'=
+width:40.0%;padding:1.5pt 1.5pt 1.5pt 1.5pt'><p class=3DMsoNormal style=3D'=
+mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span style=3D'font-siz=
+e:7.0pt;font-family:"Verdana",sans-serif'>Folio Internet <o:p></o:p></span>=
+</p></td><td width=3D"60%" style=3D'width:60.0%;padding:1.5pt 1.5pt 1.5pt 1=
+=2E5pt'><p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bo=
+ttom-alt:auto'><b><span style=3D'font-size:7.0pt;font-family:"Verdana",sans=
+-serif'>3480800022</span></b><span style=3D'font-size:7.0pt;font-family:"Ve=
+rdana",sans-serif'> <o:p></o:p></span></p></td></tr><tr><td width=3D"40%" s=
+tyle=3D'width:40.0%;padding:1.5pt 1.5pt 1.5pt 1.5pt'><p class=3DMsoNormal s=
+tyle=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span style=3D'=
+font-size:7.0pt;font-family:"Verdana",sans-serif'>Clave de rastreo <o:p></o=
+:p></span></p></td><td width=3D"60%" style=3D'width:60.0%;padding:1.5pt 1.5=
+pt 1.5pt 1.5pt'><p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-m=
+argin-bottom-alt:auto'><b><span style=3D'font-size:7.0pt;font-family:"Verda=
+na",sans-serif'>BNET01001701160002044378</span></b><span style=3D'font-size=
+:7.0pt;font-family:"Verdana",sans-serif'> <o:p></o:p></span></p></td></tr><=
+tr><td colspan=3D2 style=3D'padding:1.5pt 1.5pt 1.5pt 1.5pt'><p class=3DMso=
+Normal>&nbsp;<o:p></o:p></p></td></tr><tr><td width=3D"40%" valign=3Dtop st=
+yle=3D'width:40.0%;padding:1.5pt 1.5pt 1.5pt 1.5pt'><p class=3DMsoNormal st=
+yle=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b><span style=
+=3D'font-size:7.0pt;font-family:"Verdana",sans-serif'>MENSAJE</span></b><sp=
+an style=3D'font-size:7.0pt;font-family:"Verdana",sans-serif'> <o:p></o:p><=
+/span></p></td><td width=3D"60%" style=3D'width:60.0%;padding:1.5pt 1.5pt 1=
+=2E5pt 1.5pt'><table class=3DMsoNormalTable border=3D0 cellspacing=3D0 cell=
+padding=3D0 width=3D"100%" style=3D'width:100.0%'><tr><td width=3D"100%" st=
+yle=3D'width:100.0%;padding:.75pt .75pt .75pt .75pt'><p class=3DMsoNormal s=
+tyle=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span style=3D'=
+font-size:7.0pt;font-family:"Verdana",sans-serif'>CAPACITACION ADMINPACK <o=
+:p></o:p></span></p></td></tr></table></td></tr><tr style=3D'height:7.5pt'>=
+<td colspan=3D2 style=3D'padding:1.5pt 1.5pt 1.5pt 1.5pt;height:7.5pt'><p c=
+lass=3DMsoNormal>&nbsp;<o:p></o:p></p></td></tr><tr><td colspan=3D2 style=
+=3D'padding:1.5pt 1.5pt 1.5pt 1.5pt'><p class=3DMsoNormal align=3Dcenter st=
+yle=3D'text-align:center'><a href=3D"http://www.bancomer.com.mx/"><span sty=
+le=3D'text-decoration:none'><img border=3D0 id=3D"_x0000_i1025" src=3D"http=
+://www.bancomer.com.mx/minisitios/alertas/inter/receptor/crediton06.gif"></=
+span></a><o:p></o:p></p></td></tr><tr style=3D'height:6.75pt'><td colspan=
+=3D2 style=3D'padding:1.5pt 1.5pt 1.5pt 1.5pt;height:6.75pt'><p class=3DMso=
+Normal>&nbsp;<o:p></o:p></p></td></tr><tr style=3D'height:6.75pt'><td colsp=
+an=3D2 style=3D'padding:1.5pt 1.5pt 1.5pt 1.5pt;height:6.75pt'><p class=3DM=
+soNormal>&nbsp;<o:p></o:p></p></td></tr><tr style=3D'height:.75pt'><td cols=
+pan=3D2 style=3D'background:#7E7E7E;padding:1.5pt 1.5pt 1.5pt 1.5pt;height:=
+=2E75pt'></td></tr><tr style=3D'height:6.75pt'><td colspan=3D2 style=3D'pad=
+ding:1.5pt 1.5pt 1.5pt 1.5pt;height:6.75pt'><p class=3DMsoNormal>&nbsp;<o:p=
+></o:p></p></td></tr><tr><td colspan=3D2 style=3D'padding:1.5pt 1.5pt 1.5pt=
+ 1.5pt'><p class=3DMsoNormal style=3D'mso-margin-top-alt:auto;mso-margin-bo=
+ttom-alt:auto'><span style=3D'font-size:7.0pt;font-family:"Verdana",sans-se=
+rif;color:#7E7E7E'>Este correo constituye s=C3=B3lo una referencia de los t=
+=C3=A9rminos en que se realiz=C3=B3 la operaci=C3=B3n, el =C3=BAnico compro=
+bante oficial es el estado de cuenta de cheques que emite el GFBBVA Bancome=
+r, S.A. </span><span style=3D'font-size:7.0pt;font-family:"Verdana",sans-se=
+rif'><o:p></o:p></span></p></td></tr></table></div></div></blockquote><p cl=
+ass=3DMsoNormal><o:p>&nbsp;</o:p></p></div>
+<br /><br />
+<hr style=3D'border:none; color:#909090; background-color:#B0B0B0; height: =
+1px; width: 99%;' />
+<table style=3D'border-collapse:collapse;border:none;'>
+	<tr>
+		<td style=3D'border:none;padding:0px 15px 0px 8px'>
+			<a href=3D"https://www.avast.com/sig-email?utm_medium=3Demail&utm_source=
+=3Dlink&utm_campaign=3Dsig-email&utm_content=3Demailclient">
+				<img border=3D0 src=3D"http://static.avast.com/emails/avast-mail-stamp.=
+png" alt=3D"Avast logo" />
+			</a>
+		</td>
+		<td>
+			<p style=3D'color:#3d4d5a; font-family:"Calibri","Verdana","Arial","Helv=
+etica"; font-size:12pt;'>
+				El software de antivirus Avast ha analizado este correo electr=C3=B3nic=
+o en busca de virus.
+				<br><a href=3D"https://www.avast.com/sig-email?utm_medium=3Demail&utm_s=
+ource=3Dlink&utm_campaign=3Dsig-email&utm_content=3Demailclient">www.avast.=
+com</a>
+			</p>
+		</td>
+	</tr>
+</table>
+<br />
+</body></html>
+------=_NextPart_000_00C2_01D26FF5.C5058670--
+
