@@ -1,0 +1,462 @@
+Received: from mxfront2g.mail.yandex.net ([127.0.0.1])
+	by mxfront2g.mail.yandex.net with LMTP id T9aB5cgY
+	for <alma.garcia@sos-soft.com>; Sat, 28 Jan 2017 01:45:41 +0300
+Received: from mail-lf0-x230.google.com (mail-lf0-x230.google.com [2a00:1450:4010:c07::230])
+	by mxfront2g.mail.yandex.net (nwsmtp/Yandex) with ESMTPS id 3JBbgsd9p9-jfg072t2;
+	Sat, 28 Jan 2017 01:45:41 +0300
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(Client certificate not present)
+X-Yandex-Front: mxfront2g.mail.yandex.net
+X-Yandex-TimeMark: 1485557141
+Authentication-Results: mxfront2g.mail.yandex.net; spf=pass (mxfront2g.mail.yandex.net: domain of gmail.com designates 2a00:1450:4010:c07::230 as permitted sender) smtp.mail=etradecogdl@gmail.com; dkim=pass header.i=@gmail.com
+X-Yandex-Spam: 1
+Received: by mail-lf0-x230.google.com with SMTP id x1so82512089lff.0
+        for <alma.garcia@sos-soft.com>; Fri, 27 Jan 2017 14:45:41 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to;
+        bh=mMl5gqjf5pC2hA0G2GPt0Z5XuXhfiIXIVyIKIElwptw=;
+        b=QUnK01J3S/VJCqfDo4dpKD+oEp0Tu1YyVMjGtG8xMit9fW6mVx2i25xUv1ntb08xoM
+         7jFlLrQZjI4wT6AdLx9KbTyfYDPbQa3FNXEeKXXWRxf7b0RU2nNzAfmveJ/tmoIitqNB
+         kehGR1sSoQEGdFBnaIfSNZI79vYd1xTPllBf32AbBsFtHJJ5jjBWNZv/jDnphCuw8h4v
+         nHHWm2rfUqlLMQtetKMygxBw6AjHWydd5qyJyvrlATAVjwZi0ZKVpf+xFFmw2MyLI/uX
+         1PxFRsraGbi3yRv4gOERbOhFSzImlms3lG3m1sxJqB8RflMNMZJRyIQGzaZV3oIqAp5h
+         el4g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to;
+        bh=mMl5gqjf5pC2hA0G2GPt0Z5XuXhfiIXIVyIKIElwptw=;
+        b=sshDIq/iFMA7x8+J5/LP2PDqmSjwkmXnCogyeX0qYD+B/UMlXco3kF2aOkerxrrZQI
+         dUP2J4k4t/423saF4NVuR8DKTFugYAfrYhcoxwxIbvCjyXgWFFICUlJo7AqdZUzGCHZO
+         6dGZD3f48C2H9VNEbAF72dtzyGVTF3IiM5+u8cCOBEp3o5EWBwlAdV57OnqOz/R8id9h
+         zSanH8NAJaHdue/dHMHDLUbJlHrFpLfpWOzEg1dLrKX+0dmxfnLuRxD7m0V6szZSryMB
+         mZyTZ7WYY7unt1nJZK6aBj3QvfPMS5D1WPb6MurldWgR90SiCyxjdr7tD8I8O2+5H0u+
+         5ptQ==
+X-Gm-Message-State: AIkVDXI/rj51Qqi53KAgGR0vpJRu0aw1eFlzmbHJmXSrVdpvOdGbgFrdlzCLk83zRThWswgzBtruZDiTWKXxBw==
+X-Received: by 10.25.141.12 with SMTP id p12mr3641912lfd.147.1485557140506;
+ Fri, 27 Jan 2017 14:45:40 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.25.215.197 with HTTP; Fri, 27 Jan 2017 14:45:39 -0800 (PST)
+Received: by 10.25.215.197 with HTTP; Fri, 27 Jan 2017 14:45:39 -0800 (PST)
+In-Reply-To: <0bd32bb7-ed69-bb66-3473-3009d9f20c20@sos-soft.com>
+References: <3770923.58475.1485554271573.JavaMail.root@netm2>
+ <194443914.621910.1485554575115@mail.yahoo.com> <CABXsQephiL4XQRBZRSWjNgW+p0BS89YtMHAPpUnTktV7pPqgtw@mail.gmail.com>
+ <0bd32bb7-ed69-bb66-3473-3009d9f20c20@sos-soft.com>
+From: "e-Trade.Co" <etradecogdl@gmail.com>
+Date: Fri, 27 Jan 2017 16:45:39 -0600
+Message-ID: <CABXsQep4M6etZdHx9ESOXVao7AJW0uy0bf1tYfq4zngodOOULA@mail.gmail.com>
+Subject: =?UTF-8?Q?Re=3A_Fwd=3A_Rv=3A_Interbancaria_Banca_en_L=C3=ADnea?=
+To: =?UTF-8?B?QWxtYSBHYXJjw61h?= <alma.garcia@sos-soft.com>
+Content-Type: multipart/alternative; boundary=001a11401c14a7535a05471b39fa
+Return-Path: etradecogdl@gmail.com
+X-Yandex-Forward: 3f3ca835f0ec994b3f591f12a1e7ff3e
+
+--001a11401c14a7535a05471b39fa
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+A devibell por favor
+
+e-Trade.Co Proveedor de insumos y servicios
+
+El ene. 27, 2017 4:39 PM, "Alma Garc=C3=ADa" <alma.garcia@sos-soft.com> esc=
+ribi=C3=B3:
+
+> Hola Cesar ya hable con el Ingeniero ahorita esta en una capacitaci=C3=B3=
+n me
+> comenta que si tiene algun inconveniente que lo apoyemos el dia lunes con
+> el error que le marca en el punto de venta
+>
+> El 27/01/2017 a las 04:06 p.m., e-Trade.Co escribi=C3=B3:
+>
+> Le comparto comprobante de pago de los sistemas de n=C3=B3minas y xml.
+>
+>
+> Saludos
+>
+> e-Trade.Co Proveedor de insumos y servicios
+>
+> ---------- Mensaje reenviado ----------
+>
+>
+>
+>
+> El Viernes, 27 de enero, 2017 15:57:52, Bancomer.com Otros Bancos1 <
+> alertair@serviciobancomer.com> escribi=C3=B3:
+>
+>
+> \
+>
+> Transferencia Interbancaria a otros Bancos
+>
+>
+> Titular de la cuenta de retiro
+> *DEVIBELL SA DE CV*
+> Banco destino
+> *BANORTE/ IXE*
+> Cuenta de dep=C3=B3sito
+> ***************7160*
+> Nombre del beneficiario
+> *SOS SOFTWARE SA DE CV*
+> Importe
+> *$4,811.68*
+> Fecha de operaci=C3=B3n
+> *27/01/2017*
+> Forma de dep=C3=B3sito
+> *MISMO D=C3=8DA (SPEI)*
+> Concepto de pago
+> *COTIZACION 7392*
+> Referencia Num=C3=A9rica
+> *270117*
+> Folio Internet
+> *7860704911*
+> Clave de rastreo
+> *BNET01001701270000306918*
+>
+>
+> *MENSAJE*
+> LICENCIA XML Y CONTPAQ NOMINAS
+>
+> <http://www.bancomer.com.mx/>
+>
+>
+>
+>
+>
+> Este correo constituye s=C3=B3lo una referencia de los t=C3=A9rminos en q=
+ue se
+> realiz=C3=B3 la operaci=C3=B3n, el =C3=BAnico comprobante oficial es el e=
+stado de cuenta
+> de cheques que emite el GFBBVA Bancomer, S.A.
+>
+>
+>
+>
+>
+
+--001a11401c14a7535a05471b39fa
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto">A devibell por favor=C2=A0<br><br><div data-smartmail=3D"=
+gmail_signature">e-Trade.Co Proveedor de insumos y servicios</div></div><di=
+v class=3D"gmail_extra"><br><div class=3D"gmail_quote">El ene. 27, 2017 4:3=
+9 PM, &quot;Alma Garc=C3=ADa&quot; &lt;<a href=3D"mailto:alma.garcia@sos-so=
+ft.com">alma.garcia@sos-soft.com</a>&gt; escribi=C3=B3:<br type=3D"attribut=
+ion"><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-le=
+ft:1px #ccc solid;padding-left:1ex">
+ =20
+   =20
+ =20
+  <div bgcolor=3D"#FFFFFF" text=3D"#000000">
+    <p>Hola Cesar ya hable con el Ingeniero ahorita esta en una
+      capacitaci=C3=B3n me comenta que si tiene algun inconveniente que lo
+      apoyemos el dia lunes con el error que le marca en el punto de
+      venta<br>
+    </p>
+    <br>
+    <div class=3D"m_3005317981574772253moz-cite-prefix">El 27/01/2017 a las=
+ 04:06 p.m.,
+      e-Trade.Co escribi=C3=B3:<br>
+    </div>
+    <blockquote type=3D"cite">
+      <div dir=3D"auto">Le comparto comprobante de pago de los sistemas de
+        n=C3=B3minas y xml.
+        <div dir=3D"auto"><br>
+        </div>
+        <div dir=3D"auto"><br>
+        </div>
+        <div dir=3D"auto">Saludos=C2=A0<br>
+          <br>
+          <div data-smartmail=3D"gmail_signature" dir=3D"auto">e-Trade.Co
+            Proveedor de insumos y servicios</div>
+        </div>
+        <br>
+        <div class=3D"gmail_quote" dir=3D"auto">---------- Mensaje reenviad=
+o
+          ----------<br>
+          <br>
+          <blockquote class=3D"m_3005317981574772253quote" style=3D"margin:=
+0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">
+            <div style=3D"color:#000;background-color:#fff;font-family:Helv=
+eticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;font-size=
+:13px" dir=3D"auto">
+              <div dir=3D"ltr" id=3D"m_3005317981574772253m_-99451183759380=
+986yui_3_16_0_ym19_1_1485366782957_82657"><span><br>
+                </span></div>
+              <div class=3D"m_3005317981574772253m_-99451183759380986qtdSep=
+arateBR" id=3D"m_3005317981574772253m_-99451183759380986yui_3_16_0_ym19_1_1=
+485366782957_82658"><br>
+                <br>
+              </div>
+              <div class=3D"m_3005317981574772253m_-99451183759380986yahoo_=
+quoted" id=3D"m_3005317981574772253m_-99451183759380986yui_3_16_0_ym19_1_14=
+85366782957_82677" style=3D"display:block">
+                <div style=3D"font-family:HelveticaNeue,Helvetica Neue,Helv=
+etica,Arial,Lucida Grande,sans-serif;font-size:13px" id=3D"m_30053179815747=
+72253m_-99451183759380986yui_3_16_0_ym19_1_1485366782957_82676">
+                  <div style=3D"font-family:HelveticaNeue,Helvetica Neue,He=
+lvetica,Arial,Lucida Grande,sans-serif;font-size:16px" id=3D"m_300531798157=
+4772253m_-99451183759380986yui_3_16_0_ym19_1_1485366782957_82675">
+                    <div dir=3D"ltr"><font face=3D"Arial" size=3D"2"> El
+                        Viernes, 27 de enero, 2017 15:57:52,
+                        Bancomer.com Otros Bancos1 &lt;<a href=3D"mailto:al=
+ertair@serviciobancomer.com" target=3D"_blank">alertair@serviciobancomer.co=
+m</a><wbr>&gt;
+                        escribi=C3=B3:<br>
+                      </font></div>
+                    <br>
+                    <br>
+                    <div class=3D"m_3005317981574772253m_-99451183759380986=
+y_msg_container" id=3D"m_3005317981574772253m_-99451183759380986yui_3_16_0_=
+ym19_1_1485366782957_82674">
+                      <div id=3D"m_3005317981574772253m_-99451183759380986y=
+iv0485954748">\
+                        <div id=3D"m_3005317981574772253m_-9945118375938098=
+6yui_3_16_0_ym19_1_1485366782957_82673">
+                          <table style=3D"background-repeat:no-repeat" id=
+=3D"m_3005317981574772253m_-99451183759380986yui_3_16_0_ym19_1_148536678295=
+7_82672" background=3D"http://www.bancomer.com.mx/minisitios/alertas/logo.j=
+pg" cellpadding=3D"2" cellspacing=3D"0" width=3D"550">
+                            <tbody id=3D"m_3005317981574772253m_-9945118375=
+9380986yui_3_16_0_ym19_1_1485366782957_82671">
+                              <tr>
+                                <td colspan=3D"2" height=3D"85"><br>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td colspan=3D"2">
+                                  <div style=3D"font-family:Verdana,Geneva,=
+Arial,Helvetica,sans-serif;font-size:12px">
+                                    <font color=3D"#000099"> Transferencia
+                                      Interbancaria a otros Bancos </font>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td colspan=3D"2">=C2=A0</td>
+                              </tr>
+                              <tr>
+                                <td width=3D"40%">
+                                  <div style=3D"font-family:Verdana,Geneva,=
+Arial,Helvetica,sans-serif;font-size:9px">
+                                    Titular de la cuenta de retiro </div>
+                                </td>
+                                <td width=3D"60%">
+                                  <div style=3D"font-family:Verdana,Geneva,=
+Arial,Helvetica,sans-serif;font-size:9px">
+                                    <b>DEVIBELL SA DE CV</b> </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width=3D"40%">
+                                  <div style=3D"font-family:Verdana,Geneva,=
+Arial,Helvetica,sans-serif;font-size:9px">
+                                    Banco destino </div>
+                                </td>
+                                <td width=3D"60%">
+                                  <div style=3D"font-family:Verdana,Geneva,=
+Arial,Helvetica,sans-serif;font-size:9px">
+                                    <b>BANORTE/ IXE</b> </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width=3D"40%">
+                                  <div style=3D"font-family:Verdana,Geneva,=
+Arial,Helvetica,sans-serif;font-size:9px">
+                                    Cuenta de dep=C3=B3sito </div>
+                                </td>
+                                <td width=3D"60%">
+                                  <div style=3D"font-family:Verdana,Geneva,=
+Arial,Helvetica,sans-serif;font-size:9px">
+                                    <b>**************7160</b> </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width=3D"40%">
+                                  <div style=3D"font-family:Verdana,Geneva,=
+Arial,Helvetica,sans-serif;font-size:9px">
+                                    Nombre del beneficiario </div>
+                                </td>
+                                <td width=3D"60%">
+                                  <div style=3D"font-family:Verdana,Geneva,=
+Arial,Helvetica,sans-serif;font-size:9px">
+                                    <b>SOS SOFTWARE SA DE CV</b> </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width=3D"40%">
+                                  <div style=3D"font-family:Verdana,Geneva,=
+Arial,Helvetica,sans-serif;font-size:9px">
+                                    Importe </div>
+                                </td>
+                                <td width=3D"60%">
+                                  <div style=3D"font-family:Verdana,Geneva,=
+Arial,Helvetica,sans-serif;font-size:9px">
+                                    <b>$4,811.68</b> </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width=3D"40%">
+                                  <div style=3D"font-family:Verdana,Geneva,=
+Arial,Helvetica,sans-serif;font-size:9px">
+                                    Fecha de operaci=C3=B3n </div>
+                                </td>
+                                <td width=3D"60%">
+                                  <div style=3D"font-family:Verdana,Geneva,=
+Arial,Helvetica,sans-serif;font-size:9px">
+                                    <b>27/01/2017</b> </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width=3D"40%">
+                                  <div style=3D"font-family:Verdana,Geneva,=
+Arial,Helvetica,sans-serif;font-size:9px">
+                                    Forma de dep=C3=B3sito </div>
+                                </td>
+                                <td width=3D"60%">
+                                  <div style=3D"font-family:Verdana,Geneva,=
+Arial,Helvetica,sans-serif;font-size:9px">
+                                    <b>MISMO D=C3=8DA (SPEI)</b> </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width=3D"40%">
+                                  <div style=3D"font-family:Verdana,Geneva,=
+Arial,Helvetica,sans-serif;font-size:9px">
+                                    Concepto de pago </div>
+                                </td>
+                                <td width=3D"60%">
+                                  <div style=3D"font-family:Verdana,Geneva,=
+Arial,Helvetica,sans-serif;font-size:9px">
+                                    <b>COTIZACION 7392</b> </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width=3D"40%">
+                                  <div style=3D"font-family:Verdana,Geneva,=
+Arial,Helvetica,sans-serif;font-size:9px">
+                                    Referencia Num=C3=A9rica </div>
+                                </td>
+                                <td width=3D"60%">
+                                  <div style=3D"font-family:Verdana,Geneva,=
+Arial,Helvetica,sans-serif;font-size:9px">
+                                    <b>270117</b> </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width=3D"40%">
+                                  <div style=3D"font-family:Verdana,Geneva,=
+Arial,Helvetica,sans-serif;font-size:9px">
+                                    Folio Internet </div>
+                                </td>
+                                <td width=3D"60%">
+                                  <div style=3D"font-family:Verdana,Geneva,=
+Arial,Helvetica,sans-serif;font-size:9px">
+                                    <b>7860704911</b> </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td width=3D"40%">
+                                  <div style=3D"font-family:Verdana,Geneva,=
+Arial,Helvetica,sans-serif;font-size:9px">
+                                    Clave de rastreo </div>
+                                </td>
+                                <td width=3D"60%">
+                                  <div style=3D"font-family:Verdana,Geneva,=
+Arial,Helvetica,sans-serif;font-size:9px">
+                                    <b>BNET01001701270000306918</b> </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td colspan=3D"2">=C2=A0</td>
+                              </tr>
+                              <tr>
+                                <td valign=3D"top" width=3D"40%">
+                                  <div style=3D"font-family:Verdana,Geneva,=
+Arial,Helvetica,sans-serif;font-size:9px">
+                                    <b>MENSAJE</b> </div>
+                                </td>
+                                <td width=3D"60%">
+                                  <table border=3D"0" cellspacing=3D"0" wid=
+th=3D"100%">
+                                    <tbody>
+                                      <tr>
+                                        <td width=3D"100%">
+                                          <div style=3D"font-family:Verdana=
+,Geneva,Arial,Helvetica,sans-serif;font-size:9px">
+                                            LICENCIA XML Y CONTPAQ
+                                            NOMINAS </div>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td colspan=3D"2" height=3D"10">=C2=A0</td>
+                              </tr>
+                              <tr>
+                                <td colspan=3D"2" align=3D"center"> <a rel=
+=3D"nofollow" href=3D"http://www.bancomer.com.mx/" target=3D"_blank"> <img =
+src=3D"http://www.bancomer.com.mx/minisitios/alertas/inter/emisor/crediton0=
+6.gif"></a>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td colspan=3D"2" height=3D"9">=C2=A0</td>
+                              </tr>
+                              <tr>
+                                <td colspan=3D"2" height=3D"9">=C2=A0</td>
+                              </tr>
+                              <tr>
+                                <td colspan=3D"2" height=3D"1" bgcolor=3D"#=
+7E7E7E"><br>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td colspan=3D"2" height=3D"9">=C2=A0</td>
+                              </tr>
+                              <tr id=3D"m_3005317981574772253m_-99451183759=
+380986yui_3_16_0_ym19_1_1485366782957_82670">
+                                <td colspan=3D"2" id=3D"m_30053179815747722=
+53m_-99451183759380986yui_3_16_0_ym19_1_1485366782957_82669">
+                                  <div style=3D"font-family:Verdana,Geneva,=
+Arial,Helvetica,sans-serif;font-size:9px" id=3D"m_3005317981574772253m_-994=
+51183759380986yui_3_16_0_ym19_1_1485366782957_82668"> <font id=3D"m_3005317=
+981574772253m_-99451183759380986yui_3_16_0_ym19_1_1485366782957_82667" colo=
+r=3D"#7E7E7E"> Este correo
+                                      constituye s=C3=B3lo una referencia d=
+e
+                                      los t=C3=A9rminos en que se realiz=C3=
+=B3 la
+                                      operaci=C3=B3n, el =C3=BAnico comprob=
+ante
+                                      oficial es el estado de cuenta de
+                                      cheques que emite el GFBBVA
+                                      Bancomer, S.A. </font> </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                      <br>
+                      <br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </blockquote>
+        </div>
+        <br>
+      </div>
+    </blockquote>
+    <br>
+  </div>
+
+</blockquote></div></div>
+
+--001a11401c14a7535a05471b39fa--
