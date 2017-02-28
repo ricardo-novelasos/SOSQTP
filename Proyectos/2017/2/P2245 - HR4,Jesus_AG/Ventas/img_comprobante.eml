@@ -1,0 +1,833 @@
+Received: from mxfront3h.mail.yandex.net ([127.0.0.1])
+	by mxfront3h.mail.yandex.net with LMTP id GqBeto8E
+	for <alma.garcia@sos-soft.com>; Mon, 27 Feb 2017 23:38:18 +0300
+Received: from mail-wm0-x22a.google.com (mail-wm0-x22a.google.com [2a00:1450:400c:c09::22a])
+	by mxfront3h.mail.yandex.net (nwsmtp/Yandex) with ESMTPS id XX6FE39s3L-cHdaDstT;
+	Mon, 27 Feb 2017 23:38:17 +0300
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(Client certificate not present)
+X-Yandex-Front: mxfront3h.mail.yandex.net
+X-Yandex-TimeMark: 1488227897
+Authentication-Results: mxfront3h.mail.yandex.net; spf=pass (mxfront3h.mail.yandex.net: domain of gmail.com designates 2a00:1450:400c:c09::22a as permitted sender, rule=[ip6:2a00:1450:4000::/36]) smtp.mail=proyectosboga.ens@gmail.com; dkim=pass header.i=@gmail.com
+X-Yandex-Spam: 1
+Received: by mail-wm0-x22a.google.com with SMTP id v77so70196858wmv.1
+        for <alma.garcia@sos-soft.com>; Mon, 27 Feb 2017 12:38:17 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to;
+        bh=L9UVpQZfII9C485YXj6qGNwM1w+OpwuLCReBA/LAMWo=;
+        b=tXxAKIeWMZA/qZiJLHWh9He6m9KJlfqEFNsFDXPk5jy1kA+WXHTMB04ASVnCX+dwyp
+         i9HwVVB6JJDBwxjln8YLvZ3OIRMXdGWg8o5GcztRinR+7j6Uy/4I8VLh6kZFt9ef00YQ
+         O6uvxzu/axzqy0f8C4TIrkH43J5mpmlKYcPaZd1oel8JPtZgMFi541QC3rsqOBnYgbjq
+         nczFDYMR/GjAAkNlWPc821FvjEMWXonr4xN/Bhx7bArTMEflgxm039P7Hpg7modMx/qu
+         Qvx2KMO48Gqq8M7MHLWj5Z9MnA793oBl0RpM5EJMWhHujjV2U16dtFgWqf2MYzxZDXQp
+         oydw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to;
+        bh=L9UVpQZfII9C485YXj6qGNwM1w+OpwuLCReBA/LAMWo=;
+        b=i48HPn0VXuKAmyhAbpiELONtY/8zI0btPJCEgWmYye7GBVHErdCutbMdB823gFykIl
+         2hXcFonAWMAbTr37nZpxVUtYHP9VPQxmtJPrIOStJQv0nIN7mcyyRmILNbHeQ323ou3q
+         TryRdG3vW/OtNs9zW7rRslvZGo/aVGLPJ3yw+t9FbOQw/Sc5rYY/lh1BhZdCF7hegmgo
+         VNHOio0bTODySY1Og3FxgUomEspJV93D6MWurAktKno+RU59zPdVJlWdyreVrv1y/wkl
+         2dgf2rT38Yva7sD9v8zRbgLuuSeUwoiI2aIMPxTAQG99pzMJq8eo/UV9Pg+rHWRKcl9k
+         Sd6A==
+X-Gm-Message-State: AMke39kwEq/lq92llX9ggbeD1UxU12qSMVdqMmKsbVugi5sLqrTIMspi2kqprTSr8nu98uuRptPIy7oYF9+FDA==
+X-Received: by 10.28.46.73 with SMTP id u70mr14378713wmu.54.1488227896481;
+ Mon, 27 Feb 2017 12:38:16 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.223.143.54 with HTTP; Mon, 27 Feb 2017 12:38:15 -0800 (PST)
+In-Reply-To: <CY4PR08MB25352F442660F1F7FD80C8B2D0570@CY4PR08MB2535.namprd08.prod.outlook.com>
+References: <1559498434.13807.1488227159894.JavaMail.BRMPBANELE8$@smtpapp.banregio.com>
+ <CY4PR08MB25352F442660F1F7FD80C8B2D0570@CY4PR08MB2535.namprd08.prod.outlook.com>
+From: Proyto Boga <proyectosboga.ens@gmail.com>
+Date: Mon, 27 Feb 2017 12:38:15 -0800
+Message-ID: <CA+83_L5vKRj2Op-H2veOa4E5BU+deOEw1h5WPpbG_OUiavtvCA@mail.gmail.com>
+Subject: =?UTF-8?Q?Fwd=3A_Banca_Electr=C3=B3nica_BanRegio=2C_Solicitud_de_Trans?=
+	=?UTF-8?Q?ferencia_Nacional_SPEI?=
+To: alma.garcia@sos-soft.com
+Content-Type: multipart/related; boundary=001a114240b01de9a10549890f5d
+Return-Path: proyectosboga.ens@gmail.com
+X-Yandex-Forward: 3f3ca835f0ec994b3f591f12a1e7ff3e
+
+--001a114240b01de9a10549890f5d
+Content-Type: multipart/alternative; boundary=001a114240b01de99b0549890f5c
+
+--001a114240b01de99b0549890f5c
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Buen d=C3=ADa!
+
+Env=C3=ADo transferencia electr=C3=B3nica por pago de cotizaci=C3=B3n 7654 =
+(Paquete de 2
+horas de Asesor=C3=ADa y Soporte T=C3=A9cnico Contpaq i=C2=AE, Servicio v=
+=C3=ADa Remota
+(Incluye 2 horas gratis por ser cliente distinguido). Quedo pendiente de
+factura correspondiente.
+
+Por su atenci=C3=B3n gracias!
+
+*Favor de confirmar de recibido!*
+
+
+BOGA CONSTRUCCIONES S.A. DE C.V.
+Tel.:(646)152-1050
+Horario Lun-Vie 8:00 - 15:00
+Sab 9:00 - 13:00
+
+---------- Mensaje reenviado ----------
+De: WALTER BOCANEGRA GASTELUM <obraswbg@hotmail.com>
+Fecha: 27 de febrero de 2017, 12:32
+Asunto: Fwd: Banca Electr=C3=B3nica BanRegio, Solicitud de Transferencia
+Nacional SPEI
+Para: Susana Rodriguez <suss_roma69@hotmail.com>, Proyto Boga <
+proyectosboga.ens@gmail.com>
+
+
+
+
+---------- Forwarded message ----------
+From: "eBanRegio@banregio.com" <eBanRegio@banregio.com>
+Date: Mon, Feb 27, 2017 at 1:26 PM -0700
+Subject: Banca Electr=C3=B3nica BanRegio, Solicitud de Transferencia Nacion=
+al
+SPEI
+To: "obraswbg@hotmail.com" <obraswbg@hotmail.com>
+Cc: "belectronica@banregio.com" <belectronica@banregio.com>
+
+
+
+
+Comprobante de la Solicitud de Transferencia realizada a trav=C3=A9s de tu
+servicio de Banca Electr=C3=B3nica eBanRegio.
+Transferencia Nacional SPEI Aceptada
+*Cuenta Origen:* **********001-8 BOGA CONSTRUCCIONES S.A. DE C.V.
+*Cuenta Destino:* **************7160 CONTAPAQ
+*Banco:* BANORTE/IXE
+*Monto:* $1,276.00
+*Concepto de Pago:* SOPORTE TECNICO
+*Folio de la transacci=C3=B3n:* 7337348399
+*Clave de Rastreo: * 058-27/02/2017/27-097Z319516
+*Usuario solicita:* WALTER ALEJANDRO BOCANEGRA GASTELUM
+*Fecha solicita: * 27-02-2017 14:25
+*Usuario autoriza: * WALTER ALEJANDRO BOCANEGRA GASTELUM
+*Fecha autoriza: * 27-02-2017 14:25
+*Fecha cargo: * 27-02-2017
+*Fecha aplicaci=C3=B3n: * 27-02-2017
+*Verificador*
+1144211034141104310482020552220491950562160481940491950321521013711164
+6311043505828505521305120304819404819205120305221304919804920204819806
+7233110427105431097391058274050199054217048190048192032144111403105423
+058285051208055216052207051209057228032128032128032128
+
+
+Este es un correo generado de forma autom=C3=A1tica por eBanRegio, favor de=
+ no
+responder al mismo.
+
+
+
+Centro de Atenci=C3=B3n a Clientes
+Monterrey: 8399.8585
+Otra Ciudad: 01.800.BANREGIO (226.73446)
+------------------------------
+Este correo  electronico  es  confidencial, esta  legalmente  protegido y/o
+puede contener informacion privilegiada. Si usted no es su destinatario o
+no es alguna persona autorizada por este para recibir sus correos
+electronicos, NO debera usted utilizar, copiar, revelar, o  tomar  ninguna
+accion  basada  en este correo electronico o cualquier otra informacion
+incluida en el (incluyendo todos los documentos adjuntos).
+
+Si lo  ha  recibido  por  error,  por  favor  notifique al emisor e
+inmediatamente borrelo de forma permanente  y  destruya  cualquier  copia
+impresa. En caso de que el correo este dirigido a alguno  de  nuestros
+clientes, la opinion o recomendacion contenida esta sujeta a  las
+condiciones  regulatorias  de  Banregio  que  resulten aplicables o a los
+acuerdos comerciales suscritos con el cliente.
+
+Nota: Los acentos y caracteres  especiales  fueron omitidos para su
+correcta  lectura  en cualquier medio electronico.
+
+This e-mail is confidential, it may be legally protected  and/or  may
+contain  privileged    information. If you are not the addressee or
+authorized to receive this for the addressee, you must  NOT  use,  copy,
+disclose,  or  take  any action based on this  message or  any other
+information herein (including  attachments). If you  have  received this
+e-mail  in error, please notify the sender and  immediately and permanently
+delete it and destroy any copies of it that were printed out. When
+addressed to our clients any opinions or advice contained in this  Internet
+e-mail is subject  to  the terms and conditions expressed in any applicable
+governing Banregio terms of business or client engagement letter.
+
+
+Comprobante de la Solicitud de Transferencia realizada a trav=C3=A9s de tu
+servicio de Banca Electr=C3=B3nica eBanRegio.
+Transferencia Nacional SPEI Aceptada
+*Cuenta Origen:* **********001-8 BOGA CONSTRUCCIONES S.A. DE C.V.
+*Cuenta Destino:* **************7160 CONTAPAQ
+*Banco:* BANORTE/IXE
+*Monto:* $1,276.00
+*Concepto de Pago:* SOPORTE TECNICO
+*Folio de la transacci=C3=B3n:* 7337348399
+*Clave de Rastreo: * 058-27/02/2017/27-097Z319516
+*Usuario solicita:* WALTER ALEJANDRO BOCANEGRA GASTELUM
+*Fecha solicita: * 27-02-2017 14:25
+*Usuario autoriza: * WALTER ALEJANDRO BOCANEGRA GASTELUM
+*Fecha autoriza: * 27-02-2017 14:25
+*Fecha cargo: * 27-02-2017
+*Fecha aplicaci=C3=B3n: * 27-02-2017
+*Verificador*
+1144211034141104310482020552220491950562160481940491950321521013711164
+6311043505828505521305120304819404819205120305221304919804920204819806
+7233110427105431097391058274050199054217048190048192032144111403105423
+058285051208055216052207051209057228032128032128032128
+
+
+Este es un correo generado de forma autom=C3=A1tica por eBanRegio, favor de=
+ no
+responder al mismo.
+
+
+Centro de Atenci=C3=B3n a Clientes
+Monterrey: 8399.8585
+Otra Ciudad: 01.800.BANREGIO (226.73446)
+
+------------------------------
+Este correo  electronico  es  confidencial, esta  legalmente  protegido y/o
+puede contener informacion privilegiada. Si usted no es su destinatario o
+no es alguna persona autorizada por este para recibir sus correos
+electronicos, NO debera usted utilizar, copiar, revelar, o  tomar  ninguna
+accion  basada  en este correo electronico o cualquier otra informacion
+incluida en el (incluyendo todos los documentos adjuntos).
+
+Si lo  ha  recibido  por  error,  por  favor  notifique al emisor e
+inmediatamente borrelo de forma permanente  y  destruya  cualquier  copia
+impresa. En caso de que el correo este dirigido a alguno  de  nuestros
+clientes, la opinion o recomendacion contenida esta sujeta a  las
+condiciones  regulatorias  de  Banregio  que  resulten aplicables o a los
+acuerdos comerciales suscritos con el cliente.
+
+Nota: Los acentos y caracteres  especiales  fueron omitidos para su
+correcta  lectura  en cualquier medio electronico.
+
+This e-mail is confidential, it may be legally protected  and/or  may
+contain  privileged    information. If you are not the addressee or
+authorized to receive this for the addressee, you must  NOT  use,  copy,
+disclose,  or  take  any action based on this  message or  any other
+information herein (including  attachments). If you  have  received this
+e-mail  in error, please notify the sender and  immediately and permanently
+delete it and destroy any copies of it that were printed out. When
+addressed to our clients any opinions or advice contained in this  Internet
+e-mail is subject  to  the terms and conditions expressed in any applicable
+governing Banregio terms of business or client engagement letter.
+
+--001a114240b01de99b0549890f5c
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Buen d=C3=ADa!<br clear=3D"all"><div><div class=3D"gmail_s=
+ignature"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"lt=
+r"><div><br></div><div>Env=C3=ADo transferencia electr=C3=B3nica por pago d=
+e cotizaci=C3=B3n=C2=A07654 (<span style=3D"font-size:12.8px">Paquete de 2 =
+horas de Asesor=C3=ADa y Soporte T=C3=A9cnico Contpaq i=C2=AE, Servicio v=
+=C3=ADa Remota (Incluye 2 horas gratis por ser cliente distinguido). Quedo =
+pendiente de factura correspondiente.</span></div><div><br></div><div>Por s=
+u atenci=C3=B3n gracias!</div><div><br></div><div><b><font size=3D"4">Favor=
+ de confirmar de recibido!</font></b></div><div><br></div><div><img src=3D"=
+https://lh5.googleusercontent.com/-zoYaiH-9cc8/VS_hUBHovUI/AAAAAAAAATA/xCHh=
+seZHhh4/w315-h165-no/BOGA001.jpg" width=3D"200" height=3D"104"><br></div><d=
+iv><div>BOGA CONSTRUCCIONES S.A. DE C.V.</div><div>Tel.:(646)152-1050</div>=
+<div>Horario Lun-Vie 8:00 - 15:00</div><div>Sab 9:00 - 13:00<br></div></div=
+></div></div></div></div></div></div>
+<br><div class=3D"gmail_quote">---------- Mensaje reenviado ----------<br>D=
+e: <b class=3D"gmail_sendername">WALTER BOCANEGRA GASTELUM</b> <span dir=3D=
+"ltr">&lt;<a href=3D"mailto:obraswbg@hotmail.com">obraswbg@hotmail.com</a>&=
+gt;</span><br>Fecha: 27 de febrero de 2017, 12:32<br>Asunto: Fwd: Banca Ele=
+ctr=C3=B3nica BanRegio, Solicitud de Transferencia Nacional SPEI<br>Para: S=
+usana Rodriguez &lt;<a href=3D"mailto:suss_roma69@hotmail.com">suss_roma69@=
+hotmail.com</a>&gt;, Proyto Boga &lt;<a href=3D"mailto:proyectosboga.ens@gm=
+ail.com">proyectosboga.ens@gmail.com</a>&gt;<br><br><br>
+
+
+
+
+
+<div>
+<br>
+<br>
+<div class=3D"gmail_quote">---------- Forwarded message ----------<br>
+From: &quot;<b class=3D"gmail_sendername"><a href=3D"mailto:eBanRegio@banre=
+gio.com" target=3D"_blank">eBanRegio@banregio.com</a></b>&quot; <span dir=
+=3D"ltr">&lt;<a href=3D"mailto:eBanRegio@banregio.com" target=3D"_blank">eB=
+anRegio@banregio.com</a>&gt;</span><br>
+Date: Mon, Feb 27, 2017 at 1:26 PM -0700<br>
+Subject: Banca Electr=C3=B3nica BanRegio, Solicitud de Transferencia Nacion=
+al SPEI<br>
+To: &quot;<a href=3D"mailto:obraswbg@hotmail.com" target=3D"_blank">obraswb=
+g@hotmail.com</a>&quot; <span dir=3D"ltr">&lt;<a href=3D"mailto:obraswbg@ho=
+tmail.com" target=3D"_blank">obraswbg@hotmail.com</a>&gt;</span><br>
+Cc: &quot;<a href=3D"mailto:belectronica@banregio.com" target=3D"_blank">be=
+lectronica@banregio.com</a>&quot; <span dir=3D"ltr">&lt;<a href=3D"mailto:b=
+electronica@banregio.com" target=3D"_blank">belectronica@banregio.com</a>&g=
+t;</span><br>
+<br>
+<br>
+<div dir=3D"3D&quot;ltr&quot;">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center" st=
+yle=3D"width:100%">
+<tbody>
+<tr>
+<td><img src=3D"cid:logo"></td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top"><br>
+<br>
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"width:650p=
+x">
+<tbody>
+<tr>
+<td valign=3D"top" align=3D"left" style=3D"padding:10px">
+<div id=3D"gmail-m_7003114246095373479body">
+<p class=3D"gmail-m_7003114246095373479encabezado">Comprobante de la Solici=
+tud de Transferencia realizada a trav=C3=A9s de tu servicio de Banca Electr=
+=C3=B3nica eBanRegio.
+</p>
+<table border=3D"0" width=3D"512px">
+<tbody>
+<tr>
+<td class=3D"gmail-m_7003114246095373479tbltitulo" colspan=3D"2">Transferen=
+cia Nacional SPEI Aceptada</td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Cuenta Origen:</b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">**********001-8 BOGA CONSTRUCCIONES S.A. DE C.V.</td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Cuenta Destino:</b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">**************7160 CONTAPAQ</td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Banco:</b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">BANORTE/IXE</td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Monto:</b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">$1,276.00</td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Concepto de Pago:</b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">SOPORTE TECNICO</td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Folio de la transacci=C3=B3n:</b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">7337348399</td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Clave de Rastreo: </b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">058-27/02/2017/27-097Z319516 </td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Usuario solicita:</b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">WALTER ALEJANDRO BOCANEGRA GASTELUM</td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Fecha solicita: </b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">27-02-2017 14:25</td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Usuario autoriza: </b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">WALTER ALEJANDRO BOCANEGRA GASTELUM</td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Fecha autoriza: </b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">27-02-2017 14:25</td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Fecha cargo: </b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">27-02-2017</td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Fecha aplicaci=C3=B3n: </b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">27-02-2017</td>
+</tr>
+<tr>
+<td colspan=3D"2">
+<table border=3D"0" width=3D"510px">
+<tbody>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"text-align:center=
+;padding:10px"><b>Verificador</b><br>
+114421103414110431048202055222<wbr>049195056216048194049195032152<wbr>10137=
+11164<br>
+631104350582850552130512030481<wbr>940481920512030522130491980492<wbr>02048=
+19806<br>
+723311042710543109739105827405<wbr>019905421704819004819203214411<wbr>14031=
+05423<br>
+058285051208055216052207051209<wbr>057228032128032128032128<br>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br>
+<br>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" align=3D"left" style=3D"width:650px">
+<div id=3D"gmail-m_7003114246095373479footer" class=3D"gmail-m_700311424609=
+5373479plantxt">Este es un correo generado de forma autom=C3=A1tica por eBa=
+nRegio, favor de no responder al mismo.
+<br>
+<br>
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"width:525p=
+x;height:73px">
+<tbody>
+<tr>
+<td style=3D"width:14px">=C2=A0</td>
+<td align=3D"center" style=3D"width:370px">
+<p style=3D"color:rgb(255,255,255)">Centro de Atenci=C3=B3n a Clientes<br>
+Monterrey: 8399.8585<br>
+Otra Ciudad: 01.800.BANREGIO (226.73446) </p>
+</td>
+<td style=3D"width:14px"></td>
+</tr>
+</tbody>
+</table>
+<hr>
+Este correo=C2=A0 electronico=C2=A0 es=C2=A0 confidencial, esta=C2=A0 legal=
+mente=C2=A0 protegido y/o puede contener informacion privilegiada. Si usted=
+ no es su destinatario o no es alguna persona autorizada por este para reci=
+bir sus correos electronicos, NO debera usted utilizar, copiar,
+ revelar, o=C2=A0 tomar=C2=A0 ninguna=C2=A0 accion=C2=A0 basada=C2=A0 en es=
+te correo electronico o cualquier otra informacion incluida en el (incluyen=
+do todos los documentos adjuntos).
+<br>
+<br>
+Si lo=C2=A0 ha=C2=A0 recibido=C2=A0 por=C2=A0 error,=C2=A0 por=C2=A0 favor=
+=C2=A0 notifique al emisor e inmediatamente borrelo de forma permanente=C2=
+=A0 y=C2=A0 destruya=C2=A0 cualquier=C2=A0 copia=C2=A0 impresa. En caso de =
+que el correo este dirigido a alguno=C2=A0 de=C2=A0 nuestros clientes, la o=
+pinion o recomendacion contenida
+ esta sujeta a=C2=A0 las=C2=A0 condiciones=C2=A0 regulatorias=C2=A0 de=C2=
+=A0 Banregio=C2=A0 que=C2=A0 resulten aplicables o a los acuerdos comercial=
+es suscritos con el cliente.
+<br>
+<br>
+Nota: Los acentos y caracteres=C2=A0 especiales=C2=A0 fueron omitidos para =
+su=C2=A0 correcta=C2=A0 lectura=C2=A0 en cualquier medio electronico.
+<br>
+<br>
+This e-mail is confidential, it may be legally protected=C2=A0 and/or=C2=A0=
+ may=C2=A0 contain=C2=A0 privileged=C2=A0=C2=A0=C2=A0 information. If you a=
+re not the addressee or authorized to receive this for the addressee, you m=
+ust=C2=A0 NOT=C2=A0 use,=C2=A0 copy,=C2=A0 disclose,=C2=A0 or=C2=A0 take=C2=
+=A0 any action based on this=C2=A0
+ message or=C2=A0 any other information herein (including=C2=A0 attachments=
+). If you=C2=A0 have=C2=A0 received this=C2=A0 e-mail=C2=A0 in error, pleas=
+e notify the sender and=C2=A0 immediately and permanently delete it and des=
+troy any copies of it that were printed out. When addressed to our
+ clients any opinions or advice contained in this=C2=A0 Internet e-mail is =
+subject=C2=A0 to=C2=A0 the terms and conditions expressed in any applicable=
+ governing Banregio terms of business or client engagement letter.
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div>
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center" st=
+yle=3D"width:100%">
+<tbody>
+<tr>
+<td><img src=3D"cid:logo"></td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top"><br>
+<br>
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"width:650p=
+x">
+<tbody>
+<tr>
+<td valign=3D"top" align=3D"left" style=3D"padding:10px">
+<div id=3D"gmail-m_7003114246095373479body">
+<p class=3D"gmail-m_7003114246095373479encabezado">Comprobante de la Solici=
+tud de Transferencia realizada a trav=C3=A9s de tu servicio de Banca Electr=
+=C3=B3nica eBanRegio.
+</p>
+<table border=3D"0" width=3D"512px">
+<tbody>
+<tr>
+<td class=3D"gmail-m_7003114246095373479tbltitulo" colspan=3D"2">Transferen=
+cia Nacional SPEI Aceptada</td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Cuenta Origen:</b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">**********001-8 BOGA CONSTRUCCIONES S.A. DE C.V.</td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Cuenta Destino:</b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">**************7160 CONTAPAQ</td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Banco:</b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">BANORTE/IXE</td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Monto:</b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">$1,276.00</td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Concepto de Pago:</b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">SOPORTE TECNICO</td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Folio de la transacci=C3=B3n:</b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">7337348399</td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Clave de Rastreo: </b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">058-27/02/2017/27-097Z319516 </td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Usuario solicita:</b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">WALTER ALEJANDRO BOCANEGRA GASTELUM</td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Fecha solicita: </b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">27-02-2017 14:25</td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Usuario autoriza: </b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">WALTER ALEJANDRO BOCANEGRA GASTELUM</td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Fecha autoriza: </b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">27-02-2017 14:25</td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Fecha cargo: </b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">27-02-2017</td>
+</tr>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+"><b>Fecha aplicaci=C3=B3n: </b></td>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"padding-left:10px=
+">27-02-2017</td>
+</tr>
+<tr>
+<td colspan=3D"2">
+<table border=3D"0" width=3D"510px">
+<tbody>
+<tr>
+<td class=3D"gmail-m_7003114246095373479linsup2" style=3D"text-align:center=
+;padding:10px"><b>Verificador</b><br>
+114421103414110431048202055222<wbr>049195056216048194049195032152<wbr>10137=
+11164<br>
+631104350582850552130512030481<wbr>940481920512030522130491980492<wbr>02048=
+19806<br>
+723311042710543109739105827405<wbr>019905421704819004819203214411<wbr>14031=
+05423<br>
+058285051208055216052207051209<wbr>057228032128032128032128<br>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br>
+<br>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" align=3D"left" style=3D"width:650px">
+<div id=3D"gmail-m_7003114246095373479footer" class=3D"gmail-m_700311424609=
+5373479plantxt">Este es un correo generado de forma autom=C3=A1tica por eBa=
+nRegio, favor de no responder al mismo.
+<br>
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"width:525p=
+x;height:73px">
+<tbody>
+<tr>
+<td style=3D"width:14px">=C2=A0</td>
+<td align=3D"center" style=3D"width:370px">
+<p style=3D"color:rgb(255,255,255)">Centro de Atenci=C3=B3n a Clientes<br>
+Monterrey: 8399.8585<br>
+Otra Ciudad: 01.800.BANREGIO (226.73446) </p>
+</td>
+<td style=3D"width:14px"></td>
+</tr>
+<tr><td><br>
+</td></tr></tbody>
+</table>
+<hr>
+Este correo=C2=A0 electronico=C2=A0 es=C2=A0 confidencial, esta=C2=A0 legal=
+mente=C2=A0 protegido y/o puede contener informacion privilegiada. Si usted=
+ no es su destinatario o no es alguna persona autorizada por este para reci=
+bir sus correos electronicos, NO debera usted utilizar, copiar,
+ revelar, o=C2=A0 tomar=C2=A0 ninguna=C2=A0 accion=C2=A0 basada=C2=A0 en es=
+te correo electronico o cualquier otra informacion incluida en el (incluyen=
+do todos los documentos adjuntos).
+<br>
+<br>
+Si lo=C2=A0 ha=C2=A0 recibido=C2=A0 por=C2=A0 error,=C2=A0 por=C2=A0 favor=
+=C2=A0 notifique al emisor e inmediatamente borrelo de forma permanente=C2=
+=A0 y=C2=A0 destruya=C2=A0 cualquier=C2=A0 copia=C2=A0 impresa. En caso de =
+que el correo este dirigido a alguno=C2=A0 de=C2=A0 nuestros clientes, la o=
+pinion o recomendacion contenida
+ esta sujeta a=C2=A0 las=C2=A0 condiciones=C2=A0 regulatorias=C2=A0 de=C2=
+=A0 Banregio=C2=A0 que=C2=A0 resulten aplicables o a los acuerdos comercial=
+es suscritos con el cliente.
+<br>
+<br>
+Nota: Los acentos y caracteres=C2=A0 especiales=C2=A0 fueron omitidos para =
+su=C2=A0 correcta=C2=A0 lectura=C2=A0 en cualquier medio electronico.
+<br>
+<br>
+This e-mail is confidential, it may be legally protected=C2=A0 and/or=C2=A0=
+ may=C2=A0 contain=C2=A0 privileged=C2=A0=C2=A0=C2=A0 information. If you a=
+re not the addressee or authorized to receive this for the addressee, you m=
+ust=C2=A0 NOT=C2=A0 use,=C2=A0 copy,=C2=A0 disclose,=C2=A0 or=C2=A0 take=C2=
+=A0 any action based on this=C2=A0
+ message or=C2=A0 any other information herein (including=C2=A0 attachments=
+). If you=C2=A0 have=C2=A0 received this=C2=A0 e-mail=C2=A0 in error, pleas=
+e notify the sender and=C2=A0 immediately and permanently delete it and des=
+troy any copies of it that were printed out. When addressed to our
+ clients any opinions or advice contained in this=C2=A0 Internet e-mail is =
+subject=C2=A0 to=C2=A0 the terms and conditions expressed in any applicable=
+ governing Banregio terms of business or client engagement letter.
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+</div><br></div>
+
+--001a114240b01de99b0549890f5c--
+--001a114240b01de9a10549890f5d
+Content-Type: image/jpeg; name="ebanregio2.jpg"
+Content-Disposition: inline; filename="ebanregio2.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <logo>
+X-Attachment-Id: 7cc79c088c5bd1fc_0.0.1
+
+/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEB
+AQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEB
+AQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wAARCAAtAMMDAREA
+AhEBAxEB/8QAHQABAAIDAQEBAQAAAAAAAAAAAAkKBwgLBgUBBP/EADgQAAEEAgIBAgQCBgoDAAAA
+AAUCAwQGAQcACAkSEwoRFBUWOSEidni1thcaJCUxQlh3l9c3OLf/xAAdAQEAAQQDAQAAAAAAAAAA
+AAAAAwECBAcFCAkG/8QARxEAAQMDAgMDBwUNBwUAAAAAAgEDBAAFEQYSBxMhFDFBCCIyUWFx8BU3
+kaHBFiMkQlJidHaBsbO00RhDVnWV1eEzNTaCtf/aAAwDAQACEQMRAD8Av8cUpxSnFKcUpxSnFKcU
+pxSnFKcUpxSnFKcUpxSnFKcUpxSnFKcUpxSnFKcUpxSnFKcUrB+++wus+t9KcuuyjCojDq3IoMFA
+Q3KsVnJIb9z7cDHKdZ99aE5QqXLkOxhw9txtyfMjpda9yiqiUqKKtdlO/Xdo2YT1zG17SesxcnMR
+60k2477CXPl7jcAlcCoE5MImPl6H341HrUVwcwuOglnDMluRNsyRd3T49dKxJfu0HfHpFs4LT9xX
+iubTHzhUSxND5SYZYMeByCE+G/mBZUgK9bhc9qTEmxsfXNYRHW3GeWNnQPp0O0yQ0qwJTrLFudRq
+twgsPRoVrrgOyw40n0/UR4p0ZFKR2H/bzlHvNNSkNu+jOU+tKvTnOPlyVKV6TilOKU4pTilOKU4p
+TileJ2X/AOOb/wDsTav4FP5VO9PelZ1s/wC5W/8ATon8duuM/R6PcNmXCta+19WjNyvFyMwK7VKp
+XYL5Q7YTpR9EUcJEjoyVyJs+bIcQzGjMoU464pKEJznPM7ur2XnTodshybhcJLMODDZORLlyDRpi
+Ow0m5x11wsCDYCiqRL0ROtbdXHx++RHr6Ff2vbupvaPVwKp4cIzdgr1fsALCqjLTTmXSpCyDxqU1
+2G0160OFJkqFFR6/aVIwp1KVU3CvTIr7MpXyEPiDw61C8Npias0tdH5eGwt/ypb3jlqqphpuM45+
+Emq4VGgAyXGdvSrAXgP83/YMf2I1v0w7X7IsW4tXblMRaJq2830lIsOwdd7IKqRGpoN+4lZbhux0
+22EfZqrQo5ILzgZggAcAyh4hkmOlxOtpjcnRU7/anx/zXX/j5wP085p25a00nbo9nulmZOfdYMBs
+Y9vuNtayUx8YbQIzGmxG8yldYFlt9luQj4OPK04F9rmNXQmnFKcUpxSnFKcUpxSnFKcUpxSqsPa6
+/WTt73RTQxc9eQUfYMLTOv2EqccgQYKLC2BJWPDeP1M4LE/rD8uXltDv2tMGM/nLQ5r0wr1L6kpV
+ieQW0l1I1CHHFDITX2u6SHSOFNzpDKJpFUZPuv4hw2UJm2GxlZTrs6agfEkTyJCW/LW16nVqxL0F
+KVXW2FZL35Ie241iqBCI6vyMjq0EZcb9/wDBWthM56QQsljfjJeiR5TrpAiWlY9TjeSM+FXociet
+EFciL0l+O6lTD+UWI1TvFx3RHV1x4THrXU/Zo4IuI+uNIHsCqRLhjsR5DOW3GnWGmWUtLayhWFJx
+6Pln5cyG/SFPbWweFAC5xL0KBiJgWp7QJAYoQkKy28oQrlFRU70VMVzvfFZ0p2/5Qewlx0EC7LWH
+T0uoaasO4HLMWbs9zjzo4C768pawSBcO211xh6S7sBkgmeqa6hpAxyPmKtUpLrGUaiCZ25648K9F
+eKutLPwv09Dv7+mY14CXeY9nSM12WEQFIg3Gaj6unDkoSClvVvl7EVVdQtybcF9DYR7uH4g/Ise1
+XqPsoc2XsfTF0pEB2XQ7DbSFN2u0dE1u1I11bqMonMUXxL++NVW00qfgk/AsTEtoXKURiDiaWBMc
+4wi+7Ke2o7dH0dxf4dMXW7aaYtltvUKcaDPjxG5lqVh2TFW4xJyNBytnIWVFmhyxcjqKuhyzcaro
+xeRDt5G6TdHd5dmSbKBtoqGv1sUYHLVBnqf2zb8MVvX4V9CXHIhGLEuJcbIOqi/VN4Ajy89puQzH
+ylWKA7iRPjFec/DvSBa21xY9MtKrkWZcEWc+CGG20xN0m4Pp0QmyKGy4LG7avPcabVRIq5YLAbs/
+btQ3/sziwbHK60qOzKhr263d+3HnfRfdlirlZhDD2Vz8vy1SI1PKul5+PU1AmkwEea4iRYByX8zz
+c46Z91ep5O6WiXi36Z7NbWrnLtky4QoIw2EzAtjsOK8SYb2htKY0jTfe4DcggRRjuY6OHw/fcl3t
+/wCOTV6bKaWX2j18fd0BsR6ZIdfKTkUyDBe1/YJjkpbk2cszrghWWiBqS6/kvZxdlcVIXJZlNs4r
+o7S9i9a84/KB0amj+I907MzybXqFE1BbkAUFoO2uOJcI4IGABGbi3KVtgUHkxXYybUFQUucx3h/9
+1O3370W//wD6xbeZadye5K9G9Ef+F6Q/Vewf/JiVcU+HF8kedvdWdq9B9r2JUjY2itZ3GxaPmFZS
+VS7NpZY6WgjT47768vzZ+rjE5tI2Kpa3W6KaFjxkZsRS5WY8DgechetUz766deUdw2+R9VWnX1qj
+7bdfbpDjXwGh82NekcBW5hCibQbujLa8wsIizmXXHCV2aO6qv4n/AMw7q9+2xb+SrRyYvRX48a7V
+cV/m81P+hM/z0WvzxK/mb9EP3o9P/wA4DeUc9AvdVOLfzY68/Ve7/wAo5XRu78+W7o50MA3Cv7j2
+hXbRt2HWpcgd14qecWy/2CYQFqkhwljFj2Zo6kDrAw8wv7lfZAOA6Jk/WRcEEuR48nFECLu7vXXn
+JoHhJrnXj8ORZrXIi2g5Ii5qKV+CW+OLbu15+O64QOTXI5CScuAL7iPDsLl4Ih5xPjN0zfOyvkV6
+tUzWwh2ISf39RthFngcLDsGj0mjW8ferdYUtyI86FGgVivCJixzZNtcOVPQMEOe49PZbcyyXArn1
+V6O8TLzA0zw61TNuTyG2NgnW9pHz2nOnTobkGJHyJAZOSpDocxWl3g2rrqYRtVT3/mq/NV7wf72F
+P4OG5Rv0B91YHBT5qtD/AOSNfxnq2aA/DqeQ6yxAssPK60yvxBHHSBcRPYWn5nyfurbLkKOmGhtb
++Zj3vtN4ipSp3LyvawnK/wBHKcwfb9C18y/5RXDyMTwvBqYezk4Lp/c9M5Y8pVQy3527E2qu/OMd
+e6pCO2Xebth4Z/Hx1C8WlGMBNd9r2KbtnYG8ti1GfAtblAoexewe4D1BAUA4uOsdGtlqFTpBI0b+
+k+61MfGgYDewRMxy42xBFwiPvToie/CZrXmk9DaT4zcQtX8U5zL9x0mU202+x26W2cRLhPt2nrOx
+PkT2N3MKJFdBG2Wd/KluE5ztzbJMuR8df/Ed5j+9evxfZEM7cpdX2Ixg1Wrxu7fc0RZL8MkuOqbs
+kKIcOFbbJDz1eqUONGocGKdiPtFAz5EfJamOXKbY9On7ErYWoOLfBvQtwd02+MIZVuXkyYNksAPR
+re6KJmMZsMNRBeD0XGWTMmDRW3kbcFQSRHpl4NPKb107M6r3fuWdU3NXa2InbHdUQt5rsctQVmpH
+47uGAeU/Ikv3ZDP9m/zY+av8vLVcBeid/urXesuOXCvUemrpZLM3KS6XJtiNCU7EkYecsuOSZf8A
+7tMCvnVD74JiEET5YunhUnLjjxoy1bAIEJ8t1EeJCgw9NbHky5cp9zKW2Y8Zhtx551xWENtoUtWc
+JxnPJHPQL3VuHjs2bvCfWLTQE445EgNttgikZmd4twgAinUiIlREROqquK3a8h/mf7r+S/se91q6
+WHdjUnSFluyteaj1vqWWQrOw93+/KWKh2LYVgHPjzeYVmR7xXNNdIjKZWQDjX4nYIzRM6xLtFsQT
+JYz3qq+Hur4fh3wX0Vw002mpdasW6be40L5Ru9xu4NybdY9o8049vjuC4zvjdGu2I27NlSEXsqtg
+6EdPCbS8Aflp6o6uI9qRrtbmnKwGIXK6CNIbgPy94UkXDayZPFZ6oomvRLBIH4YXOIs6+uNyIvqY
+XLisTUtZeS5jZeb+9Oi/HtxWfa+P/CXVd0b0q6MkGJLzcOE9fLPHGxzXTXkx2m0J6QccXN2xtbhD
+htihbTIM4qWz4f8A86W3NsbVrXRrudcJmxTF2amRdD7wsklC7g5YBQyQSzrXYhZTSVWpR6DBmO1K
+3l312ddgbTWy8yxLsAVYSx1tETcPT1p9tak8oDgXaLTapOudGQwtzMJQK/WOMOIaR3XBb+Urc1n8
+F5DhgkuG0PZezr2lkIyR3kfuj8x66XVTN05TC9v7B1KiFL9M1XYzl5er8i9ttSckK7ZZEiXFQ42z
+GJAJOJ0w16BbaUExuUyJqfW62nCk8gTqtKnnq3ik03gk0c29sPaG5i6PRh5Jo2oGLltp/Wy3IxDX
+Ns+E5V8/T7FsZ9OFK/xVnC8SICePWlbtj6/oPqvr0oTHCqRqGhBmEyTRNqPHHYkqb+aI6iRDOHTF
+jMPqViJAbkvEzM95bMGEiQ8tljN3RPZSq7PlG7V7P7qdVe19P0bXTlc6+600lsW57HthNlUV2zRq
+5XiBYVFNus5dZGRCc8chFbqrUiQSKS/SaLtsxBMloObVScDHcipWw+Evzm6D/Wmz/wA41VS3w/8A
+jfC+UHsteNBHdrlNPRKhoyy7gbswmpRLlJnSQF+1nS0AljJh6utMMSWtgPEFT0zXVtLGNx8RVplK
+dYzjPYmcZ649Vei/GDiQ/wAL9NQb+xamrwcu+xrOsZ6WcMQGRAuc1X0dBiQpEK29G9mxEVHVLcm3
+C+w7O6guHg18hVOg6Y3hprspdta16rbGHWgxquqmRAMoXImIcum3PX541f00u7D0gsEGSNdtsO5C
+QJ8Efr9hrZQgn6SgrzB6oqZ6d/2+KVh6YvEPjnw9mOXqx3nTUG5SJVucis3WUy8+0y2yYTYdwYZt
+/bYTnP5ZNyIhw3X477EiPJab8+Tv4jvyT57N6o6G6TqTSq8Kv2h9V92ttVhqYmckPZ90a/iztW0q
+XNb9lTkynVk5bik9DrGWCMe3Vki3hp2NhPLWg27l9qinuRev0/ZWsPJw4bfcxdteXuWvaHYF9uui
+bTJUNnOjWW4EF1miC5wEySxDabwW5sokltcoVRd6w6geZI108Ja91Xozf5Dpxu2OJ3SSrQOvgnKb
+sFnMauWIDe1R3P78JOrh1WsEQ8trP1DkUYN+hQplSEOXKre7qqbk6e6to3TWHBtjWLdwut9sDesr
+ITtlbkvyJCTLeu6RHfgISfeG03ypLbwL5qE65vXOVTdP4YDuJ/QD3vn9f7GS+loPbmr4p7SXnPbi
+RNtUZsnZdbTnlrc9GPug+RdaVGYbZU9NNWwFjLrbUdWF0eHI5/J6/s8f6/sr4ryoNHfL+hG9QRm9
+0/SMrthYTJnaZytRrkCdM/enBhTSVS2gzEf6KpJiMW+ganavLdc6vfYUUlRbJ5GLEBug6ct9qFPq
+ZjsvMH2OFMciuMym4soPImMSFxnWn0tLWplxDmEqxf8Ai/8Ar9lbPgPy4vCWHKgGTc6Nw6jvwnAR
+FNuWzpoHI5ghIoqQvCBChIqZTqipWXe5vXreHhT8jkiHr4uSjM08s7sLQV5nsLzDv+nLgyVDLDmv
+aW1ifhwNKserdjRGlQlzJUQ29BxEhEBcpVBVHB/f7FT4zXD6M1DY+NfDgTuDLZFMaS33+CBJvt95
+hq08j7GUXl4eGNdLcaoaAJMi5vNt0awx4n/zDur37bFv5KtHKl6K/HjXN8V/m81P+hM/z0WvzxK/
+mb9EP3o9P/zgN5Rz0C91U4t/Njrz9V7v/KOVk/zQ9Q9zdSO/29YO2ZJSzDNzXy57t1rsudmRJZv9
+NvtpKGm3Xp7ycJVZaxMlu1q2jv1FQisDEqM19jKBJcw2qKKY8Ex9FcZwX1fZtXcP7EdpFqM7ZoEO
+yXK2htFYEyBFaZVEbHujSgBJMRz8dpzaS89p8AtO/CpHOl8/rdfg+t61AC90ghKcnsIXPPonW+2U
+ObYJUrX5elSXsY+36ziQ3BwIwCEJYzGu4lZOzNyFFqrPlwPbs/m+H/Pt+z9tdV/KrY1oGpID1yku
+P6LebD7nmmBUIcSeEcBuDM0U/wCpczNHH2X3s7oTvKiqKMymwqlear81XvB/vYU/g4bk7foD7q7X
+cFPmq0P/AJI1/Gerd/p348NCaQ7LdWexFp8snjakgdQ7z0huixVeDuE6i0PiKBfqxeC4GG1Nq0Ye
+g87CEyB8duXNjw0kFIS/KaZ9TqaESqipsLqip3J/Wvh9Y8Q7/fNNap07F4TcSBfvFjvlljSjtDHZ
+hduECVBZkGoSic5CG6LhbQI+XnAqXSvg/Ehmq5szvnWuw+s7iB2ZpLe2hqSX1ZsmmlIFgpdha1+f
+t+rroLDHhbWIUqbXLnUS0YzCVLmzYD8uOp91mNLhRmaNdBwvRUXr++sjyb2ZNs0HJ07c4b9svdiv
+01q622Y0cebHW4R4l0hOvMOrvEJMKW0TJoIA4IlhFIDJbH+z9k1nyqeHzTen+hPZDUut95hQWgYN
+ip9i2/8A0S2nXD2tgEYXcakYiA2XLRAjMvQXo4SVFCYrtlGR2iAuW6OU2vESIoOKpIqp18M5zXW+
+122Vwq4wXm8a903drlY3n7+ceXGs/wArRbklykE7Dlsm+qRXCVDQnhJ7tEZwlbdBHMpVTDxn7p3x
+O8hnX6mWrdmz7MK/H1jCmBs/ZVvOV8s3EqdrYdQ5FnFnYZGA66zhxr346m3Ue256MZ+XynJE2r0+
+qu2nEuy2EOHt/mxLJa4zvYIzzLrdtiMSGlOXEJFQgZQ23EQsLtLKLlM1h3xSUY/tDvXqfWlUdaYt
+Gw6d2Io1beff+lZZP23rTuAAHdelepP0zTZEhHU4/wCpPsoxlz1Y9Pz5UlwmfVhfrrmOK85i16Eu
+9ylIpRbfL09OkiI7lViJqW0SHkQfxlVtskQfFelZt8K+6Nd9N/Klo229lY7NFA1o/sjV1qM2+Msc
+vVFwtVOtOvIpc8iauKkCgPYyKa9ap5L22q6EInCMxKPoFZRa4ikC49/vrg+NVluOsuFV8iaaJZ78
+li23WKzDLmJdocWZFuBNMbELtHNjt9pig3lZDzbDYZ3pnpf737QaE656PsPYXb2yKnXtSBa66fbs
+bhoTIi2th2A5NFh6ZjM1DNuPWhCURKwFDuyZR+XJjx4KXPdwrmIiKq4TvrzQsWmL9qO+R9PWi2y5
+F3ekIwsZGXUOKqOIDr03zFWIxFXJSnnkEY4CRHjFcxLxDaztu+vK71JY1mHeFNgextX3YWii/WzB
+rGutXWlnZVniyZDGGmootVfCO1dlLntMTpJSCIShbpBmO7mGuALPqx9PSvTvi9c4lg4T6tW5vC8r
++nJNkaJ3zjlXG6RVtsYxEsqTqSH0lKqZIBaN5VRG1JOrdzCrykqB/vX44L6ev5/c3X8WzY49tnPn
+LdQY8mGONDbBI9ckqdruZz8SIVgmJOHCEwYiQkvHLSXsjo5CLKSyNjIV70pXw9Xbv8rY4KP10M07
+YjsgRHbGQ7PsnXM8WT+nbbS1ETKttgJVuvFVxWkpR9yIqmy5Gce4TmzH1KczTJ+36KVsaH6Jb07C
+GBdv7ybom2CAMe+qF6koT7EAJDXnGE/22ePhDwg15bSVRCCgAeaXIRFoz+MGHm/ly7aq+ktK2v7B
+9RqntHppu/qHq9Ff1AF2vqe562Fk4AHM8dX5dtCPiM2EiMYmwJh+WhTiJJB+UUSTKuIyuURU8vLv
+JAwKouO6vo9H34dL6p0/qI4xTAst2hXIoouoyUhIjwuq0Lqg4jantwhq2e3v2rVSr+p/7F/100r/
+AIGOf9pcyOen5K13C/tgW7/As3/XmP8AaqzHo74ROnAr2GOdg+3xDYFBFz4ksnQdc6rXRSdqjsPI
+edGy7yWvtlcAwJSW8xJv2ytSSj0WS6oeXCzGWZXKK/6h+lfsrhr55Xcx+A8xp7SDdvuDrZg1PuN1
+Se1FIkVEcCC1AjI+4Od4c2SLQkKcxl4FUa+7v/4Wy+dg+xN43Of7iUqu1i3W+I8MoFd0mZZapWrg
+DQ+t0bWlaISdkPNswqJrcKAo9elyITqGoYWE69FcwlTWSPIieiv0+Pj9K1Bp/wAqWBp7TsGyx9HT
+ZEqJDMXbhIvbJLNuj6uSZ1zktjbUVTnXJ5+dIAXEVTeNENO+re9VrAKk1iuUyrjmBFaqQEPWK6Jj
+YziMMBAR8cUJHR8ZznOGIUCLHjNYznOcIbT8855j99dQZUl+bKkzJThPSZb70mQ6XpOvvuE664X5
+xuERL7VqoBa/hYbyM7MHt/6C7n1nUMQfu6duDT1ezpgqZn6xzDu67pRhDRZrYg+OTdprrY2HGnYH
+REysDmnlxm8rUjGRzkxhUVemF9tdwIvlTwXdMsafv+i5N3JyyBZ7xI+WmmW7nvgpCnPK0tucJpJi
+K4ZBzD28xU3LjNf3nPhdti2DtgY7OTO41Kj/AHvsOQ3vKqUbSxxXs/ctkvbAfrjBZ3ZH6fb95Qxo
+g5C/T8kyVxf8WuOcmMYXuxUbHlRW6PpNnTA6NmlydPN2EZZXpjry7alvSSrSW3xxzVbQ/wA3f41N
+R5cvFXRfKVpKqUqVaIWsNuaztCT+stsPV1Vl+yjDGYsO9VEqJaJB5BCu2obEgTVsRyUORFslcrRF
+L6ocYhAIRAexfWi99aV4R8VZ3C29y5oxTuloucXs9ztKSOzc51nccGW06rTwtyIrhuAhE0YlGkSW
+8bybNuF/qL8LveusfY/VW+J3cSpW+Lrg5MMPVuLpkwGkFkygZUPhhom9sUi3EyhRLD+XFQpGM4ay
+36cZX6kyq8ipjC1ujV3lRQdT6cutiDR0uGVxYBlJJXpl4Wtj7T2VaS3NqeeXtxvHvz4Yr86f/C73
+rq92l0B2KndxalcYeldrUzZEmqxNMmA0mwMVQzGKuCWCz2xSLQ52amPllEtyBLQzlXrUw5jHpzQn
+UIVTC9aaw8qKDqjS2oNOBo6XDO9WqZbRlHemXhjrKZJpHSaS3Nq4gbsqCOBnu3JU3Xlz8bVR8lnV
+c1rXOBobddDwTuPX68zk4bbBXjENCX60YmoZeks0u/sRIoK04YQ99EtsNZkQiE6tQIbsYHsX2ePx
+7K0jwj4ky+GmqmLl98esk/lQ9QQQXPPg712yWQyglNt5GT8XON+Xoym2Elw05peg95dkPG12zG7E
+qTRbXG8NFXQtWbnSrGxIjsTvtk9wPedZ30Qh1v64EYRGlCS0VLqXWHExzAWZDLjxJSLlqiEnsX4z
+Xpbf7HpviTpJy3S1auVjvsJqVCmx1EiDmto9BucB5UXlvs7hdaLGFRSZeA2nHWisqQ/DNWvN5Y7/
+AOSPR3c2o0YF2CuUs1atSFNTErLaNMX+MJDx7PrO1lIuwQ6ZZQK/7MyCS+0DY9grhMHZB0fIsxBe
+di5nL8xUXp4+v211qPjNJ4IR4HDa+aMlzn9PQwYi3dq7Nxot6gE68UW5xGit72xp8cgbXOcKPIaf
+jOFzWTRPsf1P/Yv+umlf8DHP+0uOen5K1D/bAt3+BZv+vMf7VU31Y8EnXq1+NbRfQDs0ckbJN6El
+7QK0TfevoKtf3KqmdkbRu2wZMysxSUm1xEwFwbVDAnq9Y02ECdWIjFlj4pSGFliIuYu9SHx8F91a
+PlcdtQxeJV94gaZYG2s38LW1PsFwc+UIUtm22uFbxCUTYxDU0OKb7EiN2d9jnE0jhNG8D0MVo+D9
+M4MSFUvvcMWAc+bkVq0dfpTRiJ83HMYiyHxO23oRD22cMqyQbjDPecW4j7awlpK3pOen5P11ueL5
+YDPJHtuhHO0J0NYuoBVk+iecIu2hDbyufvak7hEReYWcJm7qL8LveusfY/VW+J3cSpW+Lrg5MMPV
+uLpkwGkFkygZUPhhom9sUi3EyhRLD+XFQpGM4ay36cZX6kleRUxha4TV3lRQdT6cutiDR0uGVxYB
+lJJXpl4Wtj7T2VaS3NqeeXtxvHvz4Yr3Pj7+Gnu3SXuJpDtIT7bVbYUDUR06YkU2BqAtXZZxJim2
+SqpYZNSNgF2YKmFnkzcrWOlYcRGUxhKMu4cRQnUIVTC9aweIPlLQtbaOvmlmtIyred3YYZGY5eGp
+AMcmZGlblZG3sq5uRhQwjg4Us56YXa7yi/DydfO/dyMb11dcHOt/Yg76X7YaHVyPYda7NnoTnGS9
+zqMeWFnjbfMwlliXc68XbzMTh6dYK3ZSzuJyLQdUei9U+tK+T4XeUNqDQENmxXSGmpNOsdIjLkko
+9ytgL/cwpZA825DHqQwpDK7OgR5MZpNiwa134SHuHPPxht27VddwtHjSEJZLV2LtG3n4sST83CD0
+anlqtTBCJHvYRlEVNyabm/pdfmRVpwhUnPH1L9X9Vrecjyt9HtsE7C0pqJ6cQ+c1IO1xGDIejaFM
+alTHlHbnzlhqodwgSLmrTvjO8SPWbxi1Is1q5slfNv3IbGGbE3jco8Ru12AfHkon4rlfHRPcg0ql
+4INMTs10Y9KkEpMIZKsxqxTBAqVDhM1P2J4JXVjiZxb1NxOltLdFbgWeG4TtuscMjWJHcIeX2mQ4
+eDmzeWpB2h1BFsTdGKzHB50TlM5ZWrKcUpxSnFKcUpxSnFKcUpxSnFKcUpxSnFKcUpxSox+yPht8
+bHbnbBrePYDrKNuu07JDFQrBax+ytzUFw02FhoHDZBQVrjY1RBTiTA9mPCWXkC3CsqJFhx5c19qJ
+GS1ejhimEXp7krZ2m+MnErSNpZsen9TOQrXGN048Ry22aejKvGrjgtO3K3S3wbJxSNGRdRoTIyAB
+UyVcqdQfG7016GT7mR6n6pLanXsOGLhXOCjbm67qDPJCPSHw8qTW9i7Gt1faLDMzZzME3EGRzMaG
+QIQGpyYU+ZHeoRkXeucexK4rV/EjWWvW4TerLq1dktxunCNbRZIT7HPQReEZNut0SQrTuwFNg3SZ
+I223FDe2BJvJy2vhqcUpxSnFKcUpxSnFKcUpxSv/2Q==
+--001a114240b01de9a10549890f5d--
