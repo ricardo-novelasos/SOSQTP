@@ -1,0 +1,433 @@
+Received: from mxfront15h.mail.yandex.net ([127.0.0.1])
+	by mxfront15h.mail.yandex.net with LMTP id BkgTe7hg
+	for <alma.garcia@sos-soft.com>; Wed, 8 Mar 2017 19:35:34 +0300
+Received: from mail-ua0-x22f.google.com (mail-ua0-x22f.google.com [2607:f8b0:400c:c08::22f])
+	by mxfront15h.mail.yandex.net (nwsmtp/Yandex) with ESMTPS id jVAd3rpqEL-ZXBmnMcO;
+	Wed, 08 Mar 2017 19:35:33 +0300
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(Client certificate not present)
+X-Yandex-Front: mxfront15h.mail.yandex.net
+X-Yandex-TimeMark: 1488990933
+Authentication-Results: mxfront15h.mail.yandex.net; spf=pass (mxfront15h.mail.yandex.net: domain of gmail.com designates 2607:f8b0:400c:c08::22f as permitted sender, rule=[ip6:2607:f8b0:4000::/36]) smtp.mail=grupofedora@gmail.com; dkim=pass header.i=@gmail.com
+X-Yandex-Spam: 1
+Received: by mail-ua0-x22f.google.com with SMTP id f54so42037605uaa.1
+        for <alma.garcia@sos-soft.com>; Wed, 08 Mar 2017 08:35:33 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to;
+        bh=NkNSgIpDSsDHUMEpb+6kn7xF9bvpJbG77r7c/CnWL+I=;
+        b=De7GShWhTIhVUlC0yyUNMAI3844/CdcYkiL6NcUtWO4U8vsM2wprjpLK2+jQmKANyH
+         WItJswlKGKFx5G+1MhdD+AcOjSlgdR2ohdb5XCySsZv6R8m3KvTm7rvbKTYwwkQBCxvX
+         e9yhVNVWY07muxXwbM2FHu+HGOTbbUS5hpw8IgCuJUfe5yt7h10lKwGoFKjhbxtRJ3CY
+         hq1Em8s/3ltstA75PTB8mYW7Kt5NM6bpgUWO+CNK1lcDtL63ehdqB3Xp2ZHQRn2gs6Qj
+         xTTK87lxgNKu0u8FoVZ9TMI9NrZYsVTUORj3m05Zuzvzy1pxqr31QoKW5FvX3PPzaMRE
+         8pfw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to;
+        bh=NkNSgIpDSsDHUMEpb+6kn7xF9bvpJbG77r7c/CnWL+I=;
+        b=iNh//0KyjmXTQzc6nCvnMXqcVs5jZHNxLVkbolsZJyryDqqxSx0Z2FG70s1NVh3ZvZ
+         97zTrT5Q93+VfBE85o5v8Sm2mC9loAn/4biNjGzlkJwTN0bBTuyJOwSo+J2UDU7lcbPF
+         9bT7aBWEvkgsg6zi37Hmyl/+J/eSWxzmSSO7OhZL7HbJRq0m8FT6heTA2eCKOyXk7I/U
+         +ucHKMawL9jYcB2vjR+7fugm1DGD6rSRfah9lGF6mMdpTFnwDxE4PWlJYXaxzG841wvZ
+         3ZojkBgU8omxEhUNErv1n32QoGKTA6E29I7vVXxgzWthphZYHB3Gz6gkVU6M2KNh4Nut
+         REzA==
+X-Gm-Message-State: AMke39nqHub2nz2WrMfT5K3po9jWILXurxqU6Bqcebwrq8NOXAUPKbHWbNyRNguSIls/MbouLfyJOUL75niwBg==
+X-Received: by 10.176.1.5 with SMTP id 5mr3982067uak.30.1488990931508; Wed, 08
+ Mar 2017 08:35:31 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.103.77.70 with HTTP; Wed, 8 Mar 2017 08:35:31 -0800 (PST)
+In-Reply-To: <1707241806.1020998.1488990798251.JavaMail.wasadmin@lnxltn03p.unix.banorte.com>
+References: <1707241806.1020998.1488990798251.JavaMail.wasadmin@lnxltn03p.unix.banorte.com>
+From: Grupo Fedora <grupofedora@gmail.com>
+Date: Wed, 8 Mar 2017 10:35:31 -0600
+Message-ID: <CAEttY066QS0ed_Lr_awMtf8HC26KzHZ6yhdcAoRxp9PUUKsT3w@mail.gmail.com>
+Subject: Fwd: Transferencias a Cuentas de Terceros Banorte / Ixe
+To: alma.garcia@sos-soft.com
+Content-Type: multipart/alternative; boundary=001a113d058c8be9c8054a3ab730
+Return-Path: grupofedora@gmail.com
+X-Yandex-Forward: 3f3ca835f0ec994b3f591f12a1e7ff3e
+
+--001a113d058c8be9c8054a3ab730
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+---------- Srta. Alma
+            Buenos d=C3=ADas, adjunto ficha de transferencia de lo servicio=
+s.
+             saludos.
+
+              A.F
+
+
+Estimado(a): * GRUPO FKO CONSTRUCTOR SA DE CV *
+
+La siguiente operaci=C3=B3n ha sido registrada en tu Banco en l=C3=ADnea.
+Operaci=C3=B3n: Transferencias a Cuentas de Terceros Banorte / Ixe
+Fecha de Operaci=C3=B3n: 08/Mar/2017
+Hora de Operaci=C3=B3n: 10:33:17 horas
+Cuenta Origen: Enlace Global - *******9807
+Cuenta Destino: SOS SOFTWARE COMPAQ - *******1716
+Nombre del Beneficiario: SOS SOFTWARE SA DE CV
+RFC del Beneficiario: SOF1406233F5
+E-mail del Beneficiario: info@sos-soft.com
+Banco Destino: Banorte
+Importe: $1,276.00 MN
+IVA: $0.00 MN
+Comisi=C3=B3n: $0.00 MN
+IVA Comisi=C3=B3n: $0.00 MN
+N=C3=BAmero de Referencia: 080317
+Concepto de Pago: SERVICIOS
+Fecha de Aplicaci=C3=B3n: 08/Mar/2017
+Clave de Rastreo Cuenta Origen: 2666
+Clave de Rastreo Cuenta Destino: 2971
+Gracias por utilizar tu Banco en l=C3=ADnea
+Nota: La fecha y hora de este mensaje ("Enviado el") podr=C3=A1 variar resp=
+ecto
+a la fecha/hora real de operaci=C3=B3n de su transacci=C3=B3n ("Operado el"=
+). Esto
+depender=C3=A1 de la configuraci=C3=B3n de sus servicios de correo y/o comp=
+utadora en
+cuanto a su zona horaria.
+
+
+Este correo electronico es confidencial y/o puede contener informacion
+privilegiada.
+Si usted no es su destinatario o no es alguna persona autorizada por este
+para recibir sus correos electronicos, NO debera usted utilizar, copiar,
+revelar, o tomar ninguna accion basada en este correo electronico o
+cualquier otra informacion incluida en el, favor de notificar al remitente
+de inmediato mediante el reenvio de este correo electronico y borrar a
+continuacion totalmente este correo electronico y sus anexos.
+Nota: Los acentos y caracteres especiales fueron omitidos para su correcta
+lectura en cualquier medio electronico.
+
+This e-mail is confidential and/or may contain privileged information.
+If you are not the addressee or authorized to receive this for the
+addressee, you must not use, copy, disclose, or take any action based on
+this message or any other information herein, please advise the sender
+immediately by reply this e-mail and delete this e-mail and its
+attachments.
+
+
+
+--=20
+*"**Favor de confirmar de recibido" *
+
+
+
+                                 www.grupofedora.com
+
+
+P *=C3=9Anete al Proyecto **Verde**.  *No imprimas este mensaje a menos que=
+ sea
+indispensable
+
+
+
+.
+
+--001a113d058c8be9c8054a3ab730
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br><div class=3D"gmail_quote">---------- Srta. Alma</div>=
+<div class=3D"gmail_quote">=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 Buenos=
+ d=C3=ADas, adjunto ficha de transferencia de lo servicios.</div><div class=
+=3D"gmail_quote">=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0saludos.</=
+div><div class=3D"gmail_quote"><br></div><div class=3D"gmail_quote">=C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 A.F<br><br><br><u></u>
+
+=09
+	=09
+=09
+	<div>
+		<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:82=
+3px">
+			<tbody><tr>
+				<td colspan=3D"3">
+					<img src=3D"https://www.banorte.com/cms/notificaciones/Header_Notifica=
+ciones_GFB.png" border=3D"0" alt=3D"">
+				</td>
+			</tr>
+		</tbody></table>
+		<table class=3D"m_6479736941595895097dTablaf" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"width:823px">
+			<tbody><tr>
+				<td colspan=3D"3">
+			</td></tr>
+			<tr>
+				<td colspan=3D"3">
+					<span style=3D"font-family:Arial">
+                        Estimado(a):
+						<strong>
+                           GRUPO FKO CONSTRUCTOR SA DE CV
+						</strong>
+						<br>
+						<br>
+                        La siguiente operaci=C3=B3n ha sido registrada en t=
+u Banco en l=C3=ADnea.
+					</span>
+				</td>
+			</tr>
+		=09
+		=09
+				<tr>
+					<td width=3D"34%" align=3D"right">Operaci=C3=B3n:</td>
+					<td align=3D"left">
+                        Transferencias a Cuentas de Terceros Banorte / Ixe
+					</td>
+				</tr>
+				<tr>
+					<td align=3D"right">Fecha de Operaci=C3=B3n:</td>
+					<td>
+                        08/Mar/2017
+					</td>
+				</tr>
+				<tr>
+					<td align=3D"right">Hora de Operaci=C3=B3n:</td>
+					<td>
+                        10:33:17 horas
+					</td>
+				</tr>
+				<tr>
+					<td align=3D"right">Cuenta Origen:</td>
+					<td>
+                        Enlace Global - *******9807
+					</td>
+				</tr>
+				<tr>
+				=09
+				=09
+						<td align=3D"right">Cuenta Destino:</td>
+						<td>
+                           SOS SOFTWARE COMPAQ - *******1716
+						</td>
+				=09
+				=09
+				=09
+				=09
+				=09
+				</tr>
+				<tr>
+					<td align=3D"right">Nombre del Beneficiario:</td>
+					<td>
+                        SOS SOFTWARE SA DE CV
+					</td>
+				</tr>
+				<tr>
+					<td align=3D"right">RFC del Beneficiario:</td>
+					<td>
+                        SOF1406233F5
+					</td>
+				</tr>
+				<tr>
+					<td align=3D"right">E-mail del Beneficiario:</td>
+					<td>
+                        <a href=3D"mailto:info@sos-soft.com" target=3D"_bla=
+nk">info@sos-soft.com</a>
+					</td>
+				</tr>
+				<tr>
+					<td align=3D"right">Banco Destino:</td>
+					<td>
+                        Banorte
+					</td>
+				</tr>
+				<tr>
+					<td align=3D"right">Importe:</td>
+					<td>
+                        $1,276.00 MN
+					</td>
+				</tr>
+				<tr>
+					<td align=3D"right">IVA:</td>
+					<td>
+                        $0.00 MN
+					</td>
+				</tr>
+				<tr>
+					<td align=3D"right">Comisi=C3=B3n:</td>
+					<td>
+                        $0.00 MN
+					</td>
+				</tr>
+				<tr>
+					<td align=3D"right">IVA Comisi=C3=B3n:</td>
+					<td>
+                        $0.00 MN
+					</td>
+				</tr>
+				<tr>
+					<td align=3D"right">N=C3=BAmero de Referencia:</td>
+					<td>
+                        080317
+					</td>
+				</tr>
+				<tr>
+					<td align=3D"right">Concepto de Pago:</td>
+					<td>
+                        SERVICIOS
+					</td>
+				</tr>
+			=09
+			=09
+				=09
+
+						<tr>
+							<td align=3D"right">Fecha de Aplicaci=C3=B3n:</td>
+							<td>
+                           08/Mar/2017
+							</td>
+						</tr>
+						<tr>
+							<td align=3D"right">Clave de Rastreo Cuenta Origen:</td>
+							<td>
+                           2666
+							</td>
+						</tr>
+						<tr>
+							<td align=3D"right">Clave de Rastreo Cuenta Destino:</td>
+							<td>
+                           2971
+							</td>
+						</tr>
+				=09
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+				=20
+			=09
+			=09
+				=20
+			=09
+			=09
+				=20
+			=09
+			=09
+			=09
+			=09
+			=09
+				=20
+			=09
+
+			=09
+			=09
+			=09
+			=09
+			=09
+			=09
+		=09
+		=09
+		=09
+			 =20
+		=09
+			<tr>
+				<td colspan=3D"3">
+			</td></tr>
+			<tr>
+				<td colspan=3D"3">
+			</td></tr>
+			<tr>
+				<td colspan=3D"3">
+			</td></tr>
+			<tr>
+				<td colspan=3D"3" align=3D"center">
+					<span style=3D"font-size:8pt;font-family:Arial">Gracias por utilizar t=
+u Banco en l=C3=ADnea</span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan=3D"3">
+					<span style=3D"font-size:8pt;font-family:Arial">Nota: La fecha y hora =
+de este mensaje (&quot;Enviado el&quot;) podr=C3=A1 variar respecto a la fe=
+cha/hora real de operaci=C3=B3n de su transacci=C3=B3n (&quot;Operado el&qu=
+ot;). Esto depender=C3=A1 de la configuraci=C3=B3n de sus servicios de corr=
+eo y/o computadora en cuanto a su zona horaria.</span>
+				</td>
+			</tr>
+		</tbody></table>
+		<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:82=
+3px">
+			<tbody><tr>
+				<td colspan=3D"3">
+					<img src=3D"https://www.banorte.com/cms/notificaciones/Footer_Notifica=
+ciones_GFB.png" border=3D"0" alt=3D"">
+				</td>
+			</tr>
+		</tbody></table>
+		<table border=3D"0" width=3D"622" style=3D"width:466.5pt">
+			<tbody><tr>
+				<td>
+					<p>
+						<span style=3D"font-size:8.0pt;font-family:Arial;color:black">
+							<br>
+                           Este correo electronico es confidencial y/o pued=
+e contener informacion privilegiada.
+							<br>
+                           Si usted no es su destinatario o no es alguna pe=
+rsona autorizada por este para recibir sus correos electronicos, NO debera =
+usted utilizar, copiar, revelar, o tomar ninguna accion basada en este corr=
+eo electronico o cualquier otra informacion incluida en el, favor de notifi=
+car al remitente de inmediato mediante el reenvio de este correo electronic=
+o y borrar a continuacion totalmente este correo electronico y sus anexos.
+							<br>
+                           Nota: Los acentos y caracteres especiales fueron=
+ omitidos para su correcta lectura en cualquier medio electronico.
+						</span>
+					</p>
+					<p>
+						<span style=3D"font-size:8.0pt;font-family:Arial;color:black">
+                           This e-mail is confidential and/or may contain p=
+rivileged information.
+							<br>
+                           If you are not the addressee or authorized to re=
+ceive this for the addressee, you must not use, copy, disclose, or take any=
+ action based on this message or any other information herein, please advis=
+e the sender immediately by reply this e-mail and delete this e-mail and it=
+s attachments.
+						</span>
+					</p>
+				</td>
+			</tr>
+		</tbody></table>
+	</div>
+
+</div><br><br clear=3D"all"><div><br></div>-- <br><div class=3D"gmail_signa=
+ture" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"=
+ltr"><div><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"lt=
+r"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div><span></span><sp=
+an></span><strong><font size=3D"1">&quot;</font></strong><font face=3D"aria=
+l,helvetica,sans-serif" size=3D"1"><strong>Favor de=C2=A0confirmar de recib=
+ido&quot; </strong></font><font color=3D"#0b5394" face=3D"arial,helvetica,s=
+ans-serif"><strong><br><img src=3D"https://docs.google.com/uc?export=3Ddown=
+load&amp;id=3D0B8xC-uQ54qbWTEE3SFpYV1VJWkE&amp;revid=3D0B8xC-uQ54qbWKzB6ekV=
+Ia0I5NlhQYjRuajVxbXJJUGw2VXVzPQ" width=3D"420" height=3D"226"><br><br></str=
+ong></font><span style=3D"color:rgb(11,83,148);font-size:12.8px">=C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0=C2=A0<img src=3D"https://docs.google.com/uc?exp=
+ort=3Ddownload&amp;id=3D0B8xC-uQ54qbWcWZPd01MSDZhWU0&amp;revid=3D0B8xC-uQ54=
+qbWOWprejZLMEp2SW5HSjV2YUU0ZWJ5TWdTdmR3PQ" width=3D"200" height=3D"66"></sp=
+an></div><span style=3D"line-height:115%;font-size:11pt"><font color=3D"#00=
+9900"><div><font color=3D"#0b5394">=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0<a href=3D"http://www.grupofedora.com" target=3D"_blank">www.grupofed=
+ora.com</a></font></div><div><font color=3D"#0b5394">=C2=A0</font></div><p>=
+<span lang=3D"ES" style=3D"color:green;font-family:Webdings;font-size:18pt"=
+>P</span><span lang=3D"ES" style=3D"color:green;font-family:&quot;Verdana&q=
+uot;,&quot;sans-serif&quot;"> </span><b><span lang=3D"ES" style=3D"color:gr=
+een;font-size:8pt">=C3=9Anete al Proyecto </span></b><b><span lang=3D"ES" s=
+tyle=3D"color:rgb(0,113,0);font-size:8pt">Verde</span></b><b><span lang=3D"=
+ES" style=3D"color:rgb(64,128,128);font-size:8pt">. =C2=A0</span></b><span =
+style=3D"color:green;font-size:8pt">No imprimas este mensaje a menos que se=
+a indispensable</span></p><p><u></u>=C2=A0<span style=3D"line-height:115%;f=
+ont-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;font-size:11pt"></spa=
+n></p></font><p>.<br><br></p></span><p></p></div></div></div></div></div></=
+div></div></div></div></div></div></div>
+</div>
+
+--001a113d058c8be9c8054a3ab730--
