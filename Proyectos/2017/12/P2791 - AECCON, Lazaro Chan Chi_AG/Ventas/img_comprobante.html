@@ -1,0 +1,574 @@
+
+<!-- saved from url=(0104)https://www.bancanetempresarial.banamex.com.mx/scripts/cgiclntcbbbne3/HSKT90EVOCBL0B53TMTULF8@VD/ND065__ -->
+<html style="font-size: 8pt;"><head style="font-size: 8pt;"><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><script type="text/javascript" style="font-size: 8pt;">try{opener.parent.parent.parent.document.getElementById("loader_act").style.display="none";}catch(ex){}try{parent.parent.parent.document.getElementById("loader_act").style.display="none";}catch(ex){}</script>
+<link href="./LICENCIA CALKINI_files/estilos_imp.css" rel="stylesheet" type="text/css" media="print" style="font-size: 8pt;">
+<link href="./LICENCIA CALKINI_files/estilos.css" rel="stylesheet" type="text/css" media="screen" style="font-size: 8pt;">
+<script type="text/javascript" src="./LICENCIA CALKINI_files/jquery-1.4.2.min.js.descarga" style="font-size: 8pt;"></script>        
+<script type="text/javascript" src="./LICENCIA CALKINI_files/motor.js.descarga" style="font-size: 8pt;"></script>
+</head>
+<body onbeforeprint="javascript:ShownHide();" onafterprint="javascript:ShownHide();" onload="if(window.swap != null)swap(); pintaTablas(); formatolargo();" style="font-size: 8pt;">
+<!--[if IE]>
+<style type="text/css">
+            .saldos_bordeSupIz2c_2S5{
+	width:20px;
+	background:url(/bestbanking/BB/images/esquinaLS5.gif) no-repeat;
+	height:21px;
+	font-size:30%;
+            }
+           .saldos_bordeInfDe2c_2S5{
+	width:20px;
+	background:url(/bestbanking/BB/images/esquinaRS5.gif) no-repeat;
+	height:21px;
+	font-size:100%;
+            }
+</style>
+<![endif]-->
+<script type="text/javascript" style="font-size: 8pt;">
+<!--
+jQuery(document).ready(function(){
+	$(".bordeSupCe2b,.bordeSupCe2bS5").parents("table").addClass("tablaBordeAzul");
+	$(".bordeSupCe2b_v").parents("table").addClass("tablaBordeVerde");
+     	$(".bordeSupCe2b_a ").parents("table").addClass("tablaBordeAzul");
+	$("*:not(:button)").css("font-size","8pt");
+            $(".saldos_bloque5_esquBotL,.saldos_bloque5_esquBotR,.saldos_bloque5b").css("font-size","");
+});
+var x = window.screen.availWidth;
+var y = window.screen.availHeight;
+window.moveTo(0,0);
+window.resizeTo(x,y);
+function pintaTablas(){
+	$(".pinta1 tr:even td").css("background-color", "#f0f4f9");
+	$(".pinta1 tr:odd td").css("background-color", "#FFF");
+	$(".pinta2 tr:even td").css("background-color", "#FFF");
+	$(".pinta2 tr:odd td").css("background-color", "#F0F4F9");
+}
+function DoPrint(){
+window.print();
+window.close(); 
+}
+
+function formatolargo()
+{
+   var d, day, dofw, month, year, x, y, fecha="";
+   var x = new Array("Domingo", "Lunes", "Martes","Mi&eacute;rcoles");
+       x = x.concat("Jueves", "Viernes","S&aacute;bado");
+   var y = new Array("Enero", "Febrero","Marzo","Abril");
+	   y = y.concat("Mayo","Junio","Julio","Agosto");
+	   y = y.concat("Septiembre","Octubre","Noviembre","Diciembre");
+	   var armafecha = "22/12/2017".split("/");
+	   var d = new Date(armafecha[1]+"/"+armafecha[0]+"/"+armafecha[2]);
+	   day = d.getDay();
+	   month = d.getMonth();
+	   fecha = x[day] + " " + d.getDate() + " de " + y[month] + " del " + d.getFullYear() + ", " + "11:35:23 AM" + " Centro de M&eacute;xico" ;
+	   document.getElementById("completo").innerHTML = fecha;
+	   $(".btnregresa, .flecha").css("display","none");
+}
+
+
+
+function ShownHide()
+  {
+   tags=document.all.invisible;
+   if((tags + "") == "undefined")
+    return;numtags=tags.length + "";
+   if(numtags == "undefined")
+     {
+	  tags.style.display=tags.style.display==""?"none":"";
+	 }
+   else
+     {
+	  for (i=0;i<tags.length;i++)tags[i].style.display=tags[i].style.display==""?"none":"";
+	 }
+	}
+
+$(document).ready(function(){
+if("Cheques" == "Fondos Banamex"){
+	var tranm=[];
+	}
+else{
+	var tranm=['Pago Interbancario','Interbanking Payment'  ];
+}
+if("1"==1)
+	document.getElementById("Tipo_trans").innerHTML = tranm[0];
+else
+	document.getElementById("Tipo_trans").innerHTML = tranm[1];
+
+$('td[id="tdCtaDes"]').hide();
+	$('td[id="tdCtaOr"]').hide();
+	$('div[id="leyCtas"]').hide();
+	$('table[id="tabCtaDesOri"]').hide();
+ 
+	$('div[id="leyCtas"]').show();
+	$('table[id="tabCtaDesOri"]').show();
+	$('td[id="tdCtaOr"]').show();
+	if("Cheques"!="")
+		$('td[name="tCtaOrig"]').html("Cheques");
+	else
+		$('td[name="tCtaOrig"]').html("&nbsp;");
+	if("4631 "!="")
+		$('td[name="sucOrig"]').html("4631 ");
+	else
+		$('td[name="sucOrig"]').html("&nbsp;");
+	if(" 66117"!="")
+		$('td[name="ctaOrig"]').html(" 66117");
+	else
+		$('td[name="ctaOrig"]').html("&nbsp;");
+
+
+
+
+	
+
+	$('div[id="leyCtas"]').show();
+	$('table[id="tabCtaDesOri"]').show();
+	$('td[id="tdCtaDes"]').show();
+	$('td[name="ctaDest"]').html("072320002394317160");
+	$('td[name="nomDest"]').html("BANORTE/IXE");
+	$('td[name="fValorDest"]').html("22/12/2017");
+	$('td[name="fAplicacion"]').html("Mismo Día");
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+		
+
+$('#moneda').html('MXN');
+
+
+
+
+
+if ($('#tdCtaDes').is (':visible') && $('#tdCtaOr').is (':visible') && $('#tdCtaDes').parents (':visible').length == 0)
+  $('#tdCtaComp').hide();
+if (($('#tdCtaDes').is (':visible') || $('#tdCtaOr').is (':hidden')) && $('#tdCtaDes').parents (':visible').length == 0)
+  $('#tdCtaComp').show();
+if (($('#tdCtaDes').is (':hidden') || $('#tdCtaOr').is (':visible')) && $('#tdCtaDes').parents (':visible').length == 0)
+  $('#tdCtaComp').show();
+if($(".ivaformato").length > 0){
+	ivaformat = '$0.00';
+	
+	ivaformat = ivaformat.slice(1);
+	
+	ivaformat = '$ ' + ivaformat;
+	$(".ivaformato").text(ivaformat);
+}
+});
+
+
+function OcultaBoton()
+{
+	noprint.style.visibility="hidden";
+	noprint.style.position="absolute";
+}
+
+$("#satimp table:odd > td").addClass("bgF0F4F9");
+$("#satimp tr:odd > td").addClass("bgF0F4F9");
+$("#satimp br:odd > td").addClass("bgF0F4F9");
+$("#tablaErrores tr:odd > td").addClass("bgF0F4F9b");
+
+//-->
+</script>
+
+
+<br style="font-size: 8pt;">
+
+<div class="contenedorBanamexImpresion" style="font-size: 8pt;"> 
+<div class="saldos_bloque3" style="font-size: 8pt;">
+	<div id="Header" class="ancho100p overflow clear" style="font-size: 8pt;">
+		<div class="cabeceraSup" style="font-size: 8pt;">
+			<div style="font-size: 8pt;">
+				<div style="float: right; height: 30px; width: 90px; margin-top: 10px; font-size: 8pt;">
+					<img src="./LICENCIA CALKINI_files/LogoBancanet.gif" style="font-size: 8pt;">
+				</div>
+			</div>
+			<div style="float: left; margin-top: 10px; width: 190px; height: 45px; z-index: 1; font-size: 8pt;">
+				<img src="./LICENCIA CALKINI_files/LogoBanamex.gif" style="font-size: 8pt;">
+			</div>
+		</div>
+		<div class="ancho100p f11 paddingB5 borderB_E6E6E6" id="completo" style="font-size: 8pt;">Viernes 22 de Diciembre del 2017, 11:35:23 AM Centro de México</div>
+	</div>
+			
+			
+<br style="font-size: 8pt;">
+<br style="font-size: 8pt;">
+</div>
+</div>
+
+
+<div class="contenedorBanamexImpresion" style="font-size: 8pt;"> 
+	<div class="saldos_bloque3" style="font-size: 8pt;">
+        	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="tablaBordeAzul" style="font-size: 8pt;">
+            	<tbody style="font-size: 8pt;"><tr style="font-size: 8pt;">
+                	<td valign="top" class="ancho10" style="font-size: 8pt;"><div class="saldos_bordeSupIz2b" style="font-size: 8pt;"></div></td>
+                    <td class="bordeSupCe2b" style="font-size: 8pt;">&nbsp;</td>
+                    <td valign="top" class="ancho10" style="font-size: 8pt;"><div class="saldos_bordeSupDe2b" style="font-size: 8pt;"></div></td>
+                </tr>
+                <tr style="font-size: 8pt;">
+                	<td valign="top" class="ancho10 bordesIz1" style="font-size: 8pt;">&nbsp;</td>
+                    <td class="paddingB5 paddingL10 paddingT3 paddingR10" style="font-size: 8pt;">
+                        <div class="titulo_tabla_at marginT0" style="font-size: 8pt;">
+                            Historial - 
+                        </div>
+                        <div class="saldos_bloque3" style="font-size: 8pt;">
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-size: 8pt;">
+                        <tbody style="font-size: 8pt;"><tr style="font-size: 8pt;">
+		<td class="paddingR15 ancho50p" valign="top" style="font-size: 8pt;">
+                        
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0" class="tablaSaldos3 pinta1" style="font-size: 8pt;">
+                                <tbody style="font-size: 8pt;"><tr style="font-size: 8pt;">
+
+                                    <td class="tablaSaldos2_bordeR ancho50p bgF0F4F9" style="font-size: 8pt; background-color: rgb(240, 244, 249);">
+			
+					<span style="font-size: 8pt;">Cliente</span>
+			
+			</td>
+                                    <td class="ancho50p bgF0F4F9" style="font-size: 8pt; background-color: rgb(240, 244, 249);">77269767</td>
+                                </tr>
+                                <tr style="font-size: 8pt;">
+                                    <td class="tablaSaldos2_bordeR" style="font-size: 8pt; background-color: rgb(255, 255, 255);">
+			
+				<span style="font-size: 8pt;">Razón Social</span>
+						
+			</td>
+                                    <td style="font-size: 8pt; background-color: rgb(255, 255, 255);">CABLE VISION DE CALKINI SA DE CV    </td>
+                                </tr>
+                            </tbody></table>
+                            
+                        </td>
+                        
+                        </tr>
+                        </tbody></table>
+                       	</div>                
+                    </td>
+                    <td valign="top" class="ancho10 bordesDe1" style="font-size: 8pt;">&nbsp;</td>
+                </tr>
+                <tr style="font-size: 8pt;">
+                	<td valign="bottom" class="ancho10" style="font-size: 8pt;"><div class="saldos_bordeSupIz2c" style="font-size: 8pt;"></div></td>
+                    <td class="bordeSupCe2c" style="font-size: 8pt;">&nbsp;</td>
+                    <td valign="bottom" class="ancho10" style="font-size: 8pt;"><div class="saldos_bordeInfDe2c" style="font-size: 8pt;"></div></td>
+                </tr>
+            </tbody></table>        	
+    </div>
+</div>
+<div class="contenedorBanamexImpresion" style="font-size: 8pt;"> 
+<br style="font-size: 8pt;">
+		
+        <div class="saldos_bloque3" style="font-size: 8pt;">
+        
+         <table width="100%" border="0" cellpadding="0" cellspacing="0" class="tablaBordeAzul" style="font-size: 8pt;">
+            	<tbody style="font-size: 8pt;"><tr style="font-size: 8pt;">
+                	<td valign="top" style="font-size: 8pt;"><div class="saldos_bordeSupIz2b_a  alto18" style="font-size: 8pt;"></div></td>
+                    <td class="bordeSupCe2b_a" style="font-size: 8pt;">&nbsp;</td>
+                    <td valign="top" style="font-size: 8pt;"><div class="saldos_bordeSupDe2b_a alto18" style="font-size: 8pt;"></div></td>
+                </tr>
+                 <tr style="font-size: 8pt;">
+	                 <td valign="top" class="ancho10 bordesIz1" style="font-size: 8pt;">&nbsp;</td>
+                   	<td valign="top" style="font-size: 8pt;"> 
+                    <div class="ancho100p" style="font-size: 8pt;">
+              	       <div class="panelIzEnca3_text2 paddingB0 color000 floatL ancho80p" id="t25" style="font-size: 8pt;"> 
+                     	Detalle de operación 
+                       </div>
+                    </div>
+                            </td>
+                    <td valign="top" class="ancho10 bordesDe1" style="font-size: 8pt;">&nbsp;</td>
+                </tr>
+                <tr style="font-size: 8pt;">
+                	<td valign="top" class="ancho10 bordesIz1 " style="font-size: 8pt;">&nbsp;</td>
+                    <td valign="top" style="font-size: 8pt;">
+                    <div class="titulo_tabla_at_a marginT5 paddingT15 borderB_E6E6E6 paddingB4" id="t26" style="font-size: 8pt;">Datos de la operación</div>
+               			<div class="padding0 marginT0" style="font-size: 8pt;"></div>
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-size: 8pt;">
+                                <tbody style="font-size: 8pt;"><tr style="font-size: 8pt;">
+                                    <td class="ancho50p" valign="top" style="font-size: 8pt;">
+                                    	
+                                    	<table width="100%" border="0" cellpadding="0" cellspacing="0" class="tablaSaldos3" style="font-size: 8pt;">
+                                    		<tbody style="font-size: 8pt;"><tr style="font-size: 8pt;">
+                                                <td class="tablaSaldos2_bordeR ancho50p bgF0F4F9" style="font-size: 8pt;">
+                                                	<span id="t27" style="font-size: 8pt;">Nombre de la operación</span></td>
+                                                <td class="ancho50p bgF0F4F9" align="right" id="Tipo_trans" style="font-size: 8pt;">Pago Interbancario</td>
+                                            </tr>
+                                            <tr style="font-size: 8pt;">
+                                                <td class="tablaSaldos2_bordeR" style="font-size: 8pt;"><span id="t28" style="font-size: 8pt;">Fecha de solicitud</span></td>
+                                                <td align="right" style="font-size: 8pt;">22/12/2017 10:41:29</td>
+                                            </tr>
+                                            <tr style="font-size: 8pt;">
+                                                <td class="tablaSaldos2_bordeR bgF0F4F9" style="font-size: 8pt;"><span id="t29" style="font-size: 8pt;">Servicio / Medio</span></td>
+                                                <td class="bgF0F4F9" align="right" id="t30" style="font-size: 8pt;">BancaNet Empresarial</td>
+                                            </tr>
+                                            <tr style="font-size: 8pt;">
+                                                <td class="tablaSaldos2_bordeR" id="leyImporte" style="font-size: 8pt;"><span id="t31" style="font-size: 8pt;">Importe</span></td>
+                                                <td align="right" style="font-size: 8pt;">
+												
+												$ 4,976.40
+												
+												</td>
+                                            </tr>
+                                            <tr style="font-size: 8pt;">
+                                                <td class="tablaSaldos2_bordeR bgF0F4F9" style="font-size: 8pt;"><span id="t32" style="font-size: 8pt;">Moneda</span></td>
+												<td class="bgF0F4F9" align="right" id="moneda" style="font-size: 8pt;">MXN</td>
+                                            </tr>
+                                        </tbody></table>
+                                    </td>
+                                    <td class="ancho50p paddingL20" valign="top" style="font-size: 8pt;"> 
+                                    	<table width="100%" border="0" cellpadding="0" cellspacing="0" class="tablaSaldos3" style="font-size: 8pt;">
+                                    		<tbody style="font-size: 8pt;"><tr style="font-size: 8pt;">
+                                                <td class="tablaSaldos2_bordeR ancho50p bgF0F4F9" style="font-size: 8pt;"><span id="t33" style="font-size: 8pt;">Estatus</span></td>
+                                                <td class="ancho50p bgF0F4F9" align="right" style="font-size: 8pt;">APLICADO</td>
+                                            </tr>
+                                            <tr style="font-size: 8pt;">
+                                                <td class="tablaSaldos2_bordeR" style="font-size: 8pt;"><span id="t34" style="font-size: 8pt;">Fecha</span></td>
+                                                <td align="right" name="fAplicacion" style="font-size: 8pt;">Mismo Día</td>
+                                            </tr>
+                                        <tr style="font-size: 8pt;">
+                                                <td class="tablaSaldos2_bordeR ancho50p bgF0F4F9" style="font-size: 8pt;"><span id="t35" style="font-size: 8pt;">Número de autorización</span></td>
+                                                <td class="ancho50p bgF0F4F9" align="right" id="numAut" style="font-size: 8pt;">057138</td>
+                                            </tr>
+                                            <tr style="font-size: 8pt;">
+                                                <td class="tablaSaldos2_bordeR" style="font-size: 8pt;"><span id="t36" style="font-size: 8pt;">Autorizador 1</span></td>
+                                                <td align="right" style="font-size: 8pt;">01 LAZARO CHAN CHI</td>
+                                          </tr>
+                                          <tr style="font-size: 8pt;">
+                                                <td class="tablaSaldos2_bordeR ancho50p bgF0F4F9" style="font-size: 8pt;"><span id="t37" style="font-size: 8pt;">Autorizador 2</span></td>
+                                                <td class="ancho50p bgF0F4F9" align="right" style="font-size: 8pt;"></td>
+                                            </tr>
+                                        </tbody></table>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                            <div class="titulo_tabla_at_a marginT10 borderB_E6E6E6 paddingB4" id="leyCtas" style="font-size: 8pt; display: block;"><label id="t38" style="font-size: 8pt;">Cuentas</label></div>
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0" class="marginT0 tablaSaldos3" id="tabCtaDesOri" style="font-size: 8pt; display: table;">
+                            <tbody style="font-size: 8pt;"><tr style="font-size: 8pt;"> 
+                            <td class="tablaSaldos2_bordeR ancho33p" style="font-size: 8pt;">&nbsp;</td>
+                            <td class="tablaSaldos2_bordeR ancho33p color000 negrita" align="center" id="tdCtaDes" style="font-size: 8pt; display: table-cell;"><label id="t39" style="font-size: 8pt;">Cuenta destino</label></td>
+                            <td class="tablaSaldos2 ancho33p color000 negrita" align="center" id="tdCtaOr" style="font-size: 8pt; display: table-cell;"><label id="t40" style="font-size: 8pt;">Cuenta origen</label></td>
+							<td class="tablaSaldos2 ancho33p color000 negrita" align="center" id="tdCtaComp" style="font-size: 8pt;"><label id="t41" style="font-size: 8pt;">&nbsp;</label></td>
+                            </tr>
+                            <tr style="font-size: 8pt;"> 
+                            <td class="tablaSaldos2_bordeR bgF0F4F9" style="font-size: 8pt;"><span id="t42" style="font-size: 8pt;">Tipo</span></td>
+                            <td class="tablaSaldos2_bordeR bgF0F4F9" align="right" id="tdCtaDes" name="tCtaDest" style="font-size: 8pt; display: table-cell;">&nbsp;</td>
+                            <td class="tablaSaldos2 bgF0F4F9" align="right" id="tdCtaOr" name="tCtaOrig" style="font-size: 8pt; display: table-cell;">Cheques</td>
+							<td class="tablaSaldos2 ancho33p bgF0F4F9 color000 negrita" align="right" id="tdCtaComp" style="font-size: 8pt;">&nbsp;</td>
+                            </tr>
+                            <tr style="font-size: 8pt;"> 
+                            <td class="tablaSaldos2_bordeR" style="font-size: 8pt;"><span id="t43" style="font-size: 8pt;">Sucursal</span></td>
+                            <td class="tablaSaldos2_bordeR" align="right" id="tdCtaDes" name="sucDest" style="font-size: 8pt; display: table-cell;">&nbsp;</td>
+                            <td class="tablaSaldos2" align="right" id="tdCtaOr" name="sucOrig" style="font-size: 8pt; display: table-cell;">4631 </td>
+							<td class="tablaSaldos2 ancho33p  color000 negrita" align="right" id="tdCtaComp" style="font-size: 8pt;">&nbsp;</td>
+                            </tr>
+                            <tr style="font-size: 8pt;"> 
+                            <td class="tablaSaldos2_bordeR bgF0F4F9" style="font-size: 8pt;"><span id="t44" style="font-size: 8pt;">Cuenta</span></td>
+                            <td class="tablaSaldos2_bordeR bgF0F4F9" align="right" id="tdCtaDes" name="ctaDest" style="font-size: 8pt; display: table-cell;">072320002394317160</td>
+                            <td class="tablaSaldos2 bgF0F4F9" align="right" id="tdCtaOr" name="ctaOrig" style="font-size: 8pt; display: table-cell;"> 66117</td>
+							<td class="tablaSaldos2 ancho33p bgF0F4F9 color000 negrita" align="right" id="tdCtaComp" style="font-size: 8pt;">&nbsp;</td>
+                            </tr>
+                            <tr style="font-size: 8pt;"> 
+                            <td class="tablaSaldos2_bordeR" style="font-size: 8pt;"><span id="t45" style="font-size: 8pt;">Nombre</span></td>
+                            <td class="tablaSaldos2_bordeR" id="tdCtaDes" align="right" name="nomDest" style="font-size: 8pt; display: table-cell;">BANORTE/IXE</td>
+                            <td class="tablaSaldos2" id="tdCtaOr" align="right" name="nomOrig" style="font-size: 8pt; display: table-cell;">&nbsp;</td>
+							<td class="tablaSaldos2 ancho33p color000 negrita" align="right" id="tdCtaComp" style="font-size: 8pt;">&nbsp;</td>
+                            </tr>
+                            <tr style="font-size: 8pt;"> 
+                            <td class="tablaSaldos2_bordeR bgF0F4F9" style="font-size: 8pt;"><span id="t46" style="font-size: 8pt;">Fecha valor / Aplicación</span></td>
+                            <td class="tablaSaldos2_bordeR bgF0F4F9" align="right" id="tdCtaDes" name="fValorDest" style="font-size: 8pt; display: table-cell;">22/12/2017</td>
+                            <td class="tablaSaldos2 bgF0F4F9" align="right" id="tdCtaOr" name="fvalorOrig" style="font-size: 8pt; display: table-cell;">&nbsp;</td>
+							<td class="tablaSaldos2 ancho33p bgF0F4F9 color000 negrita" align="right" id="tdCtaComp" style="font-size: 8pt;">&nbsp;</td>
+							</tr>
+                            </tbody></table>
+                            
+                            
+<div class="titulo_tabla_at_a marginT10 borderB_E6E6E6 paddingB4" id="t47" style="font-size: 8pt;">Datos adicionales</div>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="marginT0 tablaSaldos3 pinta1" style="font-size: 8pt;">
+<script type="text/javascript" style="font-size: 8pt;">
+//PPESP
+//PPLANG
+var tbl=[//Arma los Datos Adicionales]
+ 
+	['<td  class="tablaSaldos2_bordeR bgF0F4F9 ancho33p"><span id="t63">RFC</span></td><td  class="tablaSaldos2 bgF0F4F9 ancho66p" align="right"></td>'],
+
+
+ 
+	['<td  class="tablaSaldos2_bordeR bgF0F4F9 ancho33p"><span id="t65">IVA</span></td><td class="tablaSaldos2 bgF0F4F9 ancho66p ivaformato" align="right">$0.00</td>'],
+ 
+
+	
+
+
+
+
+
+
+  
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+ 
+	['<td class="tablaSaldos2_bordeR bgF0F4F9 ancho33p"><span id="t114">Clave de rastreo</span></td><td  class="tablaSaldos2 bgF0F4F9 ancho66p" align="right">085900571384335671</td>'],
+	['<td class="tablaSaldos2_bordeR bgF0F4F9 ancho33p"><span id="t115">N&uacute;mero de referencia</span></td><td  class="tablaSaldos2 bgF0F4F9 ancho66p" align="right">1716</td>'],
+	['<td class="tablaSaldos2_bordeR bgF0F4F9 ancho33p"><span id="t116">Concepto del pago</span></td><td  class="tablaSaldos2 bgF0F4F9 ancho66p" align="right">LICENCIA 2018 CONTPAQI</td>'],
+	['<td class="tablaSaldos2_bordeR bgF0F4F9 ancho33p"><span id="t117">Beneficiario</span></td><td  class="tablaSaldos2 bgF0F4F9 ancho66p" align="right">,SOF1406233F5/</td>'],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+['']];	
+for(var i=0;i<tbl.length;i++){
+	document.write('<tr>');
+	document.write(tbl[i]);
+	document.write('</tr>');
+}
+//ENDPPESP
+//ENDPPLANG
+</script><tbody style="font-size: 8pt;"><tr style="font-size: 8pt;"><td class="tablaSaldos2_bordeR bgF0F4F9 ancho33p" style="font-size: 8pt; background-color: rgb(240, 244, 249);"><span id="t63" style="font-size: 8pt;">RFC</span></td><td class="tablaSaldos2 bgF0F4F9 ancho66p" align="right" style="font-size: 8pt; background-color: rgb(240, 244, 249);"></td></tr><tr style="font-size: 8pt;"><td class="tablaSaldos2_bordeR bgF0F4F9 ancho33p" style="font-size: 8pt; background-color: rgb(255, 255, 255);"><span id="t65" style="font-size: 8pt;">IVA</span></td><td class="tablaSaldos2 bgF0F4F9 ancho66p ivaformato" align="right" style="font-size: 8pt; background-color: rgb(255, 255, 255);">$ 0.00</td></tr><tr style="font-size: 8pt;"><td class="tablaSaldos2_bordeR bgF0F4F9 ancho33p" style="font-size: 8pt; background-color: rgb(240, 244, 249);"><span id="t114" style="font-size: 8pt;">Clave de rastreo</span></td><td class="tablaSaldos2 bgF0F4F9 ancho66p" align="right" style="font-size: 8pt; background-color: rgb(240, 244, 249);">085900571384335671</td></tr><tr style="font-size: 8pt;"><td class="tablaSaldos2_bordeR bgF0F4F9 ancho33p" style="font-size: 8pt; background-color: rgb(255, 255, 255);"><span id="t115" style="font-size: 8pt;">Número de referencia</span></td><td class="tablaSaldos2 bgF0F4F9 ancho66p" align="right" style="font-size: 8pt; background-color: rgb(255, 255, 255);">1716</td></tr><tr style="font-size: 8pt;"><td class="tablaSaldos2_bordeR bgF0F4F9 ancho33p" style="font-size: 8pt; background-color: rgb(240, 244, 249);"><span id="t116" style="font-size: 8pt;">Concepto del pago</span></td><td class="tablaSaldos2 bgF0F4F9 ancho66p" align="right" style="font-size: 8pt; background-color: rgb(240, 244, 249);">LICENCIA 2018 CONTPAQI</td></tr><tr style="font-size: 8pt;"><td class="tablaSaldos2_bordeR bgF0F4F9 ancho33p" style="font-size: 8pt; background-color: rgb(255, 255, 255);"><span id="t117" style="font-size: 8pt;">Beneficiario</span></td><td class="tablaSaldos2 bgF0F4F9 ancho66p" align="right" style="font-size: 8pt; background-color: rgb(255, 255, 255);">,SOF1406233F5/</td></tr><tr style="font-size: 8pt;"></tr>
+</tbody></table>
+            
+</td>
+	<td valign="top" class="ancho10 bordesDe1" style="font-size: 8pt;">&nbsp;</td>
+		</tr>
+                
+                
+		<tr style="font-size: 8pt;">
+                	<td valign="top" class="ancho10 bordesIz1 " style="font-size: 8pt;">&nbsp;</td>
+                    <td valign="top" class="  " style="font-size: 8pt;">
+               			<div class="alto20 ancho100p" style="font-size: 8pt;"> </div>
+		            </td>
+               		
+                    <td valign="top" class="ancho10 bordesDe1" style="font-size: 8pt;">&nbsp;</td>
+                </tr>
+               	 <tr style="font-size: 8pt;">
+                	<td valign="bottom" style="font-size: 8pt;"><div class="saldos_bordeSupIz2c_2_a borderTDotted alto21 " style="font-size: 8pt;"></div></td>
+                    <td valign="top" class=" bge2f2fe f11 color666 borderTDotted   bordeSupCe2c_a center   paddingT3" id="t53" style="font-size: 8pt;">
+                   *La consulta de movimientos es sólo de carácter informativo, no tiene validez oficial como comprobante legal o fiscal.
+                   </td>
+                    <td valign="bottom" style="font-size: 8pt;"><div class="saldos_bordeInfDe2c_2_a borderTDotted alto21 " style="font-size: 8pt;"></div></td>
+                </tr>
+            </tbody></table>
+            </div>
+<br style="font-size: 8pt;"><br style="font-size: 8pt;">	
+<br style="font-size: 8pt;">
+<input style="display:none" type="button" value="Cerrar" class="inputBtn4 CerrarVentanaEmergente floatL noButton" id="cerrarFiltrado();" onclick="window.close();"></div>
+<input style="display:none" type="button" value="Imprimir" class="inputBtn2 CerrarVentanaEmergente floatR noButton" onclick="window.print();">
+
+<div style="margin-left: 60px; margin-right: 60px; font-size: 8pt;"> 
+<div align="Center" style="color: rgb(102, 102, 102); font-size: 8pt;"></div> <br style="font-size: 8pt;">
+<input type="button" value="Cerrar" class="inputBtn4 CerrarVentanaEmergente floatL noButton" id="cerrarFiltrado();" onclick="window.close();"></div>
+<input type="button" value="Imprimir" class="inputBtn2 CerrarVentanaEmergente floatR noButton" style="margin-right:50px;" onclick="window.print();">
+
+<br style="font-size: 8pt;">
+<br style="font-size: 8pt;">
+<div style="margin-left: 60px; margin-right: 60px; font-size: 8pt;" class="noButton"> 
+<div class="contenedorpie1" style="font-size: 8pt;">000000000000000000000000000000000000000000000000000000000000
+</div>
+<div class="floatL f11 paddingB10" style="font-size: 8pt;">
+<br style="font-size: 8pt;">
+
+</div>  
+<div class="contenedorPie2_ligas2 paddingT0 paddingL0" style="font-size: 8pt;">
+                    	<a href="https://www.bancanetempresarial.banamex.com.mx/scripts/cgiclntcbbbne3/HSKT90EVOCBL0B53TMTULF8@VD/ND065__#" class="f11" style="font-size: 8pt;"></a>
+</div> 
+</div>
+
+
+</body></html>
