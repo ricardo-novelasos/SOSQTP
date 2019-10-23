@@ -1,0 +1,399 @@
+Received: from mxfront1j.mail.yandex.net ([127.0.0.1])
+	by mxfront1j.mail.yandex.net with LMTP id DKAJIoBh
+	for <alma.garcia@sos-soft.com>; Wed, 21 Dec 2016 02:26:19 +0300
+Received: from mail-qt0-x22c.google.com (mail-qt0-x22c.google.com [2607:f8b0:400d:c0d::22c])
+	by mxfront1j.mail.yandex.net (nwsmtp/Yandex) with ESMTPS id rduyFNdR7u-QIc0MGmZ;
+	Wed, 21 Dec 2016 02:26:18 +0300
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(Client certificate not present)
+X-Yandex-Front: mxfront1j.mail.yandex.net
+X-Yandex-TimeMark: 1482276378
+Authentication-Results: mxfront1j.mail.yandex.net; spf=softfail (mxfront1j.mail.yandex.net: transitioning domain of clinicasdelazucar.com does not designate 2607:f8b0:400d:c0d::22c as permitted sender) smtp.mail=jmartinez@clinicasdelazucar.com; dkim=pass header.i=@clinicasdelazucar-com.20150623.gappssmtp.com
+X-Yandex-Spam: 1
+Received: by mail-qt0-x22c.google.com with SMTP id n6so191766043qtd.1
+        for <alma.garcia@sos-soft.com>; Tue, 20 Dec 2016 15:26:18 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=clinicasdelazucar-com.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to;
+        bh=Qd0Nqj1RHi2amOrrFa5EGUzZVLheJLpijU9syhmIfvQ=;
+        b=TjacLMQx7TNJKRtWKo37/1sfLrHGcHQk4zFV5xF1mhZYrYnZuyQVWmVYTdsE+Ee7KG
+         AF6qs2sVwU7cjY48mLvtyTUhn6HyG9fzeEjrKHMBmL/n0evGUnm/0/uFiLPJnEsVmfQ4
+         laNUCO2RjE9Xpgdq8+WwsAzC0ieQZT6034l0SC1sZDf44jTgnBlsNDJ0VQsVGXLZKOSf
+         aD+gFUxeVWy/BiuekKda4y9R0XlJ/sKWQy8ZVrEnL4FjsHmI2O57q3sElBIFK6RicFRu
+         lI5OIRIoQfFNUU2rkn3xH5X6UJlU/kIwEaFRl2QCMYvxodTO0AsdLQbFnRcaD2yu9r2X
+         y0IQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to;
+        bh=Qd0Nqj1RHi2amOrrFa5EGUzZVLheJLpijU9syhmIfvQ=;
+        b=uhZBRNk9QwLwGjz4mjf/nVo2U9h07LTvqStESiCVceJ4i3aFJsF90uHVkNZ4WEFqqj
+         6hpNJImKPpUtlk8U1HL3QVQKzR7SI44WE3OU952K8qAfk9fJ2Qt3XxX2tqhaHFd9HRaG
+         ahid2ATRXtAXDXIbiBPzh3Xlewwds3Zf38mkZAcO6vADoGZlrRTQGf8E6nTELWxgRf+H
+         MYlZzVCneD75ix1G6bYeCLNDcKPtQmopRvj5x9bvau+A3x/aPTbG5dkx8+wZg6TjWEs7
+         wFPZpfB8Oh+QtbsvHfLTSMLbpp8EvsEsIfa5+aKbeHN9DrMxdbKzcOAZ7hLU+zd3AdcB
+         p5FQ==
+X-Gm-Message-State: AIkVDXImB4LeLvhrxCtdlJrIYC185UxJ40pgsqa/AxbG3T39iU0ci/6U9fuQkNgKn/hcMQyjtvTCjC6dlOjxMQ==
+X-Received: by 10.237.36.235 with SMTP id u40mr1991906qtc.110.1482276377058;
+ Tue, 20 Dec 2016 15:26:17 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.200.49.120 with HTTP; Tue, 20 Dec 2016 15:26:16 -0800 (PST)
+X-Originating-IP: [189.211.185.118]
+In-Reply-To: <CAJT6vNzm0x1sDTnAg+a5NtWvDoAxnsY3z=yWisvZJ6OTQsD6Ag@mail.gmail.com>
+References: <NBXISMTPtHh94pzn1mb00a472e7@nbxismtp> <CAJT6vNzm0x1sDTnAg+a5NtWvDoAxnsY3z=yWisvZJ6OTQsD6Ag@mail.gmail.com>
+From: =?UTF-8?Q?Jonhatan_Mart=C3=ADnez?= <jmartinez@clinicasdelazucar.com>
+Date: Tue, 20 Dec 2016 17:26:16 -0600
+Message-ID: <CAE1XbQibtD3L2Z3FKByqP+KeH1Ks_MFvuOU5139tesbi3uXt1A@mail.gmail.com>
+Subject: Fwd: Transferencias a Cuentas de Terceros Banorte / Ixe
+To: Alma Yesenia Garcia Enriquez <alma.garcia@sos-soft.com>
+Content-Type: multipart/related; boundary=001a11407360ea416505441f5c46
+Return-Path: jmartinez@clinicasdelazucar.com
+X-Yandex-Forward: 3f3ca835f0ec994b3f591f12a1e7ff3e
+
+--001a11407360ea416505441f5c46
+Content-Type: multipart/alternative; boundary=001a11407360ea416205441f5c45
+
+--001a11407360ea416205441f5c45
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Alma buen dia envio el pago por el servicio prestado
+de favor si me envias la factura a nombre de
+
+DIASALUD SA DE CV
+RFC   DIA140731TE0 (el ultimo digito es cero)
+Ave Benito Juarez 712 ote Col Guerra Guadalupe Nuevo Leon Mexico
+CP 67140
+
+
+
+---------- Mensaje enviado ----------
+De: Gloria Robles <grobles@clinicasdelazucar.com>
+Fecha: 20 de diciembre de 2016, 17:22
+Asunto: Fwd: Transferencias a Cuentas de Terceros Banorte / Ixe
+Para: Jonhatan Mart=C3=ADnez <jmartinez@clinicasdelazucar.com>
+
+
+
+---------- Mensaje enviado ----------
+De: 'Banorte en su Empresa' via Administracion <administracion@
+clinicasdelazucar.com>
+Fecha: 20 de diciembre de 2016, 17:21
+Asunto: Transferencias a Cuentas de Terceros Banorte / Ixe
+Para: DIASALUD SA DE CV - 267061 <ADMINISTRACION@clinicasdelazucar.com>
+
+
+Estimado(a): *DIASALUD SA DE CV - 267061*
+
+La siguiente operaci=C3=B3n ha sido registrada a trav=C3=A9s de Banorte en =
+su
+Empresa.
+Operaci=C3=B3n: Transferencias a Cuentas de Terceros Banorte / Ixe
+Fecha de Operaci=C3=B3n: 20/Dic/2016
+Hora de Operaci=C3=B3n: 17:20:26 horas
+Cuenta Origen: DIASALUD SA DE CV - *******2157
+Nombre del Ordenante: DIASALUD SA DE CV
+RFC o CURP del Ordenante: DIA140731TE0
+ID Tercero: SOS Software
+Cuenta/ CLABE Beneficiario: - 1716 - *******1716
+Nombre del Beneficiario: SOS Software SA de CV
+RFC del Beneficiario: SOF1406233F5
+E-mail del Beneficiario: miriam.valdivia@sos-soft.com
+Banco Destino: Banorte
+Importe a Transferir: $319.00 MN
+IVA: $0.00 MN
+Fecha de Aplicaci=C3=B3n: 20/Dic/2016
+N=C3=BAmero de Referencia: 201216
+Concepto del Pago: OC
+Comisi=C3=B3n: $0.00 MN
+IVA Comisi=C3=B3n: $0.00 MN
+Clave de Rastreo: 4549
+Confirmaci=C3=B3n: PROCESO COMPLETO
+Captur=C3=B3: Claudia Leticia Valero Fdz
+Fecha Captura: 20/Dic/2016 17:20:01 horas
+Ejecut=C3=B3: Claudia Leticia Valero Fdz
+Fecha Ejecuci=C3=B3n: 20/Dic/2016 17:20:26 horas
+Modo Ingreso: Individual
+Gracias por utilizar Banorte en su Empresa
+Nota: La fecha y hora de este mensaje ("Enviado el") podr=C3=A1 variar resp=
+ecto
+a la fecha/hora real de operaci=C3=B3n de su transacci=C3=B3n ("Operado el"=
+). Esto
+depender=C3=A1 de la configuraci=C3=B3n de sus servicios de correo y/o comp=
+utadora en
+cuanto a su zona horaria.
+
+
+Este correo electronico es confidencial y/o puede contener informacion
+privilegiada.
+Si usted no es su destinatario o no es alguna persona autorizada por este
+para recibir sus correos electronicos, NO debera usted utilizar, copiar,
+revelar, o tomar ninguna accion basada en este correo electronico o
+cualquier otra informacion incluida en el, favor de notificar al remitente
+de inmediato mediante el reenvio de este correo electronico y borrar a
+continuacion totalmente este correo electronico y sus anexos.
+Nota: Los acentos y caracteres especiales fueron omitidos para su correcta
+lectura en cualquier medio electronico.
+
+This e-mail is confidential and/or may contain privileged information.
+If you are not the addressee or authorized to receive this for the
+addressee, you must not use, copy, disclose, or take any action based on
+this message or any other information herein, please advise the sender
+immediately by reply this e-mail and delete this e-mail and its attachments=
+.
+
+
+
+--=20
+Gloria Maribel Robles R=C3=ADos
+Administraci=C3=B3n
+Tel: 2138-0721
+
+
+
+--=20
+
+Saludos,
+*C.P.  Jonhatan Mart=C3=ADnez *
+(81) 2138 - 0721 ext. 8036
+www.clinicasdelazucar.com
+
+--001a11407360ea416205441f5c45
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>Alma buen dia envio el pago por el servicio prestado<=
+/div><div>de favor si me envias la factura a nombre de=C2=A0</div><div><br>=
+</div><div>DIASALUD SA DE CV</div><div>RFC =C2=A0 DIA140731TE0 (el ultimo d=
+igito es cero)</div><div>Ave Benito Juarez 712 ote Col Guerra Guadalupe Nue=
+vo Leon Mexico</div><div>CP 67140</div><div><br></div><div><br></div><br><d=
+iv class=3D"gmail_quote">---------- Mensaje enviado ----------<br>De: <b cl=
+ass=3D"gmail_sendername">Gloria Robles</b> <span dir=3D"ltr">&lt;<a href=3D=
+"mailto:grobles@clinicasdelazucar.com">grobles@clinicasdelazucar.com</a>&gt=
+;</span><br>Fecha: 20 de diciembre de 2016, 17:22<br>Asunto: Fwd: Transfere=
+ncias a Cuentas de Terceros Banorte / Ixe<br>Para: Jonhatan Mart=C3=ADnez &=
+lt;<a href=3D"mailto:jmartinez@clinicasdelazucar.com">jmartinez@clinicasdel=
+azucar.com</a>&gt;<br><br><br><div dir=3D"ltr"><br><div class=3D"gmail_quot=
+e">---------- Mensaje enviado ----------<br>De: <b class=3D"gmail_sendernam=
+e">&#39;Banorte en su Empresa&#39; via Administracion</b> <span dir=3D"ltr"=
+>&lt;<a href=3D"mailto:administracion@clinicasdelazucar.com" target=3D"_bla=
+nk">administracion@<wbr>clinicasdelazucar.com</a>&gt;</span><br>Fecha: 20 d=
+e diciembre de 2016, 17:21<br>Asunto: Transferencias a Cuentas de Terceros =
+Banorte / Ixe<br>Para: DIASALUD SA DE CV - 267061 &lt;<a href=3D"mailto:ADM=
+INISTRACION@clinicasdelazucar.com" target=3D"_blank">ADMINISTRACION@<wbr>cl=
+inicasdelazucar.com</a>&gt;<br><br><br><div><table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"width:622px"><tbody><tr><td colspan=3D"3"=
+></td></tr></tbody></table><table border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"m_-4270891208032975235m_-198949177379309967dTablaf" style=
+=3D"width:622px"><tbody><tr><td colspan=3D"3"></td></tr><tr><td colspan=3D"=
+3"><span style=3D"font-family:Arial">Estimado(a): <strong>DIASALUD SA DE CV=
+ - 267061</strong><br><br>        La siguiente operaci=C3=B3n ha sido regis=
+trada a trav=C3=A9s de        Banorte en su Empresa. </span></td></tr><tr><=
+td align=3D"right" width=3D"40%">Operaci=C3=B3n: </td><td>Transferencias a =
+Cuentas de Terceros Banorte / Ixe</td></tr><tr><td align=3D"right" width=3D=
+"26%">Fecha de Operaci=C3=B3n: </td><td>20/Dic/2016</td></tr><tr><td align=
+=3D"right" width=3D"26%">Hora de Operaci=C3=B3n: </td><td>17:20:26 horas</t=
+d></tr><tr><td align=3D"right" width=3D"26%">Cuenta Origen: </td><td>DIASAL=
+UD SA DE CV - *******2157</td></tr><tr><td align=3D"right" width=3D"26%">No=
+mbre del Ordenante: </td><td>DIASALUD SA DE CV</td></tr><tr><td align=3D"ri=
+ght" width=3D"26%">RFC o CURP del Ordenante: </td><td>DIA140731TE0</td></tr=
+><tr><td align=3D"right" width=3D"26%">ID Tercero: </td><td>SOS Software</t=
+d></tr><tr><td align=3D"right" width=3D"26%">Cuenta/ CLABE Beneficiario: </=
+td><td>- 1716 - *******1716</td></tr><tr><td align=3D"right" width=3D"26%">=
+Nombre del Beneficiario: </td><td>SOS Software SA de CV</td></tr><tr><td al=
+ign=3D"right" width=3D"26%">RFC del Beneficiario: </td><td>SOF1406233F5</td=
+></tr><tr><td align=3D"right" width=3D"26%">E-mail del Beneficiario: </td><=
+td><a href=3D"mailto:miriam.valdivia@sos-soft.com" target=3D"_blank">miriam=
+.valdivia@sos-soft.com</a></td></tr><tr><td align=3D"right" width=3D"26%">B=
+anco Destino: </td><td>Banorte</td></tr><tr><td align=3D"right" width=3D"26=
+%">Importe a Transferir: </td><td>$319.00 MN</td></tr><tr><td align=3D"righ=
+t" width=3D"26%">IVA: </td><td>$0.00 MN</td></tr><tr><td align=3D"right" wi=
+dth=3D"26%">Fecha de Aplicaci=C3=B3n: </td><td>20/Dic/2016</td></tr><tr><td=
+ align=3D"right" width=3D"26%">N=C3=BAmero de Referencia: </td><td>201216</=
+td></tr><tr><td align=3D"right" width=3D"26%">Concepto del Pago: </td><td>O=
+C</td></tr><tr><td align=3D"right" width=3D"26%">Comisi=C3=B3n: </td><td>$0=
+.00 MN</td></tr><tr><td align=3D"right" width=3D"26%">IVA Comisi=C3=B3n: </=
+td><td>$0.00 MN</td></tr><tr><td align=3D"right" nowrap>Clave de Rastreo: <=
+/td><td>4549</td></tr><tr><td align=3D"right" width=3D"26%">Confirmaci=C3=
+=B3n: </td><td>PROCESO COMPLETO</td></tr><tr><td align=3D"right" width=3D"2=
+6%">Captur=C3=B3: </td><td>Claudia Leticia Valero Fdz</td></tr><tr><td alig=
+n=3D"right" width=3D"26%">Fecha Captura: </td><td>20/Dic/2016 17:20:01 hora=
+s</td></tr><tr><td align=3D"right" width=3D"26%">Ejecut=C3=B3: </td><td>Cla=
+udia Leticia Valero Fdz</td></tr><tr><td align=3D"right" width=3D"26%">Fech=
+a Ejecuci=C3=B3n: </td><td>20/Dic/2016 17:20:26 horas</td></tr><tr><td alig=
+n=3D"right" width=3D"26%">Modo Ingreso: </td><td>Individual</td></tr><tr><t=
+d colspan=3D"3"></td></tr><tr><td colspan=3D"3"></td></tr><tr><td colspan=
+=3D"3"></td></tr><tr><td align=3D"center" colspan=3D"3"><span style=3D"font=
+-size:8pt;font-family:Arial">Gracias por utilizar        Banorte en su Empr=
+esa </span></td></tr><tr><td colspan=3D"3"><span style=3D"font-size:8pt;fon=
+t-family:Arial">Nota: La fecha y hora de este mensaje        (&quot;Enviado=
+ el&quot;) podr=C3=A1 variar respecto a la        fecha/hora real de operac=
+i=C3=B3n de su transacci=C3=B3n        (&quot;Operado el&quot;). Esto depen=
+der=C3=A1 de la        configuraci=C3=B3n de sus servicios de correo y/o co=
+mputadora        en cuanto a su zona horaria. </span></td></tr></tbody></ta=
+ble><table border=3D"0" width=3D"622" style=3D"width:466.5pt"><tbody><tr><t=
+d><p><span style=3D"font-size:8.0pt;font-family:Arial;color:black"><br>Este=
+ correo electronico es confidencial y/o puede contener informacion privileg=
+iada.<br> Si usted no es su destinatario o no es alguna persona autorizada =
+por este para recibir sus correos electronicos, NO debera usted utilizar, c=
+opiar, revelar, o tomar ninguna accion basada en este correo electronico o =
+cualquier otra informacion incluida en el, favor de notificar al remitente =
+de inmediato mediante el reenvio de este correo electronico y borrar a cont=
+inuacion totalmente este correo electronico y sus anexos.<br>Nota: Los acen=
+tos y caracteres especiales fueron omitidos para su correcta lectura en cua=
+lquier medio electronico.</span></p><p><span style=3D"font-size:8.0pt;font-=
+family:Arial;color:black">This e-mail is confidential and/or may contain pr=
+ivileged information.<br>If you are not the addressee or authorized to rece=
+ive this for the addressee, you must not use, copy, disclose, or take any a=
+ction based on this message or any other information herein, please advise =
+the sender immediately by reply this e-mail and delete this e-mail and its =
+attachments.</span></p><span class=3D"HOEnZb"><font color=3D"#888888"> </fo=
+nt></span></td></tr></tbody></table></div></div><span class=3D"HOEnZb"><fon=
+t color=3D"#888888"><br><br clear=3D"all"><div><br></div>-- <br><div class=
+=3D"m_-4270891208032975235gmail_signature" data-smartmail=3D"gmail_signatur=
+e"><div dir=3D"ltr"><div><div dir=3D"ltr">Gloria Maribel Robles R=C3=ADos<d=
+iv>Administraci=C3=B3n</div><div>Tel: 2138-0721</div></div></div></div></di=
+v>
+</font></span></div>
+</div><br><br clear=3D"all"><div><br></div>-- <br><div class=3D"gmail_signa=
+ture" data-smartmail=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"=
+ltr"><div><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"lt=
+r"><div dir=3D"ltr"><div style=3D"font-size:13.3333339691162px"><div style=
+=3D"text-align:left"><br></div><div style=3D"text-align:left">Saludos,</div=
+><div style=3D"font-size:12.8px"><div style=3D"text-align:center"><img><img=
+><img></div><div><b style=3D"background-color:rgb(255,255,255)"><font color=
+=3D"#000000">C.P.=C2=A0 Jonhatan Mart=C3=ADnez=C2=A0</font></b></div><div><=
+span style=3D"color:rgb(0,0,0);font-size:12.8px">(81) 2138 - 0721 ext. 8036=
+</span></div></div><div style=3D"font-size:12.8px"><span style=3D"backgroun=
+d-color:rgb(255,255,255)"><font color=3D"#000000"><a href=3D"http://www.cli=
+nicasdelazucar.com/" style=3D"font-size:12.8px" target=3D"_blank">www.clini=
+casdelazucar.com</a><br></font></span></div><p style=3D"font-size:12.8px;ma=
+rgin-bottom:0.0001pt"><span style=3D"background-color:rgb(255,255,255)"><fo=
+nt color=3D"#000000"><img src=3D"cid:ii_hzd5tc8l0_1481950cd471fc76" style=
+=3D"font-size:12.8px"></font></span></p></div><div style=3D"font-size:13.33=
+33339691162px;text-align:center"><br></div><div><br></div><div><div dir=3D"=
+ltr"><div></div></div></div></div></div></div></div></div></div></div></div=
+></div></div>
+</div>
+
+--001a11407360ea416205441f5c45--
+--001a11407360ea416505441f5c46
+Content-Type: image/png; name="email-2.png"
+Content-Disposition: inline; filename="email-2.png"
+Content-Transfer-Encoding: base64
+Content-ID: <ii_hzd5tc8l0_1481950cd471fc76>
+X-Attachment-Id: ii_hzd5tc8l0_1481950cd471fc76
+
+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
+--001a11407360ea416505441f5c46--

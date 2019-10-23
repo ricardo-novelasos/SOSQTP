@@ -1,0 +1,171 @@
+Received: from mxfront1j.mail.yandex.net ([127.0.0.1])
+	by mxfront1j.mail.yandex.net with LMTP id GkeCXamq
+	for <alma.garcia@sos-soft.com>; Tue, 19 Jul 2016 17:09:52 +0300
+Received: from ironport2.santander.com.mx (ironport2.santander.com.mx [170.169.137.22])
+	by mxfront1j.mail.yandex.net (nwsmtp/Yandex) with ESMTP id Dm8TVyAU80-9oe0hT1O;
+	Tue, 19 Jul 2016 17:09:50 +0300
+Return-Path: notificaciones@notificaciones.santander.com.mx
+X-Yandex-Front: mxfront1j.mail.yandex.net
+X-Yandex-TimeMark: 1468937390
+Authentication-Results: mxfront1j.mail.yandex.net; spf=pass (mxfront1j.mail.yandex.net: domain of notificaciones.santander.com.mx designates 170.169.137.22 as permitted sender) smtp.mail=notificaciones@notificaciones.santander.com.mx; dkim=pass header.i=@notificaciones.santander.com.mx
+X-Yandex-Spam: 1
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple;
+  d=notificaciones.santander.com.mx;
+  i=@notificaciones.santander.com.mx; q=dns/txt; s=test;
+  t=1468935280; x=1500471280;
+  h=date:from:to:message-id:subject:mime-version;
+  bh=mgRZPUPx92LFQ7xp+Qw4AYrYUV15xC/a6xvI7oY1vBI=;
+  b=jf/rsF18/jOKI5qsHyhSYNWwBdiQmjXwJ0bhQxyKEKEiI2FJJXH9oBT2
+   /URwxdwzs5kHWuSznJ4uPoqWBgMcUbaQgXuQ/qda/rKSLBt+XDRV2UvDW
+   rySsOtW97XnCvRwSLBBKZpXMg5Rl4aPHd9sZ9u2uusCyjkUfTW60ERek5
+   Y+5GJQ/UiJUZxSpsPls1tcak8h9jnk8Goz8UQaZwDXusLFYsq/3Jn7R4S
+   x580aJplN8fOaP3tmQRpNgawikXjyxMNtkvC6j14G71ovr1CbMqm4icCc
+   5eubU5OaNEkrQSiSbaGtryw3V5MzCW3PoA9qW209Rv6zy7eAtOA/6qXFV
+   Q==;
+Date: Tue, 19 Jul 2016 09:09:48 -0500 (CDT)
+From: Avisos Santander <notificaciones@notificaciones.santander.com.mx>
+To: "alma.garcia@sos-soft.com" <alma.garcia@sos-soft.com>
+Message-ID: <204475440.936571468937388698.JavaMail.wassop7@mxsmspro22.mx.corp>
+Subject: =?ISO-8859-1?Q?Confirmaci=F3n_transferencia_interbancaria.?=
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_187344_1337741244.1468937388687"
+X-Yandex-Forward: 3f3ca835f0ec994b3f591f12a1e7ff3e
+
+------=_Part_187344_1337741244.1468937388687
+Content-Type: multipart/related; 
+	boundary="----=_Part_187345_1364218192.1468937388687"
+
+------=_Part_187345_1364218192.1468937388687
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+  =09<html>
+  =09=09<head>
+  =09=09<title>Confirmaci=F3n transferencia interbancaria.</title>
+  =09=09<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DI=
+SO-8859-1">
+  =09=09<meta name=3D"GENERATOR" content=3D"Santander Mexico">
+  =09=09</head>
+=09=09<body><img src=3D"cid:nloilbvnbt"><br><br><p>Apreciable <b></b></p><h=
+tml>
+    =09=09<p>Por medio del presente&#44; queremos informarle que nuestro cl=
+iente <b>AMOS ELISEO LUGO VEGA</b> le ha enviado una Transferencia interban=
+caria a su cuenta de cheques con terminaci=F3n <b>7160</b> de <b>BANORTE/IX=
+E     </b>&#44; por un importe de <b>$ 1276.00</b> el d=EDa <b>19/Jul/2016<=
+/b> a las <b>09:09</b>.</p>
+    =09=09<p>El n=FAmero de referencia de esta operaci=F3n en nuestro siste=
+ma es <b>Amos E</b>.</p>
+    =09=09<p>Cualquier comentario al respecto&#44; favor de ponerse en cont=
+acto con el ordenante.</p><br>
+=09=09=09</html><p>Atentamente:</p>
+=09=09<p>Banco Santander (M&eacute;xico) S.A.</p><hr><br><br><br></body>
+=09</html>
+------=_Part_187345_1364218192.1468937388687
+Content-Type: image/jpeg; name=santander-logo.jpg
+Content-Transfer-Encoding: base64
+Content-Disposition: inline; filename=santander-logo.jpg
+Content-ID: <nloilbvnbt>
+
+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
+/9k=
+------=_Part_187345_1364218192.1468937388687--
+
+------=_Part_187344_1337741244.1468937388687
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+----------------------------------------- ******************PRIVACIDAD DE E=
+STE MENSAJE********************** Este mensaje esta dirigido exclusivamente=
+ a las personas que tienen las direcciones de correo electronico especifica=
+das en los destinatarios dentro de su encabezado. Si por error usted ha rec=
+ibido este mensaje, por ningun motivo debe revelar su contenido, copiarlo, =
+distribuirlo o utilizarlo. Le solicitamos por favor comunique del error a l=
+a direccion de correo electronico remitente y elimine dicho mensaje junto c=
+on cualquier documento adjunto que pudiera contener. Los derechos de privac=
+idad y confidencialidad de la informacion en este mensaje no deben perderse=
+ por el hecho de haberse trasmitido erroneamente o por causas de interferen=
+cias en el funcionamiento de los sistemas de correo y canales de comunicaci=
+on. Toda opinion que se expresa en este mensaje pertenece a la persona remi=
+tente por lo que no debe entenderse necesariamente como una opinion del Gru=
+po Financiero Santander y/o de las entidades que lo integran, a menos que e=
+l remitente este autorizado para hacerlo o expresamente lo diga en el mismo=
+ mensaje. En consideracion a que los mensajes enviados de manera electronic=
+a pueden ser interceptados y manipulados, el Grupo Financiero Santander y l=
+as entidades que lo integran no se hacen responsables si los mensajes llega=
+n con demora, incompletos, eliminados o con algun programa malicioso denomi=
+nado como virus informatico. Este mensaje no debe interpretarse, por ningun=
+ motivo como una oferta de venta o de compra de valores ni de instrumentos =
+financieros relacionados. Los acentos en la leyenda de confidencialidad se =
+han suprimido para una mejor lectura  =20
+
+------=_Part_187344_1337741244.1468937388687--
+
+

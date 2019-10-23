@@ -1,0 +1,925 @@
+Received: from mxfront6j.mail.yandex.net ([127.0.0.1])
+	by mxfront6j.mail.yandex.net with LMTP id LqXoM2S7
+	for <alma.garcia@sos-soft.com>; Fri, 22 Jul 2016 23:21:44 +0300
+Received: from mail-oi0-x22b.google.com (mail-oi0-x22b.google.com [2607:f8b0:4003:c06::22b])
+	by mxfront6j.mail.yandex.net (nwsmtp/Yandex) with ESMTPS id 9ymUH6dRMl-Lg9eekCl;
+	Fri, 22 Jul 2016 23:21:42 +0300
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(Client certificate not present)
+Return-Path: miriam.lopez@casagarza.com.mx
+X-Yandex-Front: mxfront6j.mail.yandex.net
+X-Yandex-TimeMark: 1469218902
+Authentication-Results: mxfront6j.mail.yandex.net; spf=softfail (mxfront6j.mail.yandex.net: transitioning domain of casagarza.com.mx does not designate 2607:f8b0:4003:c06::22b as permitted sender) smtp.mail=miriam.lopez@casagarza.com.mx; dkim=pass header.i=@casagarza-com-mx.20150623.gappssmtp.com
+X-Yandex-Spam: 1
+Received: by mail-oi0-x22b.google.com with SMTP id j185so178238742oih.0
+        for <alma.garcia@sos-soft.com>; Fri, 22 Jul 2016 13:21:42 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=casagarza-com-mx.20150623.gappssmtp.com; s=20150623;
+        h=from:to:cc:references:in-reply-to:subject:date:message-id
+         :mime-version:thread-index:content-language;
+        bh=vXSL5kErvtnbcINOb2sociy47jOZ76JumvSttqvW+Ag=;
+        b=RAip0pvR8kQG+YcKATWeqVeSuQyZ+aVrXBD9zIQN4+8U+zs0kAGL8J5qods+13xoRM
+         pvVqjHaAFIcQL5d8t/pqPg0dodEqc0c8imfkOq0ZjPTEOO0pyDQUZISbjjM8/QYzBDqX
+         aj8mp2Bp5xHxWBC1TbuVruB1UWQBJmzIBgry9/Fprg2NlrZGEXhEaRRacb0LyHHArD/E
+         JEMBsE7P22HQk/BjNUYGH3Iu4G2ApCYBFnc3ncL1SYRGcDwiNl9XHC5EV/W982Xf/jdf
+         U3AQxbDslygA59XJs3Nr8HJ8K/pFK0NWXHrckqws/qzT1lKwYfaxk2A4JHL3DDpTpoiP
+         6Azg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:from:to:cc:references:in-reply-to:subject:date
+         :message-id:mime-version:thread-index:content-language;
+        bh=vXSL5kErvtnbcINOb2sociy47jOZ76JumvSttqvW+Ag=;
+        b=T8KOG8ESs7XAKTg5pfg8LW6VuqGdUrzCwy1pu2dK8ZMR8oqkPu015Omg/zXMCa42NR
+         8TFwEJDYRdMPk9qTpn+wZp9hy5SUqZzady6nmKnHG6I7Tzq/effa6jk5k/6Rx0Z7ThZG
+         RL0ONICVDbW2gPnIC+0THDu3PCZcF/Bxi0sa/AY36+KXeZzNbHLvXKfYjTMtUX3Z/z9J
+         RIWzaYyYAxN5kKfkoMzNx8C/yOqHOqum0B9wpHi0RwItuLoxqxeNo7kdrZA1XFOkiSIs
+         vCsm/KBF8ySrIjte8GaVJZ+xXfpMbHgA5Nu1q6y/eEWw6CcNUYgayYKQEXvOTAGF6X74
+         Ql2w==
+X-Gm-Message-State: AEkoouu7ccaC1rbETX53ySwm5MgLTox0m1mefJIi2Ja8E5hZsc70hOksCEfJ35cJzkyr9w==
+X-Received: by 10.202.204.16 with SMTP id c16mr2797136oig.138.1469218900594;
+        Fri, 22 Jul 2016 13:21:40 -0700 (PDT)
+Received: from Cont ([189.157.22.200])
+        by smtp.gmail.com with ESMTPSA id y90sm5817171ota.4.2016.07.22.13.21.38
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Fri, 22 Jul 2016 13:21:39 -0700 (PDT)
+From: "Miriam Lopez" <miriam.lopez@casagarza.com.mx>
+To: <alma.garcia@sos-soft.com>,
+	<info@sos-soft.com>
+Cc: "'Patricia Carrizales'" <patricia.carrizales@casagarza.com.mx>
+References: <crm.activity.86278-D5FCGC@contpaqi911.bitrix24.com>
+In-Reply-To: <crm.activity.86278-D5FCGC@contpaqi911.bitrix24.com>
+Subject: =?utf-8?Q?RE:_Cotizaci=C3=B3n_soporte_t=C3=A9cnico?=
+Date: Fri, 22 Jul 2016 15:21:34 -0500
+Message-ID: <004601d1e456$a4c9bd20$ee5d3760$@casagarza.com.mx>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0047_01D1E42C.BBF6C260"
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQKCETp1k8fNtbYob9eDvKHmFfrPl57Eie8g
+Content-Language: es-mx
+X-Yandex-Forward: 3f3ca835f0ec994b3f591f12a1e7ff3e
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0047_01D1E42C.BBF6C260
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_0048_01D1E42C.BBF6C260"
+
+
+------=_NextPart_001_0048_01D1E42C.BBF6C260
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hola buenas tardes,=20
+
+=20
+
+Envio comprobante de pago de cotizaci=C3=B3n #5922
+
+=20
+
+Favor de incluir en los datos de factura los siguientes datos y enviar =
+la factura al correo:  miriam.lopez@casagarza.com.mx =
+<mailto:miriam.lopez@casagarza.com.mx>=20
+
+=20
+
+METODO DE PAGO:  03 TRANSFERENCIA ELECTRONICA DE FONDOS=20
+
+ CUENTA NO.    6001
+
+=20
+
+=20
+
+Gracias!!! =20
+
+
+
+
+
+ =20
+
+=20
+
+
+
+Transferencias a Cuentas de Terceros Banorte / Ixe
+
+BANCO MERCANTIL DEL NORTE S.A.
+RFC: BMN-930209-927
+
+  _____ =20
+
+
+=09
+22/07/2016 03:17 P.M.
+
+=09
+
+=20
+
+
+Cuenta/ CLABE Ordenante
+
+0048026001
+
+
+Nombre del Ordenante
+
+CASA GARZA DE MONTERREY SA DE CV
+
+
+RFC Ordenante
+
+CGM630101452
+
+
+Moneda
+
+MXP
+
+
+ID Tercero
+
+535
+
+
+Nombre del Beneficiario
+
+SOS SOFTWARE S A DE C V
+
+
+Cuenta/ CLABE Beneficiario
+
+0239431716
+
+
+Titular de la Cuenta
+
+CASA GARZA DE MONTERREY SA DE CV
+
+
+RFC Beneficiario
+
+SOF1406233F5=20
+
+
+Importe a Transferir
+
+$1,276.00
+
+
+IVA
+
+$0.00
+
+
+Fecha Aplicaci=C3=B3n
+
+22/07/2016
+
+
+N=C3=BAmero de Referencia
+
+5922
+
+
+Concepto de Pago
+
+CASA GARZA DE MONTERREY
+
+
+Clave de Rastreo
+
+135132
+
+
+Confirmaci=C3=B3n
+
+OK. OPERACION EFECTUADA
+
+
+Comisi=C3=B3n
+
+$0.00
+
+
+IVA Comisi=C3=B3n
+
+$0.00
+
+
+Captur=C3=B3
+
+Miriam Lopez
+
+
+Fecha Captura
+
+22/07/2016 03:17:18 p.m.
+
+
+Ejecut=C3=B3
+
+Miriam Lopez
+
+
+Fecha de Ejecuci=C3=B3n
+
+22/07/2016 03:17:52 p.m.
+
+
+Autoriz=C3=B3 1:
+
+=20
+
+
+Fecha Autorizaci=C3=B3n 1:
+
+=20
+
+
+Autoriz=C3=B3 2:
+
+=20
+
+
+Fecha Autorizaci=C3=B3n 2:
+
+=20
+
+
+Autoriz=C3=B3 3:
+
+=20
+
+
+Fecha Autorizaci=C3=B3n 3:
+
+=20
+
+
+AutExcepci=C3=B3n 1:
+
+=20
+
+
+Fecha AutExcepci=C3=B3n 1:
+
+=20
+
+
+AutExcepci=C3=B3n 2:
+
+=20
+
+
+Fecha AutExcepci=C3=B3n 2:
+
+=20
+
+
+Modo de Ejecuci=C3=B3n
+
+Individual
+
+
+Nombre del Archivo
+
+=20
+
+=20
+
+
+  _____ =20
+
+=20
+
+
+Operaci=C3=B3n realizada a trav=C3=A9s de los equipos de computo que =
+procesan las peticiones de la Banca por Internet y que se ubican en la =
+ciudad de M=C3=A9xico, D.F.
+Para el caso de aclaraci=C3=B3n respecto a la operaci=C3=B3n celebrada, =
+se podr=C3=A1 acudir a la Unidad Especializada de Atenci=C3=B3n a =
+Aclaraciones de la Instituci=C3=B3n, seg=C3=BAn corresponda al lugar de =
+celebraci=C3=B3n de la operaci=C3=B3n, o solicitarla a trav=C3=A9s de =
+los siguientes tel=C3=A9fonos, en un lapso no mayor a 90 d=C3=ADas =
+naturales a partir de la fecha se=C3=B1alada en el presente comprobante: =
+
+M=C3=A9xico D.F. (55) 5140 5600 - Monterrey (81) 8156 9600 ? Guadalajara =
+(33) 3669 9000 - Resto del pa=C3=ADs 01 800 226 6783=20
+
+=20
+
+=20
+
+=20
+
+Saludos y  buen d=C3=ADa =C2=A1
+
+=20
+
+  =
+<https://docs.google.com/uc?export=3Ddownload&id=3D0B6Vq5JP_L9ETNjlyNjgyb=
+lp4OHM&revid=3D0B6Vq5JP_L9ETQnBFeDl4N25peHpFaXI1V01lMktpS0Ntd0prPQ>=20
+
+=20
+
+AVISO DE PRIVACIDAD, CASA GARZA DE MONTERREY SA DE CV
+Casa Garza de Monterrey S.A. de C.V. con domicilio en Av. Santo Domingo =
+No. 3501, Col. Juana de Arco, Monterrey, Nuevo Le=C3=B3n, M=C3=A9xico CP =
+64510 es responsable de recabar sus datos personales, del uso que se le =
+d=C3=A9 a los mismos y de su protecci=C3=B3n. Su informaci=C3=B3n =
+personal ser=C3=A1 utilizada para proveer los servicios y productos que =
+ha solicitado, informarle sobre cambios en los mismos, realizar estudios =
+internos sobre h=C3=A1bitos y consumos, as=C3=AD como para  evaluar la =
+calidad del servicio que le brindamos. Para las finalidades antes =
+mencionadas, requerimos obtener los siguientes datos personales: Nombre =
+o Raz=C3=B3n Social, direcci=C3=B3n, tel=C3=A9fono, RFC, CURP, correo =
+electr=C3=B3nico, considerado como sensible seg=C3=BAn la Ley Federal de =
+Protecci=C3=B3n de Datos Personales en Posesi=C3=B3n de los =
+Particulares.
+Usted tiene derecho de acceder, rectificar y cancelar sus datos =
+personales, as=C3=AD como de oponerse al tratamiento de los mismos o =
+revocar el consentimiento que para tal fin nos haya otorgado, a =
+trav=C3=A9s de los procedimientos que hemos implementado. Para conocer =
+dichos procedimientos, los requisitos y plazos, se puede poner en =
+contacto con nuestro departamento de datos personales en   =
+<mailto:matriz.cgm@casagarza.com.mx> matriz.cgm@casagarza.com.mx, o al =
+(81) 8351 1542.
+Asimismo, le informamos que sus datos personales pueden ser transferidos =
+y tratados dentro y fuera del pa=C3=ADs, por personas distintas a esta =
+empresa. En ese sentido, su informaci=C3=B3n puede ser compartida con =
+proveedores, despachos contables y legales, empresas especializadas en =
+informaci=C3=B3n para uso estad=C3=ADstico, de investigaci=C3=B3n de =
+mercados, labores de cobranza, evaluaci=C3=B3n financiera y/o comercial. =
+ Si usted no manifiesta su oposici=C3=B3n para que sus datos personales =
+sean transferidos, se entender=C3=A1 que ha otorgado su consentimiento =
+para ello.
+Si usted desea dejar de recibir mensajes promocionales de nuestra parte, =
+puede solicitarlo a trav=C3=A9s del tel=C3=A9fono (81) 83511542, o =
+nuestro correo electr=C3=B3nico, ventas@casagarza.com.mx =
+<mailto:ventas@casagarza.com.mx> .
+Cualquier modificaci=C3=B3n a este aviso de privacidad podr=C3=A1 =
+consultarla en www.casagarza.com.mx <http://www.casagarza.com.mx/>=20
+Fecha =C3=BAltima actualizaci=C3=B3n, 2 mayo 2013
+
+=20
+
+De: Alma Yesenia Garc=C3=AD a Enriquez [mailto:alma.garcia@sos-soft.com] =
+
+Enviado el: jueves, 21 de julio de 2016 01:07 p.m.
+Para: miriam.lopez@casagarza.com.mx
+Asunto: Cotizaci=C3=B3n soporte t=C3=A9cnico
+
+=20
+
+Hola buen d=C3=ADa Patricia
+
+Te mando la Cotizaci=C3=B3n para el servicio de soporte t=C3=A9cnico =
+para la actualizaci=C3=B3n de tu sistema
+
+Para cualquier duda o aclaraci=C3=B3n quedo a tus ordenes, que tengas un =
+excelente d=C3=ADa
+
+
+Alma Garc=C3=ADa
+SOS Software - Atendemos nacionalmente
+(0133) 3617 29 68
+
+Sent by bitrix24.com <http://www.bitrix24.com>=20
+[msg:86278-d5fcgc]=20
+
+
+------=_NextPart_001_0048_01D1E42C.BBF6C260
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8"><meta =
+name=3DGenerator content=3D"Microsoft Word 15 (filtered medium)"><!--[if =
+!mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EstiloCorreo17
+	{mso-style-type:personal-reply;
+	font-family:"Times New Roman",serif;
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DES-MX link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal =
+style=3D'margin-left:31.2pt'><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'>Hola buenas tardes, =
+<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-left:31.2pt'><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></spa=
+n></p><p class=3DMsoNormal style=3D'margin-left:31.2pt'><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'>Envio comprobante de =
+pago de cotizaci=C3=B3n #5922<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-left:31.2pt'><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></spa=
+n></p><p class=3DMsoNormal style=3D'margin-left:31.2pt'><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'>Favor de incluir en =
+los datos de factura los siguientes datos y enviar la factura al =
+correo:=C2=A0 <a =
+href=3D"mailto:miriam.lopez@casagarza.com.mx">miriam.lopez@casagarza.com.=
+mx</a><o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-left:31.2pt'><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></spa=
+n></p><p class=3DMsoNormal style=3D'margin-left:31.2pt'><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'>METODO DE PAGO:=C2=A0 =
+03 TRANSFERENCIA ELECTRONICA DE FONDOS <o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'margin-left:31.2pt'><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'>=C2=A0CUENTA =
+NO.=C2=A0=C2=A0=C2=A0 6001<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-left:31.2pt'><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></spa=
+n></p><p class=3DMsoNormal style=3D'margin-left:31.2pt'><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></spa=
+n></p><p class=3DMsoNormal style=3D'margin-left:31.2pt'><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'>Gracias!!!=C2=A0 =
+<o:p></o:p></span></p><table class=3DMsoNormalTable border=3D0 =
+cellpadding=3D0><tr><td style=3D'padding:.75pt .75pt .75pt .75pt'><table =
+class=3DMsoNormalTable border=3D0 cellpadding=3D0><tr><td =
+style=3D'padding:.75pt .75pt .75pt .75pt'><p class=3DMsoNormal><img =
+border=3D0 width=3D315 height=3D60 id=3D"Imagen_x0020_2" =
+src=3D"cid:image001.jpg@01D1E42C.B86C6320" =
+alt=3D"https://nbem.banorte.com/NBXI/Images/logo_BEM.jpg"><o:p></o:p></p>=
+</td><td width=3D"20%" style=3D'width:20.0%;padding:.75pt .75pt .75pt =
+.75pt'><p class=3DMsoNormal align=3Dright =
+style=3D'text-align:right'>&nbsp;&nbsp;<o:p></o:p></p></td></tr></table><=
+p class=3DMsoNormal><o:p>&nbsp;</o:p></p><table class=3DMsoNormalTable =
+border=3D0 cellpadding=3D0 width=3D"100%" style=3D'width:100.0%'><tr><td =
+width=3D"100%" style=3D'width:100.0%;padding:.75pt .75pt .75pt =
+.75pt'><table class=3DMsoNormalTable border=3D0 cellpadding=3D0><tr><td =
+style=3D'padding:.75pt .75pt .75pt .75pt'><p class=3DMsoNormal =
+style=3D'line-height:12.0pt'><b><span =
+style=3D'color:#990000'>Transferencias a Cuentas de Terceros Banorte / =
+Ixe<o:p></o:p></span></b></p></td><td style=3D'padding:.75pt .75pt .75pt =
+.75pt'><p class=3DMsoNormal align=3Dright =
+style=3D'text-align:right'><span style=3D'font-size:7.5pt'>BANCO =
+MERCANTIL DEL NORTE S.A.<br>RFC: =
+BMN-930209-927<o:p></o:p></span></p></td></tr></table><div =
+class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><b><span =
+style=3D'color:#990000'><hr size=3D2 width=3D"100%" =
+align=3Dcenter></span></b></div></td></tr><tr><td style=3D'padding:.75pt =
+.75pt .75pt .75pt'><table class=3DMsoNormalTable border=3D0 =
+cellpadding=3D0 width=3D"100%" style=3D'width:100.0%'><tr><td =
+width=3D"80%" style=3D'width:80.0%;padding:.75pt .75pt .75pt =
+.75pt'></td><td width=3D"20%" style=3D'width:20.0%;padding:.75pt .75pt =
+.75pt .75pt'><p class=3DMsoNormal>22/07/2016 03:17 =
+P.M.<o:p></o:p></p></td></tr></table></td><td style=3D'padding:.75pt =
+.75pt .75pt .75pt'></td></tr></table><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><table class=3DMsoNormalTable =
+border=3D0 cellpadding=3D0><tr><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Cuenta/ CLABE Ordenante<o:p></o:p></p></td><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>0048026001<o:p></o:p></p></td></tr><tr><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Nombre del Ordenante<o:p></o:p></p></td><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>CASA GARZA DE MONTERREY SA DE =
+CV<o:p></o:p></p></td></tr><tr><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>RFC Ordenante<o:p></o:p></p></td><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>CGM630101452<o:p></o:p></p></td></tr><tr><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Moneda<o:p></o:p></p></td><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>MXP<o:p></o:p></p></td></tr><tr><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>ID Tercero<o:p></o:p></p></td><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>535<o:p></o:p></p></td></tr><tr><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Nombre del Beneficiario<o:p></o:p></p></td><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>SOS SOFTWARE S A DE C =
+V<o:p></o:p></p></td></tr><tr><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Cuenta/ CLABE Beneficiario<o:p></o:p></p></td><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>0239431716<o:p></o:p></p></td></tr><tr><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Titular de la Cuenta<o:p></o:p></p></td><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>CASA GARZA DE MONTERREY SA DE =
+CV<o:p></o:p></p></td></tr><tr><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>RFC Beneficiario<o:p></o:p></p></td><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>SOF1406233F5 <o:p></o:p></p></td></tr><tr><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Importe a Transferir<o:p></o:p></p></td><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>$1,276.00<o:p></o:p></p></td></tr><tr><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>IVA<o:p></o:p></p></td><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>$0.00<o:p></o:p></p></td></tr><tr><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Fecha Aplicaci=C3=B3n<o:p></o:p></p></td><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>22/07/2016<o:p></o:p></p></td></tr><tr><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>N=C3=BAmero de Referencia<o:p></o:p></p></td><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>5922<o:p></o:p></p></td></tr><tr><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Concepto de Pago<o:p></o:p></p></td><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>CASA GARZA DE =
+MONTERREY<o:p></o:p></p></td></tr><tr><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Clave de Rastreo<o:p></o:p></p></td><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>135132<o:p></o:p></p></td></tr><tr><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Confirmaci=C3=B3n<o:p></o:p></p></td><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>OK. OPERACION =
+EFECTUADA<o:p></o:p></p></td></tr><tr><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Comisi=C3=B3n<o:p></o:p></p></td><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>$0.00<o:p></o:p></p></td></tr><tr><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>IVA Comisi=C3=B3n<o:p></o:p></p></td><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>$0.00<o:p></o:p></p></td></tr><tr><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Captur=C3=B3<o:p></o:p></p></td><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Miriam Lopez<o:p></o:p></p></td></tr><tr><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Fecha Captura<o:p></o:p></p></td><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>22/07/2016 03:17:18 =
+p.m.<o:p></o:p></p></td></tr><tr><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Ejecut=C3=B3<o:p></o:p></p></td><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Miriam Lopez<o:p></o:p></p></td></tr><tr><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Fecha de Ejecuci=C3=B3n<o:p></o:p></p></td><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>22/07/2016 03:17:52 =
+p.m.<o:p></o:p></p></td></tr><tr><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Autoriz=C3=B3 1:<o:p></o:p></p></td><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>&nbsp;<o:p></o:p></p></td></tr><tr><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Fecha Autorizaci=C3=B3n 1:<o:p></o:p></p></td><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>&nbsp;<o:p></o:p></p></td></tr><tr><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Autoriz=C3=B3 2:<o:p></o:p></p></td><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>&nbsp;<o:p></o:p></p></td></tr><tr><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Fecha Autorizaci=C3=B3n 2:<o:p></o:p></p></td><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>&nbsp;<o:p></o:p></p></td></tr><tr><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Autoriz=C3=B3 3:<o:p></o:p></p></td><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>&nbsp;<o:p></o:p></p></td></tr><tr><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Fecha Autorizaci=C3=B3n 3:<o:p></o:p></p></td><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>&nbsp;<o:p></o:p></p></td></tr><tr><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>AutExcepci=C3=B3n 1:<o:p></o:p></p></td><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>&nbsp;<o:p></o:p></p></td></tr><tr><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Fecha AutExcepci=C3=B3n 1:<o:p></o:p></p></td><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>&nbsp;<o:p></o:p></p></td></tr><tr><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>AutExcepci=C3=B3n 2:<o:p></o:p></p></td><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>&nbsp;<o:p></o:p></p></td></tr><tr><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Fecha AutExcepci=C3=B3n 2:<o:p></o:p></p></td><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>&nbsp;<o:p></o:p></p></td></tr><tr><td width=3D"50%" =
+style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Modo de Ejecuci=C3=B3n<o:p></o:p></p></td><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Individual<o:p></o:p></p></td></tr><tr><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>Nombre del Archivo<o:p></o:p></p></td><td =
+width=3D"50%" style=3D'width:50.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>&nbsp;<o:p></o:p></p></td></tr></table><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><table class=3DMsoNormalTable =
+border=3D0 cellpadding=3D0 width=3D"100%" style=3D'width:100.0%'><tr><td =
+width=3D"100%" style=3D'width:100.0%;padding:.75pt .75pt .75pt =
+.75pt'><div class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center'><span style=3D'font-size:8.5pt'><hr size=3D2 =
+width=3D"100%" align=3Dcenter></span></div></td></tr></table><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><table class=3DMsoNormalTable =
+border=3D0 cellpadding=3D0 width=3D"100%" style=3D'width:100.0%'><tr><td =
+width=3D"100%" style=3D'width:100.0%;padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal><span style=3D'font-size:7.5pt'>Operaci=C3=B3n =
+realizada a trav=C3=A9s de los equipos de computo que procesan las =
+peticiones de la Banca por Internet y que se ubican en la ciudad de =
+M=C3=A9xico, D.F.<br>Para el caso de aclaraci=C3=B3n respecto a la =
+operaci=C3=B3n celebrada, se podr=C3=A1 acudir a la Unidad Especializada =
+de Atenci=C3=B3n a Aclaraciones de la Instituci=C3=B3n, seg=C3=BAn =
+corresponda al lugar de celebraci=C3=B3n de la operaci=C3=B3n, o =
+solicitarla a trav=C3=A9s de los siguientes tel=C3=A9fonos, en un lapso =
+no mayor a 90 d=C3=ADas naturales a partir de la fecha se=C3=B1alada en =
+el presente comprobante: <br>M=C3=A9xico D.F. (55) 5140 5600 - Monterrey =
+(81) 8156 9600 ? Guadalajara (33) 3669 9000 - Resto del pa=C3=ADs 01 800 =
+226 6783 </span><span =
+style=3D'font-size:8.5pt'><o:p></o:p></span></p></td></tr></table></td></=
+tr></table><p class=3DMsoNormal style=3D'margin-left:31.2pt'><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></spa=
+n></p><p class=3DMsoNormal style=3D'margin-left:31.2pt'><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></spa=
+n></p><p class=3DMsoNormal><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></spa=
+n></p><p class=3DMsoNormal style=3D'margin-left:31.2pt'><span =
+style=3D'font-size:14.0pt;color:#1F497D'>Saludos y=C2=A0 buen d=C3=ADa =
+=C2=A1<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-left:31.2pt'><span =
+style=3D'color:#1F497D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-left:31.2pt'><span style=3D'color:#1F497D'><img =
+border=3D0 width=3D592 height=3D104 id=3D"_x0000_i1027" =
+src=3D"https://docs.google.com/uc?export=3Ddownload&amp;id=3D0B6Vq5JP_L9E=
+TNjlyNjgyblp4OHM&amp;revid=3D0B6Vq5JP_L9ETQnBFeDl4N25peHpFaXI1V01lMktpS0N=
+td0prPQ" =
+alt=3D"https://docs.google.com/uc?export=3Ddownload&amp;id=3D0B6Vq5JP_L9E=
+TNjlyNjgyblp4OHM&amp;revid=3D0B6Vq5JP_L9ETQnBFeDl4N25peHpFaXI1V01lMktpS0N=
+td0prPQ"></span><span style=3D'color:#1F497D'><o:p></o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:0cm;margin-bottom:16.2pt;mar=
+gin-left:31.2pt;line-height:16.0pt'><b><i><span =
+style=3D'font-size:10.0pt;font-family:"Calibri",sans-serif;color:black'><=
+o:p>&nbsp;</o:p></span></i></b></p><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:0cm;margin-bottom:16.2pt;mar=
+gin-left:31.2pt;line-height:16.0pt'><b><i><span =
+style=3D'font-size:10.0pt;font-family:"Calibri",sans-serif;color:black'>A=
+VISO DE PRIVACIDAD, CASA GARZA DE MONTERREY SA DE CV</span></i></b><span =
+style=3D'font-size:6.0pt;font-family:"Calibri",sans-serif;color:#444444'>=
+<br></span><span =
+style=3D'font-size:8.0pt;font-family:"Calibri",sans-serif;color:black'>Ca=
+sa Garza de Monterrey S.A. de C.V. con domicilio en Av. Santo Domingo =
+No. 3501, Col. Juana de Arco, Monterrey, Nuevo Le=C3=B3n, M=C3=A9xico CP =
+64510 es responsable de recabar sus datos personales, del uso que se le =
+d=C3=A9 a los mismos y de su protecci=C3=B3n. Su informaci=C3=B3n =
+personal ser=C3=A1 utilizada para proveer los servicios y productos que =
+ha solicitado, informarle sobre cambios en los mismos, realizar estudios =
+internos sobre h=C3=A1bitos y consumos, as=C3=AD como para&nbsp; evaluar =
+la calidad del servicio que le brindamos. Para las finalidades antes =
+mencionadas, requerimos obtener los siguientes datos personales: Nombre =
+o Raz=C3=B3n Social, direcci=C3=B3n, tel=C3=A9fono, RFC, CURP, correo =
+electr=C3=B3nico, considerado como sensible seg=C3=BAn la Ley Federal de =
+Protecci=C3=B3n de Datos Personales en Posesi=C3=B3n de los =
+Particulares.</span><span =
+style=3D'font-size:8.0pt;font-family:"Calibri",sans-serif;color:#444444'>=
+<br></span><span =
+style=3D'font-size:8.0pt;font-family:"Calibri",sans-serif;color:black'>Us=
+ted tiene derecho de acceder, rectificar y cancelar sus datos =
+personales, as=C3=AD como de oponerse al tratamiento de los mismos o =
+revocar el consentimiento que para tal fin nos haya otorgado, a =
+trav=C3=A9s de los procedimientos que hemos implementado. Para conocer =
+dichos procedimientos, los requisitos y plazos, se puede poner en =
+contacto con nuestro departamento de datos personales =
+en&nbsp;&nbsp;</span><span =
+style=3D'font-size:8.0pt;font-family:"Calibri",sans-serif;color:#E36C0A'>=
+<a href=3D"mailto:matriz.cgm@casagarza.com.mx" target=3D"_blank"><span =
+style=3D'color:#E36C0A'>matriz.cgm@casagarza.com.mx</span></a>,</span><sp=
+an =
+style=3D'font-size:8.0pt;font-family:"Calibri",sans-serif;color:black'>&n=
+bsp;o al (81) 8351 1542.</span><span =
+style=3D'font-size:8.0pt;font-family:"Calibri",sans-serif;color:#444444'>=
+<br></span><span =
+style=3D'font-size:8.0pt;font-family:"Calibri",sans-serif;color:black'>As=
+imismo, le informamos que sus datos personales pueden ser transferidos y =
+tratados dentro y fuera del pa=C3=ADs, por personas distintas a esta =
+empresa. En ese sentido, su informaci=C3=B3n puede ser compartida con =
+proveedores, despachos contables y legales, empresas especializadas en =
+informaci=C3=B3n para uso estad=C3=ADstico, de investigaci=C3=B3n de =
+mercados, labores de cobranza, evaluaci=C3=B3n financiera y/o =
+comercial.&nbsp; Si usted no manifiesta su oposici=C3=B3n para que sus =
+datos personales sean transferidos, se entender=C3=A1 que ha otorgado su =
+consentimiento para ello.</span><span =
+style=3D'font-size:8.0pt;font-family:"Calibri",sans-serif;color:#444444'>=
+<br></span><span =
+style=3D'font-size:8.0pt;font-family:"Calibri",sans-serif;color:black'>Si=
+ usted desea dejar de recibir mensajes promocionales de nuestra parte, =
+puede solicitarlo a trav=C3=A9s del tel=C3=A9fono (81) 83511542, o =
+nuestro correo electr=C3=B3nico,&nbsp;</span><u><span =
+style=3D'font-size:8.0pt;font-family:"Calibri",sans-serif;color:#E36C0A'>=
+<a href=3D"mailto:ventas@casagarza.com.mx" =
+target=3D"_blank">ventas@casagarza.com.mx</a>.</span></u><span =
+style=3D'font-size:8.0pt;font-family:"Calibri",sans-serif;color:#444444'>=
+<br></span><span =
+style=3D'font-size:8.0pt;font-family:"Calibri",sans-serif;color:black'>Cu=
+alquier modificaci=C3=B3n a este aviso de privacidad podr=C3=A1 =
+consultarla en&nbsp;<a href=3D"http://www.casagarza.com.mx/" =
+target=3D"_blank">www.casagarza.com.mx</a></span><span =
+style=3D'font-size:8.0pt;font-family:"Calibri",sans-serif;color:#444444'>=
+<br>Fecha =C3=BAltima actualizaci=C3=B3n, 2 mayo 2013</span><span =
+style=3D'font-size:11.5pt;font-family:"Calibri",sans-serif;color:#444444'=
+><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'color:#1F497D;mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></spa=
+n></p><p class=3DMsoNormal><b><span lang=3DES =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'>De:</span></b=
+><span lang=3DES =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'> Alma =
+Yesenia Garc=C3=AD a Enriquez [mailto:alma.garcia@sos-soft.com] =
+<br><b>Enviado el:</b> jueves, 21 de julio de 2016 01:07 =
+p.m.<br><b>Para:</b> miriam.lopez@casagarza.com.mx<br><b>Asunto:</b> =
+Cotizaci=C3=B3n soporte t=C3=A9cnico<o:p></o:p></span></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>Hola buen =
+d=C3=ADa Patricia<br><br>Te mando la Cotizaci=C3=B3n para el servicio de =
+soporte t=C3=A9cnico para la actualizaci=C3=B3n de tu =
+sistema<br><br>Para cualquier duda o aclaraci=C3=B3n quedo a tus =
+ordenes, que tengas un excelente d=C3=ADa<br><br><br>Alma =
+Garc=C3=ADa<br>SOS Software - Atendemos nacionalmente<br>(0133) 3617 29 =
+68<br><br>Sent by <a href=3D"http://www.bitrix24.com" =
+target=3D"_blank">bitrix24.com</a><br>[msg:86278-d5fcgc] =
+<o:p></o:p></p></div></body></html>
+------=_NextPart_001_0048_01D1E42C.BBF6C260--
+
+------=_NextPart_000_0047_01D1E42C.BBF6C260
+Content-Type: image/jpeg;
+	name="image001.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image001.jpg@01D1E42C.B86C6320>
+
+/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA3AAD/4QMtaHR0cDov
+L25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENl
+aGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4
+OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6
+NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5
+OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHht
+bG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6
+Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUu
+Y29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBo
+b3Rvc2hvcCBDUzYgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NjhDMDNG
+OUE5QzVEMTFFNTg4QjhCMkU0ODdDODAwQ0QiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NjhD
+MDNGOUI5QzVEMTFFNTg4QjhCMkU0ODdDODAwQ0QiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6
+aW5zdGFuY2VJRD0ieG1wLmlpZDo2OEMwM0Y5ODlDNUQxMUU1ODhCOEIyRTQ4N0M4MDBDRCIgc3RS
+ZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo2OEMwM0Y5OTlDNUQxMUU1ODhCOEIyRTQ4N0M4MDBDRCIv
+PiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVu
+ZD0iciI/Pv/uACFBZG9iZQBkwAAAAAEDABADAwYJAAAM2AAAFBIAABtY/9sAhAAHBQUFBQUHBQUH
+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
+
+------=_NextPart_000_0047_01D1E42C.BBF6C260--
+

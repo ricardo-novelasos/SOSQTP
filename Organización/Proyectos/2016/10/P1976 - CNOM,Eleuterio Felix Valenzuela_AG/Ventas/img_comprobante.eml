@@ -1,0 +1,616 @@
+Received: from mxfront8g.mail.yandex.net ([127.0.0.1])
+	by mxfront8g.mail.yandex.net with LMTP id cMijY4e8
+	for <alma.garcia@sos-soft.com>; Tue, 25 Oct 2016 21:01:54 +0300
+Received: from espac.criticalserver8.net (espac.criticalserver8.net [184.173.249.72])
+	by mxfront8g.mail.yandex.net (nwsmtp/Yandex) with ESMTPS id IlQhEhfta1-1qcunZo1;
+	Tue, 25 Oct 2016 21:01:52 +0300
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(Client certificate not present)
+Return-Path: shara@geoaventura.com
+X-Yandex-Front: mxfront8g.mail.yandex.net
+X-Yandex-TimeMark: 1477418512
+Authentication-Results: mxfront8g.mail.yandex.net; spf=pass (mxfront8g.mail.yandex.net: domain of geoaventura.com designates 184.173.249.72 as permitted sender) smtp.mail=shara@geoaventura.com; dkim=pass header.i=@geoaventura.com
+X-Yandex-Spam: 1
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=geoaventura.com; s=default; h=Content-Type:MIME-Version:Message-ID:Date:
+	Subject:In-Reply-To:References:Cc:To:From:Sender:Reply-To:
+	Content-Transfer-Encoding:Content-ID:Content-Description:Resent-Date:
+	Resent-From:Resent-Sender:Resent-To:Resent-Cc:Resent-Message-ID:List-Id:
+	List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive;
+	 bh=pDJiGQqFHKCbYDwJxNWJH/lCaxCvK8a7u5XkRn417mE=; b=N3/MhMabz9JmoZd38pBkf2RP1
+	iSB/s2FRYBA8v/2MDqaFEefYmJJToTqSsvS4xJTk3CE9JsKyQZEmkfGH01IAadEWUmdva5NIzbDgF
+	hEAiMizULsqv20VR8uFKRICDUgDEy9cvYbceOLdcRRsbbVk1+N7dbvJN8WjX1XIPO1Ot9WXbyt24d
+	7dmkWRstzprqTzUGf9dYFaLapn3ePeGKcxth3DskFQ2LbryKkVFNPmKM5tLTo8Tfdq2yLZ5olm2Zi
+	x/2gVErakXDBuOtyW1JzHwmur6yDHO0MXvcL6Jb7P2WsTD8wUDr0DestLKl0Ium4uNZn/dvt2tUDF
+	CFP9PQpEA==;
+Received: from [189.175.125.255] (port=54587 helo=Shgava)
+	by espac.criticalserver8.net with esmtpa (Exim 4.87)
+	(envelope-from <shara@geoaventura.com>)
+	id 1bz62o-0004zQ-N4; Tue, 25 Oct 2016 13:01:50 -0500
+From: "Shara GEO" <shara@geoaventura.com>
+To: <alma.garcia@sos-soft.com>
+Cc: "'luter'" <luter@ecoprojects.com.mx>
+References: <1864527650.3967121477417992811.JavaMail.wassop7@mxsmspro20.mx.corp>
+In-Reply-To: <1864527650.3967121477417992811.JavaMail.wassop7@mxsmspro20.mx.corp>
+Subject: =?iso-8859-1?Q?RV:_Notificaci=F3n_a_usuario?=
+Date: Tue, 25 Oct 2016 13:01:49 -0500
+Message-ID: <005101d22ee9$dc37ae60$94a70b20$@geoaventura.com>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0052_01D22EBF.F3668860"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AQHomRqIYHLca78QYIBgtbTprcnwPaCMoUCw
+Content-Language: es-mx
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - espac.criticalserver8.net
+X-AntiAbuse: Original Domain - sos-soft.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - geoaventura.com
+X-Get-Message-Sender-Via: espac.criticalserver8.net: authenticated_id: shara@geoaventura.com
+X-Authenticated-Sender: espac.criticalserver8.net: shara@geoaventura.com
+X-Yandex-Forward: 3f3ca835f0ec994b3f591f12a1e7ff3e
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0052_01D22EBF.F3668860
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_0053_01D22EBF.F3668860"
+
+
+------=_NextPart_001_0053_01D22EBF.F3668860
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Buenos dias anexo transferencia agradecer=E9 me pudieran enviar la =
+factura
+correspondiente con los siguientes datos:
+
+=20
+
+GEO Ecoaventura S.A. de C.V.
+
+Senda de la Paz 5827
+
+Col. Villa las Fuentes
+
+Monterrey, Nuevo Leon
+
+CP 64810
+
+RFC gec0208063i9
+
+=20
+
+Saludos!
+
+=20
+
+Shara Garcia de V.
+
+=20
+
+GEO Aventura=20
+Whatsapp  (81) 1680 1660
+
+Oficina (81) 21650203
+E    <mailto:info@geoaventura.com> info@geoaventura.com
+
+W   <http://www.geoaventura.com/> http://www.geoaventura.com
+
+F    <https://www.facebook.com/GEOAventuraMexico>
+https://www.facebook.com/GEOAventuraMexico
+
+T    <https://twitter.com/geo_aventura> https://twitter.com/geo_aventura
+
+
+
+=20
+
+=20
+
+De: Grupo Financiero Santander
+[mailto:notificaciones@notificaciones.santander.com.mx]=20
+Enviado el: martes, 25 de octubre de 2016 12:53 p. m.
+Para: shara@geoaventura.com
+Asunto: Notificaci=F3n a usuario
+
+=20
+
+
+
+Estimado Cliente:
+
+=20
+
+Por este medio le informamos que el d=EDa 25 de Octubre de 2016, en su
+contrato Enlace 9233 a nombre de GEO ECOAVENTURA S A DE C V se acaba de
+realizar la transferencia Interbancaria con folio(s) 5319271 conforme a =
+lo
+siguiente:
+
+
+  N=FAmero de Cuenta Cargo =20
+
+  5580 =20
+
+
+  N=FAmero de Cuenta Destino =20
+
+  7160 =20
+
+
+  Importe Total =20
+
+  $1,276.00 =20
+
+
+
+La operaci=F3n se encuentra actualmente con el estatus de Aceptada. Para
+cualquier duda o aclaraci=F3n puede comunicarse a S=FAper L=EDnea =
+Empresarial a
+los tel=E9fonos 5169 4343 o Lada sin costo 01 800 509 5000.
+
+
+
+
+Atentamente:
+
+E N L A C E
+
+  _____ =20
+
+=20
+
+
+------=_NextPart_001_0053_01D22EBF.F3668860
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Diso-8859-1">
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta name=3DGenerator =
+content=3D"Microsoft Word 15 (filtered medium)"><!--[if =
+!mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><title>Informativo</title><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.EstiloCorreo19
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DES-MX =
+link=3D"#0563C1" vlink=3D"#954F72"><div class=3DWordSection1><p =
+class=3DMsoNormal><a name=3D"_MailEndCompose"><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-fareast-la=
+nguage:EN-US'>Buenos dias anexo transferencia agradecer=E9 me pudieran =
+enviar la factura correspondiente con los siguientes =
+datos:<o:p></o:p></span></a></p><p class=3DMsoNormal><span =
+style=3D'mso-bookmark:_MailEndCompose'><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-fareast-la=
+nguage:EN-US'><o:p>&nbsp;</o:p></span></span></p><p =
+class=3DMsoNormal><span style=3D'mso-bookmark:_MailEndCompose'><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-fareast-la=
+nguage:EN-US'>GEO Ecoaventura S.A. de =
+C.V.<o:p></o:p></span></span></p><p class=3DMsoNormal><span =
+style=3D'mso-bookmark:_MailEndCompose'><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-fareast-la=
+nguage:EN-US'>Senda de la Paz 5827<o:p></o:p></span></span></p><p =
+class=3DMsoNormal><span style=3D'mso-bookmark:_MailEndCompose'><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-fareast-la=
+nguage:EN-US'>Col. Villa las Fuentes<o:p></o:p></span></span></p><p =
+class=3DMsoNormal><span style=3D'mso-bookmark:_MailEndCompose'><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-fareast-la=
+nguage:EN-US'>Monterrey, Nuevo Leon<o:p></o:p></span></span></p><p =
+class=3DMsoNormal><span style=3D'mso-bookmark:_MailEndCompose'><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-fareast-la=
+nguage:EN-US'>CP 64810<o:p></o:p></span></span></p><p =
+class=3DMsoNormal><span style=3D'mso-bookmark:_MailEndCompose'><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-fareast-la=
+nguage:EN-US'>RFC gec0208063i9<o:p></o:p></span></span></p><p =
+class=3DMsoNormal><span style=3D'mso-bookmark:_MailEndCompose'><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-fareast-la=
+nguage:EN-US'><o:p>&nbsp;</o:p></span></span></p><p =
+class=3DMsoNormal><span style=3D'mso-bookmark:_MailEndCompose'><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-fareast-la=
+nguage:EN-US'>Saludos!<o:p></o:p></span></span></p><p =
+class=3DMsoNormal><span style=3D'mso-bookmark:_MailEndCompose'><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-fareast-la=
+nguage:EN-US'><o:p>&nbsp;</o:p></span></span></p><div><p =
+class=3DMsoNormal><span style=3D'mso-bookmark:_MailEndCompose'><b><span =
+style=3D'font-family:"Arial",sans-serif'>Shara Garcia de =
+V.<o:p></o:p></span></b></span></p><p class=3DMsoNormal><span =
+style=3D'mso-bookmark:_MailEndCompose'><i><span =
+style=3D'font-size:7.0pt;font-family:"Tahoma",sans-serif;color:gray'><o:p=
+>&nbsp;</o:p></span></i></span></p><p class=3DMsoNormal =
+style=3D'background:white'><span =
+style=3D'mso-bookmark:_MailEndCompose'><b><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:#222222'>G=
+EO Aventura</span></b></span><span =
+style=3D'mso-bookmark:_MailEndCompose'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#222222'>&n=
+bsp;<br><b>Whatsapp&nbsp; (81) 1680 =
+1660<o:p></o:p></b></span></span></p><p class=3DMsoNormal =
+style=3D'background:white'><span =
+style=3D'mso-bookmark:_MailEndCompose'><b><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#222222'>Of=
+icina (81) 21650203</span></b></span><span =
+style=3D'mso-bookmark:_MailEndCompose'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#222222'><b=
+r>E&nbsp;&nbsp;&nbsp;</span></span><span =
+style=3D'mso-bookmark:_MailEndCompose'></span><a =
+href=3D"mailto:info@geoaventura.com"><span =
+style=3D'mso-bookmark:_MailEndCompose'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:blue'>info@=
+geoaventura.com</span></span><span =
+style=3D'mso-bookmark:_MailEndCompose'></span></a><span =
+style=3D'mso-bookmark:_MailEndCompose'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#222222'><o=
+:p></o:p></span></span></p><p class=3DMsoNormal =
+style=3D'background:white'><span =
+style=3D'mso-bookmark:_MailEndCompose'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#222222'>W&=
+nbsp;&nbsp;</span></span><span =
+style=3D'mso-bookmark:_MailEndCompose'></span><a =
+href=3D"http://www.geoaventura.com/"><span =
+style=3D'mso-bookmark:_MailEndCompose'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:blue'>http:=
+//www.geoaventura.com</span></span><span =
+style=3D'mso-bookmark:_MailEndCompose'></span></a><span =
+style=3D'mso-bookmark:_MailEndCompose'><u><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#1155CC'><o=
+:p></o:p></span></u></span></p><p class=3DMsoNormal =
+style=3D'background:white'><span =
+style=3D'mso-bookmark:_MailEndCompose'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#222222'>F&=
+nbsp;&nbsp;&nbsp;</span></span><span =
+style=3D'mso-bookmark:_MailEndCompose'></span><a =
+href=3D"https://www.facebook.com/GEOAventuraMexico"><span =
+style=3D'mso-bookmark:_MailEndCompose'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:blue'>https=
+://www.facebook.com/GEOAventuraMexico</span></span><span =
+style=3D'mso-bookmark:_MailEndCompose'></span></a><span =
+style=3D'mso-bookmark:_MailEndCompose'><u><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#1155CC'><o=
+:p></o:p></span></u></span></p><p class=3DMsoNormal =
+style=3D'background:white'><span =
+style=3D'mso-bookmark:_MailEndCompose'><span lang=3DEN-US =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#222222'>T&=
+nbsp;&nbsp; </span></span><span =
+style=3D'mso-bookmark:_MailEndCompose'></span><a =
+href=3D"https://twitter.com/geo_aventura"><span =
+style=3D'mso-bookmark:_MailEndCompose'><span lang=3DEN-US =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:blue'>https=
+://twitter.com/geo_aventura</span></span><span =
+style=3D'mso-bookmark:_MailEndCompose'></span></a><span =
+style=3D'mso-bookmark:_MailEndCompose'><span lang=3DEN-US =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#222222'><o=
+:p></o:p></span></span></p><p class=3DMsoNormal><span =
+style=3D'mso-bookmark:_MailEndCompose'><b><i><span =
+style=3D'font-size:7.0pt;font-family:"Tahoma",sans-serif;color:gray'><img=
+ border=3D0 width=3D83 height=3D45 =
+style=3D'width:.8666in;height:.4666in' id=3D"Imagen_x0020_3" =
+src=3D"cid:image001.jpg@01D22EBF.F2A3D4A0" alt=3D"Descripci=F3n: =
+Descripci=F3n: firma"></span></i></b></span><span =
+style=3D'mso-bookmark:_MailEndCompose'><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'><o:p></o:p></=
+span></span></p><p class=3DMsoNormal><span =
+style=3D'mso-bookmark:_MailEndCompose'><b><i><span =
+style=3D'font-size:7.0pt;font-family:"Tahoma",sans-serif;color:gray'><o:p=
+>&nbsp;</o:p></span></i></b></span></p></div><p class=3DMsoNormal><span =
+style=3D'mso-bookmark:_MailEndCompose'><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-fareast-la=
+nguage:EN-US'><o:p>&nbsp;</o:p></span></span></p><span =
+style=3D'mso-bookmark:_MailEndCompose'></span><div><div =
+style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DES =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'>De:</span></b=
+><span lang=3DES =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'> Grupo =
+Financiero Santander =
+[mailto:notificaciones@notificaciones.santander.com.mx] <br><b>Enviado =
+el:</b> martes, 25 de octubre de 2016 12:53 p. m.<br><b>Para:</b> =
+shara@geoaventura.com<br><b>Asunto:</b> Notificaci=F3n a =
+usuario<o:p></o:p></span></p></div></div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal =
+style=3D'margin-bottom:12.0pt'><img border=3D0 width=3D147 height=3D43 =
+style=3D'width:1.5333in;height:.45in' id=3D"_x0000_i1025" =
+src=3D"cid:image002.jpg@01D22EBF.F2A3D4A0"><o:p></o:p></p><p>Estimado =
+Cliente:<o:p></o:p></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNormal style=3D'margin-bottom:12.0pt'><span =
+style=3D'font-family:"Arial",sans-serif;color:black'>Por este medio le =
+informamos que el d=EDa <b>25</b> de <b>Octubre</b> de <b>2016</b>, en =
+su contrato Enlace <b>9233</b> a nombre de <b>GEO ECOAVENTURA S A DE C =
+V</b> se acaba de realizar la transferencia <b>Interbancaria</b> con =
+folio(s) <b>5319271</b> conforme a lo =
+siguiente:<o:p></o:p></span></p><div align=3Dcenter><table =
+class=3DMsoNormalTable border=3D1 cellspacing=3D5 =
+cellpadding=3D0><tr><td style=3D'padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>&nbsp;&nbsp;N=FAmero de Cuenta =
+Cargo&nbsp;&nbsp;<o:p></o:p></p></td><td style=3D'padding:.75pt .75pt =
+.75pt .75pt'><p =
+class=3DMsoNormal><b>&nbsp;&nbsp;5580&nbsp;&nbsp;</b><o:p></o:p></p></td>=
+</tr><tr><td style=3D'padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>&nbsp;&nbsp;N=FAmero de Cuenta =
+Destino&nbsp;&nbsp;<o:p></o:p></p></td><td style=3D'padding:.75pt .75pt =
+.75pt .75pt'><p =
+class=3DMsoNormal><b>&nbsp;&nbsp;7160&nbsp;&nbsp;</b><o:p></o:p></p></td>=
+</tr><tr><td style=3D'padding:.75pt .75pt .75pt .75pt'><p =
+class=3DMsoNormal>&nbsp;&nbsp;Importe =
+Total&nbsp;&nbsp;<o:p></o:p></p></td><td style=3D'padding:.75pt .75pt =
+.75pt .75pt'><p =
+class=3DMsoNormal><b>&nbsp;&nbsp;$1,276.00&nbsp;&nbsp;</b><o:p></o:p></p>=
+</td></tr></table></div><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;color:black'><br><br><b>La =
+operaci=F3n se encuentra actualmente con el estatus de Aceptada. Para =
+cualquier duda o aclaraci=F3n puede comunicarse a S=FAper L=EDnea =
+Empresarial a los tel=E9fonos 5169 4343 o Lada sin costo 01 800 509 =
+5000.</b><br><br><br></span><o:p></o:p></p><p>Atentamente:<o:p></o:p></p>=
+<p><u><span style=3D'font-size:18.0pt;color:red'>E N L A C =
+E</span></u><o:p></o:p></p><div class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center'><hr size=3D5 width=3D"100%" =
+align=3Dcenter></div><p class=3DMsoNormal =
+style=3D'margin-bottom:12.0pt'><o:p>&nbsp;</o:p></p></div></body></html>
+------=_NextPart_001_0053_01D22EBF.F3668860--
+
+------=_NextPart_000_0052_01D22EBF.F3668860
+Content-Type: image/jpeg;
+	name="image001.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image001.jpg@01D22EBF.F2A3D4A0>
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCABwANADASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDhNZGd
+f1H/AK+pf/QzUC25YZBBq1qxA8Qahn/n6l/9DNXdNgSWZVcAgk5FebWny3Z9ZQjeKRjtAVHPB9Kb
+5VdDe6fY24Ejo43MR8pJqm0WnsPleVfqDWca6kro6HQa0ZmrbFlyKX7K1bdppoW2LTSYHXgZwKSS
+1i2FopQ2OoxzU+3V7IPY2Wpii2JIFSfYGrT+xMF3OVQdeavzWRg2HIYP0wKmWItsNUjBi0uSV9qj
+nBNTJokjngV1ujaYTPKzbSREQBnoTUnliCXhQc8H2rH64+ayMpJJ2ONOjSDtTl0ORgcDoM115s2I
+wU606xg3JMrLgoCDxU/XGJqxxy6HIzEY5FTDw5KU3YOK66KBBdbcdRWt9mRbKPgZZsfrUTx0kRNp
+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
+rfbPeoZp969aqlQcJXuXKaaP/9k=
+
+------=_NextPart_000_0052_01D22EBF.F3668860
+Content-Type: image/jpeg;
+	name="image002.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image002.jpg@01D22EBF.F2A3D4A0>
+
+/9j/4AAQSkZJRgABAQEA8ADwAAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIf
+IiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7
+Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCABsAXADASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDlqKSi
+vnT9lFopKKAFzRmkpc85oAKM9qPeigAopKKAFopKKAFopKKAFopKKAFopKKAFopKKAFopKKAFopK
+KAFopKKAFopKKAFopKKAFopKKAFopKKAFopKKAFopKKAFopKKAFopKKAFopKKAFoHWkpaAsJRRRQ
+MKKKKAClpKcql2CqMsTgChCZd0XTjqepxWw4DHFWvEuk/wBj3/2bHQdfWrXh2OXR9ct3ul2ByMZr
+t/Hfh4arYLfWwy6LnjvXTGlzUm1ujwcRmHscdCMn7kl+J5NRildWjYoy4YHBpK5j3biUUUUDCloF
+KAWOFBP0oEJRU32K52bvIfH0qJkZeGUqfcU7CUk9mJRR0opFCUUUUDCiiigAooooAKKKKACiiigA
+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
+UAFFFFABSikpRQI//9k=
+
+------=_NextPart_000_0052_01D22EBF.F3668860--
+
